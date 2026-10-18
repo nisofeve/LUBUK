@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-18T12:28:33.149Z",
+  "generatedAt": "2026-10-18T12:37:28.684Z",
   "releaseLabel": "October 2026 collection",
-  "webBytes": 521403200,
+  "webBytes": 524835169,
   "inventory": [
     {
       "name": "ComFront",
@@ -98,12 +98,37 @@
     {
       "status": "Updated",
       "path": "app.js",
-      "bytes": 8951
+      "bytes": 9098
     },
     {
       "status": "Updated",
-      "path": "screenshots/police-n-thief/2.png",
-      "bytes": 3169185
+      "path": "screenshots/333/1.png",
+      "bytes": 1316647
+    },
+    {
+      "status": "Updated",
+      "path": "screenshots/333/2.png",
+      "bytes": 4662942
+    },
+    {
+      "status": "Updated",
+      "path": "screenshots/333/3.png",
+      "bytes": 2177941
+    },
+    {
+      "status": "Updated",
+      "path": "screenshots/tgc/1.png",
+      "bytes": 2443509
+    },
+    {
+      "status": "Updated",
+      "path": "screenshots/tgc/2.png",
+      "bytes": 2505810
+    },
+    {
+      "status": "Updated",
+      "path": "screenshots/tgc/3.png",
+      "bytes": 982468
     }
   ],
   "notes": []

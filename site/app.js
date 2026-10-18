@@ -8,8 +8,8 @@ const games = [
   {name:'Skeet Shooting',slug:'skeet-shooting',kind:'HTML5',tag:'ARCADE / ITCH.IO',desc:'Skeet shooter · play on itch.io',info:'Fast-paced skeet shooting, optimized for mobile. Tap to aim and shoot; on PC, use left and right arrow keys.',url:'https://rafiktodak.itch.io/skeet-shooting',access:'itch.io password: 123todak',glyph:'S',colors:['#496b84','#1c3c59'],shots:3},
   {name:'Ketum Farmer',slug:'ketum-farmer',kind:'Web game for PC',tag:'WEB GAME FOR PC',desc:'Desktop browser game',info:'A farming and operations game for desktop browsers. Plant and harvest crops, manage workers, and research upgrades. This is a publisher preview build.',glyph:'K',colors:['#527632','#243a24'],shots:3},
   {name:'Hyperbloomers',slug:'hyperbloomers',kind:'PC',tag:'WINDOWS · v0.2',desc:'473 MB ZIP package',info:'Play as Sun and Cloud in a cooperative farming adventure. Work together to grow crops and explore.',release:'hyperbloomers-v0.2',file:'Hyperbloomers-v0.2-Windows.zip',shots:3},
-  {name:"Don't Forget to Pee",slug:'333',kind:'PC',tag:'WINDOWS · HD 27',desc:'734 MB ZIP package',info:'First-person horror exploration with relic collecting. Screenshots come from the project prototype; Windows HD 27 build may differ.',release:'333-hd27',file:'333-HD27-Windows.zip',shots:3},
-  {name:'ToGather:Crops',slug:'tgc',kind:'PC',tag:'WINDOWS · Build 42',desc:'285 MB ZIP package',info:'A 3D farm adventure: explore, solve puzzles, collect resources, and care for animals. Title and level images are project pitch previews; Windows Build 42 may differ.',release:'tgc-42',file:'TGC-42-Windows.zip',shots:3},
+  {name:"Don't Forget to Pee",slug:'333',kind:'PC',tag:'WINDOWS · HD 27',desc:'734 MB ZIP package',info:'First-person horror exploration with relic collecting. Gallery shows supplied title art, gameplay, and a character scene; Windows HD 27 build may differ.',release:'333-hd27',file:'333-HD27-Windows.zip',shots:3},
+  {name:'ToGather:Crops',slug:'tgc',kind:'PC',tag:'WINDOWS · Build 42',desc:'285 MB ZIP package',info:'A 3D farm adventure: explore, solve puzzles, collect resources, and care for animals. Gallery shows supplied title art, gameplay, and the main menu; Windows Build 42 may differ.',release:'tgc-42',file:'TGC-42-Windows.zip',shots:3},
   {name:'Police N Thief',slug:'police-n-thief',kind:'PC',tag:'WINDOWS · v1.10',desc:'482 MB ZIP package',info:'Asymmetric four-player chase game: one police officer pursues three thieves through short matches. Gallery shows title, gameplay, and costumes. Matches require four players.',release:'police-n-thief-v1.10',file:'Police-N-Thief-v1.10-Windows.zip',shots:3},
 ];
 const config={owner:'nisofeve',repo:'LUBUK'};
@@ -34,7 +34,8 @@ function showShot(index){
   if(!activeGame)return;
   activeShot=(index+activeGame.shots)%activeGame.shots;
   mainImage.src=`./screenshots/${activeGame.slug}/${activeShot+1}.png`;
-  const label=activeShot===0?'Title screen':activeGame.slug==='tgc'?'Level preview':activeGame.slug==='police-n-thief'?(activeShot===1?'Gameplay':'Costumes'):`Gameplay ${activeShot}`;
+  const galleryLabels={tgc:['Title artwork','Gameplay','Main menu'],'333':['Title artwork','Gameplay','Character scene'],'police-n-thief':['Title screen','Gameplay','Costumes']};
+  const label=galleryLabels[activeGame.slug]?.[activeShot]||(activeShot===0?'Title screen':`Gameplay ${activeShot}`);
   mainImage.alt=`${activeGame.name} ${label.toLowerCase()}`;
   document.querySelector('#screenshot-count').textContent=`${label} · ${activeShot+1} / ${activeGame.shots}`;
   [...thumbs.children].forEach((button,i)=>{button.setAttribute('aria-current',String(i===activeShot));button.tabIndex=i===activeShot?0:-1});

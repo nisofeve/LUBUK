@@ -3652,16 +3652,16 @@
     "sha256": "0c47198c2c2f74a919d5c3e02da167486a15234aca048d97f4da349b8f6c2b2f"
   },
   "screenshots/333/1.png": {
-    "bytes": 24270,
-    "sha256": "76e567f95661f2ce83eb190c76134819b6d429ad1384a410048020c04acb3b90"
+    "bytes": 1316647,
+    "sha256": "16da68d199a7710439bb2391ac8721503ec2280746cbe41d86395f604d1587bc"
   },
   "screenshots/333/2.png": {
-    "bytes": 21612,
-    "sha256": "277da171f910a56e0a42cd1a82fd8b99985bfaa3d3eef0af02a688e074c867dd"
+    "bytes": 4662942,
+    "sha256": "9df643aaaadbc5a6f87a50bd54820783c98f81906227d6a3e23adcdb25fac3d2"
   },
   "screenshots/333/3.png": {
-    "bytes": 71117,
-    "sha256": "83d6a1acb1ff85a4dc48c7891f9c501e93e3f9992cc2ce7f22f43f418e8b6d86"
+    "bytes": 2177941,
+    "sha256": "5ce0b54f75370fcbbf9575fa61fe25dcfa6d521926a21d92682cf62231ef5eb7"
   },
   "screenshots/comfront/1.png": {
     "bytes": 331862,
@@ -3772,16 +3772,16 @@
     "sha256": "fbc2987d8851ee043f1f3f0e1c92861bad8b052af46c7bdb3c77b9f7213fefa5"
   },
   "screenshots/tgc/1.png": {
-    "bytes": 3829545,
-    "sha256": "e6527a78a1e053877af3c467b1a77d0ef5999c2a7cf2d16ae7ae8618e2eeb799"
+    "bytes": 2443509,
+    "sha256": "5a331e32701e4a88387147112a5df2d71147a2014046b934f64600f7734bb21e"
   },
   "screenshots/tgc/2.png": {
-    "bytes": 3214472,
-    "sha256": "5bb5124a48a2b90ad0271a13dbff6cc2eba2e72586841ccde53dd814563f6ccf"
+    "bytes": 2505810,
+    "sha256": "db34dbb4b9513be967bd144f481634cda07dd1475f2ab23ea1f22978da11c21a"
   },
   "screenshots/tgc/3.png": {
-    "bytes": 3496479,
-    "sha256": "6de8c19328792923bb57f0a515df516ba96acede1af3d4349238e1522f427778"
+    "bytes": 982468,
+    "sha256": "dd6cc2b5a2b7049421922dba27385154be1891c66a9563fe8253e3a9afcbd1bb"
   },
   "screenshots/type-zomba/1.png": {
     "bytes": 230801,
@@ -3804,8 +3804,8 @@
     "sha256": "934b7756656117bb42639f0b2dd1d0c735e3e078d4c83111f8072a0efc545f82"
   },
   "app.js": {
-    "bytes": 8951,
-    "sha256": "8e255981c971fac6758a393b9003330c5939dce69d81fe7703a2310fea4a28f4"
+    "bytes": 9098,
+    "sha256": "2b656e3c264ae554e0036d23468390977cca500bbdd4587a690a98b522347d34"
   },
   "report.js": {
     "bytes": 3167,
