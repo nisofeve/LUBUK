@@ -3740,8 +3740,8 @@
     "sha256": "279df909a4e95805159ebd53b0f946eb24152109e49cfd7104c5ee05a799e506"
   },
   "screenshots/police-n-thief/2.png": {
-    "bytes": 435569,
-    "sha256": "e7eaab61078f9aa2de5c4bdafb090e915a8cc382b4330acc8a0023be507e72e1"
+    "bytes": 3169185,
+    "sha256": "537150f37cef79eeaa784dfc6459bb1b5df86c4dd2f3ee998d1e701ba153f4e6"
   },
   "screenshots/police-n-thief/3.png": {
     "bytes": 518388,
@@ -3804,8 +3804,8 @@
     "sha256": "934b7756656117bb42639f0b2dd1d0c735e3e078d4c83111f8072a0efc545f82"
   },
   "app.js": {
-    "bytes": 8968,
-    "sha256": "bcee33fd5dda457b3691a8a0b050987cd7585a2e90ac531dec251283b5bdf080"
+    "bytes": 8951,
+    "sha256": "8e255981c971fac6758a393b9003330c5939dce69d81fe7703a2310fea4a28f4"
   },
   "report.js": {
     "bytes": 3167,

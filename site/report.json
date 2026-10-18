@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-18T12:06:25.906Z",
+  "generatedAt": "2026-10-18T12:28:33.149Z",
   "releaseLabel": "October 2026 collection",
-  "webBytes": 518669601,
+  "webBytes": 521403200,
   "inventory": [
     {
       "name": "ComFront",
@@ -93,53 +93,17 @@
       "url": "https://github.com/nisofeve/LUBUK/releases/download/police-n-thief-v1.10/Police-N-Thief-v1.10-Windows.zip"
     }
   ],
-  "collectionChanges": [
-    {
-      "status": "Renamed",
-      "name": "Don't Forget to Pee",
-      "detail": "333 → Don't Forget to Pee"
-    },
-    {
-      "status": "Renamed",
-      "name": "ToGather:Crops",
-      "detail": "TGC → ToGather:Crops"
-    },
-    {
-      "status": "Added",
-      "name": "Police N Thief",
-      "detail": "PC"
-    }
-  ],
+  "collectionChanges": [],
   "changes": [
     {
       "status": "Updated",
       "path": "app.js",
-      "bytes": 8968
+      "bytes": 8951
     },
     {
       "status": "Updated",
-      "path": "index.html",
-      "bytes": 5012
-    },
-    {
-      "status": "Added",
-      "path": "pc-releases/Police-N-Thief-v1.10-Windows.zip",
-      "bytes": 505126411
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/police-n-thief/1.png",
-      "bytes": 532430
-    },
-    {
-      "status": "Added",
       "path": "screenshots/police-n-thief/2.png",
-      "bytes": 435569
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/police-n-thief/3.png",
-      "bytes": 518388
+      "bytes": 3169185
     }
   ],
   "notes": []
