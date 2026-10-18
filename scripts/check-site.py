@@ -49,9 +49,9 @@ if not any(item["name"] == "Skeet Shooting" and item.get("hosting") == "itch.io"
     errors.append("Skeet Shooting missing from report")
 if not any(item["name"] == "Ketum Farmer" and item["kind"] == "Web game for PC" for item in report["inventory"]):
     errors.append("Ketum Farmer not classified as web game for PC")
-for slug, count in {"comfront": 2, "compy": 2, "mymyth": 2, "plotbound": 3,
-                    "sigilbound": 3, "type-zomba": 2, "skeet-shooting": 2,
-                    "ketum-farmer": 2, "hyperbloomers": 3, "333": 2, "tgc": 3}.items():
+for slug, count in {"comfront": 3, "compy": 3, "mymyth": 3, "plotbound": 3,
+                    "sigilbound": 3, "type-zomba": 3, "skeet-shooting": 3,
+                    "ketum-farmer": 3, "hyperbloomers": 3, "333": 3, "tgc": 3}.items():
     for number in range(1, count + 1):
         if not (SITE / "screenshots" / slug / f"{number}.png").is_file():
             errors.append(f"Missing screenshot: {slug}/{number}.png")

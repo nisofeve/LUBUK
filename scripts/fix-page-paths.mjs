@@ -13,7 +13,7 @@ for(const [slug,folders] of [['comfront',['/assets/','/sprites/']],['plotbound',
         let data=fs.readFileSync(file,'utf8');
         for(const prefix of folders){
           // Vite output and game asset URLs are root-relative in original builds.
-          data=data.replaceAll(`"${prefix}`,`".${prefix}`).replaceAll(`'${prefix}`,`'.${prefix}`).replaceAll(`(${prefix}`,`(.${prefix}`);
+          data=data.replaceAll(`"${prefix}`,`".${prefix}`).replaceAll(`'${prefix}`,`'.${prefix}`).replaceAll(`(${prefix}`,`(.${prefix}`).replaceAll('`'+prefix,'`.'+prefix);
         }
         fs.writeFileSync(file,data);
       }

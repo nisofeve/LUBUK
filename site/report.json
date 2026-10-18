@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-18T09:13:45.089Z",
+  "generatedAt": "2026-10-18T10:46:43.284Z",
   "releaseLabel": "October 2026 collection",
-  "webBytes": 511723331,
+  "webBytes": 517182736,
   "inventory": [
     {
       "name": "ComFront",
       "kind": "HTML5",
       "fileCount": 141,
-      "bytes": 91714687,
+      "bytes": 91714692,
       "url": "./games/comfront/"
     },
     {
@@ -88,159 +88,119 @@
   "collectionChanges": [],
   "changes": [
     {
-      "status": "Added",
+      "status": "Updated",
       "path": "app.js",
-      "bytes": 8307
+      "bytes": 8482
+    },
+    {
+      "status": "Updated",
+      "path": "games/comfront/assets/index-oN1Lk7W6.js",
+      "bytes": 776856
     },
     {
       "status": "Added",
-      "path": "index.html",
-      "bytes": 5020
+      "path": "screenshots/333/3.png",
+      "bytes": 71117
     },
     {
-      "status": "Added",
-      "path": "report.html",
-      "bytes": 1977
-    },
-    {
-      "status": "Added",
-      "path": "report.js",
-      "bytes": 3167
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/333/1.png",
-      "bytes": 24270
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/333/2.png",
-      "bytes": 21612
-    },
-    {
-      "status": "Added",
+      "status": "Updated",
       "path": "screenshots/comfront/1.png",
-      "bytes": 232549
+      "bytes": 331862
     },
     {
-      "status": "Added",
+      "status": "Updated",
       "path": "screenshots/comfront/2.png",
-      "bytes": 230106
+      "bytes": 630360
     },
     {
       "status": "Added",
-      "path": "screenshots/compy/1.png",
-      "bytes": 362893
+      "path": "screenshots/comfront/3.png",
+      "bytes": 566763
     },
     {
-      "status": "Added",
+      "status": "Updated",
       "path": "screenshots/compy/2.png",
-      "bytes": 390682
+      "bytes": 855360
     },
     {
       "status": "Added",
+      "path": "screenshots/compy/3.png",
+      "bytes": 357024
+    },
+    {
+      "status": "Updated",
       "path": "screenshots/hyperbloomers/1.png",
+      "bytes": 2268454
+    },
+    {
+      "status": "Updated",
+      "path": "screenshots/hyperbloomers/2.png",
       "bytes": 2657391
     },
     {
-      "status": "Added",
-      "path": "screenshots/hyperbloomers/2.png",
+      "status": "Updated",
+      "path": "screenshots/hyperbloomers/3.png",
       "bytes": 2780163
     },
     {
       "status": "Added",
-      "path": "screenshots/hyperbloomers/3.png",
-      "bytes": 1042714
+      "path": "screenshots/ketum-farmer/3.png",
+      "bytes": 283597
     },
     {
-      "status": "Added",
-      "path": "screenshots/ketum-farmer/1.png",
-      "bytes": 669988
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/ketum-farmer/2.png",
-      "bytes": 311820
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/mymyth/1.png",
-      "bytes": 174145
-    },
-    {
-      "status": "Added",
+      "status": "Updated",
       "path": "screenshots/mymyth/2.png",
-      "bytes": 163411
+      "bytes": 96659
     },
     {
       "status": "Added",
+      "path": "screenshots/mymyth/3.png",
+      "bytes": 202593
+    },
+    {
+      "status": "Updated",
       "path": "screenshots/plotbound/1.png",
-      "bytes": 209740
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/plotbound/2.png",
       "bytes": 356904
     },
     {
-      "status": "Added",
+      "status": "Updated",
+      "path": "screenshots/plotbound/2.png",
+      "bytes": 267783
+    },
+    {
+      "status": "Updated",
       "path": "screenshots/plotbound/3.png",
-      "bytes": 247104
+      "bytes": 279595
     },
     {
-      "status": "Added",
-      "path": "screenshots/sigilbound/1.png",
-      "bytes": 1494117
-    },
-    {
-      "status": "Added",
+      "status": "Updated",
       "path": "screenshots/sigilbound/2.png",
-      "bytes": 1568835
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/sigilbound/3.png",
       "bytes": 1787455
     },
     {
-      "status": "Added",
-      "path": "screenshots/skeet-shooting/1.png",
-      "bytes": 183733
+      "status": "Updated",
+      "path": "screenshots/sigilbound/3.png",
+      "bytes": 1523141
     },
     {
-      "status": "Added",
+      "status": "Updated",
       "path": "screenshots/skeet-shooting/2.png",
-      "bytes": 199322
+      "bytes": 353306
     },
     {
       "status": "Added",
-      "path": "screenshots/tgc/1.png",
-      "bytes": 3829545
+      "path": "screenshots/skeet-shooting/3.png",
+      "bytes": 360632
     },
     {
-      "status": "Added",
-      "path": "screenshots/tgc/2.png",
-      "bytes": 3214472
-    },
-    {
-      "status": "Added",
+      "status": "Updated",
       "path": "screenshots/tgc/3.png",
-      "bytes": 2352531
+      "bytes": 3496479
     },
     {
       "status": "Added",
-      "path": "screenshots/type-zomba/1.png",
-      "bytes": 230801
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/type-zomba/2.png",
-      "bytes": 150189
-    },
-    {
-      "status": "Added",
-      "path": "styles.css",
-      "bytes": 11725
+      "path": "screenshots/type-zomba/3.png",
+      "bytes": 151494
     }
   ],
   "notes": []
