@@ -6,7 +6,7 @@ Live URLs: [game archive](https://nisofeve.github.io/LUBUK/) and [update report]
 
 ## Current collection
 
-HTML5: ComFront, Compy, MyMyth (`Mymyth_v2`), Plotbound, Sigilbound, Type Zomba, and [Skeet Shooting on itch.io](https://rafiktodak.itch.io/skeet-shooting). PC web game: Ketum Farmer. Windows builds: Hyperbloomers v0.2, 333 HD 27, TGC 42.
+HTML5: ComFront, Compy, MyMyth (`Mymyth_v2`), Plotbound, Sigilbound, Type Zomba, and [Skeet Shooting on itch.io](https://rafiktodak.itch.io/skeet-shooting). PC web game: Ketum Farmer. Windows builds: Hyperbloomers v0.2, Don't Forget to Pee HD 27 (project 333), ToGather:Crops Build 42 (project TGC), and Police N Thief v1.10.
 
 ## Update workflow
 
@@ -20,6 +20,7 @@ HTML5: ComFront, Compy, MyMyth (`Mymyth_v2`), Plotbound, Sigilbound, Type Zomba,
 | `hyperbloomers-v0.2` | `Hyperbloomers-v0.2-Windows.zip` |
 | `333-hd27` | `333-HD27-Windows.zip` |
 | `tgc-42` | `TGC-42-Windows.zip` |
+| `police-n-thief-v1.10` | `Police-N-Thief-v1.10-Windows.zip` |
 
 Report page's **Update report** button fetches latest published `report.json`. GitHub Pages cannot inspect local files or write commits; run local report script and push before button can show new folder changes. Release links target `nisofeve/LUBUK`.
 

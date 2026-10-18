@@ -12,6 +12,7 @@ PACKAGES = {
     "Hyperbloomers-v0.2-Windows.zip": "Hyperbloomer.exe",
     "333-HD27-Windows.zip": "333.exe",
     "TGC-42-Windows.zip": "ToGatherCrops.exe",
+    "Police-N-Thief-v1.10-Windows.zip": "PSX.exe",
 }
 errors = []
 
@@ -43,15 +44,19 @@ for slug in GAMES:
     References(index.parent).feed(index.read_text(encoding="utf-8"))
 
 report = json.loads((SITE / "report.json").read_text(encoding="utf-8"))
-if len(report["inventory"]) != 11:
-    errors.append("Report inventory should list seven HTML5 games, one PC web game, and three PC builds")
+if len(report["inventory"]) != 12:
+    errors.append("Report inventory should list seven HTML5 games, one PC web game, and four PC builds")
+for name in ("Don't Forget to Pee", "ToGather:Crops", "Police N Thief"):
+    if not any(item["name"] == name and item["kind"] == "PC" for item in report["inventory"]):
+        errors.append(f"{name} missing from PC inventory")
 if not any(item["name"] == "Skeet Shooting" and item.get("hosting") == "itch.io" for item in report["inventory"]):
     errors.append("Skeet Shooting missing from report")
 if not any(item["name"] == "Ketum Farmer" and item["kind"] == "Web game for PC" for item in report["inventory"]):
     errors.append("Ketum Farmer not classified as web game for PC")
 for slug, count in {"comfront": 3, "compy": 3, "mymyth": 3, "plotbound": 3,
                     "sigilbound": 3, "type-zomba": 3, "skeet-shooting": 3,
-                    "ketum-farmer": 3, "hyperbloomers": 3, "333": 3, "tgc": 3}.items():
+                    "ketum-farmer": 3, "hyperbloomers": 3, "333": 3, "tgc": 3,
+                    "police-n-thief": 3}.items():
     for number in range(1, count + 1):
         if not (SITE / "screenshots" / slug / f"{number}.png").is_file():
             errors.append(f"Missing screenshot: {slug}/{number}.png")
@@ -62,7 +67,7 @@ for filename, exe in PACKAGES.items():
         continue
     with ZipFile(target) as archive:
         names = archive.namelist()
-        if exe not in names:
+        if not any(name == exe or name.endswith("/" + exe) for name in names):
             errors.append(f"{filename}: missing {exe}")
         if any("DoNotShip" in name for name in names):
             errors.append(f"{filename}: contains DoNotShip files")
@@ -70,4 +75,4 @@ for filename, exe in PACKAGES.items():
 if errors:
     print("\n".join(errors))
     raise SystemExit(1)
-print("Checked seven hosted entries, report inventory, and three PC packages.")
+print("Checked seven hosted entries, report inventory, and four PC packages.")

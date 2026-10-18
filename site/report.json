@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-18T10:46:43.284Z",
+  "generatedAt": "2026-10-18T12:06:25.906Z",
   "releaseLabel": "October 2026 collection",
-  "webBytes": 517182736,
+  "webBytes": 518669601,
   "inventory": [
     {
       "name": "ComFront",
@@ -69,7 +69,7 @@
       "url": "https://github.com/nisofeve/LUBUK/releases/download/hyperbloomers-v0.2/Hyperbloomers-v0.2-Windows.zip"
     },
     {
-      "name": "333",
+      "name": "Don't Forget to Pee",
       "kind": "PC",
       "fileCount": 1,
       "bytes": 769691229,
@@ -77,130 +77,69 @@
       "url": "https://github.com/nisofeve/LUBUK/releases/download/333-hd27/333-HD27-Windows.zip"
     },
     {
-      "name": "TGC",
+      "name": "ToGather:Crops",
       "kind": "PC",
       "fileCount": 1,
       "bytes": 298923124,
       "file": "TGC-42-Windows.zip",
       "url": "https://github.com/nisofeve/LUBUK/releases/download/tgc-42/TGC-42-Windows.zip"
+    },
+    {
+      "name": "Police N Thief",
+      "kind": "PC",
+      "fileCount": 1,
+      "bytes": 505126411,
+      "file": "Police-N-Thief-v1.10-Windows.zip",
+      "url": "https://github.com/nisofeve/LUBUK/releases/download/police-n-thief-v1.10/Police-N-Thief-v1.10-Windows.zip"
     }
   ],
-  "collectionChanges": [],
+  "collectionChanges": [
+    {
+      "status": "Renamed",
+      "name": "Don't Forget to Pee",
+      "detail": "333 → Don't Forget to Pee"
+    },
+    {
+      "status": "Renamed",
+      "name": "ToGather:Crops",
+      "detail": "TGC → ToGather:Crops"
+    },
+    {
+      "status": "Added",
+      "name": "Police N Thief",
+      "detail": "PC"
+    }
+  ],
   "changes": [
     {
       "status": "Updated",
       "path": "app.js",
-      "bytes": 8482
+      "bytes": 8968
     },
     {
       "status": "Updated",
-      "path": "games/comfront/assets/index-oN1Lk7W6.js",
-      "bytes": 776856
+      "path": "index.html",
+      "bytes": 5012
     },
     {
       "status": "Added",
-      "path": "screenshots/333/3.png",
-      "bytes": 71117
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/comfront/1.png",
-      "bytes": 331862
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/comfront/2.png",
-      "bytes": 630360
+      "path": "pc-releases/Police-N-Thief-v1.10-Windows.zip",
+      "bytes": 505126411
     },
     {
       "status": "Added",
-      "path": "screenshots/comfront/3.png",
-      "bytes": 566763
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/compy/2.png",
-      "bytes": 855360
+      "path": "screenshots/police-n-thief/1.png",
+      "bytes": 532430
     },
     {
       "status": "Added",
-      "path": "screenshots/compy/3.png",
-      "bytes": 357024
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/hyperbloomers/1.png",
-      "bytes": 2268454
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/hyperbloomers/2.png",
-      "bytes": 2657391
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/hyperbloomers/3.png",
-      "bytes": 2780163
+      "path": "screenshots/police-n-thief/2.png",
+      "bytes": 435569
     },
     {
       "status": "Added",
-      "path": "screenshots/ketum-farmer/3.png",
-      "bytes": 283597
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/mymyth/2.png",
-      "bytes": 96659
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/mymyth/3.png",
-      "bytes": 202593
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/plotbound/1.png",
-      "bytes": 356904
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/plotbound/2.png",
-      "bytes": 267783
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/plotbound/3.png",
-      "bytes": 279595
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/sigilbound/2.png",
-      "bytes": 1787455
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/sigilbound/3.png",
-      "bytes": 1523141
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/skeet-shooting/2.png",
-      "bytes": 353306
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/skeet-shooting/3.png",
-      "bytes": 360632
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/tgc/3.png",
-      "bytes": 3496479
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/type-zomba/3.png",
-      "bytes": 151494
+      "path": "screenshots/police-n-thief/3.png",
+      "bytes": 518388
     }
   ],
   "notes": []

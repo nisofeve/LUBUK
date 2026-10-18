@@ -9,7 +9,7 @@ const reports=path.join(root,'reports');
 const snapshotPath=path.join(reports,'snapshot.json');
 const notesPath=path.join(reports,'notes.json');
 const games=[['ComFront','comfront'],['Compy','compy'],['MyMyth','mymyth'],['Plotbound','plotbound'],['Sigilbound','sigilbound'],['Type Zomba','type-zomba']];
-const pc=[['Hyperbloomers','Hyperbloomers-v0.2-Windows.zip','hyperbloomers-v0.2'],['333','333-HD27-Windows.zip','333-hd27'],['TGC','TGC-42-Windows.zip','tgc-42']];
+const pc=[['Hyperbloomers','Hyperbloomers-v0.2-Windows.zip','hyperbloomers-v0.2'],["Don't Forget to Pee",'333-HD27-Windows.zip','333-hd27'],['ToGather:Crops','TGC-42-Windows.zip','tgc-42'],['Police N Thief','Police-N-Thief-v1.10-Windows.zip','police-n-thief-v1.10']];
 const files={};
 const inventory=[];
 function walk(dir,prefix){
@@ -40,8 +40,16 @@ const priorInventory=fs.existsSync(priorReportPath)?JSON.parse(fs.readFileSync(p
 const priorByName=new Map(priorInventory.map(item=>[item.name,item]));
 const currentByName=new Map(inventory.map(item=>[item.name,item]));
 const collectionChanges=[];
-for(const item of inventory){const old=priorByName.get(item.name);if(!old)collectionChanges.push({status:'Added',name:item.name,detail:item.kind});else if(old.kind!==item.kind)collectionChanges.push({status:'Moved',name:item.name,detail:`${old.kind} → ${item.kind}`});}
-for(const item of priorInventory)if(!currentByName.has(item.name))collectionChanges.push({status:'Removed',name:item.name,detail:item.kind});
+const renamedFrom=new Set();
+for(const item of inventory){
+  const old=priorByName.get(item.name);
+  if(!old){
+    const renamed=priorInventory.find(previous=>previous.kind==='PC'&&item.kind==='PC'&&previous.file===item.file);
+    if(renamed){collectionChanges.push({status:'Renamed',name:item.name,detail:`${renamed.name} → ${item.name}`});renamedFrom.add(renamed.name);}
+    else collectionChanges.push({status:'Added',name:item.name,detail:item.kind});
+  }else if(old.kind!==item.kind)collectionChanges.push({status:'Moved',name:item.name,detail:`${old.kind} → ${item.kind}`});
+}
+for(const item of priorInventory)if(!currentByName.has(item.name)&&!renamedFrom.has(item.name))collectionChanges.push({status:'Removed',name:item.name,detail:item.kind});
 const changes=[];
 for(const [file,info] of Object.entries(files)){const old=previous[file];if(!old)changes.push({status:'Added',path:file,bytes:info.bytes});else if(old.sha256!==info.sha256)changes.push({status:'Updated',path:file,bytes:info.bytes});}
 for(const file of Object.keys(previous))if(!files[file])changes.push({status:'Removed',path:file,bytes:0});
