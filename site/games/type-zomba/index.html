@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#09051d" />
+  <title>ZOMBA TYPE // RELAX BRO!</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="portrait.css" />
+  <link rel="stylesheet" href="gameplay.css" />
+  <link rel="stylesheet" href="arcade-city.css" />
+  <link rel="stylesheet" href="menu.css" />
+  <link rel="stylesheet" href="arcade-bright.css" />
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="scanlines" aria-hidden="true"></div>
+  <main id="ui">
+    <header class="hud top-hud">
+      <div class="brand"><b>ZOMBA</b><span>TYPE</span><small>ARCADE SURVIVAL</small></div>
+      <div class="stat"><small>SCORE</small><strong id="score">000000</strong></div>
+      <div class="stat"><small>WEEKLY BEST</small><strong id="best">000000</strong></div>
+      <div class="stat"><small>TIME</small><strong id="time">01:30</strong></div>
+      <button id="settingsBtn" class="icon-btn" aria-label="Open settings">⚙</button>
+    </header>
+    <section class="hud meter-wrap" aria-label="Frenzy meter">
+      <small>FRENZY CHARGE</small><div id="meter" class="meter" aria-label="Relax Bro frenzy meter"></div>
+      <div id="frenzyTimer" class="frenzy-timer"></div>
+    </section>
+    <section class="aim-area" aria-label="Active typing target">
+      <div id="targetWord" class="target-word"></div>
+      <div class="crosshair">+</div>
+      <div id="combo" class="combo"></div>
+    </section>
+    <footer class="hud bottom-hud">
+      <span id="stage">WAVE 01</span><span id="hint">TYPE A WORD TO BLAST</span><button id="profileBtn" class="profile-button"><img id="avatar" alt="Profile avatar" /><span id="playerName">PLAYER</span></button>
+    </footer>
+  </main>
+  <section id="startScreen" class="panel screen">
+    <p class="eyebrow">198X // SECTOR Z</p><h1>ZOMBA <em>TYPE</em></h1>
+    <p class="tagline">Type fast. Shoot louder. Relax, bro.</p>
+    <button id="playBtn" class="primary">START RUN <kbd>ENTER</kbd></button>
+    <button id="menuProfile" class="menu-profile"><img id="menuAvatar" alt="Profile avatar" /><span id="menuName">PLAYER</span><small>EDIT PROFILE</small></button>
+    <p class="controls">Keyboard: type a Zomba's word • <b>Z</b> during frenzy</p>
+    <div class="leaderboard"><small>THIS WEEK'S LOCAL TOP 10</small><ol id="leaderboardList" aria-label="Local weekly top ten"></ol><span id="weekLabel"></span></div>
+  </section>
+  <section id="gameOver" class="panel screen hidden">
+    <div id="celebration" aria-hidden="true"></div><p id="resultEyebrow" class="eyebrow">RUN TERMINATED</p><h2 id="resultTitle">TOO MANY <em>ZOMBAS</em></h2><p id="finalScore" class="final-score">000000</p><p id="newBest" class="new-best hidden">NEW WEEKLY BEST!</p>
+    <button id="restartBtn" class="primary">RUN IT BACK <kbd>ENTER</kbd></button><p id="resultReturn" class="controls">RETURNING TO MENU IN 10</p>
+  </section>
+  <section id="pauseScreen" class="panel screen hidden"><p class="eyebrow">TIME OUT</p><h2>PAUSED</h2><button id="resumeBtn" class="primary">RESUME</button></section>
+  <aside id="settingsPanel" class="drawer hidden"><button class="close" data-close="settingsPanel">×</button><h2>SETTINGS</h2>
+    <label>Master volume <input id="volume" type="range" min="0" max="1" step=".05" /></label>
+    <label class="toggle">Screen shake <input id="shake" type="checkbox" /><span></span></label>
+    <label class="toggle">Reduced flashes <input id="reducedFlash" type="checkbox" /><span></span></label>
+    <p>All settings are saved in this browser.</p>
+  </aside>
+  <aside id="profilePanel" class="drawer hidden"><button class="close" data-close="profilePanel">×</button><h2>PLAYER PROFILE</h2>
+    <div class="profile-preview"><img id="profileAvatar" alt="Selected profile avatar" /></div>
+    <label>Display name <input id="nameInput" maxlength="14" placeholder="PLAYER" /></label>
+    <label class="upload">Choose a local picture <input id="avatarInput" type="file" accept="image/*" /></label>
+    <button id="randomAvatar" class="secondary">GENERATE NEON AVATAR</button><button id="saveProfile" class="primary">SAVE PROFILE</button>
+  </aside>
+  <section id="virtualKeyboard" class="virtual-keyboard hidden" aria-label="Typing keyboard"></section>
+  <div id="toast" class="toast"></div>
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

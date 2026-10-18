@@ -1,0 +1,4653 @@
+{
+  "generatedAt": "2026-10-18T08:18:08.636Z",
+  "releaseLabel": "October 2026 collection",
+  "webBytes": 486806643,
+  "inventory": [
+    {
+      "name": "ComFront",
+      "kind": "HTML5",
+      "fileCount": 141,
+      "bytes": 91714687
+    },
+    {
+      "name": "Compy",
+      "kind": "HTML5",
+      "fileCount": 30,
+      "bytes": 3327528
+    },
+    {
+      "name": "MyMyth",
+      "kind": "HTML5",
+      "fileCount": 481,
+      "bytes": 338647096
+    },
+    {
+      "name": "Plotbound",
+      "kind": "HTML5",
+      "fileCount": 46,
+      "bytes": 15616946
+    },
+    {
+      "name": "Sigilbound",
+      "kind": "HTML5",
+      "fileCount": 197,
+      "bytes": 28168907
+    },
+    {
+      "name": "Type Zomba",
+      "kind": "HTML5",
+      "fileCount": 17,
+      "bytes": 4986234
+    },
+    {
+      "name": "Ketum Farmer",
+      "kind": "HTML5",
+      "fileCount": 1,
+      "bytes": 4345245
+    },
+    {
+      "name": "Hyperbloomers",
+      "kind": "PC",
+      "fileCount": 1,
+      "bytes": 495797550,
+      "file": "Hyperbloomers-v0.2-Windows.zip"
+    },
+    {
+      "name": "333",
+      "kind": "PC",
+      "fileCount": 1,
+      "bytes": 769691229,
+      "file": "333-HD27-Windows.zip"
+    },
+    {
+      "name": "TGC",
+      "kind": "PC",
+      "fileCount": 1,
+      "bytes": 298923124,
+      "file": "TGC-42-Windows.zip"
+    }
+  ],
+  "changes": [
+    {
+      "status": "Added",
+      "path": "games/comfront/assets/cardpicker-gtGk2gGV.js",
+      "bytes": 4080
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/assets/continueprompt-NUxIOwO_.js",
+      "bytes": 3468
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/assets/index-oN1Lk7W6.js",
+      "bytes": 776851
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/assets/index-vgouXcx2.css",
+      "bytes": 79843
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/assets/tutorialskip-CK18w5Ny.js",
+      "bytes": 1710
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/index.html",
+      "bytes": 1326
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/acidlet_frame0.png",
+      "bytes": 150073
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/acidlet_frame1.png",
+      "bytes": 149776
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/acidlet_frame2.png",
+      "bytes": 151491
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/acidlet_frame3.png",
+      "bytes": 140427
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/acidlet_sheet.png",
+      "bytes": 525891
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/acidlet.png",
+      "bytes": 742973
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/brak_sheet.png",
+      "bytes": 5322819
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/brak_walk_1.png",
+      "bytes": 929947
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/brak_walk_2.png",
+      "bytes": 831131
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/brak_walk_3.png",
+      "bytes": 879564
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/brak.png",
+      "bytes": 1059934
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/bub_idle.png",
+      "bytes": 1388632
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/bub_sheet.png",
+      "bytes": 12278499
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/bub_shoot.png",
+      "bytes": 1477340
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/bub_walk_2.png",
+      "bytes": 1103638
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/bub_walk_3.png",
+      "bytes": 1290873
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/bub_walk_shoot_2.png",
+      "bytes": 1150309
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/bub_walk_shoot_3.png",
+      "bytes": 1303401
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/bub_walk_shoot.png",
+      "bytes": 1447753
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/bub_walk.png",
+      "bytes": 1557845
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/bub.png",
+      "bytes": 1259321
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/burrower_frame0.png",
+      "bytes": 120604
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/burrower_frame1.png",
+      "bytes": 119729
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/burrower_frame2.png",
+      "bytes": 122035
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/burrower_frame3.png",
+      "bytes": 112443
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/burrower_sheet.png",
+      "bytes": 426251
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/burrower.png",
+      "bytes": 651942
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/buzzkin_frame0.png",
+      "bytes": 76763
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/buzzkin_frame1.png",
+      "bytes": 76404
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/buzzkin_frame2.png",
+      "bytes": 78303
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/buzzkin_frame3.png",
+      "bytes": 70629
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/buzzkin_sheet.png",
+      "bytes": 272050
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/buzzkin.png",
+      "bytes": 405484
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/charger_frame0.png",
+      "bytes": 93033
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/charger_frame1.png",
+      "bytes": 92167
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/charger_frame2.png",
+      "bytes": 94247
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/charger_frame3.png",
+      "bytes": 86242
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/charger_sheet.png",
+      "bytes": 321710
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/charger.png",
+      "bytes": 460703
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/compliance_carbine.png",
+      "bytes": 24992
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/dive_hawk_frame0.png",
+      "bytes": 165678
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/dive_hawk_frame1.png",
+      "bytes": 164435
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/dive_hawk_frame2.png",
+      "bytes": 167261
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/dive_hawk_frame3.png",
+      "bytes": 154822
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/dive_hawk_sheet.png",
+      "bytes": 577262
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/dive_hawk.png",
+      "bytes": 815200
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/dorra_sheet.png",
+      "bytes": 2052579
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/dorra_walk_1.png",
+      "bytes": 497292
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/dorra_walk_2.png",
+      "bytes": 436465
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/dorra_walk_3.png",
+      "bytes": 468185
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/dorra_walk_strip.png",
+      "bytes": 1176348
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/dorra.png",
+      "bytes": 1205180
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/gnaw_walker_frame0.png",
+      "bytes": 136830
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/gnaw_walker_frame1.png",
+      "bytes": 135425
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/gnaw_walker_frame2.png",
+      "bytes": 138104
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/gnaw_walker_frame3.png",
+      "bytes": 128468
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/gnaw_walker_sheet.png",
+      "bytes": 476142
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/gnaw_walker.png",
+      "bytes": 741869
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/heavy_frame0.png",
+      "bytes": 199898
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/heavy_frame1.png",
+      "bytes": 197599
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/heavy_frame2.png",
+      "bytes": 202224
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/heavy_frame3.png",
+      "bytes": 188644
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/heavy_sheet.png",
+      "bytes": 698803
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/heavy.png",
+      "bytes": 990192
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/howler_frame0.png",
+      "bytes": 112537
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/howler_frame1.png",
+      "bytes": 112550
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/howler_frame2.png",
+      "bytes": 113925
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/howler_frame3.png",
+      "bytes": 104660
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/howler_sheet.png",
+      "bytes": 393904
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/howler.png",
+      "bytes": 618783
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/mira_sheet.png",
+      "bytes": 3182620
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/mira_walk_1.png",
+      "bytes": 642375
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/mira_walk_2.png",
+      "bytes": 570152
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/mira_walk_3.png",
+      "bytes": 602727
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/mira.png",
+      "bytes": 93758
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/phantom_crawler_frame0.png",
+      "bytes": 89345
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/phantom_crawler_frame1.png",
+      "bytes": 86764
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/phantom_crawler_frame2.png",
+      "bytes": 90244
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/phantom_crawler_frame3.png",
+      "bytes": 84319
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/phantom_crawler_sheet.png",
+      "bytes": 307885
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/phantom_crawler.png",
+      "bytes": 502875
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/sapper_frame0.png",
+      "bytes": 102715
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/sapper_frame1.png",
+      "bytes": 102849
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/sapper_frame2.png",
+      "bytes": 103864
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/sapper_frame3.png",
+      "bytes": 95567
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/sapper_sheet.png",
+      "bytes": 356322
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/sapper.png",
+      "bytes": 579369
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/scrap_drone.png",
+      "bytes": 66939
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/shade_stalker_frame0.png",
+      "bytes": 98507
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/shade_stalker_frame1.png",
+      "bytes": 95402
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/shade_stalker_frame2.png",
+      "bytes": 99706
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/shade_stalker_frame3.png",
+      "bytes": 93006
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/shade_stalker_sheet.png",
+      "bytes": 339136
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/shade_stalker.png",
+      "bytes": 523434
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/sib_sheet.png",
+      "bytes": 1932636
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/sib_walk_1.png",
+      "bytes": 454609
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/sib_walk_2.png",
+      "bytes": 382520
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/sib_walk_3.png",
+      "bytes": 451224
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/sib_walk_strip.png",
+      "bytes": 1083530
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/sib.png",
+      "bytes": 1191776
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/skitterling_frame0.png",
+      "bytes": 84641
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/skitterling_frame1.png",
+      "bytes": 83617
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/skitterling_frame2.png",
+      "bytes": 85668
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/skitterling_frame3.png",
+      "bytes": 78568
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/skitterling_sheet.png",
+      "bytes": 292684
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/skitterling.png",
+      "bytes": 463967
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/spitter_frame0.png",
+      "bytes": 127475
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/spitter_frame1.png",
+      "bytes": 126527
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/spitter_frame2.png",
+      "bytes": 129016
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/spitter_frame3.png",
+      "bytes": 119413
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/spitter_sheet.png",
+      "bytes": 438003
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/spitter.png",
+      "bytes": 640557
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/squelchia_sheet.png",
+      "bytes": 2893515
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/squelchia_walk_1.png",
+      "bytes": 700527
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/squelchia_walk_2.png",
+      "bytes": 600676
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/squelchia_walk_3.png",
+      "bytes": 680571
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/squelchia_walk_strip.png",
+      "bytes": 1570032
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/squelchia.png",
+      "bytes": 1908351
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/tess_sheet.png",
+      "bytes": 1923168
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/tess_walk_1.png",
+      "bytes": 453857
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/tess_walk_2.png",
+      "bytes": 395497
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/tess_walk_3.png",
+      "bytes": 448290
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/tess_walk_strip.png",
+      "bytes": 1129497
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/tess.png",
+      "bytes": 1127811
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/vance_sheet.png",
+      "bytes": 3947073
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/vance_walk_1.png",
+      "bytes": 711146
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/vance_walk_2.png",
+      "bytes": 612366
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/vance_walk_3.png",
+      "bytes": 649487
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/vance.png",
+      "bytes": 146931
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/weaver_frame0.png",
+      "bytes": 113919
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/weaver_frame1.png",
+      "bytes": 112142
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/weaver_frame2.png",
+      "bytes": 114893
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/weaver_frame3.png",
+      "bytes": 106421
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/weaver_sheet.png",
+      "bytes": 401837
+    },
+    {
+      "status": "Added",
+      "path": "games/comfront/sprites/weaver.png",
+      "bytes": 604459
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/assets/art/character_mockup.png",
+      "bytes": 639429
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/assets/art/Chikoon.png",
+      "bytes": 162307
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/assets/art/Clover_Bunny.png",
+      "bytes": 151699
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/assets/art/Dew_Snail.png",
+      "bytes": 195191
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/assets/art/Ember_Beetle.png",
+      "bytes": 184374
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/assets/art/Mushroom_Hermit_Crab.png",
+      "bytes": 215418
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/assets/art/Noodle_Eel.png",
+      "bytes": 189594
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/assets/art/Petal_Fox.png",
+      "bytes": 194470
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/assets/art/Rice_Turtle.png",
+      "bytes": 196181
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/data/achievements.js",
+      "bytes": 37707
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/data/campfire_upgrades.js",
+      "bytes": 6293
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/data/children_data.js",
+      "bytes": 30095
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/data/data.js",
+      "bytes": 39986
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/data/quotes.js",
+      "bytes": 17130
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/data/shards.js",
+      "bytes": 6829
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/index.html",
+      "bytes": 25074
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/audio.js",
+      "bytes": 19240
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/campfire.js",
+      "bytes": 33263
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/child_camps.js",
+      "bytes": 13339
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/children.js",
+      "bytes": 60636
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/editmode.js",
+      "bytes": 36907
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/engine.js",
+      "bytes": 2526
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/entities.js",
+      "bytes": 128879
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/finale.js",
+      "bytes": 12784
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/main.js",
+      "bytes": 483281
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/passport.js",
+      "bytes": 27124
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/shard_system.js",
+      "bytes": 6547
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/story_panel.js",
+      "bytes": 37984
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/js/world.js",
+      "bytes": 16770
+    },
+    {
+      "status": "Added",
+      "path": "games/compy/style.css",
+      "bytes": 156471
+    },
+    {
+      "status": "Added",
+      "path": "games/ketum-farmer/index.html",
+      "bytes": 4345245
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/adventure-permit-icon.png",
+      "bytes": 1050999
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/adventure-region-icons.png",
+      "bytes": 2239925
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/adventure-sundang-icon.png",
+      "bytes": 846608
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/anggun.png",
+      "bytes": 1823765
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/apophis.png",
+      "bytes": 440498
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/awang.png",
+      "bytes": 1720462
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/barong.png",
+      "bytes": 406549
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/battle-mountain-bg.png",
+      "bytes": 2147057
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/battle-nusantara-arena-v2.png",
+      "bytes": 2340702
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/bg_citygate.png",
+      "bytes": 2430930
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/bg_guildhall.png",
+      "bytes": 2504782
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/bg_lorekeeper.png",
+      "bytes": 2551034
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/bg_market.png",
+      "bytes": 2333227
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/bg_stadium.png",
+      "bytes": 2482981
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-attack-v2.png",
+      "bytes": 1673930
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-attack.png",
+      "bytes": 364088
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-defeat-v2.png",
+      "bytes": 1231433
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-eat-v2.png",
+      "bytes": 1612183
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-hit-v2.png",
+      "bytes": 1642824
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-hit.png",
+      "bytes": 380603
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-idle-angry-v2.png",
+      "bytes": 1666277
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-idle-battle-v2.png",
+      "bytes": 1529453
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-idle-happy-v2.png",
+      "bytes": 1615059
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-idle-sad-v2.png",
+      "bytes": 1392289
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-idle-v2.png",
+      "bytes": 1529453
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-idle.png",
+      "bytes": 306044
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-sleep-v2.png",
+      "bytes": 1676520
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-sleep.png",
+      "bytes": 252225
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-special-windup-v2.png",
+      "bytes": 1694145
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-walk-01-v2.png",
+      "bytes": 1591125
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-walk-02-v2.png",
+      "bytes": 1541977
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-walk-03-v2.png",
+      "bytes": 1613811
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-walk-04-v2.png",
+      "bytes": 1553378
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/celestial-kitsune-walk.png",
+      "bytes": 359572
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/cendana.png",
+      "bytes": 1865027
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/cerberus.png",
+      "bytes": 2211902
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-attack-v2.png",
+      "bytes": 1697828
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-defeat-v2.png",
+      "bytes": 1518913
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-eat-v2.png",
+      "bytes": 1566624
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-hit-v2.png",
+      "bytes": 1520953
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-idle-angry-v2.png",
+      "bytes": 1592501
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-idle-battle-v2.png",
+      "bytes": 1576733
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-idle-happy-v2.png",
+      "bytes": 1587797
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-idle-sad-v2.png",
+      "bytes": 1525716
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-idle-v2.png",
+      "bytes": 1553719
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-sleep-v2.png",
+      "bytes": 1560792
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-special-windup-v2.png",
+      "bytes": 2004374
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-walk-01-v2.png",
+      "bytes": 1539884
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-walk-02-v2.png",
+      "bytes": 1616472
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-walk-03-v2.png",
+      "bytes": 1565030
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent-walk-04-v2.png",
+      "bytes": 1589805
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/chaos-serpent.png",
+      "bytes": 411112
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-angry.png",
+      "bytes": 337891
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-attack.png",
+      "bytes": 379933
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-defeat.png",
+      "bytes": 376815
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-eat.png",
+      "bytes": 335957
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-happy.png",
+      "bytes": 346363
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-hit.png",
+      "bytes": 421360
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-idle.png",
+      "bytes": 340836
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-sad.png",
+      "bytes": 360136
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-sleep.png",
+      "bytes": 224429
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-special windup.png",
+      "bytes": 383367
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-walk01.png",
+      "bytes": 373213
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-walk02.png",
+      "bytes": 338027
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-walk03.png",
+      "bytes": 326467
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-garuda-walk04.png",
+      "bytes": 337988
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-angry.png",
+      "bytes": 304613
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-attack.png",
+      "bytes": 437447
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-defeat.png",
+      "bytes": 356094
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-eat.png",
+      "bytes": 312310
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-happy.png",
+      "bytes": 302160
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-hit.png",
+      "bytes": 343294
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-idle.png",
+      "bytes": 285717
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-sad.png",
+      "bytes": 303393
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-sleep.png",
+      "bytes": 286313
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-specialwindup.png",
+      "bytes": 402746
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-walk-01.png",
+      "bytes": 355407
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-walk-02.png",
+      "bytes": 302433
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-walk-03.png",
+      "bytes": 373599
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon-walk-04.png",
+      "bytes": 302433
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/divine-griffon.png",
+      "bytes": 1908967
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/elder_tualang.png",
+      "bytes": 1838636
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/eternal-phoenix-idle.png",
+      "bytes": 373723
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/food-offering-icon.png",
+      "bytes": 1388145
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-attack.png",
+      "bytes": 168894
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-eat.png",
+      "bytes": 143825
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-hit.png",
+      "bytes": 169449
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-idle-angry.png",
+      "bytes": 161123
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-idle-battle.png",
+      "bytes": 161123
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-idle-defeat.png",
+      "bytes": 154711
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-idle-happy.png",
+      "bytes": 143457
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-idle-sad.png",
+      "bytes": 145673
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-idle.png",
+      "bytes": 160941
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-sleep.png",
+      "bytes": 128900
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-special-windup.png",
+      "bytes": 153885
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-walk-01.png",
+      "bytes": 171317
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-walk-02.png",
+      "bytes": 160941
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-walk-03.png",
+      "bytes": 167175
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/fox-spirit-walk-04.png",
+      "bytes": 160941
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-angry.png",
+      "bytes": 265219
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-attack.png",
+      "bytes": 326161
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-defeat.png",
+      "bytes": 294098
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-eat.png",
+      "bytes": 260363
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-happy.png",
+      "bytes": 261496
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-hit.png",
+      "bytes": 341401
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-idle.png",
+      "bytes": 256900
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-sad.png",
+      "bytes": 262380
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-sleep.png",
+      "bytes": 184140
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-special windup.png",
+      "bytes": 305486
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-walk-01.png",
+      "bytes": 275329
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-walk-02.png",
+      "bytes": 262207
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-walk-03.png",
+      "bytes": 260591
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/garuda-walk-04.png",
+      "bytes": 262207
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-angry.png",
+      "bytes": 191541
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-attack.png",
+      "bytes": 244639
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-defeat.png",
+      "bytes": 222268
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-eat.png",
+      "bytes": 178826
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-happy.png",
+      "bytes": 193928
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-hit.png",
+      "bytes": 206202
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-idle-battle.png",
+      "bytes": 191541
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-idle.png",
+      "bytes": 189031
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-sad.png",
+      "bytes": 193843
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-sleep.png",
+      "bytes": 145686
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-special-windup.png",
+      "bytes": 228341
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-walk-01.png",
+      "bytes": 208773
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-walk-02.png",
+      "bytes": 197969
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-walk-03.png",
+      "bytes": 216921
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-walk-04.png",
+      "bytes": 193916
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga-walk.png",
+      "bytes": 233970
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/greater-naga.png",
+      "bytes": 343695
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-attack.png",
+      "bytes": 212808
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-eat.png",
+      "bytes": 177922
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-hit.png",
+      "bytes": 213352
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-idle-angry.png",
+      "bytes": 195793
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-idle-battle.png",
+      "bytes": 195793
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-idle-defeat.png",
+      "bytes": 164634
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-idle-happy.png",
+      "bytes": 186933
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-idle-sad.png",
+      "bytes": 168009
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-idle.png",
+      "bytes": 168162
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-sleep.png",
+      "bytes": 133762
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-special-windup.png",
+      "bytes": 203131
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-walk-01.png",
+      "bytes": 216488
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-walk-02.png",
+      "bytes": 195572
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-walk-03.png",
+      "bytes": 213817
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-walk-04.png",
+      "bytes": 195572
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatch-walk.png",
+      "bytes": 192451
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/griffin-hatchling.png",
+      "bytes": 1646115
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast-attack-v2.png",
+      "bytes": 851738
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast-attack.png",
+      "bytes": 384052
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast-hit-v2.png",
+      "bytes": 946612
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast-hit.png",
+      "bytes": 319131
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast-idle-angry-v2.png",
+      "bytes": 957084
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast-idle-happy-v2.png",
+      "bytes": 965136
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast-idle-sad-v2.png",
+      "bytes": 751407
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast-idle-v2.png",
+      "bytes": 769085
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast-sleep-v2.png",
+      "bytes": 717714
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast-sleep.png",
+      "bytes": 152506
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast-walk-v2.png",
+      "bytes": 870687
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast-walk.png",
+      "bytes": 277941
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guardian-beast.png",
+      "bytes": 1618236
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guild-board-icon.png",
+      "bytes": 1497901
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/guild-roll-call-icon.png",
+      "bytes": 1338213
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-attack.png",
+      "bytes": 332238
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-eat.png",
+      "bytes": 281295
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-hit.png",
+      "bytes": 313375
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-idle-angry.png",
+      "bytes": 268567
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-idle-battle.png",
+      "bytes": 268567
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-idle-defeat.png",
+      "bytes": 277911
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-idle-happy.png",
+      "bytes": 261189
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-idle-sad.png",
+      "bytes": 265763
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-idle.png",
+      "bytes": 244202
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-sleep.png",
+      "bytes": 254080
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-special-windup.png",
+      "bytes": 371915
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-walk-01.png",
+      "bytes": 265705
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-walk-02.png",
+      "bytes": 264105
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-walk-03.png",
+      "bytes": 274425
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff-walk-04.png",
+      "bytes": 264105
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hippogriff.png",
+      "bytes": 1870464
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-attack-v2.png",
+      "bytes": 1371479
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-defeat-v2.png",
+      "bytes": 1190080
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-eat-v2.png",
+      "bytes": 1433294
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-hit-v2.png",
+      "bytes": 1365661
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-idle-angry-v2.png",
+      "bytes": 1454080
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-idle-battle-v2.png",
+      "bytes": 1442909
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-idle-happy-v2.png",
+      "bytes": 1355893
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-idle-sad-v2.png",
+      "bytes": 1340681
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-idle-v2.png",
+      "bytes": 1299867
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-sleep-v2.png",
+      "bytes": 1310247
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-special-windup-v2.png",
+      "bytes": 1337550
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-walk-01-v2.png",
+      "bytes": 1057834
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-walk-02-v2.png",
+      "bytes": 1382160
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-walk-03-v2.png",
+      "bytes": 1213283
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra-walk-04-v2.png",
+      "bytes": 1432982
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/hydra.png",
+      "bytes": 377949
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/items/grove-roots.png",
+      "bytes": 797056
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/items/honey-ring.png",
+      "bytes": 692696
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/items/kelp-bundle.png",
+      "bytes": 586217
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/items/lotus-cup.png",
+      "bytes": 670331
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/items/olympian-relic.png",
+      "bytes": 683981
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/items/rice-dumpling.png",
+      "bytes": 535381
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/items/ritual-fruit.png",
+      "bytes": 570078
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/items/sacred-relic-eg.png",
+      "bytes": 937518
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/items/silver-fish.png",
+      "bytes": 967079
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/items/spirit-charm.png",
+      "bytes": 425312
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/items/temple-jerky.png",
+      "bytes": 510444
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/items/wild-kebab.png",
+      "bytes": 552139
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kemala.png",
+      "bytes": 1891666
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-attack-v3.png",
+      "bytes": 970490
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-defeat-v3.png",
+      "bytes": 757960
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-eat-v3.png",
+      "bytes": 1061113
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-hit-v3.png",
+      "bytes": 886896
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-idle-angry-v3.png",
+      "bytes": 1019419
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-idle-battle-v3.png",
+      "bytes": 977582
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-idle-happy-v3.png",
+      "bytes": 994515
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-idle-sad-v3.png",
+      "bytes": 806448
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-idle-v2.png",
+      "bytes": 1392504
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-idle-v3.png",
+      "bytes": 813660
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-sleep-v3.png",
+      "bytes": 908740
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-special-windup-v3.png",
+      "bytes": 991161
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-walk-01-v2.png",
+      "bytes": 1318097
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-walk-01-v3.png",
+      "bytes": 1023213
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-walk-02-v3.png",
+      "bytes": 943207
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-walk-03-v3.png",
+      "bytes": 904103
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails-walk-04-v3.png",
+      "bytes": 835989
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-3tails.png",
+      "bytes": 1840598
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-attack-v7.png",
+      "bytes": 1084716
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-defeat-v7.png",
+      "bytes": 804431
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-eat-v7.png",
+      "bytes": 1126249
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-hit-v7.png",
+      "bytes": 1011810
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-idle-angry-v7.png",
+      "bytes": 1090788
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-idle-battle-v7.png",
+      "bytes": 1050961
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-idle-happy-v7.png",
+      "bytes": 1037455
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-idle-sad-v7.png",
+      "bytes": 825965
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-idle-v3.png",
+      "bytes": 1202034
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-idle-v4.png",
+      "bytes": 843066
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-idle-v5.png",
+      "bytes": 904664
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-idle-v6.png",
+      "bytes": 895558
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-idle-v7.png",
+      "bytes": 1022274
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-sleep-v7.png",
+      "bytes": 1086830
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-special-windup-v7.png",
+      "bytes": 1054480
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-walk-01-v7.png",
+      "bytes": 1067687
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-walk-02-v7.png",
+      "bytes": 1049137
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-walk-03-v7.png",
+      "bytes": 1074318
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails-walk-04-v7.png",
+      "bytes": 980090
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-5tails.png",
+      "bytes": 1907288
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/kitsune-9tails.png",
+      "bytes": 311029
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lair-action-icons.png",
+      "bytes": 1701338
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lair-background.png",
+      "bytes": 2741070
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lair-forest-bg.png",
+      "bytes": 2741070
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lair-nusantara-bg.png",
+      "bytes": 2145251
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-attack-v2.png",
+      "bytes": 1427978
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-defeat-v2.png",
+      "bytes": 1035268
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-eat-v2.png",
+      "bytes": 1397227
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-hit-v2.png",
+      "bytes": 1351775
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-idle-angry-v2.png",
+      "bytes": 1355507
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-idle-battle-v2.png",
+      "bytes": 1367940
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-idle-happy-v2.png",
+      "bytes": 1409906
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-idle-sad-v2.png",
+      "bytes": 1289578
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-idle-v2.png",
+      "bytes": 1351775
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-sleep-v2.png",
+      "bytes": 1351775
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-special-windup-v2.png",
+      "bytes": 1436302
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-walk-01-v2.png",
+      "bytes": 1352772
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-walk-02-v2.png",
+      "bytes": 1333565
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-walk-03-v2.png",
+      "bytes": 1382186
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lernaean-hydra-walk-04-v2.png",
+      "bytes": 1315464
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/lore-menu-icons.png",
+      "bytes": 2007458
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-angry.png",
+      "bytes": 286373
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-attack-v2.png",
+      "bytes": 1083569
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-attack.png",
+      "bytes": 295292
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-defeat-v2.png",
+      "bytes": 848954
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-defeat.png",
+      "bytes": 265781
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-eat-v2.png",
+      "bytes": 1179097
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-eat.png",
+      "bytes": 247107
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-happy.png",
+      "bytes": 292828
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-hit-v2.png",
+      "bytes": 1026421
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-hit.png",
+      "bytes": 319907
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-idle-angry-v2.png",
+      "bytes": 1174378
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-idle-battle-v2.png",
+      "bytes": 1097274
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-idle-battle.png",
+      "bytes": 286373
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-idle-happy-v2.png",
+      "bytes": 1040370
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-idle-sad-v2.png",
+      "bytes": 1025247
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-idle-v2.png",
+      "bytes": 929312
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-idle.png",
+      "bytes": 297505
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-sad.png",
+      "bytes": 293731
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-sleep-v2.png",
+      "bytes": 1009568
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-sleep.png",
+      "bytes": 181581
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-special-windup-v2.png",
+      "bytes": 1078657
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-special-windup.png",
+      "bytes": 363134
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-walk-01-v2.png",
+      "bytes": 895952
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-walk-01.png",
+      "bytes": 312152
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-walk-02-v2.png",
+      "bytes": 901373
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-walk-02.png",
+      "bytes": 311818
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-walk-03-v2.png",
+      "bytes": 723628
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-walk-03.png",
+      "bytes": 297505
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent-walk-04-v2.png",
+      "bytes": 902485
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mystic-serpent.png",
+      "bytes": 407767
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythala_city.png",
+      "bytes": 3589551
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-guardian-attack.png",
+      "bytes": 260317
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-guardian-hit.png",
+      "bytes": 260609
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-guardian-idle.png",
+      "bytes": 229962
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-guardian-sleep.png",
+      "bytes": 220340
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-guardian-walk.png",
+      "bytes": 240550
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-attack-v2.png",
+      "bytes": 1035930
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-attack.png",
+      "bytes": 260317
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-hit-v2.png",
+      "bytes": 934512
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-hit.png",
+      "bytes": 260609
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-idle-angry-v2.png",
+      "bytes": 1180974
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-idle-happy-v2.png",
+      "bytes": 1120499
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-idle-sad-v2.png",
+      "bytes": 909285
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-idle-v2.png",
+      "bytes": 993667
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-idle.png",
+      "bytes": 229962
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-sleep-v2.png",
+      "bytes": 773642
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-sleep.png",
+      "bytes": 220340
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-walk-01-v2.png",
+      "bytes": 1004651
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-walk-02-v2.png",
+      "bytes": 974229
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-walk-03-v2.png",
+      "bytes": 1018714
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-walk-04-v2.png",
+      "bytes": 970113
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-walk-v2.png",
+      "bytes": 971080
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/mythic-warden-walk.png",
+      "bytes": 240550
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-grow-attack.png",
+      "bytes": 249497
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-grow-hit.png",
+      "bytes": 252117
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-grow-sleep.png",
+      "bytes": 290029
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-grow-walk.png",
+      "bytes": 233970
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-attack.png",
+      "bytes": 161864
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-charge.png",
+      "bytes": 167564
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-eat.png",
+      "bytes": 152893
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-hit.png",
+      "bytes": 157898
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-idle-angry.png",
+      "bytes": 133357
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-idle-battle.png",
+      "bytes": 133357
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-idle-defeat.png",
+      "bytes": 155805
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-idle-happy.png",
+      "bytes": 132169
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-idle-sad.png",
+      "bytes": 142284
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-idle.png",
+      "bytes": 135812
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-sad.png",
+      "bytes": 142284
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-sleep.png",
+      "bytes": 141957
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-special-windup.png",
+      "bytes": 167558
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-walk-01.png",
+      "bytes": 136463
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-walk-02.png",
+      "bytes": 160907
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-walk-03.png",
+      "bytes": 133987
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-walk-04.png",
+      "bytes": 160907
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatch-walk.png",
+      "bytes": 211882
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/naga-hatchling.png",
+      "bytes": 1675624
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-attack-v2.png",
+      "bytes": 1593428
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-defeat-v2.png",
+      "bytes": 1400065
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-eat-v2.png",
+      "bytes": 1489973
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-hit-v2.png",
+      "bytes": 1470650
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-idle-angry-v2.png",
+      "bytes": 1448788
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-idle-battle-v2.png",
+      "bytes": 1450579
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-idle-happy-v2.png",
+      "bytes": 1534428
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-idle-sad-v2.png",
+      "bytes": 1443938
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-idle-v2.png",
+      "bytes": 1419229
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-sleep-v2.png",
+      "bytes": 1422181
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-special-windup-v2.png",
+      "bytes": 1747593
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-walk-01-v2.png",
+      "bytes": 1483122
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-walk-02-v2.png",
+      "bytes": 1521402
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-walk-03-v2.png",
+      "bytes": 1435569
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment-walk-04-v2.png",
+      "bytes": 1451438
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/orochi-fragment.png",
+      "bytes": 388483
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/phoenix-idle.png",
+      "bytes": 329149
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/phoenix.png",
+      "bytes": 327615
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/relic-offering-icon.png",
+      "bytes": 908736
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/royal-naga.png",
+      "bytes": 424626
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-berry-bush-empty.png",
+      "bytes": 1712849
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-berry-bush-ripe.png",
+      "bytes": 1769935
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-berry.png",
+      "bytes": 178450
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-attack.png",
+      "bytes": 133865
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-charge.png",
+      "bytes": 121360
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-eat.png",
+      "bytes": 116653
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-hit.png",
+      "bytes": 144106
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-idle-angry.png",
+      "bytes": 147256
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-idle-battle.png",
+      "bytes": 146654
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-idle-defeat.png",
+      "bytes": 149883
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-idle-happy.png",
+      "bytes": 140353
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-idle-sad.png",
+      "bytes": 137612
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-idle.png",
+      "bytes": 144023
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-sleep.png",
+      "bytes": 94462
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-special-windup.png",
+      "bytes": 125248
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-walk-01.png",
+      "bytes": 141977
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-walk-02.png",
+      "bytes": 144023
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-walk-03.png",
+      "bytes": 145369
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-walk-04.png",
+      "bytes": 144023
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/spirit-hound-walk.png",
+      "bytes": 153250
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-angry.png",
+      "bytes": 286373
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-attack.png",
+      "bytes": 295292
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-defeat.png",
+      "bytes": 265781
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-eat.png",
+      "bytes": 247107
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-happy.png",
+      "bytes": 292828
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-hit.png",
+      "bytes": 319907
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-idle-battle.png",
+      "bytes": 286373
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-idle.png",
+      "bytes": 297505
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-sad.png",
+      "bytes": 293731
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-sleep.png",
+      "bytes": 181581
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-special-windup.png",
+      "bytes": 363134
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-walk-01.png",
+      "bytes": 312152
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-walk-02.png",
+      "bytes": 311818
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-walk-03.png",
+      "bytes": 297505
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/topbar-friends-icon.png",
+      "bytes": 1038461
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/topbar-pitis-icon.png",
+      "bytes": 916344
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/topbar-profile-icon.png",
+      "bytes": 1282060
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/topbar-settings-icon.png",
+      "bytes": 910822
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/topbar-ui-icons.png",
+      "bytes": 1316239
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/topbar-wisdom-icon.png",
+      "bytes": 662802
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/town-adventure-icon.png",
+      "bytes": 1669075
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/town-guild-icon.png",
+      "bytes": 1465651
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/town-lair-icon.png",
+      "bytes": 1587238
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/town-lore-icon.png",
+      "bytes": 1764299
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/town-market-icon.png",
+      "bytes": 1339015
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/town-nusantara-map-v2.png",
+      "bytes": 3471595
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/town-stadium-icon.png",
+      "bytes": 1515037
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/art/yamata-no-orochi.png",
+      "bytes": 426158
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/01_BGM/bgm_city_map.mp3",
+      "bytes": 9761320
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_angry.m4a",
+      "bytes": 20714
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_curious.m4a",
+      "bytes": 32005
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_happy.m4a",
+      "bytes": 20525
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_refuse_food.m4a",
+      "bytes": 21160
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_sad.m4a",
+      "bytes": 65780
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_tired_refuse.m4a",
+      "bytes": 32887
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_tired.m4a",
+      "bytes": 65425
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/03_SFX_eating_feeding_M4A/sfx_myth_eat_berry.m4a",
+      "bytes": 19608
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/03_SFX_eating_feeding_M4A/sfx_myth_eat_favorite.m4a",
+      "bytes": 20389
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/03_SFX_eating_feeding_M4A/sfx_myth_eat_hate.m4a",
+      "bytes": 21171
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/03_SFX_eating_feeding_M4A/sfx_myth_eat_mediocre.m4a",
+      "bytes": 21188
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/04_SFX_ball_play_M4A/sfx_ball_bounce.m4a",
+      "bytes": 31325
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/04_SFX_ball_play_M4A/sfx_ball_kick.m4a",
+      "bytes": 19967
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/05_SFX_lair_care_interaction_M4A/sfx_demand_call.m4a",
+      "bytes": 16051
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/05_SFX_lair_care_interaction_M4A/sfx_lair_drop_falling.m4a",
+      "bytes": 20063
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/05_SFX_lair_care_interaction_M4A/sfx_lair_drop_thud.m4a",
+      "bytes": 19675
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/05_SFX_lair_care_interaction_M4A/sfx_pet_click.m4a",
+      "bytes": 25909
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/06_SFX_battle_general_M4A/sfx_battle_evade.m4a",
+      "bytes": 32061
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/06_SFX_battle_general_M4A/sfx_battle_hit.m4a",
+      "bytes": 33056
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/06_SFX_battle_general_M4A/sfx_battle_loot_chime.m4a",
+      "bytes": 157964
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/06_SFX_battle_general_M4A/sfx_battle_loss.m4a",
+      "bytes": 159980
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/06_SFX_battle_general_M4A/sfx_battle_win.m4a",
+      "bytes": 95917
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_achievement_unlock.m4a",
+      "bytes": 41025
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_bond_level_up.m4a",
+      "bytes": 63793
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_challenge_received.m4a",
+      "bytes": 34548
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_daily_quest_complete.m4a",
+      "bytes": 64070
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_district_unlock.m4a",
+      "bytes": 33406
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_egg_hatch_reveal.m4a",
+      "bytes": 63739
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_journey_milestone.m4a",
+      "bytes": 32155
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_level_up.m4a",
+      "bytes": 63658
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_npc_dialogue_start.m4a",
+      "bytes": 32120
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_shop_coin_collect.m4a",
+      "bytes": 31778
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_shop_purchase.m4a",
+      "bytes": 32743
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_stat_boost.m4a",
+      "bytes": 31992
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_tournament_bracket_reveal.m4a",
+      "bytes": 62540
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_tournament_round_start.m4a",
+      "bytes": 32485
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_ui_back.m4a",
+      "bytes": 15136
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_ui_confirm.m4a",
+      "bytes": 31391
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_ui_notification_ping.m4a",
+      "bytes": 31617
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_ui_tab_switch.m4a",
+      "bytes": 32934
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_ui_tap.m4a",
+      "bytes": 31573
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/data/creature/creatures.json",
+      "bytes": 29470
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/data/creature/pet-art.json",
+      "bytes": 22490
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/data/game-bundle.js",
+      "bytes": 77006
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/data/player/game.json",
+      "bytes": 5415
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/index.html",
+      "bytes": 1017191
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/achievements.js",
+      "bytes": 25729
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/audio.js",
+      "bytes": 40599
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/auth.js",
+      "bytes": 8714
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/auto-care.js",
+      "bytes": 3523
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/care.js",
+      "bytes": 92467
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/cloud-save.js",
+      "bytes": 1782
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/combat.js",
+      "bytes": 159320
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/dailies.js",
+      "bytes": 5953
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/data.js",
+      "bytes": 16661
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/elo.js",
+      "bytes": 2588
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/evolution.js",
+      "bytes": 45779
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/firebase-config.js",
+      "bytes": 1743
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/friends.js",
+      "bytes": 5300
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/lair-events.js",
+      "bytes": 4253
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/leaderboard.js",
+      "bytes": 4481
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/legacy-timeline.js",
+      "bytes": 3189
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/main.js",
+      "bytes": 55786
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/myth-interaction.js",
+      "bytes": 12445
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/online-ui.js",
+      "bytes": 51124
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/player-profile.js",
+      "bytes": 12767
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/presence.js",
+      "bytes": 1475
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/pvp.js",
+      "bytes": 11198
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/state.js",
+      "bytes": 13216
+    },
+    {
+      "status": "Added",
+      "path": "games/mymyth/js/ui.js",
+      "bytes": 38671
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/bean-sprout-M2eb6Dy8.png",
+      "bytes": 266722
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/bulk-order-Cvv1Gy4l.png",
+      "bytes": 462393
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/compost-heap-BwrYNwRK.png",
+      "bytes": 417316
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/curators-pick-DiyAj58K.png",
+      "bytes": 276553
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/drip-line-9U-kDpbQ.png",
+      "bytes": 320012
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/eggplant-Cqe-cekE.png",
+      "bytes": 307586
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/fertilizer-bag-gy3ZoYeP.png",
+      "bytes": 437818
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/fire-pepper-CpjODRsS.png",
+      "bytes": 316519
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/frost-grape-DUCkQ-7P.png",
+      "bytes": 337300
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/garden-fork-DLvYU8Ox.png",
+      "bytes": 203241
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/golden-corn-CNrK4CIN.png",
+      "bytes": 324267
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/golden-trowel-BPdDVJTL.png",
+      "bytes": 271542
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/growth-potion-DwHewPzU.png",
+      "bytes": 278964
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/harvest-basket-C0QcpEM8.png",
+      "bytes": 475277
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/harvest-oracle-0oWXEdiQ.png",
+      "bytes": 375787
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/honey-melon-B4z25g1V.png",
+      "bytes": 374028
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/humble-carrot-TyEq9svA.png",
+      "bytes": 310904
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/index-B6Dr_Irg.js",
+      "bytes": 1028663
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/index-DHsP_VC0.css",
+      "bytes": 51513
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/jumbo-pumpkin-DR7g7cQH.png",
+      "bytes": 396502
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/lettuce-leaf-DgNL6_zX.png",
+      "bytes": 445502
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/market-bell-Cn8K0eP_.png",
+      "bytes": 264966
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/market-research-fak_q_Td.png",
+      "bytes": 263533
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/mystic-mushroom-CHjf15jh.png",
+      "bytes": 324133
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/pea-pod-CML2xMrT.png",
+      "bytes": 291239
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/phoenix-pepper-BlG7zVyV.png",
+      "bytes": 320107
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/quick-draw-DiBPN6Ow.png",
+      "bytes": 291246
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/radish-pop-Dl8TIkBT.png",
+      "bytes": 340277
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/rainbow-sprinkler-dD5fm1WL.png",
+      "bytes": 283190
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/recycle-xXieJvXh.png",
+      "bytes": 334857
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/royal-cabbage-CE1pd0H5.png",
+      "bytes": 343131
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/scarecrow-Cx9O9I9g.png",
+      "bytes": 299374
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/scout-8rzptuXJ.png",
+      "bytes": 392827
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/season-compass-BUnkWrqg.png",
+      "bytes": 353398
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/seed-exchange-Cmm8r9HX.png",
+      "bytes": 403859
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/seed-vault-CmFGUHXZ.png",
+      "bytes": 338114
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/silver-hoe-Cv_ApovJ.png",
+      "bytes": 201294
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/starberry-Dy_M0xmV.png",
+      "bytes": 375887
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/sunburst-tomato-gp7CkHEA.png",
+      "bytes": 357289
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/swap-seeds-BVZRRIaJ.png",
+      "bytes": 363401
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/tactical-dig-C3arV_sE.png",
+      "bytes": 387204
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/titan-sunflower-C5mp0AWn.png",
+      "bytes": 388673
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/watering-can-CdaLOuKr.png",
+      "bytes": 257097
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/wheat-stalk-BQ2BJSbP.png",
+      "bytes": 336893
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/assets/wheelbarrow-Bu1J4EiC.png",
+      "bytes": 425582
+    },
+    {
+      "status": "Added",
+      "path": "games/plotbound/index.html",
+      "bytes": 966
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/abyss-caller-c-djSsKg.webp",
+      "bytes": 190096
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/adrenaline-B0Qx4VwW.webp",
+      "bytes": 60152
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/aegis_of_last_king-DHF2JCOZ.webp",
+      "bytes": 205798
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/aegis-J0BpunMu.webp",
+      "bytes": 143566
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/amulet_of_sigilbound-CX1OzyKa.webp",
+      "bytes": 175858
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/angelic-blade-CHcRsxJ8.webp",
+      "bytes": 178042
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/ashen-demon-CjTL4Ypa.webp",
+      "bytes": 145516
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/ashen-warlock-CWimxu27.webp",
+      "bytes": 131082
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/astral-convergence-CIuhourb.webp",
+      "bytes": 167676
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/astral-pact-fCvDZHAU.webp",
+      "bytes": 202696
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/ball-lightning-Bl_aZnTS.webp",
+      "bytes": 182956
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/bandage-lvDsR8ld.webp",
+      "bytes": 46130
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/banish-BTNji_7t.webp",
+      "bytes": 80236
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/banshee-m755g19b.webp",
+      "bytes": 121930
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/battlecry-BKKW7kpC.webp",
+      "bytes": 83010
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/bigger-hand-DXBrziyb.webp",
+      "bytes": 154724
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/blade-dance-D6OlZGym.webp",
+      "bytes": 70988
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/blizzard-CkCIQtQ1.webp",
+      "bytes": 78124
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/block-B3SNJ9LN.webp",
+      "bytes": 74552
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/bone-knight-1_w9-RHB.webp",
+      "bytes": 68080
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/brace-nlPNL5EP.webp",
+      "bytes": 134838
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/buckler-Ddexvou1.webp",
+      "bytes": 119668
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/bulwark_aegis--3HZTOUo.webp",
+      "bytes": 180394
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/calculated-risk-CLUxtoEY.webp",
+      "bytes": 76724
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/chain-lightning-Zm4saiSS.webp",
+      "bytes": 87210
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/chainmail-BWb68vWr.webp",
+      "bytes": 177902
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/cinder-imp-yUWzr0z-.webp",
+      "bytes": 137966
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/cleave-DT11fd6g.webp",
+      "bytes": 56656
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/cold-snap-BVrbptDl.webp",
+      "bytes": 76572
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/combo-cascade-DfflKWJG.webp",
+      "bytes": 181540
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/conflagration-nmIz6TML.webp",
+      "bytes": 120668
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/consecrate-BJG8eq_6.webp",
+      "bytes": 124174
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/copper_band-BwXoEwrQ.webp",
+      "bytes": 104516
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/crown_of_sigilbound-Dhbbbeks.webp",
+      "bytes": 188420
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/crypt-wraith-D5KgLRee.webp",
+      "bytes": 103364
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/curse-of-agony-C8uMwKk9.webp",
+      "bytes": 81884
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/damage-mirror-UJNr39iA.webp",
+      "bytes": 57182
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/divine-judgement-CAqL5wOf.webp",
+      "bytes": 122790
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/divine-thunder-AZ6XGiRT.webp",
+      "bytes": 205836
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/dragonfang_sabre-Df3m39O3.webp",
+      "bytes": 175286
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/drakehide_plate-AQW5XGxW.webp",
+      "bytes": 146474
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/ember_brand-SDdROZIL.webp",
+      "bytes": 121188
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/ember-dash-DHxYS6IN.webp",
+      "bytes": 70572
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/ember-witch-N8srMJsD.webp",
+      "bytes": 110300
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/entangle-BJsJU6ar.webp",
+      "bytes": 96370
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/eternal-flame-CiyjtTZp.webp",
+      "bytes": 181222
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/execute-BLpKQ1Nh.webp",
+      "bytes": 78774
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/extra-sigil-B7SAYZdi.webp",
+      "bytes": 144842
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/firebolt-VKw3Y5qT.webp",
+      "bytes": 88140
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/flame-lance-_-DUXLLH.webp",
+      "bytes": 85340
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/foresight-CZvoETHM.webp",
+      "bytes": 146310
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/forest_troll-D4YEYAfa.webp",
+      "bytes": 136688
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/forest_wolf-DMpmMeAe.webp",
+      "bytes": 74116
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/forge-warden-DPn3P4_X.webp",
+      "bytes": 124488
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/frost_visor-9VgPg3O0.webp",
+      "bytes": 176100
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/frost_warding_orb-krluJJld.webp",
+      "bytes": 192128
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/frost-giant-YvOnadD6.webp",
+      "bytes": 146658
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/frost-huntress-BE3GYoKF.webp",
+      "bytes": 117422
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/frost-shard-BoHMsks_.webp",
+      "bytes": 57032
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/frost-wisp-Bm1ctjkh.webp",
+      "bytes": 97054
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/frostbrand-DNZim1ja.webp",
+      "bytes": 176018
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/frostpeak-yeti-DziGp2bC.webp",
+      "bytes": 110464
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/frozen-spike-B0it9YG3.webp",
+      "bytes": 73350
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/glacial-wall-akke1wD6.webp",
+      "bytes": 73452
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/glacier_band-uYelCmhP.webp",
+      "bytes": 207344
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/glacier_plate-g0jVAQ13.webp",
+      "bytes": 236660
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/glacier-shaman-D7xsKhj9.webp",
+      "bytes": 148396
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/goblin_slasher-C8kS1_Hd.webp",
+      "bytes": 116992
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/heal-potion-StCSOKJV.webp",
+      "bytes": 52912
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/heart_of_sigilkeeper-ClxdNpni.webp",
+      "bytes": 202020
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/heavy-swing-iEjocjYW.webp",
+      "bytes": 147380
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/hexblade-fO48ImrM.webp",
+      "bytes": 135890
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/highwayman-DSjcxjq3.webp",
+      "bytes": 108788
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/holy-smite-BreWur5d.webp",
+      "bytes": 124134
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/horned_circlet-CgZWVy5V.webp",
+      "bytes": 161582
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/hunter_band-B5k-zFmN.webp",
+      "bytes": 128310
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/hunter_pendant-RvUNBdwh.webp",
+      "bytes": 141296
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/ice-age-CIkDjfR5.webp",
+      "bytes": 231760
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/ice-drake-BbbKxQny.webp",
+      "bytes": 104742
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/ice-spear-fHFBfkcH.webp",
+      "bytes": 81478
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/ifrit-CCT8ed3k.webp",
+      "bytes": 135338
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/index-CdDtU2ho.js",
+      "bytes": 3009893
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/index-o60FZ3vd.css",
+      "bytes": 67807
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/inferno-Cd-F8tHj.webp",
+      "bytes": 92960
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/inspire-CZ76bvzt.webp",
+      "bytes": 73548
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/iron_helm-CEMehx5Q.webp",
+      "bytes": 140098
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/iron_shortsword-CxlL9PL8.webp",
+      "bytes": 99584
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/iron-discipline-DFxsbYM0.webp",
+      "bytes": 159654
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/iron-wall-DT1mDlaZ.webp",
+      "bytes": 160050
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/juggernaut-DKRjvym9.webp",
+      "bytes": 134168
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/juggernaut-strike-EaplxfJz.webp",
+      "bytes": 109882
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/lava-elemental-CKxeeD9f.webp",
+      "bytes": 184304
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/leather_cap-CvN2BoQS.webp",
+      "bytes": 110426
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/leather_cord-DHGICE9e.webp",
+      "bytes": 122562
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/lich-B-zhd3vs.webp",
+      "bytes": 114626
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/lucky-streak-DdlNcB86.webp",
+      "bytes": 167258
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/magma-queen-ShhL8615.webp",
+      "bytes": 127804
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/magma-salamander-C9lNWRRZ.webp",
+      "bytes": 144792
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/magma-surge-lxIV6bM0.webp",
+      "bytes": 194972
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/mana-tap-DGw2xBm_.webp",
+      "bytes": 41104
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/mass-heal-WjErteD0.webp",
+      "bytes": 194316
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/melt-armor-dTibg1Ec.webp",
+      "bytes": 194220
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/mischief_sprite-CB-0D2n9.webp",
+      "bytes": 116288
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/mortal-wound-DnIIhmMb.webp",
+      "bytes": 62346
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/natures-wrath-BC4LnDiU.webp",
+      "bytes": 89962
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/necrotic-wave--lTV8IWL.webp",
+      "bytes": 209966
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/onslaught-amplifier-B4zBJ6W4.webp",
+      "bytes": 144954
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/overgrowth-B4e1j-kh.webp",
+      "bytes": 106598
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/padded_jerkin-CkTBd1tY.webp",
+      "bytes": 115648
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/permafrost-DixkqG4n.webp",
+      "bytes": 251546
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/phoenix_crown-vdFDBKPC.webp",
+      "bytes": 184710
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/phoenix_greatsword-DixRbo-U.webp",
+      "bytes": 182500
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/phoenix_locket-2bv_9Z8t.webp",
+      "bytes": 184092
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/phoenix_signet-C-_KAl-T.webp",
+      "bytes": 169454
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/phoenix-blast-FaixYgwk.webp",
+      "bytes": 154364
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/plague-strike-DmNV442k.webp",
+      "bytes": 153108
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/plate_of_eternal_vigil-C1sEgHio.webp",
+      "bytes": 193942
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/poison-dart-D8ys2aMg.webp",
+      "bytes": 125352
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/pyre-specialist-DoHx3Nte.webp",
+      "bytes": 96490
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/quick-draw-CzHeNfYk.webp",
+      "bytes": 148324
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/quick-reflexes-DwZANeey.webp",
+      "bytes": 194016
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/quick-study-CaJVU-Ar.webp",
+      "bytes": 55592
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/radiant-slash-Bs4RtRl5.webp",
+      "bytes": 70386
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/reaper-Dzsr3Gpp.webp",
+      "bytes": 98700
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/reckless-assault-CEiAWbLu.webp",
+      "bytes": 77190
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/reinforce-DuA30hkl.webp",
+      "bytes": 120950
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/revenant-DwpTwthw.webp",
+      "bytes": 70060
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/rusted_axe-C1XegP_P.webp",
+      "bytes": 123730
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/sacred-inferno-B0Zz29gb.webp",
+      "bytes": 120070
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/scale_mail-DFq9oa-x.webp",
+      "bytes": 143956
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/second-wind-CFHhyhfR.webp",
+      "bytes": 97104
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/shadow-bolt-B7BSzx_x.webp",
+      "bytes": 63098
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/shadow-swarm-DoRKKJ-H.webp",
+      "bytes": 83344
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/shatter-D2JkgXPy.webp",
+      "bytes": 272114
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/shield-bash-CWDxwrtm.webp",
+      "bytes": 82866
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/sigil_warden_helm-HdHXOG-T.webp",
+      "bytes": 161784
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/sigil-refresh-DrQgRB3_.webp",
+      "bytes": 160442
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/sigilbound-master-BShKu6pg.webp",
+      "bytes": 206160
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/sigilbreaker-CPT_RmlE.webp",
+      "bytes": 222322
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/silver_loop-aowgwFk1.webp",
+      "bytes": 86920
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/skeleton_warrior-CJjW59yn.webp",
+      "bytes": 64264
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/skybreaker_maul-Dndo4Zos.webp",
+      "bytes": 187060
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/slash-CkJNVSRC.webp",
+      "bytes": 49286
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/sleep-spores-CaZ0EkzZ.webp",
+      "bytes": 145594
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/smoke-screen-B5FqGsc9.webp",
+      "bytes": 114600
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/snow-warden-CeTY-b4W.webp",
+      "bytes": 147916
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/solar-flare-Dih3vDGC.webp",
+      "bytes": 98692
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/soul-drain-Cd7xs-9K.webp",
+      "bytes": 55700
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/soulbinder-DfuILRU-.webp",
+      "bytes": 73538
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/soulburn-DzVc5U4M.webp",
+      "bytes": 56028
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/spacious-mind-DgYM-Unh.webp",
+      "bytes": 158166
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/spark-DODPompQ.webp",
+      "bytes": 68582
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/spellforge_grimoire-DdtSk4Ki.webp",
+      "bytes": 216842
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/spore-cloud-A1p6LW2_.webp",
+      "bytes": 113912
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/static-charge-C1-35qyY.webp",
+      "bytes": 127440
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/steel_longsword-BnOU3BRF.webp",
+      "bytes": 116632
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/steel-specialist-DQwrv-_H.webp",
+      "bytes": 143084
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/strategist_coif-BXJJjqX5.webp",
+      "bytes": 134570
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/strike-CZSnIT46.webp",
+      "bytes": 81652
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/swift-recovery-mYs7DeZY.webp",
+      "bytes": 132536
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/tactic-master-BjiIR9bq.webp",
+      "bytes": 141836
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/tactical-prep-C3KjaejC.webp",
+      "bytes": 64428
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/tactician-s-mark-WWVPVjj-.webp",
+      "bytes": 54362
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/the_antlered_king-QSOloiA2.webp",
+      "bytes": 137806
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/the-bone-tyrant-Cl1PzC5r.webp",
+      "bytes": 146762
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/the-sigilbreaker-BN60jM7J.webp",
+      "bytes": 100870
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/thorn-dryad-Bfd67aak.webp",
+      "bytes": 90384
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/thorn-whip-C5lVd5-c.webp",
+      "bytes": 106912
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/thunderclap-DgNTOuo6.webp",
+      "bytes": 192902
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/thunderstorm-DwS4kUuu.webp",
+      "bytes": 62394
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/time-warp-BMkgcvFZ.webp",
+      "bytes": 194206
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/titans-wrath-BQ5PeZwQ.webp",
+      "bytes": 215894
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/tomb-ghoul-DceMkZmD.webp",
+      "bytes": 126358
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/tome_of_wards-BO9GodSG.webp",
+      "bytes": 127568
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/tower_shield-DE2EWjyY.webp",
+      "bytes": 177938
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/triple-threat-O-gbmFzG.webp",
+      "bytes": 190494
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/venom-strike-Q5fFi7qx.webp",
+      "bytes": 68944
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/vigorous-c-NUcqe9.webp",
+      "bytes": 99298
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/void-knight-5nPdFah-.webp",
+      "bytes": 135370
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/void-rupture-BYNBsZ29.webp",
+      "bytes": 96406
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/voidspawn-EYZrQ0Kk.webp",
+      "bytes": 105316
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/voltaic-strike-UOP0-T22.webp",
+      "bytes": 84812
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/vorpal_edge-C3Zyjtj1.webp",
+      "bytes": 157388
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/vulkar-the-eternal-flame-B8ewc8PI.webp",
+      "bytes": 126720
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/war-cry-Bk8DoBE_.webp",
+      "bytes": 85576
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/warden_plate-B9UbZwNT.webp",
+      "bytes": 155778
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/warden_seal-DhT_5CkS.webp",
+      "bytes": 184282
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/warrior-s-fortune-D1FqiAge.webp",
+      "bytes": 153252
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/whirlwind-Rc1ZrNtb.webp",
+      "bytes": 69620
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/wooden_charm-Dy2_sFba.webp",
+      "bytes": 114566
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/wooden_shield-l-tdm9RH.webp",
+      "bytes": 149768
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/wraith_finger-CZvPvknt.webp",
+      "bytes": 145940
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/wraith_pendant--UCm8lgC.webp",
+      "bytes": 138916
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/wraith_robes-C08ilGzu.webp",
+      "bytes": 146758
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/wrath-of-the-heavens-TU2BUTuc.webp",
+      "bytes": 191980
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/assets/ymir-the-glacier-born-p1oZOVV5.webp",
+      "bytes": 130922
+    },
+    {
+      "status": "Added",
+      "path": "games/sigilbound/index.html",
+      "bytes": 1285
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/app.js",
+      "bytes": 31198
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/arcade-bright.css",
+      "bytes": 168
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/arcade-city.css",
+      "bytes": 2004
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/assets/arcade-aisle.png",
+      "bytes": 2981040
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/assets/sfx/frenzy.wav",
+      "bytes": 213596
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/assets/sfx/impact.wav",
+      "bytes": 57388
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/assets/sfx/lose.wav",
+      "bytes": 543132
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/assets/sfx/miss.wav",
+      "bytes": 66684
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/assets/sfx/shot.wav",
+      "bytes": 98860
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/assets/sfx/start.wav",
+      "bytes": 367524
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/assets/sfx/type.wav",
+      "bytes": 66604
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/assets/sfx/win.wav",
+      "bytes": 545024
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/gameplay.css",
+      "bytes": 1102
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/index.html",
+      "bytes": 4529
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/menu.css",
+      "bytes": 334
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/portrait.css",
+      "bytes": 487
+    },
+    {
+      "status": "Added",
+      "path": "games/type-zomba/styles.css",
+      "bytes": 6560
+    },
+    {
+      "status": "Added",
+      "path": "pc-releases/333-HD27-Windows.zip",
+      "bytes": 769691229
+    },
+    {
+      "status": "Added",
+      "path": "pc-releases/Hyperbloomers-v0.2-Windows.zip",
+      "bytes": 495797550
+    },
+    {
+      "status": "Added",
+      "path": "pc-releases/TGC-42-Windows.zip",
+      "bytes": 298923124
+    }
+  ],
+  "notes": []
+}

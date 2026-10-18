@@ -1,0 +1,5 @@
+.build-staging/
+.build-configs/
+.vite-cache/
+pc-releases/*.zip
+*.log

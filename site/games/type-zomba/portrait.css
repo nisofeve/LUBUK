@@ -1,0 +1,15 @@
+/* Portrait-first viewport. On landscape, center a phone-shaped playfield. */
+@media (orientation: landscape) {
+  #game, #scanlines, #ui {
+    width: min(100vw, 62.5vh);
+    height: 100vh;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+  }
+  #game { position: fixed; top: 0; }
+  #ui { top: 0; bottom: 0; }
+  #scanlines { position: fixed; }
+  .meter-wrap { transform: translateX(-50%); }
+  body { background: radial-gradient(circle at center, #1a0a35, #05010d 70%); }
+}

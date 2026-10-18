@@ -1,0 +1,710 @@
+{
+  "lineageOrder": ["guardian", "avian", "serpent", "trickster"],
+  "adjacency": {
+    "guardian": ["avian"],
+    "avian": ["guardian", "serpent"],
+    "serpent": ["avian", "trickster"],
+    "trickster": ["serpent"]
+  },
+  "spiritFox": {
+    "hitMs": 600,
+    "idle": "assets/art/fox-spirit-idle.png",
+    "walk": "assets/art/fox-spirit-walk-01.png",
+    "walkFrames": [
+      "assets/art/fox-spirit-walk-01.png",
+      "assets/art/fox-spirit-walk-02.png",
+      "assets/art/fox-spirit-walk-03.png",
+      "assets/art/fox-spirit-walk-04.png"
+    ],
+    "attack": "assets/art/fox-spirit-attack.png",
+    "specialWindup": "assets/art/fox-spirit-special-windup.png",
+    "eat": "assets/art/fox-spirit-eat.png",
+    "idleHappy": "assets/art/fox-spirit-idle-happy.png",
+    "idleSad": "assets/art/fox-spirit-idle-sad.png",
+    "idleAngry": "assets/art/fox-spirit-idle-angry.png",
+    "battleIdle": "assets/art/fox-spirit-idle-battle.png",
+    "defeat": "assets/art/fox-spirit-idle-defeat.png",
+    "hit": "assets/art/fox-spirit-hit.png",
+    "sleep": "assets/art/fox-spirit-sleep.png"
+  },
+  "celestialKitsune": {
+    "idle": "assets/art/celestial-kitsune-idle-v2.png",
+    "walk": "assets/art/celestial-kitsune-walk-01-v2.png",
+    "walkFrames": [
+      "assets/art/celestial-kitsune-walk-01-v2.png",
+      "assets/art/celestial-kitsune-walk-02-v2.png",
+      "assets/art/celestial-kitsune-walk-03-v2.png",
+      "assets/art/celestial-kitsune-walk-04-v2.png"
+    ],
+    "attack": "assets/art/celestial-kitsune-attack-v2.png",
+    "specialWindup": "assets/art/celestial-kitsune-special-windup-v2.png",
+    "eat": "assets/art/celestial-kitsune-eat-v2.png",
+    "battleIdle": "assets/art/celestial-kitsune-idle-battle-v2.png",
+    "idleHappy": "assets/art/celestial-kitsune-idle-happy-v2.png",
+    "idleAngry": "assets/art/celestial-kitsune-idle-angry-v2.png",
+    "idleSad": "assets/art/celestial-kitsune-idle-sad-v2.png",
+    "defeat": "assets/art/celestial-kitsune-defeat-v2.png",
+    "hit": "assets/art/celestial-kitsune-hit-v2.png",
+    "sleep": "assets/art/celestial-kitsune-sleep-v2.png"
+  },
+  "spiritHound": {
+    "hitMs": 600,
+    "idle": "assets/art/spirit-hound-idle.png",
+    "walk": "assets/art/spirit-hound-walk-01.png",
+    "walkFrames": [
+      "assets/art/spirit-hound-walk-01.png",
+      "assets/art/spirit-hound-walk-02.png",
+      "assets/art/spirit-hound-walk-03.png",
+      "assets/art/spirit-hound-walk-04.png"
+    ],
+    "attack": "assets/art/spirit-hound-attack.png",
+    "specialWindup": "assets/art/spirit-hound-charge.png",
+    "eat": "assets/art/spirit-hound-eat.png",
+    "idleHappy": "assets/art/spirit-hound-idle-happy.png",
+    "idleSad": "assets/art/spirit-hound-idle-sad.png",
+    "idleAngry": "assets/art/spirit-hound-idle-angry.png",
+    "battleIdle": "assets/art/spirit-hound-idle-battle.png",
+    "defeat": "assets/art/spirit-hound-idle-defeat.png",
+    "hit": "assets/art/spirit-hound-hit.png",
+    "sleep": "assets/art/spirit-hound-sleep.png"
+  },
+  "petKey": {
+    "avian": { "base": "griffin_hatch", "u": "hippogriff", "r": "divine_grif", "epic_sea": "garuda", "leg_sea": "garuda_gold", "epic_ge": "phoenix", "leg_ge": "phoenix_gold" },
+    "serpent": {
+      "base": "naga_hatch",
+      "u": "naga_grow",
+      "r": "mystic_serp",
+      "epic_gr": "hydra",
+      "leg_gr": "hydra_gold",
+      "epic_jp": "orochi",
+      "leg_jp": "orochi_gold",
+      "epic_eg": "chaos_serp",
+      "leg_eg": "apophis_gold",
+      "epic_sea": "royal_naga",
+      "leg_sea": "naga_king"
+    },
+    "trickster": { "base": "fox_spirit", "u": "kitsune3", "r": "kitsune5", "epic_jp": "kitsune9", "leg_jp": "kitsune_cos", "epic_sea": "polong", "leg_sea": "shadow_god" },
+    "guardian": {
+      "base": "hound",
+      "u": "guard_beast",
+      "r": "warden",
+      "epic_gr": "cerberus",
+      "leg_gr": "cerb_gold",
+      "epic_sea": "barong",
+      "leg_sea": "barong_gold",
+      "epic_eg": "anubis",
+      "leg_eg": "anubis_gold"
+    }
+  },
+  "lineHero": {
+    "avian": "griffin_hatch",
+    "serpent": "naga_hatch",
+    "trickster": "fox_spirit",
+    "guardian": "hound"
+  },
+  "specialMoveInfo": {
+    "attack": {
+      "id": "attack",
+      "name": "Surge Strike",
+      "desc": "After 3 successful hits: 200% damage burst.",
+      "shoutWindup": ["HERE IT COMES!", "FULL POWER!", "WITNESS THIS!", "MYTHIC SURGE!"],
+      "shoutLaunch": ["HYAAH!", "TAKE THIS!", "NOW!", "EAT THIS!"],
+      "impactWord": "KRAK!"
+    },
+    "defend": {
+      "id": "defend",
+      "name": "Aegis Ward",
+      "desc": "After 3 hits: blocks the next incoming strike, then fades.",
+      "shoutWindup": ["STEADY…", "WALL RISING!", "NOT TODAY!", "GUARD UP!"],
+      "shoutLaunch": ["AEGIS!", "SHIELD!", "HOLD THE LINE!", "WARD!"],
+      "impactWord": "CLANG!"
+    },
+    "heal": {
+      "id": "heal",
+      "name": "Sacred Mend",
+      "desc": "After 3 hits: restore 25% max HP.",
+      "shoutWindup": ["BREATHE…", "LIGHT, COME…", "MEND…", "WARMTH…"],
+      "shoutLaunch": ["RESTORE!", "MEND!", "LIVE!", "RISE!"],
+      "impactWord": "SOFT!"
+    },
+    "stun": {
+      "id": "stun",
+      "name": "Binding Hex",
+      "desc": "After 3 hits: stun foe for 2 seconds and remove 1 of their SP pips (if any).",
+      "shoutWindup": ["SEAL THEM!", "RUNES ALIGHT!", "BIND!", "LOCK!"],
+      "shoutLaunch": ["HEX!", "FREEZE!", "STAY!", "SNARE!"],
+      "impactWord": "SNAP!"
+    }
+  },
+  "lines": {
+    "avian": {
+      "id": "avian",
+      "title": "Avian Myth Line",
+      "theme": "Sky, divinity, rebirth",
+      "summary": "Griffin → Hippogriff → Divine Griffon → Garuda or Phoenix → divine forms.",
+      "nodes": [
+        {
+          "stage": 0,
+          "key": "base",
+          "name": "Griffin Hatchling",
+          "rarity": "common",
+          "emoji": "🐣",
+          "specialMove": "attack",
+          "lore": [
+            "A downy cross of eagle and lion, hatched where storm winds meet mountain stone.",
+            "Temple stories say the first griffins guarded gold and thunder before they ever served mortals.",
+            "Your myth begins small, but its wings already cast the shadow of a sky-bound throne."
+          ]
+        },
+        {
+          "stage": 1,
+          "key": "u",
+          "name": "Hippogriff",
+          "rarity": "uncommon",
+          "emoji": "🦅",
+          "specialMove": "attack",
+          "evolveInfluence": [{ "region": "greek", "min": 8 }],
+          "lore": [
+            "Where Greek legend blended horse and raptor, the hippogriff became a mount of impossible speed.",
+            "It favors open air and honest wind—half pasture grace, half talon certainty.",
+            "In this line it marks the moment your beast leaves the nest for the long patrol of the clouds."
+          ]
+        },
+        {
+          "stage": 2,
+          "key": "r",
+          "name": "Divine Griffon",
+          "rarity": "rare",
+          "emoji": "✦",
+          "specialMove": "defend",
+          "evolveInfluence": [{ "region": "greek", "min": 12 }, { "region": "sea", "min": 10 }],
+          "lore": [
+            "The griffon here is no mere monster but a symbol of sacred vigil—beak, claws, and halo of rumor.",
+            "Chroniclers painted it on shields where gods watched borders men could not hold alone.",
+            "At this stage your myth carries weight: protector, omen, and claim upon the high places."
+          ]
+        },
+        {
+          "stage": 3,
+          "key": "epic_sea",
+          "name": "Garuda",
+          "rarity": "epic",
+          "emoji": "🦚",
+          "branch": "sea",
+          "specialMove": "heal",
+          "minDiscipline": 16,
+          "evolveInfluence": [{ "region": "sea", "min": 20 }],
+          "lore": [
+            "Garuda is the sun-bright foe of serpents, vehicle of Vishnu, wings wide as scripture.",
+            "Across Southeast Asian tale he tears through storm and scales to restore cosmic order.",
+            "Your Garuda answers the sea-roads: healing fury, sky-lit verdict on what coils below."
+          ]
+        },
+        {
+          "stage": 4,
+          "key": "leg_sea",
+          "name": "Divine Garuda",
+          "rarity": "legendary",
+          "emoji": "✨",
+          "specialMove": "attack",
+          "minDiscipline": 28,
+          "evolveInfluence": [{ "region": "sea", "min": 85 }, { "region": "japan", "min": 85 }],
+          "lore": [
+            "Legends crown the king of birds in gold feathers and titles older than any single temple.",
+            "His cry is said to scatter eclipse and poison alike from the lands beneath his shadow.",
+            "As Divine Garuda, your myth finishes the ascent: not a pet but a living psalm above the waves."
+          ]
+        },
+        {
+          "stage": 3,
+          "key": "epic_ge",
+          "name": "Phoenix",
+          "rarity": "epic",
+          "emoji": "🔥",
+          "branch": "greek_egypt",
+          "specialMove": "heal",
+          "minDiscipline": 15,
+          "evolveInfluence": [{ "region": "greek", "min": 18 }, { "region": "egypt", "min": 18 }],
+          "lore": [
+            "The phoenix gathers Greek fire-bird lore and Egypt’s solar bird of return into one burning arc.",
+            "It dies in ash only to rise, a metaphor every empire has tried to steal for itself.",
+            "Your Phoenix turns defeat into renewal—flame that mends as much as it consumes."
+          ]
+        },
+        {
+          "stage": 4,
+          "key": "leg_ge",
+          "name": "Eternal Phoenix",
+          "rarity": "legendary",
+          "emoji": "🌟",
+          "specialMove": "heal",
+          "minDiscipline": 32,
+          "evolveInfluence": [{ "region": "greek", "min": 85 }, { "region": "egypt", "min": 85 }],
+          "lore": [
+            "Eternity here is not endless youth but endless cycle—each dusk a vow, each dawn a verdict.",
+            "Priests of sun and philosophers of becoming both wrote hymns to this singular ember.",
+            "Your Eternal Phoenix closes the Mediterranean branch: myth that outlives the map that named it."
+          ]
+        }
+      ],
+      "branchAtStage3Config": {
+        "strategy": "avian_south_vs_mediterranean",
+        "left": "sea",
+        "sumOf": ["greek", "egypt"],
+        "epicIfLeftGteSum": "epic_sea",
+        "elseKey": "epic_ge"
+      }
+    },
+    "serpent": {
+      "id": "serpent",
+      "title": "Serpent / Dragon Line",
+      "theme": "Power, chaos, immortality",
+      "summary": "Naga line → Hydra, Orochi, Apophis, or Royal Nāga — legendaries per path.",
+      "nodes": [
+        {
+          "stage": 0,
+          "key": "base",
+          "name": "Naga Hatchling",
+          "rarity": "common",
+          "emoji": "🐍",
+          "specialMove": "stun",
+          "lore": [
+            "Nāga hatchlings coil in monsoon lore—half spirit, half river, all appetite for growth.",
+            "Offerings at serpent shrines begin with scales no wider than a child’s hand.",
+            "Your myth’s first loop is already a promise of crowns, floods, and forbidden depths."
+          ]
+        },
+        {
+          "stage": 1,
+          "key": "u",
+          "name": "Greater Naga",
+          "rarity": "uncommon",
+          "emoji": "🐉",
+          "specialMove": "attack",
+          "evolveInfluence": [{ "region": "sea", "min": 8 }],
+          "lore": [
+            "A Greater Naga commands eddies and respect from fishers who whisper rather than shout.",
+            "Temple murals stretch its body through whole jungles, each scale a boundary stone.",
+            "Sea influence swells its claim: guardian of straits, debtor to no single shore."
+          ]
+        },
+        {
+          "stage": 2,
+          "key": "r",
+          "name": "Mystic Serpent",
+          "rarity": "rare",
+          "emoji": "🌊",
+          "specialMove": "stun",
+          "evolveInfluence": [{ "region": "greek", "min": 10 }, { "region": "japan", "min": 10 }],
+          "lore": [
+            "Neither dragon nor eel alone, the mystic serpent is omen inked on two oceans of story.",
+            "Greek and Japanese whispers braid here—Python’s smoke and river kami’s ripple.",
+            "At this fork your beast learns to stun fate itself, a heartbeat ahead of prophecy."
+          ]
+        },
+        {
+          "stage": 3,
+          "key": "epic_gr",
+          "name": "Hydra",
+          "rarity": "epic",
+          "emoji": "🐲",
+          "branch": "greek",
+          "specialMove": "attack",
+          "minDiscipline": 17,
+          "evolveInfluence": [{ "region": "greek", "min": 22 }],
+          "lore": [
+            "The Lernaean terror regrows heads when struck—Hera’s pet, heroes’ nightmare, math made flesh.",
+            "Its breath poisons the marsh; its defeat still costs a immortal hand in the tale.",
+            "Your Hydra embodies Greek chaos: every wound answered by more mouths to scream."
+          ]
+        },
+        {
+          "stage": 4,
+          "key": "leg_gr",
+          "name": "Lernaean Hydra",
+          "rarity": "legendary",
+          "emoji": "💀",
+          "specialMove": "attack",
+          "minDiscipline": 28,
+          "evolveInfluence": [{ "region": "greek", "min": 85 }, { "region": "sea", "min": 85 }],
+          "lore": [
+            "Named for its fen, the Lernaean Hydra is the hydra perfected—regicide of hope itself.",
+            "Only fire and wit together tame it in myth; anything less feeds the neck-stump choir.",
+            "As legendary apex, your beast is the argument that some evils simply refuse to stay dead."
+          ]
+        },
+        {
+          "stage": 3,
+          "key": "epic_jp",
+          "name": "Orochi Fragment",
+          "rarity": "epic",
+          "emoji": "🌀",
+          "branch": "japan",
+          "specialMove": "stun",
+          "minDiscipline": 18,
+          "evolveInfluence": [{ "region": "japan", "min": 22 }],
+          "lore": [
+            "A shard of Yamata no Orochi recalls eight heads, eight hungers, and one doomed banquet.",
+            "Storm clouds and sakura both bend around the fragment’s wake.",
+            "Your Orochi Fragment binds foes in stun—the calm before Susanoo’s blade returns in story."
+          ]
+        },
+        {
+          "stage": 4,
+          "key": "leg_jp",
+          "name": "Yamata no Orochi",
+          "rarity": "legendary",
+          "emoji": "🌑",
+          "specialMove": "stun",
+          "minDiscipline": 30,
+          "evolveInfluence": [{ "region": "japan", "min": 85 }],
+          "lore": [
+            "The eight-headed dragon of Japanese myth drank rivers dry and demanded maidens yearly.",
+            "Its defeat birthed Kusanagi—proof that tyranny, however many mouths, can fall to one strike.",
+            "Your Yamata no Orochi is the full eclipse: stun made myth, storm given a spine."
+          ]
+        },
+        {
+          "stage": 3,
+          "key": "epic_eg",
+          "name": "Chaos Serpent",
+          "rarity": "epic",
+          "emoji": "⚡",
+          "branch": "egypt",
+          "specialMove": "attack",
+          "minDiscipline": 20,
+          "evolveInfluence": [{ "region": "egypt", "min": 22 }],
+          "lore": [
+            "Before Apophis earned a name, priests spoke of a chaos serpent gnawing at the sun-barge’s keel.",
+            "Lightning over the Nile was sometimes read as Ra’s spear repelling that coil.",
+            "Your Chaos Serpent attacks order itself—each strike a crack in the world’s noon."
+          ]
+        },
+        {
+          "stage": 4,
+          "key": "leg_eg",
+          "name": "Apophis",
+          "rarity": "legendary",
+          "emoji": "☀️",
+          "specialMove": "stun",
+          "minDiscipline": 34,
+          "evolveInfluence": [{ "region": "egypt", "min": 85 }],
+          "lore": [
+            "Apophis is the undying foe of Ma’at—serpent of eclipse, entropy with fangs.",
+            "Every dawn in myth is a battle won against his squeeze on the solar barque.",
+            "Your Apophis ends the Egyptian branch in stun: the moment the sun hesitates and worlds hold their breath."
+          ]
+        },
+        {
+          "stage": 3,
+          "key": "epic_sea",
+          "name": "Royal Nāga",
+          "rarity": "epic",
+          "emoji": "👑",
+          "branch": "sea",
+          "specialMove": "heal",
+          "minDiscipline": 14,
+          "evolveInfluence": [{ "region": "sea", "min": 20 }],
+          "lore": [
+            "Royal Nāgas wear crowns in mural and mantra, lords of monsoon treasury and monastic vow.",
+            "They bless rain and curse the proud who dredge rivers without leave.",
+            "Your Royal Nāga heals what the sea claims—salve written in scales and sutra."
+          ]
+        },
+        {
+          "stage": 4,
+          "key": "leg_sea",
+          "name": "Nāga King",
+          "rarity": "legendary",
+          "emoji": "🏔️",
+          "specialMove": "defend",
+          "minDiscipline": 26,
+          "evolveInfluence": [{ "region": "sea", "min": 85 }],
+          "lore": [
+            "The Nāga King sits where mountain spring and ocean trench confess the same mother.",
+            "Legends seat him under Meru’s roots, defending dharma with fang and jewel.",
+            "Your Nāga King defends the line’s sea soul—threshold keeper between flood and throne."
+          ]
+        }
+      ],
+      "branchAtStage3Config": {
+        "strategy": "max_influence_epic",
+        "candidates": [
+          { "key": "epic_gr", "regions": ["greek"] },
+          { "key": "epic_jp", "regions": ["japan"] },
+          { "key": "epic_sea", "regions": ["sea"] },
+          { "key": "epic_eg", "regions": ["egypt"] }
+        ]
+      }
+    },
+    "trickster": {
+      "id": "trickster",
+      "title": "Spirit Trickster Line",
+      "theme": "Illusion, transformation",
+      "summary": "Fox spirit → Kitsune → Elder Kitsune → nine-tails or Polong path.",
+      "nodes": [
+        {
+          "stage": 0,
+          "key": "base",
+          "name": "Fox Spirit",
+          "rarity": "common",
+          "emoji": "🦊",
+          "specialMove": "stun",
+          "lore": [
+            "Fox spirits slip between farmstead and folktale, borrowing faces and returning favors in riddles.",
+            "A single tail still learns illusion—enough to stun a heart or a hunter’s aim.",
+            "Your Fox Spirit is the trickster’s first footprint: small, bright, and never quite where you looked."
+          ]
+        },
+        {
+          "stage": 1,
+          "key": "u",
+          "name": "Kitsune (3 tails)",
+          "rarity": "uncommon",
+          "emoji": "🦊",
+          "specialMove": "stun",
+          "evolveInfluence": [{ "region": "japan", "min": 8 }],
+          "lore": [
+            "Three tails mark a kitsune stepping from curiosity into craft in Japanese lore.",
+            "Temple bells sometimes ring twice when such a fox passes—once for the world, once for the hidden.",
+            "Your three-tailed form binds foes longer; each tail is a lesson in patience and misdirection."
+          ]
+        },
+        {
+          "stage": 2,
+          "key": "r",
+          "name": "Elder Kitsune (5 tails)",
+          "rarity": "rare",
+          "emoji": "🦊",
+          "specialMove": "defend",
+          "evolveInfluence": [{ "region": "japan", "min": 12 }, { "region": "sea", "min": 10 }],
+          "lore": [
+            "Five tails earn the title elder: old enough to guard shrines and young enough to test them.",
+            "Folklore ties greater tails to storms, weddings, and debts the living forget to pay.",
+            "Your Elder Kitsune raises wards—defense woven from smoke, oath, and borrowed moonlight."
+          ]
+        },
+        {
+          "stage": 3,
+          "key": "epic_jp",
+          "name": "9-Tailed Kitsune",
+          "rarity": "epic",
+          "emoji": "🌸",
+          "branch": "japan",
+          "specialMove": "attack",
+          "minDiscipline": 20,
+          "evolveInfluence": [{ "region": "japan", "min": 22 }],
+          "lore": [
+            "Kyūbi no kitsune is apex fox—nine tails, centuries of hunger for wisdom or empire.",
+            "Some tales crown her ruin, others ascension; all agree she rewrites the board.",
+            "Your nine-tail strikes like rumor made blade: attack that lands before the truth catches up."
+          ]
+        },
+        {
+          "stage": 4,
+          "key": "leg_jp",
+          "name": "Celestial Kitsune",
+          "rarity": "legendary",
+          "emoji": "🌙",
+          "specialMove": "attack",
+          "minDiscipline": 36,
+          "evolveInfluence": [{ "region": "japan", "min": 85 }],
+          "lore": [
+            "Celestial kitsune tread constellations and ink-wash clouds, beyond province and season.",
+            "Monks paint them silver when mercy wins, gold when heaven needs a sharper envoy.",
+            "Your Celestial Kitsune ends the Japan path in starlit attack—trickster become aurora."
+          ]
+        },
+        {
+          "stage": 3,
+          "key": "epic_sea",
+          "name": "Polong Spirit Fox",
+          "rarity": "epic",
+          "emoji": "👻",
+          "branch": "sea",
+          "specialMove": "defend",
+          "minDiscipline": 16,
+          "evolveInfluence": [{ "region": "sea", "min": 20 }],
+          "lore": [
+            "Polong is Malay spirit-lore: a fox-shaped haunt tied to blood, grudge, or broken taboo.",
+            "Shamans negotiate with such beings at thresholds of salt, iron, and whispered names.",
+            "Your Polong Spirit Fox defends through uneasy pact—ward raised where warm breath meets cold warning."
+          ]
+        },
+        {
+          "stage": 4,
+          "key": "leg_sea",
+          "name": "Shadow Trickster Deity",
+          "rarity": "legendary",
+          "emoji": "🎭",
+          "specialMove": "stun",
+          "minDiscipline": 32,
+          "evolveInfluence": [{ "region": "sea", "min": 85 }],
+          "lore": [
+            "At the sea line’s peak, trickster becomes deity—mask without a country, laugh without a throat.",
+            "Shadow pantheons love such gods: they keep courts honest and heroes humble.",
+            "Your Shadow Trickster Deity stuns fate’s chorus, the final line spoken from behind the curtain."
+          ]
+        }
+      ],
+      "branchAtStage3Config": {
+        "strategy": "compare_two",
+        "a": ["japan"],
+        "b": ["sea"],
+        "ifAGteB": "epic_jp",
+        "elseKey": "epic_sea"
+      }
+    },
+    "guardian": {
+      "id": "guardian",
+      "title": "Guardian Beast Line",
+      "theme": "Protection, judgment",
+      "summary": "Spirit hound → warden → Cerberus, Barong, or Anubis — each to a divine legendary.",
+      "nodes": [
+        {
+          "stage": 0,
+          "key": "base",
+          "name": "Spirit Hound",
+          "rarity": "common",
+          "emoji": "🐕",
+          "specialMove": "attack",
+          "lore": [
+            "Spirit hounds haunt crossroads and hearths alike, baying at what flesh cannot see.",
+            "They are the first rank of guardians—loyal, hungry, and quick to drive intruders back.",
+            "Your Spirit Hound opens the line with honest attack: teeth before theology."
+          ]
+        },
+        {
+          "stage": 1,
+          "key": "u",
+          "name": "Guardian Beast",
+          "rarity": "uncommon",
+          "emoji": "🐕‍🦺",
+          "specialMove": "defend",
+          "evolveInfluence": [{ "region": "egypt", "min": 8 }],
+          "lore": [
+            "A guardian beast is carved on tomb lintels and whispered into amulets against the restless dead.",
+            "Egyptian influence steels its purpose: watch the threshold, not the throne.",
+            "Your Guardian Beast raises defend—barrier born of vigil and funerary smoke."
+          ]
+        },
+        {
+          "stage": 2,
+          "key": "r",
+          "name": "Mythic Warden",
+          "rarity": "rare",
+          "emoji": "🛡️",
+          "specialMove": "stun",
+          "evolveInfluence": [{ "region": "greek", "min": 10 }, { "region": "egypt", "min": 12 }],
+          "lore": [
+            "Wardens in myth judge who may pass—river, gate, or underworld ferry alike.",
+            "Greek and Egyptian law both loved a dog that would not flatter a king.",
+            "Your Mythic Warden stuns trespass mid-step, verdict before appeal."
+          ]
+        },
+        {
+          "stage": 3,
+          "key": "epic_gr",
+          "name": "Cerberus",
+          "rarity": "epic",
+          "emoji": "🐺",
+          "branch": "greek",
+          "specialMove": "defend",
+          "minDiscipline": 18,
+          "evolveInfluence": [{ "region": "greek", "min": 22 }],
+          "lore": [
+            "Cerberus keeps Hades’ door with three throats and one merciless welcome.",
+            "Orpheus charmed him; Heracles wrestled him—every myth agrees he cannot be bribed cheaply.",
+            "Your Cerberus defends the Greek branch: the ward no living army simply walks through."
+          ]
+        },
+        {
+          "stage": 4,
+          "key": "leg_gr",
+          "name": "Hades' Cerberus",
+          "rarity": "legendary",
+          "emoji": "🔱",
+          "specialMove": "defend",
+          "minDiscipline": 28,
+          "evolveInfluence": [{ "region": "greek", "min": 85 }, { "region": "egypt", "min": 85 }],
+          "lore": [
+            "Hades’ own hound is titles and terror—pet of the rich man beneath the world.",
+            "His collar is sometimes peace, sometimes chain, depending on which poet survives copying.",
+            "Your Hades’ Cerberus is legendary defend: the last bark before oblivion’s accounting."
+          ]
+        },
+        {
+          "stage": 3,
+          "key": "epic_sea",
+          "name": "Barong",
+          "rarity": "epic",
+          "emoji": "🦁",
+          "branch": "sea",
+          "specialMove": "heal",
+          "minDiscipline": 14,
+          "evolveInfluence": [{ "region": "sea", "min": 20 }],
+          "lore": [
+            "Barong Ket dances Bali’s eternal fight—lion-leopard spirit against creeping destruction.",
+            "Drums and gilt mask turn village fear into communal courage each calendar of moons.",
+            "Your Barong heals through sacred uproar: mend the body while the crowd drives evil out."
+          ]
+        },
+        {
+          "stage": 4,
+          "key": "leg_sea",
+          "name": "Sacred Barong King",
+          "rarity": "legendary",
+          "emoji": "🎪",
+          "specialMove": "heal",
+          "minDiscipline": 24,
+          "evolveInfluence": [{ "region": "sea", "min": 85 }],
+          "lore": [
+            "The Sacred Barong King is procession and pact—when he rises, even kings step aside.",
+            "His crown is parasol, fang, and laughter braided into law older than codex.",
+            "Your Sacred Barong King heals at mythic scale: blessing that stitches village to cosmos."
+          ]
+        },
+        {
+          "stage": 3,
+          "key": "epic_eg",
+          "name": "Anubis Beast",
+          "rarity": "epic",
+          "emoji": "⛏️",
+          "branch": "egypt",
+          "specialMove": "heal",
+          "minDiscipline": 16,
+          "evolveInfluence": [{ "region": "egypt", "min": 20 }],
+          "lore": [
+            "Anubis guides scales and shrouds—the jackal face of embalming and honest weight.",
+            "His beast form prowls necropolis sand where stars copy the geometry of judgment.",
+            "Your Anubis Beast heals what the rites begin: breath returned where the heart is light."
+          ]
+        },
+        {
+          "stage": 4,
+          "key": "leg_eg",
+          "name": "Divine Anubis",
+          "rarity": "legendary",
+          "emoji": "⚖️",
+          "specialMove": "defend",
+          "minDiscipline": 30,
+          "evolveInfluence": [{ "region": "egypt", "min": 85 }],
+          "lore": [
+            "Divine Anubis is no longer merely guide but verdict walking on four silent paws.",
+            "Scales shine; the feather waits; the duat holds its breath for your myth’s name.",
+            "Your Divine Anubis defends the Egyptian apex—law incarnate, mercy armored in obsidian."
+          ]
+        }
+      ],
+      "branchAtStage3Config": {
+        "strategy": "max_influence_epic",
+        "candidates": [
+          { "key": "epic_gr", "regions": ["greek"] },
+          { "key": "epic_jp", "regions": ["japan"] },
+          { "key": "epic_sea", "regions": ["sea"] },
+          { "key": "epic_eg", "regions": ["egypt"] }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "svg": {
+    "garuda": "<ellipse cx=\"60\" cy=\"70\" rx=\"22\" ry=\"30\" fill=\"#5ce0b8\"/><circle cx=\"60\" cy=\"38\" r=\"20\" fill=\"#d4a574\"/><path d=\"M30 44 L10 28 L28 20 L38 40 Z M90 44 L110 28 L92 20 L82 40 Z\" fill=\"#34d399\"/><path d=\"M42 88 Q60 100 78 88\" fill=\"none\" stroke=\"#0d9488\" stroke-width=\"3\"/><circle cx=\"54\" cy=\"36\" r=\"2.5\" fill=\"#111\"/><circle cx=\"66\" cy=\"36\" r=\"2.5\" fill=\"#111\"/>",
+    "garuda_gold": "<circle cx=\"60\" cy=\"60\" r=\"52\" fill=\"none\" stroke=\"#fcd34d\" stroke-width=\"2\" opacity=\"0.5\"/><ellipse cx=\"60\" cy=\"70\" rx=\"24\" ry=\"32\" fill=\"#5ce0b8\"/><circle cx=\"60\" cy=\"36\" r=\"22\" fill=\"#fcd34d\"/><path d=\"M28 42 L6 24 L26 14 L40 38 Z M92 42 L114 24 L94 14 L80 38 Z\" fill=\"#fbbf24\"/><circle cx=\"52\" cy=\"34\" r=\"3\" fill=\"#111\"/><circle cx=\"68\" cy=\"34\" r=\"3\" fill=\"#111\"/>",
+    "naga_king": "<ellipse cx=\"60\" cy=\"60\" rx=\"48\" ry=\"48\" fill=\"none\" stroke=\"#fcd34d\" stroke-width=\"2\" opacity=\"0.5\"/><path d=\"M20 90 Q8 52 36 36 Q68 24 98 44 Q112 70 86 98 Q54 112 20 90 Z\" fill=\"#0f766e\"/><circle cx=\"50\" cy=\"46\" r=\"18\" fill=\"#fcd34d\"/><circle cx=\"46\" cy=\"44\" r=\"3\" fill=\"#1e293b\"/><path d=\"M40 36 L50 28 L60 36\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"3\"/>",
+    "kitsune_cos": "<circle cx=\"60\" cy=\"60\" r=\"50\" fill=\"none\" stroke=\"#fbcfe8\" stroke-width=\"2\" opacity=\"0.6\"/><ellipse cx=\"60\" cy=\"76\" rx=\"36\" ry=\"30\" fill=\"#e879f9\"/><circle cx=\"60\" cy=\"40\" r=\"30\" fill=\"#fae8ff\"/><path d=\"M32 22 L18 2 L48 18 Z M88 22 L102 2 L72 18 Z\" fill=\"#fcd34d\"/><circle cx=\"52\" cy=\"38\" r=\"3\" fill=\"#4c1d95\"/><circle cx=\"70\" cy=\"38\" r=\"3\" fill=\"#4c1d95\"/><path d=\"M26 64 L10 100 M94 64 L110 100\" fill=\"none\" stroke=\"#fef08a\" stroke-width=\"3\"/>",
+    "polong": "<ellipse cx=\"60\" cy=\"70\" rx=\"26\" ry=\"36\" fill=\"#94a3b8\" opacity=\"0.35\"/><ellipse cx=\"60\" cy=\"68\" rx=\"24\" ry=\"30\" fill=\"#cbd5e1\"/><circle cx=\"60\" cy=\"44\" r=\"20\" fill=\"#e2e8f0\"/><circle cx=\"54\" cy=\"42\" r=\"4\" fill=\"#1e293b\"/><circle cx=\"66\" cy=\"42\" r=\"4\" fill=\"#1e293b\"/><path d=\"M52 54 Q60 60 68 54\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"2\"/>",
+    "shadow_god": "<circle cx=\"60\" cy=\"60\" r=\"48\" fill=\"#0f172a\"/><ellipse cx=\"60\" cy=\"72\" rx=\"32\" ry=\"38\" fill=\"#1e293b\"/><circle cx=\"60\" cy=\"40\" r=\"24\" fill=\"#334155\"/><ellipse cx=\"54\" cy=\"38\" rx=\"6\" ry=\"8\" fill=\"#a78bfa\"/><ellipse cx=\"66\" cy=\"38\" rx=\"6\" ry=\"8\" fill=\"#a78bfa\"/><path d=\"M30 88 Q60 108 90 88\" fill=\"none\" stroke=\"#7c3aed\" stroke-width=\"4\"/>",
+    "warden": "<path d=\"M32 88 L48 52 L60 44 L72 52 L88 88 Z\" fill=\"#64748b\"/><circle cx=\"60\" cy=\"40\" r=\"22\" fill=\"#94a3b8\"/><path d=\"M40 28 L34 8 L50 24 Z M80 28 L86 8 L70 24 Z\" fill=\"#475569\"/><rect x=\"48\" y=\"50\" width=\"24\" height=\"8\" fill=\"#cbd5e1\"/><circle cx=\"54\" cy=\"38\" r=\"3\" fill=\"#0f172a\"/><circle cx=\"66\" cy=\"38\" r=\"3\" fill=\"#0f172a\"/>",
+    "cerb_gold": "<circle cx=\"60\" cy=\"60\" r=\"50\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\" opacity=\"0.45\"/><ellipse cx=\"46\" cy=\"50\" rx=\"15\" ry=\"17\" fill=\"#78716c\"/><ellipse cx=\"60\" cy=\"46\" rx=\"15\" ry=\"19\" fill=\"#fcd34d\"/><ellipse cx=\"74\" cy=\"50\" rx=\"15\" ry=\"17\" fill=\"#78716c\"/><ellipse cx=\"60\" cy=\"80\" rx=\"40\" ry=\"24\" fill=\"#292524\"/><circle cx=\"45\" cy=\"48\" r=\"3.5\" fill=\"#fca5a5\"/><circle cx=\"60\" cy=\"42\" r=\"3.5\" fill=\"#fca5a5\"/><circle cx=\"75\" cy=\"48\" r=\"3.5\" fill=\"#fca5a5\"/>",
+    "barong_gold": "<ellipse cx=\"60\" cy=\"84\" rx=\"38\" ry=\"22\" fill=\"#d97706\"/><circle cx=\"60\" cy=\"48\" r=\"32\" fill=\"#fcd34d\"/><path d=\"M32 40 Q26 14 46 10 Q50 28 40 40 Z M88 40 Q94 14 74 10 Q70 28 80 40 Z\" fill=\"#b45309\"/><circle cx=\"50\" cy=\"46\" r=\"5\" fill=\"#111\"/><circle cx=\"70\" cy=\"46\" r=\"5\" fill=\"#111\"/><circle cx=\"60\" cy=\"60\" r=\"48\" fill=\"none\" stroke=\"#fef3c7\" stroke-width=\"2\" opacity=\"0.5\"/>",
+    "anubis": "<ellipse cx=\"60\" cy=\"74\" rx=\"30\" ry=\"24\" fill=\"#57534e\"/><ellipse cx=\"60\" cy=\"44\" rx=\"20\" ry=\"26\" fill=\"#78716c\"/><path d=\"M48 24 L44 6 L56 22 Z M72 24 L76 6 L64 22 Z\" fill=\"#292524\"/><path d=\"M52 36 L60 20 L68 36 Z\" fill=\"#d4a84b\"/><circle cx=\"54\" cy=\"40\" r=\"3\" fill=\"#fef3c7\"/><circle cx=\"66\" cy=\"40\" r=\"3\" fill=\"#fef3c7\"/>",
+    "anubis_gold": "<ellipse cx=\"60\" cy=\"76\" rx=\"34\" ry=\"26\" fill=\"#44403c\"/><ellipse cx=\"60\" cy=\"42\" rx=\"22\" ry=\"28\" fill=\"#fcd34d\"/><path d=\"M46 22 L42 4 L54 20 Z M74 22 L78 4 L66 20 Z\" fill=\"#1c1917\"/><path d=\"M50 34 L60 14 L70 34 Z\" fill=\"#f59e0b\"/><circle cx=\"54\" cy=\"38\" r=\"3.5\" fill=\"#111\"/><circle cx=\"66\" cy=\"38\" r=\"3.5\" fill=\"#111\"/><ellipse cx=\"60\" cy=\"60\" rx=\"50\" ry=\"50\" fill=\"none\" stroke=\"#fcd34d\" stroke-width=\"2\" opacity=\"0.4\"/>",
+    "unknown": "<ellipse cx=\"60\" cy=\"72\" rx=\"28\" ry=\"34\" fill=\"#334155\"/><path d=\"M60 28 Q78 44 72 64 Q60 72 48 64 Q42 44 60 28 Z\" fill=\"#64748b\"/><circle cx=\"60\" cy=\"52\" r=\"8\" fill=\"#94a3b8\"/>"
+  },
+  "raster": {
+    "griffin_hatch": {
+      "alt": "Griffin Hatchling",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/griffin-hatch-idle.png",
+        "walk": "assets/art/griffin-hatch-walk-01.png",
+        "walkFrames": [
+          "assets/art/griffin-hatch-walk-01.png",
+          "assets/art/griffin-hatch-walk-02.png",
+          "assets/art/griffin-hatch-walk-03.png",
+          "assets/art/griffin-hatch-walk-04.png"
+        ],
+        "attack": "assets/art/griffin-hatch-attack.png",
+        "specialWindup": "assets/art/griffin-hatch-special-windup.png",
+        "eat": "assets/art/griffin-hatch-eat.png",
+        "battleIdle": "assets/art/griffin-hatch-idle-battle.png",
+        "idleHappy": "assets/art/griffin-hatch-idle-happy.png",
+        "idleAngry": "assets/art/griffin-hatch-idle-angry.png",
+        "idleSad": "assets/art/griffin-hatch-idle-sad.png",
+        "defeat": "assets/art/griffin-hatch-idle-defeat.png",
+        "hit": "assets/art/griffin-hatch-hit.png",
+        "sleep": "assets/art/griffin-hatch-sleep.png"
+      }
+    },
+    "hippogriff": {
+      "alt": "Hippogriff",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/hippogriff-idle.png",
+        "walk": "assets/art/hippogriff-walk-01.png",
+        "walkFrames": [
+          "assets/art/hippogriff-walk-01.png",
+          "assets/art/hippogriff-walk-02.png",
+          "assets/art/hippogriff-walk-03.png",
+          "assets/art/hippogriff-walk-04.png"
+        ],
+        "attack": "assets/art/hippogriff-attack.png",
+        "specialWindup": "assets/art/hippogriff-special-windup.png",
+        "eat": "assets/art/hippogriff-eat.png",
+        "battleIdle": "assets/art/hippogriff-idle-battle.png",
+        "idleHappy": "assets/art/hippogriff-idle-happy.png",
+        "idleAngry": "assets/art/hippogriff-idle-angry.png",
+        "idleSad": "assets/art/hippogriff-idle-sad.png",
+        "defeat": "assets/art/hippogriff-idle-defeat.png",
+        "hit": "assets/art/hippogriff-hit.png",
+        "sleep": "assets/art/hippogriff-sleep.png"
+      }
+    },
+    "divine_grif": {
+      "alt": "Divine Griffon",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/divine-griffon-idle.png",
+        "walk": "assets/art/divine-griffon-walk-01.png",
+        "walkFrames": ["assets/art/divine-griffon-walk-01.png", "assets/art/divine-griffon-walk-02.png", "assets/art/divine-griffon-walk-03.png", "assets/art/divine-griffon-walk-04.png"],
+        "attack": "assets/art/divine-griffon-attack.png",
+        "specialWindup": "assets/art/divine-griffon-specialwindup.png",
+        "eat": "assets/art/divine-griffon-eat.png",
+        "battleIdle": "assets/art/divine-griffon-idle.png",
+        "idleHappy": "assets/art/divine-griffon-happy.png",
+        "idleAngry": "assets/art/divine-griffon-angry.png",
+        "idleSad": "assets/art/divine-griffon-sad.png",
+        "defeat": "assets/art/divine-griffon-defeat.png",
+        "hit": "assets/art/divine-griffon-hit.png",
+        "sleep": "assets/art/divine-griffon-sleep.png"
+      }
+    },
+    "garuda": {
+      "alt": "Garuda",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/garuda-idle.png",
+        "walk": "assets/art/garuda-walk-01.png",
+        "walkFrames": ["assets/art/garuda-walk-01.png", "assets/art/garuda-walk-02.png", "assets/art/garuda-walk-03.png", "assets/art/garuda-walk-04.png"],
+        "attack": "assets/art/garuda-attack.png",
+        "specialWindup": "assets/art/garuda-special windup.png",
+        "eat": "assets/art/garuda-eat.png",
+        "battleIdle": "assets/art/garuda-idle.png",
+        "idleHappy": "assets/art/garuda-happy.png",
+        "idleAngry": "assets/art/garuda-angry.png",
+        "idleSad": "assets/art/garuda-sad.png",
+        "defeat": "assets/art/garuda-defeat.png",
+        "hit": "assets/art/garuda-hit.png",
+        "sleep": "assets/art/garuda-sleep.png"
+      }
+    },
+    "garuda_gold": {
+      "alt": "Divine Garuda",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/divine-garuda-idle.png",
+        "walk": "assets/art/divine-garuda-walk01.png",
+        "walkFrames": ["assets/art/divine-garuda-walk01.png", "assets/art/divine-garuda-walk02.png", "assets/art/divine-garuda-walk03.png", "assets/art/divine-garuda-walk04.png"],
+        "attack": "assets/art/divine-garuda-attack.png",
+        "specialWindup": "assets/art/divine-garuda-special windup.png",
+        "eat": "assets/art/divine-garuda-eat.png",
+        "battleIdle": "assets/art/divine-garuda-idle.png",
+        "idleHappy": "assets/art/divine-garuda-happy.png",
+        "idleAngry": "assets/art/divine-garuda-angry.png",
+        "idleSad": "assets/art/divine-garuda-sad.png",
+        "defeat": "assets/art/divine-garuda-defeat.png",
+        "hit": "assets/art/divine-garuda-hit.png",
+        "sleep": "assets/art/divine-garuda-sleep.png"
+      }
+    },
+    "phoenix": {
+      "src": "assets/art/phoenix.png",
+      "alt": "Phoenix",
+      "extraClass": "pet-art-raster--black-mat"
+    },
+    "phoenix_gold": {
+      "src": "assets/art/phoenix.png",
+      "alt": "Eternal Phoenix",
+      "extraClass": "pet-art-raster--black-mat"
+    },
+    "naga_hatch": {
+      "alt": "Naga Hatchling",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/naga-hatch-idle.png",
+        "walk": "assets/art/naga-hatch-walk-01.png",
+        "walkFrames": [
+          "assets/art/naga-hatch-walk-01.png",
+          "assets/art/naga-hatch-walk-02.png",
+          "assets/art/naga-hatch-walk-03.png",
+          "assets/art/naga-hatch-walk-04.png"
+        ],
+        "attack": "assets/art/naga-hatch-attack.png",
+        "specialWindup": "assets/art/naga-hatch-special-windup.png",
+        "eat": "assets/art/naga-hatch-eat.png",
+        "battleIdle": "assets/art/naga-hatch-idle-battle.png",
+        "idleHappy": "assets/art/naga-hatch-idle-happy.png",
+        "idleAngry": "assets/art/naga-hatch-idle-angry.png",
+        "idleSad": "assets/art/naga-hatch-idle-sad.png",
+        "defeat": "assets/art/naga-hatch-idle-defeat.png",
+        "hit": "assets/art/naga-hatch-hit.png",
+        "sleep": "assets/art/naga-hatch-sleep.png"
+      }
+    },
+    "naga_grow": {
+      "alt": "Greater Naga",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/greater-naga-idle.png",
+        "walk": "assets/art/greater-naga-walk-01.png",
+        "walkFrames": [
+          "assets/art/greater-naga-walk-01.png",
+          "assets/art/greater-naga-walk-02.png",
+          "assets/art/greater-naga-walk-03.png",
+          "assets/art/greater-naga-walk-04.png"
+        ],
+        "attack": "assets/art/greater-naga-attack.png",
+        "specialWindup": "assets/art/greater-naga-special-windup.png",
+        "eat": "assets/art/greater-naga-eat.png",
+        "battleIdle": "assets/art/greater-naga-idle-battle.png",
+        "idleHappy": "assets/art/greater-naga-happy.png",
+        "idleAngry": "assets/art/greater-naga-angry.png",
+        "idleSad": "assets/art/greater-naga-sad.png",
+        "defeat": "assets/art/greater-naga-defeat.png",
+        "hit": "assets/art/greater-naga-hit.png",
+        "sleep": "assets/art/greater-naga-sleep.png"
+      }
+    },
+    "mystic_serp": {
+      "alt": "Mystic Serpent",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/mystic-serpent-idle-v2.png",
+        "walk": "assets/art/mystic-serpent-walk-01-v2.png",
+        "walkFrames": [
+          "assets/art/mystic-serpent-walk-01-v2.png",
+          "assets/art/mystic-serpent-walk-02-v2.png",
+          "assets/art/mystic-serpent-walk-03-v2.png",
+          "assets/art/mystic-serpent-walk-04-v2.png"
+        ],
+        "attack": "assets/art/mystic-serpent-attack-v2.png",
+        "specialWindup": "assets/art/mystic-serpent-special-windup-v2.png",
+        "eat": "assets/art/mystic-serpent-eat-v2.png",
+        "battleIdle": "assets/art/mystic-serpent-idle-battle-v2.png",
+        "idleHappy": "assets/art/mystic-serpent-idle-happy-v2.png",
+        "idleAngry": "assets/art/mystic-serpent-idle-angry-v2.png",
+        "idleSad": "assets/art/mystic-serpent-idle-sad-v2.png",
+        "defeat": "assets/art/mystic-serpent-defeat-v2.png",
+        "hit": "assets/art/mystic-serpent-hit-v2.png",
+        "sleep": "assets/art/mystic-serpent-sleep-v2.png"
+      }
+    },
+    "orochi": {
+      "alt": "Orochi Fragment",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/orochi-fragment-idle-v2.png", "walk": "assets/art/orochi-fragment-walk-01-v2.png",
+        "walkFrames": ["assets/art/orochi-fragment-walk-01-v2.png", "assets/art/orochi-fragment-walk-02-v2.png", "assets/art/orochi-fragment-walk-03-v2.png", "assets/art/orochi-fragment-walk-04-v2.png"],
+        "attack": "assets/art/orochi-fragment-attack-v2.png", "specialWindup": "assets/art/orochi-fragment-special-windup-v2.png", "eat": "assets/art/orochi-fragment-eat-v2.png", "battleIdle": "assets/art/orochi-fragment-idle-battle-v2.png", "idleHappy": "assets/art/orochi-fragment-idle-happy-v2.png", "idleAngry": "assets/art/orochi-fragment-idle-angry-v2.png", "idleSad": "assets/art/orochi-fragment-idle-sad-v2.png", "defeat": "assets/art/orochi-fragment-defeat-v2.png", "hit": "assets/art/orochi-fragment-hit-v2.png", "sleep": "assets/art/orochi-fragment-sleep-v2.png"
+      }
+    },
+    "orochi_gold": {
+      "src": "assets/art/yamata-no-orochi.png",
+      "alt": "Yamata no Orochi",
+      "extraClass": "pet-art-raster--black-mat"
+    },
+    "hydra": {
+      "alt": "Hydra",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/lernaean-hydra-idle-v2.png",
+        "walk": "assets/art/lernaean-hydra-walk-01-v2.png",
+        "walkFrames": ["assets/art/lernaean-hydra-walk-01-v2.png", "assets/art/lernaean-hydra-walk-02-v2.png", "assets/art/lernaean-hydra-walk-03-v2.png", "assets/art/lernaean-hydra-walk-04-v2.png"],
+        "attack": "assets/art/lernaean-hydra-attack-v2.png", "specialWindup": "assets/art/lernaean-hydra-special-windup-v2.png", "eat": "assets/art/lernaean-hydra-eat-v2.png", "battleIdle": "assets/art/lernaean-hydra-idle-battle-v2.png", "idleHappy": "assets/art/lernaean-hydra-idle-happy-v2.png", "idleAngry": "assets/art/lernaean-hydra-idle-angry-v2.png", "idleSad": "assets/art/lernaean-hydra-idle-sad-v2.png", "defeat": "assets/art/lernaean-hydra-defeat-v2.png", "hit": "assets/art/lernaean-hydra-hit-v2.png", "sleep": "assets/art/lernaean-hydra-sleep-v2.png"
+      }
+    },
+    "hydra_gold": {
+      "alt": "Lernaean Hydra",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/hydra-idle-v2.png",
+        "walk": "assets/art/hydra-walk-01-v2.png",
+        "walkFrames": ["assets/art/hydra-walk-01-v2.png", "assets/art/hydra-walk-02-v2.png", "assets/art/hydra-walk-03-v2.png", "assets/art/hydra-walk-04-v2.png"],
+        "attack": "assets/art/hydra-attack-v2.png",
+        "specialWindup": "assets/art/hydra-special-windup-v2.png",
+        "eat": "assets/art/hydra-eat-v2.png",
+        "battleIdle": "assets/art/hydra-idle-battle-v2.png",
+        "idleHappy": "assets/art/hydra-idle-happy-v2.png",
+        "idleAngry": "assets/art/hydra-idle-angry-v2.png",
+        "idleSad": "assets/art/hydra-idle-sad-v2.png",
+        "defeat": "assets/art/hydra-defeat-v2.png",
+        "hit": "assets/art/hydra-hit-v2.png",
+        "sleep": "assets/art/hydra-sleep-v2.png"
+      }
+    },
+    "chaos_serp": {
+      "alt": "Chaos Serpent",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/chaos-serpent-idle-v2.png", "walk": "assets/art/chaos-serpent-walk-01-v2.png",
+        "walkFrames": ["assets/art/chaos-serpent-walk-01-v2.png", "assets/art/chaos-serpent-walk-02-v2.png", "assets/art/chaos-serpent-walk-03-v2.png", "assets/art/chaos-serpent-walk-04-v2.png"],
+        "attack": "assets/art/chaos-serpent-attack-v2.png", "specialWindup": "assets/art/chaos-serpent-special-windup-v2.png", "eat": "assets/art/chaos-serpent-eat-v2.png", "battleIdle": "assets/art/chaos-serpent-idle-battle-v2.png", "idleHappy": "assets/art/chaos-serpent-idle-happy-v2.png", "idleAngry": "assets/art/chaos-serpent-idle-angry-v2.png", "idleSad": "assets/art/chaos-serpent-idle-sad-v2.png", "defeat": "assets/art/chaos-serpent-defeat-v2.png", "hit": "assets/art/chaos-serpent-hit-v2.png", "sleep": "assets/art/chaos-serpent-sleep-v2.png"
+      }
+    },
+    "apophis_gold": {
+      "src": "assets/art/apophis.png",
+      "alt": "Apophis",
+      "extraClass": "pet-art-raster--black-mat"
+    },
+    "royal_naga": {
+      "src": "assets/art/royal-naga.png",
+      "alt": "Royal Nāga",
+      "extraClass": "pet-art-raster--black-mat"
+    },
+    "kitsune3": {
+      "alt": "Three-tailed Kitsune",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/kitsune-3tails-idle-v3.png",
+        "walk": "assets/art/kitsune-3tails-walk-01-v3.png",
+        "walkFrames": [
+          "assets/art/kitsune-3tails-walk-01-v3.png",
+          "assets/art/kitsune-3tails-walk-02-v3.png",
+          "assets/art/kitsune-3tails-walk-03-v3.png",
+          "assets/art/kitsune-3tails-walk-04-v3.png"
+        ],
+        "attack": "assets/art/kitsune-3tails-attack-v3.png",
+        "specialWindup": "assets/art/kitsune-3tails-special-windup-v3.png",
+        "eat": "assets/art/kitsune-3tails-eat-v3.png",
+        "battleIdle": "assets/art/kitsune-3tails-idle-battle-v3.png",
+        "idleHappy": "assets/art/kitsune-3tails-idle-happy-v3.png",
+        "idleAngry": "assets/art/kitsune-3tails-idle-angry-v3.png",
+        "idleSad": "assets/art/kitsune-3tails-idle-sad-v3.png",
+        "defeat": "assets/art/kitsune-3tails-defeat-v3.png",
+        "hit": "assets/art/kitsune-3tails-hit-v3.png",
+        "sleep": "assets/art/kitsune-3tails-sleep-v3.png"
+      }
+    },
+    "kitsune5": {
+      "alt": "Five-tailed Kitsune",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/kitsune-5tails-idle-v7.png",
+        "walk": "assets/art/kitsune-5tails-walk-01-v7.png",
+        "walkFrames": [
+          "assets/art/kitsune-5tails-walk-01-v7.png",
+          "assets/art/kitsune-5tails-walk-02-v7.png",
+          "assets/art/kitsune-5tails-walk-03-v7.png",
+          "assets/art/kitsune-5tails-walk-04-v7.png"
+        ],
+        "attack": "assets/art/kitsune-5tails-attack-v7.png",
+        "specialWindup": "assets/art/kitsune-5tails-special-windup-v7.png",
+        "eat": "assets/art/kitsune-5tails-eat-v7.png",
+        "battleIdle": "assets/art/kitsune-5tails-idle-battle-v7.png",
+        "idleHappy": "assets/art/kitsune-5tails-idle-happy-v7.png",
+        "idleAngry": "assets/art/kitsune-5tails-idle-angry-v7.png",
+        "idleSad": "assets/art/kitsune-5tails-idle-sad-v7.png",
+        "defeat": "assets/art/kitsune-5tails-defeat-v7.png",
+        "hit": "assets/art/kitsune-5tails-hit-v7.png",
+        "sleep": "assets/art/kitsune-5tails-sleep-v7.png"
+      }
+    },
+    "kitsune9": {
+      "src": "assets/art/kitsune-9tails.png",
+      "alt": "Nine-tailed Kitsune",
+      "extraClass": "pet-art-raster--black-mat"
+    },
+    "guard_beast": {
+      "alt": "Guardian Beast",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/guardian-beast-idle-v2.png",
+        "walk": "assets/art/guardian-beast-walk-v2.png",
+        "attack": "assets/art/guardian-beast-attack-v2.png",
+        "idleHappy": "assets/art/guardian-beast-idle-happy-v2.png",
+        "idleAngry": "assets/art/guardian-beast-idle-angry-v2.png",
+        "idleSad": "assets/art/guardian-beast-idle-sad-v2.png",
+        "hit": "assets/art/guardian-beast-hit-v2.png",
+        "sleep": "assets/art/guardian-beast-sleep-v2.png"
+      }
+    },
+    "warden": {
+      "alt": "Mythic Warden",
+      "extraClass": "pet-art-raster--black-mat",
+      "multiFrame": {
+        "idle": "assets/art/mythic-warden-idle-v2.png",
+        "walk": "assets/art/mythic-warden-walk-v2.png",
+        "walkFrames": [
+          "assets/art/mythic-warden-walk-01-v2.png",
+          "assets/art/mythic-warden-walk-02-v2.png",
+          "assets/art/mythic-warden-walk-03-v2.png",
+          "assets/art/mythic-warden-walk-04-v2.png"
+        ],
+        "attack": "assets/art/mythic-warden-attack-v2.png",
+        "idleHappy": "assets/art/mythic-warden-idle-happy-v2.png",
+        "idleAngry": "assets/art/mythic-warden-idle-angry-v2.png",
+        "idleSad": "assets/art/mythic-warden-idle-sad-v2.png",
+        "hit": "assets/art/mythic-warden-hit-v2.png",
+        "sleep": "assets/art/mythic-warden-sleep-v2.png"
+      }
+    },
+    "cerberus": {
+      "src": "assets/art/cerberus.png",
+      "alt": "Cerberus",
+      "extraClass": "pet-art-raster--black-mat"
+    },
+    "barong": {
+      "src": "assets/art/barong.png",
+      "alt": "Barong",
+      "extraClass": "pet-art-raster--black-mat"
+    }
+  }
+}

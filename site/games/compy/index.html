@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Compy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Start Menu -->
+  <div id="start-menu" style="display:none;">
+    <div id="start-menu-inner">
+      <div id="start-title">🌙 Compy</div>
+      <div id="start-save-summary"></div>
+      <button id="btn-continue" class="start-btn" style="display:none" onclick="window._startContinue()">▶ Continue</button>
+      <button id="btn-reincarnate-start" class="start-btn" style="display:none" onclick="window._startReincarnate()">🌟 Reincarnate</button>
+      <button class="start-btn" onclick="window._startNewGame()">✨ New Game</button>
+      <button class="start-btn start-btn-secondary" onclick="window._startAccounts()">👤 Change Account</button>
+    </div>
+    <div id="profile-panel" style="display:none;">
+      <div id="profile-panel-inner">
+        <div class="profile-panel-title">👤 Select Profile</div>
+        <div id="profile-slots"></div>
+        <button class="start-btn start-btn-secondary" style="margin-top:8px" onclick="window._profileBack()">← Back</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Intro Sequence — campfire greets the player, asks first-time questions,
+       then presents three random T1 Compies to choose from. Driven by JS in
+       main.js (_runIntroSequence). The overlay starts hidden and is shown
+       only when New Game is pressed. -->
+  <div id="intro-overlay" style="display:none;">
+    <div id="intro-fade"></div>
+    <div id="intro-stage">
+      <canvas id="intro-fire" width="220" height="220"></canvas>
+      <div id="intro-fire-glow"></div>
+      <div id="intro-bubble">
+        <div id="intro-bubble-text"></div>
+        <div id="intro-bubble-actions"></div>
+      </div>
+    </div>
+
+    <!-- Profile setup popup — appears above the fire on first run only.
+         Three steps shown sequentially: name → face → trait. The fire asks
+         each question first; tapping past the line reveals that step. -->
+    <div id="intro-profile" style="display:none;">
+      <div class="intro-profile-card">
+        <div class="intro-profile-title" id="intro-profile-title">Tell the fire who you are</div>
+
+        <!-- Step 1: name -->
+        <div class="intro-step" data-step="name">
+          <label class="intro-profile-label">Your name</label>
+          <input id="intro-name" class="intro-profile-input" type="text" maxlength="16"
+                 placeholder="What should I call you?"
+                 autocomplete="off" autocorrect="off" spellcheck="false"
+                 autocapitalize="words" inputmode="text"
+                 enterkeyhint="done" />
+          <button class="intro-confirm-btn" data-step-action="name">Continue</button>
+        </div>
+
+        <!-- Step 2: avatar -->
+        <div class="intro-step" data-step="face" style="display:none;">
+          <label class="intro-profile-label">Choose a face</label>
+          <div id="intro-avatar-grid" class="intro-avatar-grid"></div>
+          <button class="intro-confirm-btn" data-step-action="face">Continue</button>
+        </div>
+
+        <!-- Step 3: trait -->
+        <div class="intro-step" data-step="trait" style="display:none;">
+          <label class="intro-profile-label">How do you carry yourself?</label>
+          <div id="intro-trait-grid" class="intro-trait-grid"></div>
+          <div id="intro-trait-desc" class="intro-trait-desc"></div>
+          <button id="intro-profile-confirm" class="intro-confirm-btn" data-step-action="trait">Confirm</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Compy choice popup — three T1 cards. -->
+    <div id="intro-compies" style="display:none;">
+      <div class="intro-compies-title">Pick your first companion</div>
+      <div id="intro-compy-cards" class="intro-compies-grid"></div>
+    </div>
+  </div>
+
+  <div id="game-container">
+    <canvas id="game-canvas"></canvas>
+    <div id="save-indicator" class="save-indicator">💾 Saved</div>
+    
+    <!-- Top HUD — compact one-row layout. Day/night pill on the left,
+         four stat bars on the right, settings gear top-right. The slim
+         info strip below stays for level / gold / compies / feats. -->
+    <div id="hud-top">
+      <div id="hud-main-row">
+
+        <!-- Day/Night pill — gradient + emoji + day count + cycle progress. -->
+        <div id="hud-day-pill" class="phase-day">
+          <span id="hud-day-icon">☀️</span>
+          <div id="hud-day-text">
+            <div id="hud-day-label">Day 1</div>
+            <div id="hud-day-phase">Morning</div>
+          </div>
+          <div id="hud-day-progress"><div id="hud-day-progress-fill"></div></div>
+        </div>
+
+        <!-- Four stat bars in a 2×2 mini-grid. -->
+        <div class="hud-stats-grid">
+          <div class="stat-row">
+            <span class="stat-icon">❤️</span>
+            <div class="bar-track"><div id="bar-hp" class="bar-fill bg-red" style="width:100%"></div></div>
+            <span class="stat-val" id="val-hp">100</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-icon">🍖</span>
+            <div class="bar-track"><div id="bar-hunger" class="bar-fill bg-amber" style="width:100%"></div></div>
+            <span class="stat-val" id="val-hunger">100</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-icon">💧</span>
+            <div class="bar-track"><div id="bar-thirst" class="bar-fill bg-blue" style="width:100%"></div></div>
+            <span class="stat-val" id="val-thirst">100</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-icon">😊</span>
+            <div class="bar-track"><div id="bar-happy" class="bar-fill bg-pink" style="width:30%"></div></div>
+            <span class="stat-val" id="val-happy">30</span>
+          </div>
+        </div>
+
+        <!-- Settings gear — sits at the end of the row, paired with the
+             day pill so the HUD reads as a balanced [pill | stats | pill]. -->
+        <button id="settings-btn" aria-label="Settings" onclick="openMenu('settings')">⚙️</button>
+      </div>
+
+      <!-- Slim info strip — Lv · Gold · Comps · Feats. -->
+      <div id="hud-info">
+        <span id="info-level" class="accent-teal">Lv.1</span>
+        <span id="info-gold" class="accent-amber">💰 0g</span>
+        <span id="info-comps" class="accent-purple">🐾 1/3</span>
+        <span id="info-ach" class="accent-purple" style="cursor:pointer" onclick="openMenu('ach')">🏆 0/387</span>
+        <span id="info-time" style="display:none">Day 1 · Day</span>
+      </div>
+    </div>
+
+    <!-- Active Perks Panel -->
+    <div id="hud-perks" style="display:none;">
+      <button id="perks-toggle" onclick="window._togglePerksHUD(event)">✨ Perks</button>
+      <div id="perk-chips-wrap">
+        <div id="perk-chips" onclick="openMenu('perks')"></div>
+      </div>
+    </div>
+
+    <!-- Edit-mode placement toolbar — visible only while a structure or
+         cosmetic is being placed. Lets the player Confirm or Cancel
+         without trying to tap the exact tile. -->
+    <div id="edit-place-bar" style="display:none;">
+      <button id="edit-place-cancel" onclick="window._editCancelPlacement()">✕ Cancel</button>
+      <div id="edit-place-hint">Drag to position · lift to place</div>
+      <button id="edit-place-confirm" onclick="window._editConfirmPlacement()">✓ Place</button>
+    </div>
+
+    <!-- Active Tasks Panel — left side, below the top HUD. Shows each present
+         Glimmer's current task with progress + a minimise toggle. -->
+    <div id="hud-tasks">
+      <button id="hud-tasks-toggle" onclick="window._toggleTasksHUD()" aria-label="Toggle tasks">
+        <span id="hud-tasks-toggle-icon">📋</span>
+        <span id="hud-tasks-toggle-label">Tasks</span>
+        <span id="hud-tasks-toggle-count"></span>
+      </button>
+      <div id="hud-tasks-body">
+        <div id="hud-tasks-list"></div>
+      </div>
+    </div>
+
+    <!-- Bottom Quick Bar -->
+    <div id="hud-bottom">
+      <button class="action-btn" id="btn-inv"      onclick="openMenu('inv')">🎒<br><span>Items</span></button>
+      <button class="action-btn" id="btn-craft"    onclick="openMenu('craft')">🔨<br><span>Craft</span></button>
+      <button class="action-btn" id="btn-tiers"    onclick="openMenu('tiers')">🐾<br><span>Compy</span></button>
+      <button class="action-btn" id="btn-ach"      onclick="openMenu('ach')">🏆<br><span>Feats</span></button>
+      <button class="action-btn action-btn-edit" id="btn-edit" onclick="window.toggleEditMode()">✏️<br><span>Edit</span></button>
+      <button class="action-btn" id="btn-passport" onclick="window.openPassport()">🪪<br><span>Passport</span></button>
+    </div>
+
+  </div>
+
+  <!-- MODALS -->
+
+  <!-- Inventory Modal — split panel -->
+  <div class="modal-overlay fs-modal" id="modal-inv" style="display:none;">
+    <div class="modal-content glass split-modal">
+      <div class="modal-header">
+        <h2>🎒 Inventory</h2>
+        <button class="close-btn" onclick="closeMenu('inv')">×</button>
+      </div>
+      <div class="split-panel">
+        <div id="inv-list" class="split-list"></div>
+        <div id="inv-detail" class="split-detail">
+          <div class="split-detail-empty">← Select an item</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Structure Placement Modal (edit mode) -->
+  <div class="modal-overlay" id="modal-struct" style="display:none;" onclick="window._closeStructIfBg(event)">
+    <div class="modal-content glass">
+      <div class="modal-header">
+        <h2>🏗️ Place Structure</h2>
+        <button class="close-btn" onclick="closeMenu('struct')">×</button>
+      </div>
+      <div class="modal-body" id="struct-list">
+        <div class="struct-empty">All structures are placed on the map.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cook Modal (split panel) -->
+  <div class="modal-overlay fs-modal" id="modal-cook" style="display:none;">
+    <div class="modal-content glass split-modal">
+      <div class="modal-header">
+        <h2>🍳 Cooking Station</h2>
+        <button class="close-btn" onclick="closeMenu('cook')">×</button>
+      </div>
+      <div id="cook-panel" class="split-panel">
+        <div id="cook-recipe-list" class="split-list"></div>
+        <div id="cook-detail" class="split-detail"><div class="split-detail-empty">Select a recipe →</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Death / Run Summary Modal -->
+  <div class="modal-overlay" id="modal-death" style="display:none; z-index: 200;">
+    <div class="modal-content glass" style="text-align:center; max-width:460px;">
+      <div class="modal-header" style="justify-content:center; border-bottom:none; padding-bottom:0;">
+        <h2 id="death-title" style="color:var(--c-red);font-size:26px;">✦ You Faded Away ✦</h2>
+      </div>
+      <div id="death-story-prelude" class="death-story-prelude" style="display:none;"></div>
+      <div class="modal-body" style="padding-top:8px;">
+        <div id="run-summary-stats" class="run-summary-stats"></div>
+        <div id="run-legacy-perks" class="run-legacy-perks"></div>
+        <div id="death-accumulation-line" class="death-accumulation-line"></div>
+        <button id="btn-reincarnate" class="action-btn" onclick="reincarnate()" style="width:100%;margin-top:16px;padding:14px;font-size:15px;border-color:rgba(239,68,68,0.4);background:rgba(239,68,68,0.1);">🌟 Reincarnate (60s)</button>
+        <div id="death-countdown" style="margin-top:8px;font-size:12px;color:var(--text-secondary);text-align:center;">Returning to main menu in 60s...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Perks Modal -->
+  <div class="modal-overlay" id="modal-perks" style="display:none;">
+    <div class="modal-content glass">
+      <div class="modal-header">
+        <h2>⭐ Active Perks</h2>
+        <button class="close-btn" onclick="closeMenu('perks')">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="perk-info-box">
+          <p>Perks are granted by your <strong>deployed companions</strong>. Each companion provides a unique passive bonus while they're with you!</p>
+        </div>
+        <div id="active-perks-list" class="active-perks-list">
+          <!-- Active companion perks listed here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Tutorial Modal -->
+  <div class="modal-overlay" id="modal-tutorial" style="display:none; z-index: 150;">
+    <div class="modal-content glass" style="max-width: 420px;">
+      <div class="modal-header" style="justify-content: center; border-bottom: none;">
+        <h2 style="font-size: 24px;">🌙 Welcome to Compy</h2>
+      </div>
+      <div class="modal-body" style="text-align: center;">
+        <p style="color: var(--text-secondary); margin-bottom: 16px; line-height: 1.6;">
+          You've awakened in a small bubble of light surrounded by endless darkness. 
+          Survive by caring for yourself and befriending companions!
+        </p>
+        
+        <div class="tutorial-section">
+          <div class="tutorial-item"><span class="tutorial-icon">👆</span><span><strong>Tap/Click</strong> anywhere to move</span></div>
+          <div class="tutorial-item"><span class="tutorial-icon">🐾</span><span><strong>Compys</strong> drop resources over time</span></div>
+          <div class="tutorial-item"><span class="tutorial-icon">🍳</span><span><strong>Cook</strong> food to restore hunger &amp; happiness</span></div>
+          <div class="tutorial-item"><span class="tutorial-icon">🌙</span><span><strong>Nightmares</strong> attack at night - fight or evade!</span></div>
+          <div class="tutorial-item"><span class="tutorial-icon">⬆️</span><span><strong>Level up</strong> to expand your safe zone</span></div>
+        </div>
+        
+        <div style="margin-top: 8px; padding: 12px; background: rgba(139,92,246,0.1); border-radius: 8px; border: 1px solid rgba(139,92,246,0.2);">
+          <p style="font-size: 12px; color: var(--c-purple); margin: 0;">
+            💾 Your progress is auto-saved every 30 seconds
+          </p>
+        </div>
+        
+        <button class="action-btn" onclick="closeTutorial()" style="width: 100%; margin-top: 20px; padding: 14px; font-size: 16px; background: rgba(139,92,246,0.15); border-color: rgba(139,92,246,0.4);">
+          Begin Your Journey
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Merchant Modal — split panel -->
+  <div class="modal-overlay fs-modal" id="modal-merchant" style="display:none;">
+    <div class="modal-content glass split-modal">
+      <div class="modal-header">
+        <h2>🧙 Wandering Merchant</h2>
+        <span id="merchant-gold" style="margin-left:auto;margin-right:12px;font-weight:700;color:var(--c-amber)">💰 0g</span>
+        <button class="close-btn" onclick="closeMenu('merchant')">×</button>
+      </div>
+      <div id="merchant-tabs" class="merch-tab-bar"></div>
+      <div class="split-panel">
+        <div id="merch-list" class="split-list"></div>
+        <div id="merch-detail" class="split-detail">
+          <div class="split-detail-empty">← Select an item</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Craft Modal -->
+  <div class="modal-overlay fs-modal" id="modal-craft" style="display:none;">
+    <div class="modal-content glass">
+      <div class="modal-header">
+        <h2>🔨 Crafting</h2>
+        <button class="close-btn" onclick="closeMenu('craft')">×</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size:12px;color:var(--text-secondary);margin-bottom:12px">Build props to enhance your safe zone and unlock new mechanics.</p>
+        <div id="craft-grid" class="craft-grid"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Compy Modal (unified tier table + detail) -->
+  <div class="modal-overlay fs-modal" id="modal-tiers" style="display:none;">
+    <div class="modal-content glass tier-modal">
+      <div class="modal-header">
+        <h2>🐾 Compy</h2>
+        <span id="tier-owned-label" style="margin-left:auto;margin-right:12px;font-weight:700;font-size:13px"><span style="color:#34d399;margin-right:10px">● 0/3 active</span><span style="color:var(--c-amber)">0 owned</span></span>
+        <button class="close-btn" onclick="closeMenu('tiers')">×</button>
+      </div>
+      <div class="tier-tabs" id="tier-tabs">
+        <button class="tier-tab active" data-tab="roster" onclick="window.switchTierTab('roster')">📋 Roster</button>
+        <button class="tier-tab" data-tab="compendium" onclick="window.switchTierTab('compendium')">📖 Compendium</button>
+        <button class="tier-tab" data-tab="glimmers" onclick="window.switchTierTab('glimmers')">✨ Glimmers</button>
+      </div>
+      <!-- Tab 1: Roster — owned compys only, inline activate + convert -->
+      <div id="tier-pane-roster" class="tier-pane">
+        <div class="tier-modal-info">
+          <div class="tier-info-pill">🎁 Pack: 1 T1 + 50% bonus</div>
+          <div class="tier-info-pill">🔄 Exchange: 3× same + 10g → 1 random next tier</div>
+          <div class="tier-info-pill">📈 Copies = stronger perk</div>
+        </div>
+        <div id="tier-roster-body" class="tier-roster-body"></div>
+      </div>
+      <!-- Tab 2: Compendium — MTG-style card grid, scrollable -->
+      <div id="tier-pane-compendium" class="tier-pane" style="display:none;">
+        <div id="tier-compendium-grid" class="tier-compendium-grid"></div>
+      </div>
+      <!-- Tab 3: Glimmers — Glimmer NPC bond meters & status -->
+      <div id="tier-pane-glimmers" class="tier-pane" style="display:none;">
+        <div class="tier-modal-info">
+          <div class="tier-info-pill" style="font-style:italic">Found by following the light. Bonded by knowing them again.</div>
+        </div>
+        <div id="tier-glimmers-body" class="tier-glimmers-body"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Achievements Modal — split panel -->
+  <div class="modal-overlay fs-modal" id="modal-ach" style="display:none;">
+    <div class="modal-content glass split-modal ach-modal">
+      <div class="modal-header">
+        <h2>🏆 Feats</h2>
+        <span id="ach-count-label" style="margin-left:auto;margin-right:12px;font-weight:700;color:var(--c-amber)">0/445</span>
+        <button class="close-btn" onclick="closeMenu('ach')">×</button>
+      </div>
+      <div class="ach-search-bar">
+        <input id="ach-search" type="text" placeholder="Search feats…" oninput="updateAchievementUI()" />
+      </div>
+      <div id="ach-tabs" class="ach-tabs"></div>
+      <div class="split-panel" style="flex:1;min-height:0;">
+        <div id="ach-list" class="split-list ach-list"></div>
+        <div id="ach-detail" class="split-detail">
+          <div class="split-detail-empty">← Select a feat</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div class="modal-overlay" id="modal-settings" style="display:none;">
+    <div class="modal-content glass settings-modal">
+      <div class="modal-header">
+        <h2>⚙️ Settings</h2>
+        <button class="close-btn" onclick="closeMenu('settings')">×</button>
+      </div>
+      <div class="settings-body">
+        <label class="settings-row">
+          <div class="settings-row-text">
+            <div class="settings-row-title">🌙 Dark Mode</div>
+            <div class="settings-row-desc">Switch the UI back to the original deep-night palette.</div>
+          </div>
+          <input type="checkbox" id="setting-dark-mode" class="settings-toggle" onchange="window._toggleDarkMode(this.checked)">
+        </label>
+        <label class="settings-row">
+          <div class="settings-row-text">
+            <div class="settings-row-title">🔊 Story Sounds</div>
+            <div class="settings-row-desc">Glimmer voices, dialog pops, campfire chimes.</div>
+          </div>
+          <input type="checkbox" id="setting-sound" class="settings-toggle" onchange="window._toggleStoryAudio(this.checked)" checked>
+        </label>
+        <label class="settings-row">
+          <div class="settings-row-text">
+            <div class="settings-row-title">✨ Reduce Motion</div>
+            <div class="settings-row-desc">Calmer animations — less screen shake and bounce.</div>
+          </div>
+          <input type="checkbox" id="setting-reduce-motion" class="settings-toggle" onchange="window._toggleReduceMotion(this.checked)">
+        </label>
+        <label class="settings-row">
+          <div class="settings-row-text">
+            <div class="settings-row-title">📱 Low Spec Mode</div>
+            <div class="settings-row-desc">Disables clouds / blurs / glows for older phones. Game runs much smoother.</div>
+          </div>
+          <input type="checkbox" id="setting-low-spec" class="settings-toggle" onchange="window._toggleLowSpec(this.checked)">
+        </label>
+        <button class="settings-exit-btn" onclick="closeMenu('settings'); window._passportExitMenu();">← Exit to Menu</button>
+        <div class="settings-footer">
+          <span class="settings-version">She Who Keeps the Light · Companion & Me</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Passport Modal -->
+  <div class="modal-overlay" id="modal-passport" style="display:none;">
+    <div class="modal-content glass passport-modal">
+      <div class="modal-header">
+        <h2>🪪 Passport</h2>
+        <button class="close-btn" onclick="window.closePassport()">×</button>
+      </div>
+
+      <!-- Tab bar: Profile / Memories ✦ -->
+      <div class="passport-tabs" id="passport-tabs">
+        <button class="passport-tab active" data-tab="profile"  onclick="window.switchPassportTab('profile')">👤 Profile</button>
+        <button class="passport-tab"        data-tab="memories" onclick="window.switchPassportTab('memories')">✦ Memories <span id="passport-mem-count" class="passport-tab-count">0/10</span></button>
+      </div>
+
+      <!-- Tab 1: Profile -->
+      <div id="passport-pane-profile" class="passport-pane">
+        <!-- Profile card row -->
+        <div class="passport-profile-row">
+          <div class="passport-preview-wrap">
+            <canvas id="passport-avatar-big" width="120" height="120"></canvas>
+            <div id="passport-avatar-label" class="passport-avatar-label">Sunny</div>
+          </div>
+          <div class="passport-identity">
+            <label class="passport-field-label">Display Name</label>
+            <input id="passport-name" class="passport-name-input" type="text" maxlength="16" placeholder="Your name…" autocomplete="off" />
+            <button id="passport-save-btn" class="passport-save-btn" onclick="window._savePassport()">Save Changes</button>
+          </div>
+        </div>
+
+        <!-- Avatar grid -->
+        <div class="passport-grid-label">Choose Avatar</div>
+        <div id="passport-avatar-grid" class="passport-avatar-grid"></div>
+
+        <!-- Personality trait selector (compact horizontal chips + single description) -->
+        <div class="passport-trait-section">
+          <div class="passport-trait-header">
+            <span class="passport-grid-label" style="margin:0;padding:0;">Choose Personality</span>
+            <span id="passport-trait-current" class="passport-trait-current"></span>
+          </div>
+          <div id="passport-trait-chips" class="passport-trait-chips"></div>
+          <div id="passport-trait-desc" class="passport-trait-desc"></div>
+        </div>
+      </div>
+
+      <!-- Tab 2: Memories — broken-mirror shard grid -->
+      <div id="passport-pane-memories" class="passport-pane" style="display:none;">
+        <div class="memories-header">
+          <div class="memories-title">Fragments of herself, returning.</div>
+          <div class="memories-progress"><span id="memories-progress-num">0</span> / 10 memories</div>
+        </div>
+        <div id="memories-grid" class="memories-grid"></div>
+        <div class="memories-footnote">Tap a glowing fragment to read it again.</div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

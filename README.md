@@ -1,0 +1,31 @@
+# LUBUK Game Archive
+
+`site/` is GitHub Pages content. `pc-releases/` contains local Windows ZIPs for GitHub Releases and is excluded from Git commits.
+
+## Current collection
+
+Browser: ComFront, Compy, MyMyth (`Mymyth_v2`), Plotbound, Sigilbound, Type Zomba, Ketum Farmer. PC: Hyperbloomers v0.2, 333 HD 27, TGC 42.
+
+## Update workflow
+
+1. Add human-written gameplay notes to `reports/notes.json`: objects with `date` (YYYY-MM-DD), `game`, and `text`.
+2. Run `powershell -File scripts/refresh-local.ps1` to sync HTML5 games and update report. Add `-PackagePC` when PC builds changed. Script keeps source projects untouched and excludes source files, dependencies, old ZIPs, and Unity debug folders.
+3. Commit and push site, report, and notes to GitHub. Pages workflow publishes `site/` on push to `main`.
+4. Upload `pc-releases/` ZIPs to GitHub Releases using matching tags:
+
+| Tag | Asset |
+| --- | --- |
+| `hyperbloomers-v0.2` | `Hyperbloomers-v0.2-Windows.zip` |
+| `333-hd27` | `333-HD27-Windows.zip` |
+| `tgc-42` | `TGC-42-Windows.zip` |
+
+Report page's **Update report** button fetches latest published `report.json`. GitHub Pages cannot inspect local files or write commits; run local report script and push before button can show new folder changes. Release links target `nisofeve/LUBUK`.
+
+Create a GitHub repository with `main` branch, push this folder, then set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Run `python -m http.server 8000 --directory site` for local preview, then open `http://localhost:8000/`.
+
+## Notes
+
+- ComFront and Plotbound copied builds originally use root-based paths. `refresh-local.ps1` rewrites them for Pages.
+- Type Zomba loads Babylon.js from CDN; first play needs internet.
+- ComFront multiplayer and cloud features require their original external services. Plotbound and Sigilbound can run local-only according to their source READMEs.
+- Test all game links on a local HTTP server and again on actual GitHub Pages URL.

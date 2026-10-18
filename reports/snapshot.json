@@ -1,0 +1,3666 @@
+{
+  "games/comfront/assets/cardpicker-gtGk2gGV.js": {
+    "bytes": 4080,
+    "sha256": "0373e173b6837a1763eae1425dfdb94d9f8be0baf71290d05db2a0ba1b4fb0d5"
+  },
+  "games/comfront/assets/continueprompt-NUxIOwO_.js": {
+    "bytes": 3468,
+    "sha256": "8a1c96c1ac48903697be8b032776670d615e7820cba04c2959c5b82ce4414daa"
+  },
+  "games/comfront/assets/index-oN1Lk7W6.js": {
+    "bytes": 776851,
+    "sha256": "b8a736a8bfa9691931bd00612b559ee22db9b9416695438c9559919644164958"
+  },
+  "games/comfront/assets/index-vgouXcx2.css": {
+    "bytes": 79843,
+    "sha256": "4037ea42f051bf87fea54da0070f5e8b88c0b8df404d27fb204d0a48461dc66c"
+  },
+  "games/comfront/assets/tutorialskip-CK18w5Ny.js": {
+    "bytes": 1710,
+    "sha256": "2cf57b1a46474a9f3a5339c9829f5dd38ecbe0970f332a51a1919bdea9a2a898"
+  },
+  "games/comfront/index.html": {
+    "bytes": 1326,
+    "sha256": "69645926e250c257e867dc169c617f76be9ccc98058cfcc886119585112268d6"
+  },
+  "games/comfront/sprites/acidlet_frame0.png": {
+    "bytes": 150073,
+    "sha256": "85668f05dc979ad34aae6529d468dd43d8f6683cf0b818a567991eef55cc2a80"
+  },
+  "games/comfront/sprites/acidlet_frame1.png": {
+    "bytes": 149776,
+    "sha256": "fe6863f9d0deed45dee5ed2a7b520d410db6ae30f96846d9e2ffec05bfac30e2"
+  },
+  "games/comfront/sprites/acidlet_frame2.png": {
+    "bytes": 151491,
+    "sha256": "79ac652bd565317ef2e3052899e57d34847ac4f4647f8381383dd4c03d4cc0b8"
+  },
+  "games/comfront/sprites/acidlet_frame3.png": {
+    "bytes": 140427,
+    "sha256": "b9e582f89201ef72067767b89d18f4a5dcc2faea3c56dcd27fcb3c7bf76dbe60"
+  },
+  "games/comfront/sprites/acidlet_sheet.png": {
+    "bytes": 525891,
+    "sha256": "ea23ee43f1dd3713daeee34d40dd02af5ae41dbacb0990eb00026d3ebcb48780"
+  },
+  "games/comfront/sprites/acidlet.png": {
+    "bytes": 742973,
+    "sha256": "2cf5156d5fdb17a49ec35b8ba5890c45de190b46e0f954f7d535ad4fbda1dc95"
+  },
+  "games/comfront/sprites/brak_sheet.png": {
+    "bytes": 5322819,
+    "sha256": "ed89c3d38de55c5b2a86666498fa6ceb1909ed740914197c2caf049aab3c3ebc"
+  },
+  "games/comfront/sprites/brak_walk_1.png": {
+    "bytes": 929947,
+    "sha256": "3a6966ad8f3ff7b1a4e3d073a7ca6053bcc0ec441e34b15e6912e63d0d582fb9"
+  },
+  "games/comfront/sprites/brak_walk_2.png": {
+    "bytes": 831131,
+    "sha256": "06fd16dc7d6d1f01b3a287dd6b53ef2c4e493d47a7c7eeeac3417285495159fc"
+  },
+  "games/comfront/sprites/brak_walk_3.png": {
+    "bytes": 879564,
+    "sha256": "48e824ec879e252fbd8efbde4547a3ec1a9cce97d37a6bcdf71aef5670625a9e"
+  },
+  "games/comfront/sprites/brak.png": {
+    "bytes": 1059934,
+    "sha256": "b51bdf02fb3a01455d7a0f4410226e0a2bb952d8c2bb9c63128fb73eb35c2193"
+  },
+  "games/comfront/sprites/bub_idle.png": {
+    "bytes": 1388632,
+    "sha256": "f05fad1fefe84df00ade20427ca40274238daea136bdf095877fa869ca14d69d"
+  },
+  "games/comfront/sprites/bub_sheet.png": {
+    "bytes": 12278499,
+    "sha256": "c8d2970d3521a7c86c367e80270d58ec3888e7e54e5317e4e5cb12f4f4c59cc6"
+  },
+  "games/comfront/sprites/bub_shoot.png": {
+    "bytes": 1477340,
+    "sha256": "4a333015533fc4a27e63dc41037fb7e93e6674bf8eefaef822943676d9a38c19"
+  },
+  "games/comfront/sprites/bub_walk_2.png": {
+    "bytes": 1103638,
+    "sha256": "bdfa52cd38abe632fbe4d50cefdf855fc89b7e715a30015871081a122de90cb1"
+  },
+  "games/comfront/sprites/bub_walk_3.png": {
+    "bytes": 1290873,
+    "sha256": "20c04e6204ca30b9a44882f76e852cb4ee37ff869476206d38ff52294eebf1b0"
+  },
+  "games/comfront/sprites/bub_walk_shoot_2.png": {
+    "bytes": 1150309,
+    "sha256": "ab1f13c1b3d4846004abda3ced8d4174e11e3697259d5bb57a27f5ea2c76cfdf"
+  },
+  "games/comfront/sprites/bub_walk_shoot_3.png": {
+    "bytes": 1303401,
+    "sha256": "7cb9d254935bc4043fed75ff4f8d94b075c0493bcea8b3a2dd0cf4add416c7ec"
+  },
+  "games/comfront/sprites/bub_walk_shoot.png": {
+    "bytes": 1447753,
+    "sha256": "8661f814939ddbd1a4872bff847e2add76b8cb9786da9b9b4d03dedd0e8ea1db"
+  },
+  "games/comfront/sprites/bub_walk.png": {
+    "bytes": 1557845,
+    "sha256": "f89439adc01517ccda7c1930952849ba837e752daafb07c87aa5c461e7a2d94d"
+  },
+  "games/comfront/sprites/bub.png": {
+    "bytes": 1259321,
+    "sha256": "63fe7c1b0973b8df112d33447309c733a4fc243e9b2aafbffa8689ac52404fcd"
+  },
+  "games/comfront/sprites/burrower_frame0.png": {
+    "bytes": 120604,
+    "sha256": "a155b9c01509eeb3dcfb4810b10be667eea03eb8b3bb587e27520c6b374bef85"
+  },
+  "games/comfront/sprites/burrower_frame1.png": {
+    "bytes": 119729,
+    "sha256": "1604d1dbe99328926caa3481e4d334a45cf94e59f519d8290c428c1bf1360c9a"
+  },
+  "games/comfront/sprites/burrower_frame2.png": {
+    "bytes": 122035,
+    "sha256": "5d1c7a453b10ab2d90514f2c9fb6aad500db4a6d7479d10621f868b80d926595"
+  },
+  "games/comfront/sprites/burrower_frame3.png": {
+    "bytes": 112443,
+    "sha256": "ff20996a883f28a3baac72f9f994d344f42bdcb90c77c1276c62db79b6930dd3"
+  },
+  "games/comfront/sprites/burrower_sheet.png": {
+    "bytes": 426251,
+    "sha256": "217d532180575f54d851f4f4a3791ef1c05abd5e1fc2db07f63282fa0815dfc8"
+  },
+  "games/comfront/sprites/burrower.png": {
+    "bytes": 651942,
+    "sha256": "96be82b8650a0e105000e6f3ab18ae4daf7b4a4119779eb2c5302151a5c045e4"
+  },
+  "games/comfront/sprites/buzzkin_frame0.png": {
+    "bytes": 76763,
+    "sha256": "e45191d2d1b9d3b551e0994c63385abaab862679db11a32a6683619a8c0aa199"
+  },
+  "games/comfront/sprites/buzzkin_frame1.png": {
+    "bytes": 76404,
+    "sha256": "855aa081196bd5de92ed1e82e4ac42f692387a3bde2d3d08a18cb82d3673bfb6"
+  },
+  "games/comfront/sprites/buzzkin_frame2.png": {
+    "bytes": 78303,
+    "sha256": "72ab2b7d6e5317f2ecff45e35d59f6a361e702a6cf80d5f38aab37ac4086ce2b"
+  },
+  "games/comfront/sprites/buzzkin_frame3.png": {
+    "bytes": 70629,
+    "sha256": "9eb635acde4ac3326db00f72da6595d54859a9713e0be5f9c944fcce9a9df83f"
+  },
+  "games/comfront/sprites/buzzkin_sheet.png": {
+    "bytes": 272050,
+    "sha256": "73eeb08f335a78c4427d61bc7f8acf7e1d08fac729aabb67fb86f7d525a89827"
+  },
+  "games/comfront/sprites/buzzkin.png": {
+    "bytes": 405484,
+    "sha256": "d6ba59689913f32e68d6286a3c209382fb6edc7a739f4faa4eceee8ee9e737d8"
+  },
+  "games/comfront/sprites/charger_frame0.png": {
+    "bytes": 93033,
+    "sha256": "6b6bc61d7a56cfcb82205619c3119496bc5e3603c8e6d9df00dfa92f8661290a"
+  },
+  "games/comfront/sprites/charger_frame1.png": {
+    "bytes": 92167,
+    "sha256": "1a948d30f080151c0349e517bfafd1e5f0678da521e50e3eff535bacc4fab2b2"
+  },
+  "games/comfront/sprites/charger_frame2.png": {
+    "bytes": 94247,
+    "sha256": "69f228fdf6f14b7dfbae2c635a07131598ff82afd832fa93c7e7c9ccc4d4ccec"
+  },
+  "games/comfront/sprites/charger_frame3.png": {
+    "bytes": 86242,
+    "sha256": "0d987dc06f9354eff0ebe3349de7e3f2457664dfc287a4c8ade3c0df8d9449e2"
+  },
+  "games/comfront/sprites/charger_sheet.png": {
+    "bytes": 321710,
+    "sha256": "8fbc35b64a7f345c20e1ff5f7751aa27748f4dde2df0c9c1393cb7b9b1843fc3"
+  },
+  "games/comfront/sprites/charger.png": {
+    "bytes": 460703,
+    "sha256": "bfde4afdfc24f4a46e5bc2df73c54d579897cf81710ad2641f36073f84336f01"
+  },
+  "games/comfront/sprites/compliance_carbine.png": {
+    "bytes": 24992,
+    "sha256": "987c54aca42b591b498bc8bf202361051f18cb204d4b0ac7a515a18c707e9266"
+  },
+  "games/comfront/sprites/dive_hawk_frame0.png": {
+    "bytes": 165678,
+    "sha256": "f08668b3745c594ec02ac34941119936535eadf0740a5e361c29be3140b54318"
+  },
+  "games/comfront/sprites/dive_hawk_frame1.png": {
+    "bytes": 164435,
+    "sha256": "75a98aa7370d1f228e8863b3919be1d18665746986b591ad9ed2d3c612f972dd"
+  },
+  "games/comfront/sprites/dive_hawk_frame2.png": {
+    "bytes": 167261,
+    "sha256": "71f5d7de109cb3462bcf7bcf29d6602ae24646fd3bf304e3c7fe9975fe249b05"
+  },
+  "games/comfront/sprites/dive_hawk_frame3.png": {
+    "bytes": 154822,
+    "sha256": "a7bce1d9b9a4f32fd68e0c34769ff24f880a2eddf79fdf2c4f214982736998cd"
+  },
+  "games/comfront/sprites/dive_hawk_sheet.png": {
+    "bytes": 577262,
+    "sha256": "ba837a59ec9d1bd2bce9e8d51c1b52662888086108e7aba8b8137f6c1f1a7ea0"
+  },
+  "games/comfront/sprites/dive_hawk.png": {
+    "bytes": 815200,
+    "sha256": "c9b20ec098553657037f7dbe427997f1459b02d9ff81618ff5bbe6d6178e1f10"
+  },
+  "games/comfront/sprites/dorra_sheet.png": {
+    "bytes": 2052579,
+    "sha256": "c3b7c0f119d20166c8cc2499bd41a2b92d591f325bba001ddffb1602628e22ad"
+  },
+  "games/comfront/sprites/dorra_walk_1.png": {
+    "bytes": 497292,
+    "sha256": "221b6667ca3fea2f2150553328760f88ad327c6bbe47ccd93893bc5ffce3f1e5"
+  },
+  "games/comfront/sprites/dorra_walk_2.png": {
+    "bytes": 436465,
+    "sha256": "242e09b1d70bbb4f9c806d8ae3ccfed1040ec2e0b056e7a7b7f93249c06e3674"
+  },
+  "games/comfront/sprites/dorra_walk_3.png": {
+    "bytes": 468185,
+    "sha256": "e0ec9ddd809d3ce3ad05cc2c7a2d558a26f05f9515670ca5fc30406f4a8fcde8"
+  },
+  "games/comfront/sprites/dorra_walk_strip.png": {
+    "bytes": 1176348,
+    "sha256": "c775e20775803cf79972a29df49c3acd8c141222f9f66e12ae00b5dc91c46754"
+  },
+  "games/comfront/sprites/dorra.png": {
+    "bytes": 1205180,
+    "sha256": "44a000f2853867d5379f5af25b7bf30ef1f6dda3f478567bb005e36b5d3eac61"
+  },
+  "games/comfront/sprites/gnaw_walker_frame0.png": {
+    "bytes": 136830,
+    "sha256": "9b99c6c668425d0641a17df09ad0cf847dd9f8fb04d5738d83a8c11375d6e080"
+  },
+  "games/comfront/sprites/gnaw_walker_frame1.png": {
+    "bytes": 135425,
+    "sha256": "618c76eba0b23bbb2105cd9017e7db1777395e936b3d7d2ab582d4f178802724"
+  },
+  "games/comfront/sprites/gnaw_walker_frame2.png": {
+    "bytes": 138104,
+    "sha256": "a81e6f1a3015c9e64203a24755e47983fb8cebbcf5ee279d5370678692874469"
+  },
+  "games/comfront/sprites/gnaw_walker_frame3.png": {
+    "bytes": 128468,
+    "sha256": "ba1bd4ddf70a1a470e88efb9c003a114e2cba028309430ee3f1a8ddfe28a4564"
+  },
+  "games/comfront/sprites/gnaw_walker_sheet.png": {
+    "bytes": 476142,
+    "sha256": "e23744fdd310aa6ffa467f373bb439f043f8d5e885a894e0d67b7dea310ab370"
+  },
+  "games/comfront/sprites/gnaw_walker.png": {
+    "bytes": 741869,
+    "sha256": "9b6ef2a0b0780efc943da629e212243a00fddd7887f56ec80c4f93920828c19a"
+  },
+  "games/comfront/sprites/heavy_frame0.png": {
+    "bytes": 199898,
+    "sha256": "79def327d9124d0c73d7e32dfcabfc4f0f52124f1473d5c3c207bfcdf8e5f06e"
+  },
+  "games/comfront/sprites/heavy_frame1.png": {
+    "bytes": 197599,
+    "sha256": "fce13eb57ac27412234caf1936765acb6a9d68a2b73829c8c1a38a376b1bd409"
+  },
+  "games/comfront/sprites/heavy_frame2.png": {
+    "bytes": 202224,
+    "sha256": "88c17d26f76568dd823cfeacc4e5f4bed6c458515a91e8aea87b374ab1fe004f"
+  },
+  "games/comfront/sprites/heavy_frame3.png": {
+    "bytes": 188644,
+    "sha256": "210bb50217ccdd3f4f9cc5191becf9b955eb8661664b45fa553ba5c275e81792"
+  },
+  "games/comfront/sprites/heavy_sheet.png": {
+    "bytes": 698803,
+    "sha256": "570259603a02f0f7afdd17985a2824dbe20ab1daa868a83cc7e7a998b12dca0b"
+  },
+  "games/comfront/sprites/heavy.png": {
+    "bytes": 990192,
+    "sha256": "05d3298980ff9197b52e3de8e12676c5d36d63cf2af029af8b51b8293db952de"
+  },
+  "games/comfront/sprites/howler_frame0.png": {
+    "bytes": 112537,
+    "sha256": "8f51858225fa9df4359259b975751af2f85770d249ae457968bc88dc19e56e81"
+  },
+  "games/comfront/sprites/howler_frame1.png": {
+    "bytes": 112550,
+    "sha256": "ee8a45e18d7e001e91c6588c153be0141f8ad0655b0782b05becfeb01bf3823c"
+  },
+  "games/comfront/sprites/howler_frame2.png": {
+    "bytes": 113925,
+    "sha256": "f6ce4ea60ce36e6b9b4d6107f94540f97a2be0f3389f47a6e486410b2bcc90d8"
+  },
+  "games/comfront/sprites/howler_frame3.png": {
+    "bytes": 104660,
+    "sha256": "9d0117ab3e761f1a05d0681fb195a2f3dfe8dbc9c28eb7037b0e80b14aa3ffc4"
+  },
+  "games/comfront/sprites/howler_sheet.png": {
+    "bytes": 393904,
+    "sha256": "682d1d5582d5accb42e97161c4f5f82a3552503c33c31e8989259f59c97eb90e"
+  },
+  "games/comfront/sprites/howler.png": {
+    "bytes": 618783,
+    "sha256": "a41e335a998435058e8785aa4389dece39164fa42cdf70371d69edce079afad2"
+  },
+  "games/comfront/sprites/mira_sheet.png": {
+    "bytes": 3182620,
+    "sha256": "3df1c1abd29ff8dd482ac269e547968a024df11a61bb1fcf064e92ff88ee00c9"
+  },
+  "games/comfront/sprites/mira_walk_1.png": {
+    "bytes": 642375,
+    "sha256": "3262f7b910ba8522c2ac84f3ec4bb47eaeeb27fc5d34f990ffab57525695de9d"
+  },
+  "games/comfront/sprites/mira_walk_2.png": {
+    "bytes": 570152,
+    "sha256": "2a1de77827d6e61dd9b05476d7830dac8fd7985f393f0f97983f28ef51ae009c"
+  },
+  "games/comfront/sprites/mira_walk_3.png": {
+    "bytes": 602727,
+    "sha256": "86b117ba81cc9e9a5ccd073b4bc74b0a9d653c1baa205a63595ae829a4df5100"
+  },
+  "games/comfront/sprites/mira.png": {
+    "bytes": 93758,
+    "sha256": "0f604fdab1e1d349570bf6e222fed76b04c75dd2b4a3367da01165d5f2714606"
+  },
+  "games/comfront/sprites/phantom_crawler_frame0.png": {
+    "bytes": 89345,
+    "sha256": "c0cc9871f2ea2a246cfa6825f3ca9012eda58a1aeee7770e21e16948abec09ef"
+  },
+  "games/comfront/sprites/phantom_crawler_frame1.png": {
+    "bytes": 86764,
+    "sha256": "eecdcc70d9b12fd12d878fdcda506bb74312e42c7e86187645edc8dfeeb345de"
+  },
+  "games/comfront/sprites/phantom_crawler_frame2.png": {
+    "bytes": 90244,
+    "sha256": "6575d19e95bdef2b73d1b6ce6a7bfc87988c2407c248a79e3b9598f2128e1144"
+  },
+  "games/comfront/sprites/phantom_crawler_frame3.png": {
+    "bytes": 84319,
+    "sha256": "c37265fe011bf8cefa8a871752644cb13004a03307c3fe2ebe75f45accfc116e"
+  },
+  "games/comfront/sprites/phantom_crawler_sheet.png": {
+    "bytes": 307885,
+    "sha256": "2ac4909b17482f2608edb79942f588dbe632ceaffa2e60d5e7e724aeedb76234"
+  },
+  "games/comfront/sprites/phantom_crawler.png": {
+    "bytes": 502875,
+    "sha256": "34f1bd41e9d7b1fdded0689d800fd2e34565b2ba6990520d055344b90c893f87"
+  },
+  "games/comfront/sprites/sapper_frame0.png": {
+    "bytes": 102715,
+    "sha256": "9efa921895b401748813aa147e9f2d4646f1f4bac19741052f7c0b5f2fe800e8"
+  },
+  "games/comfront/sprites/sapper_frame1.png": {
+    "bytes": 102849,
+    "sha256": "63296a5194d5a1957b6e22499ca8665cb59a1ac5f60a605880ecb28df8918f9b"
+  },
+  "games/comfront/sprites/sapper_frame2.png": {
+    "bytes": 103864,
+    "sha256": "614c8c4300bc6981ac12ea3ea300c49d8ebe2da06b46bd42500034af8a5f569c"
+  },
+  "games/comfront/sprites/sapper_frame3.png": {
+    "bytes": 95567,
+    "sha256": "6669b46500f0ccffada2086584188dbe335bf6bb30e5250f051fc1b09f522b58"
+  },
+  "games/comfront/sprites/sapper_sheet.png": {
+    "bytes": 356322,
+    "sha256": "cd75d685256c6fc75bc902ea45886bb5a8b5bf6dee93ce7c6b8175a94dc5e5c6"
+  },
+  "games/comfront/sprites/sapper.png": {
+    "bytes": 579369,
+    "sha256": "3b7f8109730ccbe72d7db52b61a4fa66b9c4bfa639cba93564ffaedfdf697760"
+  },
+  "games/comfront/sprites/scrap_drone.png": {
+    "bytes": 66939,
+    "sha256": "7253f98690ad7511cee1121e3e9ccbe2ce919cea53486075a0ed26f0447934e9"
+  },
+  "games/comfront/sprites/shade_stalker_frame0.png": {
+    "bytes": 98507,
+    "sha256": "e5a109c34918bd7f400c34d00fb64342027132da4f96275e47d2a2df21259179"
+  },
+  "games/comfront/sprites/shade_stalker_frame1.png": {
+    "bytes": 95402,
+    "sha256": "6c8a3f64ff73890193293ab67a63e5926b4dac882aeb8be5c50e53e220ccbc16"
+  },
+  "games/comfront/sprites/shade_stalker_frame2.png": {
+    "bytes": 99706,
+    "sha256": "b951a6f40bb52f094be3da90a3dc8c66147bfb4c91061d761bd15892cbe65a32"
+  },
+  "games/comfront/sprites/shade_stalker_frame3.png": {
+    "bytes": 93006,
+    "sha256": "a8ab691f53c5c84707b1fc841a40ba4d243eb446e115118ab70601563a27d153"
+  },
+  "games/comfront/sprites/shade_stalker_sheet.png": {
+    "bytes": 339136,
+    "sha256": "5a6c6ad717f352037be80bdf6fb41fe88e3e188a7b8f4f1f6fe50506db266f87"
+  },
+  "games/comfront/sprites/shade_stalker.png": {
+    "bytes": 523434,
+    "sha256": "a69f3fff102b82ec4555a4b96ecdfe28c0d1fef20184f332e3c74d51924a12c2"
+  },
+  "games/comfront/sprites/sib_sheet.png": {
+    "bytes": 1932636,
+    "sha256": "bc4f006d601c10c491055da1927bfb782ad525d22ac459fb124b6ba068eda9ea"
+  },
+  "games/comfront/sprites/sib_walk_1.png": {
+    "bytes": 454609,
+    "sha256": "818e8aa9ab75b729a81910744f930f4c6dc7eaef645fea272bef3ea48c5df37d"
+  },
+  "games/comfront/sprites/sib_walk_2.png": {
+    "bytes": 382520,
+    "sha256": "fa4315600e7d90e9cd09481cdc8076c0c46db3c8d091583b83e27b2c4cac9d4b"
+  },
+  "games/comfront/sprites/sib_walk_3.png": {
+    "bytes": 451224,
+    "sha256": "3c689b838848dc005a09c476f69b137aae1afa716a2c8a4e07fcc869a4ac26c5"
+  },
+  "games/comfront/sprites/sib_walk_strip.png": {
+    "bytes": 1083530,
+    "sha256": "55ec3f7ce8eb472d2dffe3ae0b83fe833f38fbca21a0ebe77c48288a9dafcb3b"
+  },
+  "games/comfront/sprites/sib.png": {
+    "bytes": 1191776,
+    "sha256": "5883bbf022930f5229196541bcfb8b6b47c4f68d52b1aae0df87ed5abb7e4236"
+  },
+  "games/comfront/sprites/skitterling_frame0.png": {
+    "bytes": 84641,
+    "sha256": "efc34d019a267276599a18671f7f9e4bdc8bf8fcce26ddcbc181ab9871831e0d"
+  },
+  "games/comfront/sprites/skitterling_frame1.png": {
+    "bytes": 83617,
+    "sha256": "51e56cbe539141c12a637be7d40ff2ce6776ae9dcb712f7334c1a9b98c620813"
+  },
+  "games/comfront/sprites/skitterling_frame2.png": {
+    "bytes": 85668,
+    "sha256": "fedffb16e5575ae3687e44e3313d87814c1ecddd0d10c59285a721641c59a86c"
+  },
+  "games/comfront/sprites/skitterling_frame3.png": {
+    "bytes": 78568,
+    "sha256": "89c2b418f25ec5d4903b45028cdb82e6d61cbc75c2b08c1a2ccaf23bfe472b29"
+  },
+  "games/comfront/sprites/skitterling_sheet.png": {
+    "bytes": 292684,
+    "sha256": "1fd3fd8e5f6970a4965ef6d71a03751f189be953db73c6d5786b60bfd36bf829"
+  },
+  "games/comfront/sprites/skitterling.png": {
+    "bytes": 463967,
+    "sha256": "aa37d447e49eac530355023a232bbf6a9b1bd21f24523c8b4e3f0c668a4e8214"
+  },
+  "games/comfront/sprites/spitter_frame0.png": {
+    "bytes": 127475,
+    "sha256": "cd39352562c3f12fab73bfbd4187e7a388d5328c48100bc0f73f12971ee9b098"
+  },
+  "games/comfront/sprites/spitter_frame1.png": {
+    "bytes": 126527,
+    "sha256": "7328823432fc1702b8e02bd1ae7b3662e520eca14d2ea97c3aa3a1c6a192fd2c"
+  },
+  "games/comfront/sprites/spitter_frame2.png": {
+    "bytes": 129016,
+    "sha256": "60301679b6269b74b5cf0875711fb2d1923f19b1efe9c31c45f50f746165a59a"
+  },
+  "games/comfront/sprites/spitter_frame3.png": {
+    "bytes": 119413,
+    "sha256": "e2fe34dc5082a25631b0b35df593b661534fce2ec833864dd50a7a6d137ce97a"
+  },
+  "games/comfront/sprites/spitter_sheet.png": {
+    "bytes": 438003,
+    "sha256": "2f1468ce10873da82eae3b016d8131da73665ccfc2ee525df103eb54657af91c"
+  },
+  "games/comfront/sprites/spitter.png": {
+    "bytes": 640557,
+    "sha256": "c549527e67a19e0f51a1f951e881ccfac3421ed5a263302e69621c9214cc04c0"
+  },
+  "games/comfront/sprites/squelchia_sheet.png": {
+    "bytes": 2893515,
+    "sha256": "6fd356a304b24e5635361f27e754e4526f7e0fa98b13ac5334d1515d54fc9f54"
+  },
+  "games/comfront/sprites/squelchia_walk_1.png": {
+    "bytes": 700527,
+    "sha256": "7c5395979814ac948b62f6872cbbddd6dea7c876531ecadf14e51402d175b604"
+  },
+  "games/comfront/sprites/squelchia_walk_2.png": {
+    "bytes": 600676,
+    "sha256": "6653f0cba40d3e4fa8e92647d632c91cbdfa3e9d11ed1c2826db4226c034b319"
+  },
+  "games/comfront/sprites/squelchia_walk_3.png": {
+    "bytes": 680571,
+    "sha256": "828f1ed2dc5646ab59ef5b3d0940d5bef80a9d0e626593b892405c07ebf958ad"
+  },
+  "games/comfront/sprites/squelchia_walk_strip.png": {
+    "bytes": 1570032,
+    "sha256": "fabb0b622ec5d6a70d8b89b5fae34a9542961ac715cde4222ec5edeed62e3506"
+  },
+  "games/comfront/sprites/squelchia.png": {
+    "bytes": 1908351,
+    "sha256": "1ef0a88d3506815d6e0e672a4b89f89a522a8daecddca1bd5cc5fae72561d6ab"
+  },
+  "games/comfront/sprites/tess_sheet.png": {
+    "bytes": 1923168,
+    "sha256": "f186d8e776256b6973a40b725d478735d02c847d0953f22b256ea5bf2173213a"
+  },
+  "games/comfront/sprites/tess_walk_1.png": {
+    "bytes": 453857,
+    "sha256": "74e3559776c66fdee0b089ecd57e6c7080da2bb81297149846ff516623a13d5b"
+  },
+  "games/comfront/sprites/tess_walk_2.png": {
+    "bytes": 395497,
+    "sha256": "1b2fe9cee76dd7a08ec1685de75b71a1e69812da23de2a8e932942ed2cae0413"
+  },
+  "games/comfront/sprites/tess_walk_3.png": {
+    "bytes": 448290,
+    "sha256": "457f6895cbfb0de7edac9654bbf73b3c1c6c1490e0b0f92fd453e33f094c5a1f"
+  },
+  "games/comfront/sprites/tess_walk_strip.png": {
+    "bytes": 1129497,
+    "sha256": "5e29f1de7b1c3b6e8b3d87b5d7bf349c6acb38425e100bbe7f1177570b1d1454"
+  },
+  "games/comfront/sprites/tess.png": {
+    "bytes": 1127811,
+    "sha256": "d429a8fd2336f8f863aec117810521626edd7c9caa62ef3eb36e246b85f10a7d"
+  },
+  "games/comfront/sprites/vance_sheet.png": {
+    "bytes": 3947073,
+    "sha256": "ee2b7630649497c388d7fcc382580954fb3023fb3a805b64371459fa3bd69b22"
+  },
+  "games/comfront/sprites/vance_walk_1.png": {
+    "bytes": 711146,
+    "sha256": "7e458f1eac8b841cbb837514aaf09b49ace104db4377005837ef3b02aea50639"
+  },
+  "games/comfront/sprites/vance_walk_2.png": {
+    "bytes": 612366,
+    "sha256": "d856bcab24bb1a22b406caa0bb35295af6e7bea43a0c3180a05ca85f44dc9735"
+  },
+  "games/comfront/sprites/vance_walk_3.png": {
+    "bytes": 649487,
+    "sha256": "8606b95892de82b41b5328755fed449632a7b4697ae49850b68528b683dc40f8"
+  },
+  "games/comfront/sprites/vance.png": {
+    "bytes": 146931,
+    "sha256": "d0c9b1a7d0470f6568673b99bd73a257d415bebf7cd7a5b7f2b2843c895eec6e"
+  },
+  "games/comfront/sprites/weaver_frame0.png": {
+    "bytes": 113919,
+    "sha256": "72ac99f7c3902588f6abffba89930ecbd91c71b1ad61cf9d159e6e900a9ec6b7"
+  },
+  "games/comfront/sprites/weaver_frame1.png": {
+    "bytes": 112142,
+    "sha256": "8793a03054e7d295051258dce1573061d9ddd77aebb551bab3cc2b406878c704"
+  },
+  "games/comfront/sprites/weaver_frame2.png": {
+    "bytes": 114893,
+    "sha256": "b9f69e50a91dcc19a70e5498b99745cf4dfa49740862935368a8705de266e6c9"
+  },
+  "games/comfront/sprites/weaver_frame3.png": {
+    "bytes": 106421,
+    "sha256": "cf4349697468edd51198e32078e2a1dd6d8f798147202c320bc8c52ba9a309f6"
+  },
+  "games/comfront/sprites/weaver_sheet.png": {
+    "bytes": 401837,
+    "sha256": "3d3c05a92db741ac614a317f12723039af71c05b0e896e76d35731dc00a470bc"
+  },
+  "games/comfront/sprites/weaver.png": {
+    "bytes": 604459,
+    "sha256": "2a67e5bb857bf2a1fe78333d8d93860c5f48fd247eccdf266ae70b39b38bbb58"
+  },
+  "games/compy/assets/art/character_mockup.png": {
+    "bytes": 639429,
+    "sha256": "eefefd5d625add8d99ea83752653fc6e70e7f75bffb7db7cb7dff793f4ec08fb"
+  },
+  "games/compy/assets/art/Chikoon.png": {
+    "bytes": 162307,
+    "sha256": "97f4a3181b40366d7d101bc15b9a45ef9440851e99a47778bb275a6cf1c1f95e"
+  },
+  "games/compy/assets/art/Clover_Bunny.png": {
+    "bytes": 151699,
+    "sha256": "d9caf93484734fe49447358b8f9ddbf1317690641c494a535dd0554c4675ec0b"
+  },
+  "games/compy/assets/art/Dew_Snail.png": {
+    "bytes": 195191,
+    "sha256": "57bab4d97c4d1ad8f0e98417bebca62141f68c51b29bca7f64ad9ee047fb6f8e"
+  },
+  "games/compy/assets/art/Ember_Beetle.png": {
+    "bytes": 184374,
+    "sha256": "96498a7e1d7b1341a3656c5f599d5ac2036ec64ca042334c25fe1ec756a3c5ea"
+  },
+  "games/compy/assets/art/Mushroom_Hermit_Crab.png": {
+    "bytes": 215418,
+    "sha256": "9ce56a3d5ab4a3d9747b8eabf9872eabec2adeda520ea060918139878d18a359"
+  },
+  "games/compy/assets/art/Noodle_Eel.png": {
+    "bytes": 189594,
+    "sha256": "d0df433f30e2a3c6490430fe7be720ac35c9c1d22b127d1ced3478f0a70ec23e"
+  },
+  "games/compy/assets/art/Petal_Fox.png": {
+    "bytes": 194470,
+    "sha256": "0c4f42d78e559adbaa1a4835cbdb401aac0338a97e3fad3d9a40c030c3692810"
+  },
+  "games/compy/assets/art/Rice_Turtle.png": {
+    "bytes": 196181,
+    "sha256": "296343542512c4a57f22c76b6bfa93a0d50389aff89821c5bd9e7deea14ab527"
+  },
+  "games/compy/data/achievements.js": {
+    "bytes": 37707,
+    "sha256": "ecc762c204603bc34d06f452a9569f48cd4b8e6e8f50fb7b2b2c2aa66e96a47e"
+  },
+  "games/compy/data/campfire_upgrades.js": {
+    "bytes": 6293,
+    "sha256": "d527c6ed1ea18ab2970767eb99aa06a009ca99ff4e8a6ed89d8fb65a0b5eb0fc"
+  },
+  "games/compy/data/children_data.js": {
+    "bytes": 30095,
+    "sha256": "aa5a23c7a0e9f9e5da7436ad40dbb5a246b416ce8412bb5e3c2bf25dfda7c4a7"
+  },
+  "games/compy/data/data.js": {
+    "bytes": 39986,
+    "sha256": "78de0d33b3c451f697aa761b5f967b80a0ff029ad3810e4805f51bb7aeb31bad"
+  },
+  "games/compy/data/quotes.js": {
+    "bytes": 17130,
+    "sha256": "286d860b4e49d8beac512b2095715887da1ff23420f52e1e4a3cf82c920f716c"
+  },
+  "games/compy/data/shards.js": {
+    "bytes": 6829,
+    "sha256": "8dbe91d59414614135920710ba1de73837b81f7efe60586fe90021f846bb5485"
+  },
+  "games/compy/index.html": {
+    "bytes": 25074,
+    "sha256": "b5b9fa599ccec23e831901dfc42d2ba7af3a07d431ca14422d20a5bfff162fe9"
+  },
+  "games/compy/js/audio.js": {
+    "bytes": 19240,
+    "sha256": "d150a191505c5356932f364558456a87e7e78f9f7897ec35f56a9acf3a14c418"
+  },
+  "games/compy/js/campfire.js": {
+    "bytes": 33263,
+    "sha256": "7f822ea9e0d616a83870cdddb1980afa9a8bc5b44d523a96679e9713604fb2b1"
+  },
+  "games/compy/js/child_camps.js": {
+    "bytes": 13339,
+    "sha256": "46d68b5bd17b35577705d00ef4ca1a665c774f51dcfa37ad60783352041883ee"
+  },
+  "games/compy/js/children.js": {
+    "bytes": 60636,
+    "sha256": "22ba862c4f3f20a39faa38c0faedd9212150b8567d5db4f6f97dc628c1abb9f9"
+  },
+  "games/compy/js/editmode.js": {
+    "bytes": 36907,
+    "sha256": "0438fa9a88557220529b814caa51d275f0213366c0f5c6bf8f9c3abdc434eff6"
+  },
+  "games/compy/js/engine.js": {
+    "bytes": 2526,
+    "sha256": "51bf94a915dcd8426d2d8408c303d4085578e413f918b4b652b06501933c6f15"
+  },
+  "games/compy/js/entities.js": {
+    "bytes": 128879,
+    "sha256": "0872027e3b679080bf8eeb3b9c45581d455a3234668925a427e6b4292a3c4a30"
+  },
+  "games/compy/js/finale.js": {
+    "bytes": 12784,
+    "sha256": "d6fa0ae17670ad737c82626baf6dae465209c2256d846ca2677654eb6df66e58"
+  },
+  "games/compy/js/main.js": {
+    "bytes": 483281,
+    "sha256": "884b8d95b0d35045ab05c4758d1d8ce7b7941027ebf1cc2504d187bd094de5f2"
+  },
+  "games/compy/js/passport.js": {
+    "bytes": 27124,
+    "sha256": "fa116ef2dfe56194c8da7f42c21ca59a156a3b9615b5c2853fd25e156a2aff94"
+  },
+  "games/compy/js/shard_system.js": {
+    "bytes": 6547,
+    "sha256": "12b96ba7fee6cea8a42103529a69dc89e5177a53268dbe09737cf4376e585e0b"
+  },
+  "games/compy/js/story_panel.js": {
+    "bytes": 37984,
+    "sha256": "d0197c4488f30d744f159a2c83de77d30b3971111dab8ac5f1312061d2a9d0f1"
+  },
+  "games/compy/js/world.js": {
+    "bytes": 16770,
+    "sha256": "8626542a45f24c532e210d6d29571e39f0a81fcef1614bd37cd02178ac71aeb4"
+  },
+  "games/compy/style.css": {
+    "bytes": 156471,
+    "sha256": "6b59e37943e8fc604f79188fe7529f228c80724d05aaa0ed2948d2094d496289"
+  },
+  "games/mymyth/assets/art/adventure-permit-icon.png": {
+    "bytes": 1050999,
+    "sha256": "6d85618bce5c3b0724306a55885768118796ca271ad5a8a0b6bea42eb49937bf"
+  },
+  "games/mymyth/assets/art/adventure-region-icons.png": {
+    "bytes": 2239925,
+    "sha256": "3a119bff35bbc7f1a5721d1710abf7ca4aea9a6b9de3bfe4239096aef0b9b713"
+  },
+  "games/mymyth/assets/art/adventure-sundang-icon.png": {
+    "bytes": 846608,
+    "sha256": "7f5cb0c24498be6ac82c3629928063a53f551965ce976593af9f168ae72cb51d"
+  },
+  "games/mymyth/assets/art/anggun.png": {
+    "bytes": 1823765,
+    "sha256": "2301d8953b7ec327ef62c405fd941d6275392c38c76a8346293adeb665657aa9"
+  },
+  "games/mymyth/assets/art/apophis.png": {
+    "bytes": 440498,
+    "sha256": "21f610d6a85586c92aa857cde51073c6a228d9b2319bb013962c05918a7f8be9"
+  },
+  "games/mymyth/assets/art/awang.png": {
+    "bytes": 1720462,
+    "sha256": "1c0933842a8799bfd3724c4388e123fcdcb081d67615a516d45bdba0fd58922f"
+  },
+  "games/mymyth/assets/art/barong.png": {
+    "bytes": 406549,
+    "sha256": "ff2d77e2f53525080cefc5e44a4e152ab2a3b452a1f5cea0dac192ec843571db"
+  },
+  "games/mymyth/assets/art/battle-mountain-bg.png": {
+    "bytes": 2147057,
+    "sha256": "4f7d9f96b4ac93f35e80c74d5f7db79a1a9cfd030c66698aa27e545f1a72d63d"
+  },
+  "games/mymyth/assets/art/battle-nusantara-arena-v2.png": {
+    "bytes": 2340702,
+    "sha256": "e358de3e10576efef5fa4307f58990dba0f7875463a23cec776083dfa76c42e4"
+  },
+  "games/mymyth/assets/art/bg_citygate.png": {
+    "bytes": 2430930,
+    "sha256": "c9c4c3d7f4e27b86062940b08e56e586df951905d151a24fd6f15fd34e1ae4fa"
+  },
+  "games/mymyth/assets/art/bg_guildhall.png": {
+    "bytes": 2504782,
+    "sha256": "7704461138ac9f06dc21421fa496f2eb5b9af57cd5ddfab1184a7d41e07d02e7"
+  },
+  "games/mymyth/assets/art/bg_lorekeeper.png": {
+    "bytes": 2551034,
+    "sha256": "b14a84419c6e7624e302bd8371d8b6bc07e375c06dd7e0f512688177dd443c41"
+  },
+  "games/mymyth/assets/art/bg_market.png": {
+    "bytes": 2333227,
+    "sha256": "9f26276c70192efd8dbce417c3b81d889af2898a3c4041533d8822a46007263e"
+  },
+  "games/mymyth/assets/art/bg_stadium.png": {
+    "bytes": 2482981,
+    "sha256": "0a189f477c2927ced137dcb7e856d758b0ef58bef68d92225182e28a5b9cdf31"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-attack-v2.png": {
+    "bytes": 1673930,
+    "sha256": "0e39841a12cfd1360a562ec2cd5e58723f50a2d5bd7e21e2eabbac63be74265d"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-attack.png": {
+    "bytes": 364088,
+    "sha256": "f5b5266c092c3694e63e88179fea13b6cbdfa7d585d3a3a6bd1a7dc4053a650f"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-defeat-v2.png": {
+    "bytes": 1231433,
+    "sha256": "d99c2897435abc1a0d0add717ad4223665c27b3b08bbdea04ddac87fc9f79eb6"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-eat-v2.png": {
+    "bytes": 1612183,
+    "sha256": "7f44ac4aa1003ed7762ce9bfaaa85b9054150f757bf2d6cac249de646c88faba"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-hit-v2.png": {
+    "bytes": 1642824,
+    "sha256": "95a72dcd15abeb17c95709f0380fbddba833651dbed81b36cd62fb6858ae85e7"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-hit.png": {
+    "bytes": 380603,
+    "sha256": "3d9dfad72a395a219200118cac3bc12029340a6a63299c2931927d439bfff8c7"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-idle-angry-v2.png": {
+    "bytes": 1666277,
+    "sha256": "2fe9cc50e9a36a84dc7ec4e33a4fd9caaa193ed511f0b65d053b71b91c9cba41"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-idle-battle-v2.png": {
+    "bytes": 1529453,
+    "sha256": "f04511eae27f7fab50972b462e5c95fd58127034a4515a9e28ffe7915b0bb2e7"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-idle-happy-v2.png": {
+    "bytes": 1615059,
+    "sha256": "72f8b7eb6aa4b6c160607ddb14653c25b70ba6e37ea6196c7bfed93983766e0b"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-idle-sad-v2.png": {
+    "bytes": 1392289,
+    "sha256": "56477a0e7913b5cecafdc5954a5c5d7eef7a64fa41372b4929b76253a010f1cc"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-idle-v2.png": {
+    "bytes": 1529453,
+    "sha256": "f04511eae27f7fab50972b462e5c95fd58127034a4515a9e28ffe7915b0bb2e7"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-idle.png": {
+    "bytes": 306044,
+    "sha256": "b8ea834a3fe78b883b6bba681d225f65d3fe93e490c6750be30334ab081b8bf2"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-sleep-v2.png": {
+    "bytes": 1676520,
+    "sha256": "ddac2bbeb9e4d916c2e43da92ada0b75e349a8cd6b5c994bef4257fc3e4105bc"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-sleep.png": {
+    "bytes": 252225,
+    "sha256": "81baa4348e92c0a0629c581887aa6440db221436aeaf514718ea8352ec2a35ce"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-special-windup-v2.png": {
+    "bytes": 1694145,
+    "sha256": "8beffa94131272bc5aa8206d3d79fd4c5372b94f7942df5a1f3693f31ffa43fb"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-walk-01-v2.png": {
+    "bytes": 1591125,
+    "sha256": "363690d262e1743bd2a7a6527c880c797e1cae1f20fefdbaec053fd32535ae14"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-walk-02-v2.png": {
+    "bytes": 1541977,
+    "sha256": "664ab76ce5b4a3c98305095a36abc06796fe2c9df889c8a8c7fd9934af3a019e"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-walk-03-v2.png": {
+    "bytes": 1613811,
+    "sha256": "a4fc7f26e33a6fbc19cca3b9bde47802230d3313bf23a6bf99fdcf2fce4d8c5e"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-walk-04-v2.png": {
+    "bytes": 1553378,
+    "sha256": "a133043e3453c03e42ba0888d042b351cf8ce867b1867593106a676da4d5d031"
+  },
+  "games/mymyth/assets/art/celestial-kitsune-walk.png": {
+    "bytes": 359572,
+    "sha256": "819c72c1422879c862f1cb70cc4d0b94142faeacc5d642ef2c52da443473e2bc"
+  },
+  "games/mymyth/assets/art/cendana.png": {
+    "bytes": 1865027,
+    "sha256": "f49dc3f92e40d9daf97fffadda001149c497de6d16a2d1c7abfa81ebedfadfc5"
+  },
+  "games/mymyth/assets/art/cerberus.png": {
+    "bytes": 2211902,
+    "sha256": "9b89899420f4ca361ad7f6fc7d722a7ae59788ebe54f905edf0199beb3c6e89f"
+  },
+  "games/mymyth/assets/art/chaos-serpent-attack-v2.png": {
+    "bytes": 1697828,
+    "sha256": "0858989938215716689490892939bff846d8f0d1d702c07a2751796d41067862"
+  },
+  "games/mymyth/assets/art/chaos-serpent-defeat-v2.png": {
+    "bytes": 1518913,
+    "sha256": "0cba6467f03b9ddb0b124a2823e9d27f3c8681c3498792cd562eced4bea1420d"
+  },
+  "games/mymyth/assets/art/chaos-serpent-eat-v2.png": {
+    "bytes": 1566624,
+    "sha256": "ed89b2eab87197873c31a4e7de4b052ee86ec652b7cf3cf656e6edc6dc95ccf1"
+  },
+  "games/mymyth/assets/art/chaos-serpent-hit-v2.png": {
+    "bytes": 1520953,
+    "sha256": "3e014903aa8e20ac8242586bdef9e2d342391a3f8fcba2511476eed99ff33692"
+  },
+  "games/mymyth/assets/art/chaos-serpent-idle-angry-v2.png": {
+    "bytes": 1592501,
+    "sha256": "191d7be45b9b7c9475c97a6ccbdd5f12354f055cb2b6879c9095938820bdae41"
+  },
+  "games/mymyth/assets/art/chaos-serpent-idle-battle-v2.png": {
+    "bytes": 1576733,
+    "sha256": "3d3ccd90c64ca3e090cd3f5d3336ceb739b60a934e87c981d084b9eade9273ab"
+  },
+  "games/mymyth/assets/art/chaos-serpent-idle-happy-v2.png": {
+    "bytes": 1587797,
+    "sha256": "51f35bf3db770d2eb9de04662989f6a174fa30a02893c7981aeceab330bcbd77"
+  },
+  "games/mymyth/assets/art/chaos-serpent-idle-sad-v2.png": {
+    "bytes": 1525716,
+    "sha256": "f5b7f8b10adbd4bb27914d044677b849291e8035e9abf131007f0e4ffbf6c846"
+  },
+  "games/mymyth/assets/art/chaos-serpent-idle-v2.png": {
+    "bytes": 1553719,
+    "sha256": "c89e07c8d2b96835a7b4a6fb9e5100f0ff3026d843965b4b7198357d47384d9d"
+  },
+  "games/mymyth/assets/art/chaos-serpent-sleep-v2.png": {
+    "bytes": 1560792,
+    "sha256": "cd58463ea01a341d8cfa9d72218092f3ddd53496dc7dfa237d8ac13aab866f28"
+  },
+  "games/mymyth/assets/art/chaos-serpent-special-windup-v2.png": {
+    "bytes": 2004374,
+    "sha256": "4df5e0e92f73564d9c923a91b29fbbd27db397b1b2b1b5e82a93129a7c0b7a6a"
+  },
+  "games/mymyth/assets/art/chaos-serpent-walk-01-v2.png": {
+    "bytes": 1539884,
+    "sha256": "c8eedda61784e207a5eb68b42c743ec10cdeede2d3c60d39377d06d9a466dabb"
+  },
+  "games/mymyth/assets/art/chaos-serpent-walk-02-v2.png": {
+    "bytes": 1616472,
+    "sha256": "dd65bb3cdfd81d9a176094886bd224c0dc2622935c3a25784e4a4c8e9f5bcc63"
+  },
+  "games/mymyth/assets/art/chaos-serpent-walk-03-v2.png": {
+    "bytes": 1565030,
+    "sha256": "ec730f6f9878000d73c15847288ccc0876152ecfbd6fa9ba6113a76277d42a13"
+  },
+  "games/mymyth/assets/art/chaos-serpent-walk-04-v2.png": {
+    "bytes": 1589805,
+    "sha256": "add2357910e61b25c602047a97a6679f02bb4dccb322a76f23afae9e970d59b0"
+  },
+  "games/mymyth/assets/art/chaos-serpent.png": {
+    "bytes": 411112,
+    "sha256": "4ef40d9441b791a774f20f6b1a089e703dd076c1b19e5fe8fe06a5172c50173e"
+  },
+  "games/mymyth/assets/art/divine-garuda-angry.png": {
+    "bytes": 337891,
+    "sha256": "f3d2bfbbb2092c1138c39a7df9b28bcf4cc56882e66dfa0cd5cd8d88f9701c2a"
+  },
+  "games/mymyth/assets/art/divine-garuda-attack.png": {
+    "bytes": 379933,
+    "sha256": "f943db790b71517f3d3532e45e6ae5e31cdb0129080dec64e3ae116ff8618d4f"
+  },
+  "games/mymyth/assets/art/divine-garuda-defeat.png": {
+    "bytes": 376815,
+    "sha256": "325581f65fe3f9b783e0227e0d261939278e8e0b143a69362069fd798c8ae13a"
+  },
+  "games/mymyth/assets/art/divine-garuda-eat.png": {
+    "bytes": 335957,
+    "sha256": "7d64521698b36fb165a5216682094bfe5ff3e3482e616855cfff2fc5b86fa7cb"
+  },
+  "games/mymyth/assets/art/divine-garuda-happy.png": {
+    "bytes": 346363,
+    "sha256": "f1fea134d685194a6d03d6e0cb7fdc44acc5c8385f01db24855584faf0ea7c6e"
+  },
+  "games/mymyth/assets/art/divine-garuda-hit.png": {
+    "bytes": 421360,
+    "sha256": "cd3dd47c1061c60bed10792778d50fe36c050e8e9380c740e398ea5adcea4e19"
+  },
+  "games/mymyth/assets/art/divine-garuda-idle.png": {
+    "bytes": 340836,
+    "sha256": "d225d5d2e645dff82a4d54afbeebba0f6aebb899abb5231549c9a87967115424"
+  },
+  "games/mymyth/assets/art/divine-garuda-sad.png": {
+    "bytes": 360136,
+    "sha256": "6e64b2880ceda5c9c3a62e91d59cfef673db7fce42d7edbfc1ed9a38fbe397aa"
+  },
+  "games/mymyth/assets/art/divine-garuda-sleep.png": {
+    "bytes": 224429,
+    "sha256": "be4fbf206cfc20dec58d6882408a7793168faf5a31fbc3bc9a19a3b7fa76ed9c"
+  },
+  "games/mymyth/assets/art/divine-garuda-special windup.png": {
+    "bytes": 383367,
+    "sha256": "01dfacf6bc9b42405defc05fc128c4fef214186c03a4ae46126af05d3ab3fd64"
+  },
+  "games/mymyth/assets/art/divine-garuda-walk01.png": {
+    "bytes": 373213,
+    "sha256": "9259919177780dc12df19d09823c4c96af468c37ec361ddd6cdaf9bdd576218f"
+  },
+  "games/mymyth/assets/art/divine-garuda-walk02.png": {
+    "bytes": 338027,
+    "sha256": "e0ffa401fe651c1b7c0e36900fc49ef417872a6d96a94ad0da8fb3136f3d7a24"
+  },
+  "games/mymyth/assets/art/divine-garuda-walk03.png": {
+    "bytes": 326467,
+    "sha256": "93b420d3e47b6c27e435b15c622acb9ef77874940b5468bb50461099580458e6"
+  },
+  "games/mymyth/assets/art/divine-garuda-walk04.png": {
+    "bytes": 337988,
+    "sha256": "92efa4208676bb8b75fd85184abbef12fcab19997b89c38515f399d5e1befa24"
+  },
+  "games/mymyth/assets/art/divine-griffon-angry.png": {
+    "bytes": 304613,
+    "sha256": "4493e6f46563b5946db5d31fba551eace5bdd022a1483574ebc210ea80ec0550"
+  },
+  "games/mymyth/assets/art/divine-griffon-attack.png": {
+    "bytes": 437447,
+    "sha256": "1e5d5e0c928d1a31bdd8e225e4284f1bd9c252af493602b090285725138529b3"
+  },
+  "games/mymyth/assets/art/divine-griffon-defeat.png": {
+    "bytes": 356094,
+    "sha256": "2cb08b8eedfb3574906a895d8a537002bef3faf8228898e029e6b91cdb364a49"
+  },
+  "games/mymyth/assets/art/divine-griffon-eat.png": {
+    "bytes": 312310,
+    "sha256": "f45f1a639c8992f5b0fe65d7a800539e52f4e2b9eb45e5da46399e5b9737b3e4"
+  },
+  "games/mymyth/assets/art/divine-griffon-happy.png": {
+    "bytes": 302160,
+    "sha256": "bf995780810a9d83e69629d0a063b3a5f15dea60f3dac93056ad414128f970b7"
+  },
+  "games/mymyth/assets/art/divine-griffon-hit.png": {
+    "bytes": 343294,
+    "sha256": "f6f440f8fc4ad68a26ea8734e888c49def2c48cf081e5168735397e3b5318962"
+  },
+  "games/mymyth/assets/art/divine-griffon-idle.png": {
+    "bytes": 285717,
+    "sha256": "a5e9cfcd18f0f400335c7bb24c2d142c8e16d92d9cfb4856a31616dfec35de02"
+  },
+  "games/mymyth/assets/art/divine-griffon-sad.png": {
+    "bytes": 303393,
+    "sha256": "29ea79b8f4f7f676360525594932baac4082c446efe5b1c0f84948204bde1a3e"
+  },
+  "games/mymyth/assets/art/divine-griffon-sleep.png": {
+    "bytes": 286313,
+    "sha256": "e7fdfe4acb7a217c3caac1102d72b9ec924156322b7201ae1088f4875759e263"
+  },
+  "games/mymyth/assets/art/divine-griffon-specialwindup.png": {
+    "bytes": 402746,
+    "sha256": "4189bbdeef52a6ba18845077800ad1629a1811286f4751890353c005a3cd05b6"
+  },
+  "games/mymyth/assets/art/divine-griffon-walk-01.png": {
+    "bytes": 355407,
+    "sha256": "c573a46fea94b55b5a1885c7c5d85f9f20e212cc686552e3b4ecb2d5673f7d9a"
+  },
+  "games/mymyth/assets/art/divine-griffon-walk-02.png": {
+    "bytes": 302433,
+    "sha256": "685a4252326553025d60cc3bc59cb757415b9314af19af6707104158c2847cb4"
+  },
+  "games/mymyth/assets/art/divine-griffon-walk-03.png": {
+    "bytes": 373599,
+    "sha256": "91fac9f4553207e1510e3862baa2cdcc11c76516200698418582ec8b46a0c3b6"
+  },
+  "games/mymyth/assets/art/divine-griffon-walk-04.png": {
+    "bytes": 302433,
+    "sha256": "685a4252326553025d60cc3bc59cb757415b9314af19af6707104158c2847cb4"
+  },
+  "games/mymyth/assets/art/divine-griffon.png": {
+    "bytes": 1908967,
+    "sha256": "c6bd851cde1a2e8e2c4b81d031ec6a8cab003016690b55017e9c6ee8a65e7a6c"
+  },
+  "games/mymyth/assets/art/elder_tualang.png": {
+    "bytes": 1838636,
+    "sha256": "6b3a339a9876652393dd6b940f5d19283c169b793a1f5e0d830c9bc00295187c"
+  },
+  "games/mymyth/assets/art/eternal-phoenix-idle.png": {
+    "bytes": 373723,
+    "sha256": "5a91327f15a2c520f140566d47e8cae5472836118208e6391c125dd24a320dd8"
+  },
+  "games/mymyth/assets/art/food-offering-icon.png": {
+    "bytes": 1388145,
+    "sha256": "1f78f128564f6554528f704866e9fa7581127b025d3d264e084dce1af7cbef7b"
+  },
+  "games/mymyth/assets/art/fox-spirit-attack.png": {
+    "bytes": 168894,
+    "sha256": "bd6d4ebbac6fb50d2f3526786091a3df488e24eb5b501a4f7bc992be2c244877"
+  },
+  "games/mymyth/assets/art/fox-spirit-eat.png": {
+    "bytes": 143825,
+    "sha256": "16de6ea0966c5621c2475c703a341192a19e30bf48718736c13cb54d7f01455b"
+  },
+  "games/mymyth/assets/art/fox-spirit-hit.png": {
+    "bytes": 169449,
+    "sha256": "bb85b627e97f21905373d8e65deafb2355047fc691dc1821cf0fc054cfdcd45a"
+  },
+  "games/mymyth/assets/art/fox-spirit-idle-angry.png": {
+    "bytes": 161123,
+    "sha256": "41b43472e5bafb57dea7a0fb653cf59af4e207e4e937d4bcc6c1d39fc673c1f6"
+  },
+  "games/mymyth/assets/art/fox-spirit-idle-battle.png": {
+    "bytes": 161123,
+    "sha256": "41b43472e5bafb57dea7a0fb653cf59af4e207e4e937d4bcc6c1d39fc673c1f6"
+  },
+  "games/mymyth/assets/art/fox-spirit-idle-defeat.png": {
+    "bytes": 154711,
+    "sha256": "b4ec023b628521344aac4f40da4201ff3f727683a15baab9af59641bb634a917"
+  },
+  "games/mymyth/assets/art/fox-spirit-idle-happy.png": {
+    "bytes": 143457,
+    "sha256": "673d7b34257f87c57a886f509ed10f26cd5eb69deb0fdaff9664ad2dc4aa1178"
+  },
+  "games/mymyth/assets/art/fox-spirit-idle-sad.png": {
+    "bytes": 145673,
+    "sha256": "47804cc205a1b3fe3438dc145f72e7cd64d40c751b2b3de8935d9b65727e8999"
+  },
+  "games/mymyth/assets/art/fox-spirit-idle.png": {
+    "bytes": 160941,
+    "sha256": "bfc1dfa167c7bb3c256a7f91ed40e1aee26f2fa4c7a9c028f5a4de757e4598e8"
+  },
+  "games/mymyth/assets/art/fox-spirit-sleep.png": {
+    "bytes": 128900,
+    "sha256": "5361fc8025908427d26d942d6e58d6a71a9181f9991030848fb8a1800a3d6639"
+  },
+  "games/mymyth/assets/art/fox-spirit-special-windup.png": {
+    "bytes": 153885,
+    "sha256": "31860621900576f8253339042508fc18bbb4fa02ca96c5294ef1742e2c8d7704"
+  },
+  "games/mymyth/assets/art/fox-spirit-walk-01.png": {
+    "bytes": 171317,
+    "sha256": "5693e1f0eb791d851cc4b74a2d11ea894b1f6336d57d339a4a3589311e388928"
+  },
+  "games/mymyth/assets/art/fox-spirit-walk-02.png": {
+    "bytes": 160941,
+    "sha256": "3dad03c3e84c8fbc412c97b31cac49c5931338c6b3e3957ee31f2087671d8989"
+  },
+  "games/mymyth/assets/art/fox-spirit-walk-03.png": {
+    "bytes": 167175,
+    "sha256": "a18cae8257a2aaab787a6c4e969ae85da7da3fc431c7acc3a1a496364179eea9"
+  },
+  "games/mymyth/assets/art/fox-spirit-walk-04.png": {
+    "bytes": 160941,
+    "sha256": "81f37fdd74e17ee3ce3e0040239ab1e8c2e7ec38a52258e30bfed7a727193b23"
+  },
+  "games/mymyth/assets/art/garuda-angry.png": {
+    "bytes": 265219,
+    "sha256": "6255ee0bec59a7d905068f94fecb7cf1dfec229951b959f190d33e1e4544a553"
+  },
+  "games/mymyth/assets/art/garuda-attack.png": {
+    "bytes": 326161,
+    "sha256": "4dd32896b8f0f7f14c521fc8156f75504f767e68e99d94cd035ad7517d0a96ef"
+  },
+  "games/mymyth/assets/art/garuda-defeat.png": {
+    "bytes": 294098,
+    "sha256": "c52b9c0cda9424dad236f29cee5365e9c42142b356ea07715fcbf103b2bbf044"
+  },
+  "games/mymyth/assets/art/garuda-eat.png": {
+    "bytes": 260363,
+    "sha256": "4c22434284cee332de9b78de330dd39d250ae0f090a8bf13423810c3e75b0468"
+  },
+  "games/mymyth/assets/art/garuda-happy.png": {
+    "bytes": 261496,
+    "sha256": "78bdd7a399e99de2b4b6e704b523668b7f3c53f60d9d5187840bcc1c5d0af38f"
+  },
+  "games/mymyth/assets/art/garuda-hit.png": {
+    "bytes": 341401,
+    "sha256": "99fafb47986149195bd2c81082ea5a6349d9640b5923b9538326d4970d269ab8"
+  },
+  "games/mymyth/assets/art/garuda-idle.png": {
+    "bytes": 256900,
+    "sha256": "bfd64351124bbf742fd174f72371272f7493c0212e3c09ffabe0a90afcdbcbb8"
+  },
+  "games/mymyth/assets/art/garuda-sad.png": {
+    "bytes": 262380,
+    "sha256": "4a28ba04ec6f9c18ae23dffe8d1c038495a880175360a53140a3711b8f5305f9"
+  },
+  "games/mymyth/assets/art/garuda-sleep.png": {
+    "bytes": 184140,
+    "sha256": "4b234a7a31e1e7e4328adf54baf96282bd13ab59941e287c605caa2a5ac0e11b"
+  },
+  "games/mymyth/assets/art/garuda-special windup.png": {
+    "bytes": 305486,
+    "sha256": "85596999562a61c338d53b9bd46899718442a34208083a7d89062182be2274ff"
+  },
+  "games/mymyth/assets/art/garuda-walk-01.png": {
+    "bytes": 275329,
+    "sha256": "b8d65e1c4dfc6effbf238d922f19afea9022050bb80857bebb8c363d84f49022"
+  },
+  "games/mymyth/assets/art/garuda-walk-02.png": {
+    "bytes": 262207,
+    "sha256": "effa01f37be4121063153c4c03390fa7a78a40ebb45815a41766354cf2a8fef4"
+  },
+  "games/mymyth/assets/art/garuda-walk-03.png": {
+    "bytes": 260591,
+    "sha256": "6d65f4019734026e93686ed47667136c97fdcd77b6d16eb3a1d0b4c67cce3f01"
+  },
+  "games/mymyth/assets/art/garuda-walk-04.png": {
+    "bytes": 262207,
+    "sha256": "effa01f37be4121063153c4c03390fa7a78a40ebb45815a41766354cf2a8fef4"
+  },
+  "games/mymyth/assets/art/greater-naga-angry.png": {
+    "bytes": 191541,
+    "sha256": "f93a815704baed72e302e2d440df2beb96471a7f993d8b7c3a637fb2d30eb148"
+  },
+  "games/mymyth/assets/art/greater-naga-attack.png": {
+    "bytes": 244639,
+    "sha256": "0eb7515529496d18411e14099d4c832f7bfc14fb8b801151b2683922bc0aabf6"
+  },
+  "games/mymyth/assets/art/greater-naga-defeat.png": {
+    "bytes": 222268,
+    "sha256": "3322de5e583a1095104913c6af8742b149b450b395ea8fde48c8377920b578df"
+  },
+  "games/mymyth/assets/art/greater-naga-eat.png": {
+    "bytes": 178826,
+    "sha256": "bb7edd26734def26dc02e56f8bdbc7d2d75b2ecaede0d67cd4d4aead9f157273"
+  },
+  "games/mymyth/assets/art/greater-naga-happy.png": {
+    "bytes": 193928,
+    "sha256": "6562542938e0efe29c3367a85e71b0b950df9390736f031cd07485d5ec07f61b"
+  },
+  "games/mymyth/assets/art/greater-naga-hit.png": {
+    "bytes": 206202,
+    "sha256": "0a686c0c7022c8de3c2ea9d9dd6fe0990dd851f6fe8f62f2f3133ff0be2f4f15"
+  },
+  "games/mymyth/assets/art/greater-naga-idle-battle.png": {
+    "bytes": 191541,
+    "sha256": "f93a815704baed72e302e2d440df2beb96471a7f993d8b7c3a637fb2d30eb148"
+  },
+  "games/mymyth/assets/art/greater-naga-idle.png": {
+    "bytes": 189031,
+    "sha256": "3288a3dffa164c4e803f05017a335531d52eebcd3df45125496b20ab623905c8"
+  },
+  "games/mymyth/assets/art/greater-naga-sad.png": {
+    "bytes": 193843,
+    "sha256": "86c5f49d4259ea65f5881947559ab03f045dd3871996f71d6812c7f083a5b10c"
+  },
+  "games/mymyth/assets/art/greater-naga-sleep.png": {
+    "bytes": 145686,
+    "sha256": "537f9ffe525ef53e3b39addcea5bdac6cbbbe3a5b7d27e4ad9d1ac302386c65d"
+  },
+  "games/mymyth/assets/art/greater-naga-special-windup.png": {
+    "bytes": 228341,
+    "sha256": "e8732a0981d2bb410f948a5e38488825635c69d4598b77c3f3c9aa86ebf1ab5a"
+  },
+  "games/mymyth/assets/art/greater-naga-walk-01.png": {
+    "bytes": 208773,
+    "sha256": "326557b1fb2de2abff9373f909badbe98625c2d366d3d91faf1505c9f820eec4"
+  },
+  "games/mymyth/assets/art/greater-naga-walk-02.png": {
+    "bytes": 197969,
+    "sha256": "81f8539df7fadacff9a2554d13cb24352bdf7a3cf74cfeb92c1860a31f48227a"
+  },
+  "games/mymyth/assets/art/greater-naga-walk-03.png": {
+    "bytes": 216921,
+    "sha256": "103a551bf1c5b3128e16bee61709c061b1e9e2601c7187e53dce4c886ec26038"
+  },
+  "games/mymyth/assets/art/greater-naga-walk-04.png": {
+    "bytes": 193916,
+    "sha256": "1d1e824e9e55927904db8112649472e1c86a9c5553ba1dd0af0e015f94832119"
+  },
+  "games/mymyth/assets/art/greater-naga-walk.png": {
+    "bytes": 233970,
+    "sha256": "24a8d02be38d4743701249615ffd24ea47fd64d6e64035490222206fb06afc55"
+  },
+  "games/mymyth/assets/art/greater-naga.png": {
+    "bytes": 343695,
+    "sha256": "ab1becc54868e8a85c23c76d745dc0f1724cc469d767d8f2cd2612c85df782e8"
+  },
+  "games/mymyth/assets/art/griffin-hatch-attack.png": {
+    "bytes": 212808,
+    "sha256": "2f0cfcd9df5cd851dbbf5ed70a85f1de9c9172b4c4579d48e8bba1f6060d322d"
+  },
+  "games/mymyth/assets/art/griffin-hatch-eat.png": {
+    "bytes": 177922,
+    "sha256": "70a8891b29da611ee359d852edda95a82d8bcec52e859789a26ec1b7d859ef21"
+  },
+  "games/mymyth/assets/art/griffin-hatch-hit.png": {
+    "bytes": 213352,
+    "sha256": "1a8add2487587f1775f6a396989c5943188319202b54098c7e55abe841aa66f9"
+  },
+  "games/mymyth/assets/art/griffin-hatch-idle-angry.png": {
+    "bytes": 195793,
+    "sha256": "396a23cd9d06d970ad21dbd4247fecb94473558a810e8c9cbe9ae637d2c8e3da"
+  },
+  "games/mymyth/assets/art/griffin-hatch-idle-battle.png": {
+    "bytes": 195793,
+    "sha256": "396a23cd9d06d970ad21dbd4247fecb94473558a810e8c9cbe9ae637d2c8e3da"
+  },
+  "games/mymyth/assets/art/griffin-hatch-idle-defeat.png": {
+    "bytes": 164634,
+    "sha256": "e2e4132be62384ddf60a4cc3e93c284eccb4113e02bf6b318475b7e85d7b7463"
+  },
+  "games/mymyth/assets/art/griffin-hatch-idle-happy.png": {
+    "bytes": 186933,
+    "sha256": "8b238ae8211046b10d54221806b2c5f9d361c035cbf6ecb2ccbb193d4da577e3"
+  },
+  "games/mymyth/assets/art/griffin-hatch-idle-sad.png": {
+    "bytes": 168009,
+    "sha256": "e24b80d5b9f77a1ed9b76f4e2255bec00f4010e7e5ebc5e00a323f5d31a1ca37"
+  },
+  "games/mymyth/assets/art/griffin-hatch-idle.png": {
+    "bytes": 168162,
+    "sha256": "a3111637192f9b1e52a843ff6cc77dd4b1233a7281c1475ef5778e92fc90c4ff"
+  },
+  "games/mymyth/assets/art/griffin-hatch-sleep.png": {
+    "bytes": 133762,
+    "sha256": "765fffbce9626277c46e00f5dd9fe36903f8920762f6d77149f04fed4c3b59e3"
+  },
+  "games/mymyth/assets/art/griffin-hatch-special-windup.png": {
+    "bytes": 203131,
+    "sha256": "35fb61c5d2606380acb6e8dd065d8e46e8178b3b78b588b4b167346da3d0ef4f"
+  },
+  "games/mymyth/assets/art/griffin-hatch-walk-01.png": {
+    "bytes": 216488,
+    "sha256": "0adc227c761c8443084af21126b539248c483abcbe98a6cbe8493fcc21194d44"
+  },
+  "games/mymyth/assets/art/griffin-hatch-walk-02.png": {
+    "bytes": 195572,
+    "sha256": "549687480fa1ad0a6ccf232f8fb592f830cabbb8c84944f993719baab402863e"
+  },
+  "games/mymyth/assets/art/griffin-hatch-walk-03.png": {
+    "bytes": 213817,
+    "sha256": "ab04f34972d67c8699e0524a4a1b126221f3d7189a1e4591cdfbc4f0eefd1b9a"
+  },
+  "games/mymyth/assets/art/griffin-hatch-walk-04.png": {
+    "bytes": 195572,
+    "sha256": "d94a7fef45b7a0fc4f6c59609b30f3912c935db62087685d9fe52ffea269c31f"
+  },
+  "games/mymyth/assets/art/griffin-hatch-walk.png": {
+    "bytes": 192451,
+    "sha256": "75f2512ff53c9451fd6297ddbcfa95adeecb971e8a06aa707da9e165d322a20f"
+  },
+  "games/mymyth/assets/art/griffin-hatchling.png": {
+    "bytes": 1646115,
+    "sha256": "ac49f35e1d2dbf2e76c19e254e74eeeccb9f23734d30bad6f5644d9fc9ef4764"
+  },
+  "games/mymyth/assets/art/guardian-beast-attack-v2.png": {
+    "bytes": 851738,
+    "sha256": "a9aa41ebec238dc6ff5bca702df9b5842873c65cf54e2423315f50b992350d24"
+  },
+  "games/mymyth/assets/art/guardian-beast-attack.png": {
+    "bytes": 384052,
+    "sha256": "de26cfa45784524c649b4976803eb7324ccb92f1ea438c5f33d21615c6811984"
+  },
+  "games/mymyth/assets/art/guardian-beast-hit-v2.png": {
+    "bytes": 946612,
+    "sha256": "9294abd82a012610a742b4c227c3456a18ac0da36816233cb0c01591a3da073e"
+  },
+  "games/mymyth/assets/art/guardian-beast-hit.png": {
+    "bytes": 319131,
+    "sha256": "6c8672b1cd93c828d7f369fb2e04ab8f7ec2ada29056e3c16e1254d56f3be920"
+  },
+  "games/mymyth/assets/art/guardian-beast-idle-angry-v2.png": {
+    "bytes": 957084,
+    "sha256": "920b008ddf9d15e2a1e16013cedc2d5925d24025cd4b35eb24babc6afea58610"
+  },
+  "games/mymyth/assets/art/guardian-beast-idle-happy-v2.png": {
+    "bytes": 965136,
+    "sha256": "fa3ac692dd4977da0752c9767583c07504bae1d2b9ba5227edd751b69ee6fc9d"
+  },
+  "games/mymyth/assets/art/guardian-beast-idle-sad-v2.png": {
+    "bytes": 751407,
+    "sha256": "815a1eb87fdb79706365f3bc7ec060d5b106d9c83212dda01a364ef4e5086af2"
+  },
+  "games/mymyth/assets/art/guardian-beast-idle-v2.png": {
+    "bytes": 769085,
+    "sha256": "21fc66828c82305516f5c6f47df8dbb59425e4847d1f58e8057bcbb8ace0d2ce"
+  },
+  "games/mymyth/assets/art/guardian-beast-sleep-v2.png": {
+    "bytes": 717714,
+    "sha256": "176ae5e648210b14c5c2d305bb9f1a7455507e5ec659a07723ce6d85dc9c0d40"
+  },
+  "games/mymyth/assets/art/guardian-beast-sleep.png": {
+    "bytes": 152506,
+    "sha256": "fc6f7bf3a44ea6f48f13ca919dfd267ced5050dfb1a7915b35331510f6bebac7"
+  },
+  "games/mymyth/assets/art/guardian-beast-walk-v2.png": {
+    "bytes": 870687,
+    "sha256": "2ec3903b5100984031823299d7b657d75b57f7974df64a8878f1d265fd7deec6"
+  },
+  "games/mymyth/assets/art/guardian-beast-walk.png": {
+    "bytes": 277941,
+    "sha256": "c5079adf5732a5e6b28e26aea6c284ce058ecfd81c5d0c28fcb45b7bd3792aa5"
+  },
+  "games/mymyth/assets/art/guardian-beast.png": {
+    "bytes": 1618236,
+    "sha256": "1d49568f88fa1b45bd7efbad8dba0184b9179a80b4fa42073af89761c30eb3b7"
+  },
+  "games/mymyth/assets/art/guild-board-icon.png": {
+    "bytes": 1497901,
+    "sha256": "9b3638a583942da44d4f71e7f74e512a29231b81d0c4e4cb36191e6ca992740e"
+  },
+  "games/mymyth/assets/art/guild-roll-call-icon.png": {
+    "bytes": 1338213,
+    "sha256": "179d8bf00be0d5dd16bec21479b78243d6692fa028c35b23d151aeb938b4c99c"
+  },
+  "games/mymyth/assets/art/hippogriff-attack.png": {
+    "bytes": 332238,
+    "sha256": "1a330fee03157f5f2229bd443715081d03b3ea5c7fc0bdacdebf1aeda37b0a23"
+  },
+  "games/mymyth/assets/art/hippogriff-eat.png": {
+    "bytes": 281295,
+    "sha256": "cf727fa6ceccf92de538d48b0111da1f1cd9c97c66841f5b45c2a842edd849e0"
+  },
+  "games/mymyth/assets/art/hippogriff-hit.png": {
+    "bytes": 313375,
+    "sha256": "99fcb926947129efd5dd42ef49eb8105e5d9e9d8489e694356b8555cb34ed86b"
+  },
+  "games/mymyth/assets/art/hippogriff-idle-angry.png": {
+    "bytes": 268567,
+    "sha256": "1c0e0a7c725c00fc0e0e7361ee8d9485bd70e789cce9aeaf80ac03325f354e00"
+  },
+  "games/mymyth/assets/art/hippogriff-idle-battle.png": {
+    "bytes": 268567,
+    "sha256": "1c0e0a7c725c00fc0e0e7361ee8d9485bd70e789cce9aeaf80ac03325f354e00"
+  },
+  "games/mymyth/assets/art/hippogriff-idle-defeat.png": {
+    "bytes": 277911,
+    "sha256": "92ba1db2997d3b4f694d41c793ba5c777769466081a678fc2836caa911db2da6"
+  },
+  "games/mymyth/assets/art/hippogriff-idle-happy.png": {
+    "bytes": 261189,
+    "sha256": "e29a22b843763074da3bb726d0ab22018613bc5ae16e827f5338a21169ae8857"
+  },
+  "games/mymyth/assets/art/hippogriff-idle-sad.png": {
+    "bytes": 265763,
+    "sha256": "428069e962a4a3567a2a35e6f8c1e3b9880c257d8c7ef5d2b5e50fb5aa15cc0f"
+  },
+  "games/mymyth/assets/art/hippogriff-idle.png": {
+    "bytes": 244202,
+    "sha256": "6ab40f35f502748aebecadac8e256861dbc1d96aaed26be5b21ad8de348c4690"
+  },
+  "games/mymyth/assets/art/hippogriff-sleep.png": {
+    "bytes": 254080,
+    "sha256": "b56f1ee48c91a66422f8eb866cc0d7a2c27cb759bd5237df1663db703038487e"
+  },
+  "games/mymyth/assets/art/hippogriff-special-windup.png": {
+    "bytes": 371915,
+    "sha256": "cb58802d54bb4b0f69ece1ec07cadbbce5123e9f7ccacd53ec38cc4992e21e98"
+  },
+  "games/mymyth/assets/art/hippogriff-walk-01.png": {
+    "bytes": 265705,
+    "sha256": "576beb521adb14cee4279d1cb05f33094d98ff21f08807e181db7ad16ea73914"
+  },
+  "games/mymyth/assets/art/hippogriff-walk-02.png": {
+    "bytes": 264105,
+    "sha256": "a5fc32463e741868066ed5f4aa1cbca7f4d1e900b1169bfe7ba7392b628af7b5"
+  },
+  "games/mymyth/assets/art/hippogriff-walk-03.png": {
+    "bytes": 274425,
+    "sha256": "aa3276d0c35a683be85a45c0190323cf588f7d3aeab954faae71e9bc1e31287a"
+  },
+  "games/mymyth/assets/art/hippogriff-walk-04.png": {
+    "bytes": 264105,
+    "sha256": "a5fc32463e741868066ed5f4aa1cbca7f4d1e900b1169bfe7ba7392b628af7b5"
+  },
+  "games/mymyth/assets/art/hippogriff.png": {
+    "bytes": 1870464,
+    "sha256": "b2ca5f38f15defc07ea63c73ee284cbfca6dc639041ad9894e2691a43d09b3c1"
+  },
+  "games/mymyth/assets/art/hydra-attack-v2.png": {
+    "bytes": 1371479,
+    "sha256": "1b04c91e85d9b4c44cf69d88ab63b848022f204444feb9f5f5b354c334493b1d"
+  },
+  "games/mymyth/assets/art/hydra-defeat-v2.png": {
+    "bytes": 1190080,
+    "sha256": "1c5ab8f1949683c3fd9e6b691c00f177b29b98bfc737e2f9f5c52997c804a430"
+  },
+  "games/mymyth/assets/art/hydra-eat-v2.png": {
+    "bytes": 1433294,
+    "sha256": "4e39d73a12520cf5d557acca7ac5628be839e1b21b00ce229d5e2249595f583d"
+  },
+  "games/mymyth/assets/art/hydra-hit-v2.png": {
+    "bytes": 1365661,
+    "sha256": "67a89c07fb81fc598ed01f30b4637befa1b6465363f120527e37910ac83af91a"
+  },
+  "games/mymyth/assets/art/hydra-idle-angry-v2.png": {
+    "bytes": 1454080,
+    "sha256": "b3dfb22591839f2a437fd39860f86491e01373b517d0dbbbbb4996d39be5bd47"
+  },
+  "games/mymyth/assets/art/hydra-idle-battle-v2.png": {
+    "bytes": 1442909,
+    "sha256": "f09856c95cb599c64049b78fbeee721d9728f05e2afae4044fd5b35709e13091"
+  },
+  "games/mymyth/assets/art/hydra-idle-happy-v2.png": {
+    "bytes": 1355893,
+    "sha256": "52a55160b81430168b261621413f36d021e473d39a895556f063621e2e4292d4"
+  },
+  "games/mymyth/assets/art/hydra-idle-sad-v2.png": {
+    "bytes": 1340681,
+    "sha256": "22bff0192d593f2b30b28aaadc18e342796896dff4314b702529bce17cea5dde"
+  },
+  "games/mymyth/assets/art/hydra-idle-v2.png": {
+    "bytes": 1299867,
+    "sha256": "cd7cb8dbaaa156c92c4501566410e6f5e5c0e8f3743cc434b369af41b03b7081"
+  },
+  "games/mymyth/assets/art/hydra-sleep-v2.png": {
+    "bytes": 1310247,
+    "sha256": "43c78c0ac42cdd3570481542a920e954c39d5cf7c2043e43cfea5cf2ad8f9128"
+  },
+  "games/mymyth/assets/art/hydra-special-windup-v2.png": {
+    "bytes": 1337550,
+    "sha256": "a2b0c67d25beb5bc13b33d8ed088359ec5d2b25ebdd8162c9e2d8812eee4a157"
+  },
+  "games/mymyth/assets/art/hydra-walk-01-v2.png": {
+    "bytes": 1057834,
+    "sha256": "9d3215c3be05dc2367a6e23e3fbb96d1d03c91ccac1eb242c20231682f97e39f"
+  },
+  "games/mymyth/assets/art/hydra-walk-02-v2.png": {
+    "bytes": 1382160,
+    "sha256": "0262f7133c78a865da7512d50b0842a6afe81e5986aa0caa8be3f1180da35303"
+  },
+  "games/mymyth/assets/art/hydra-walk-03-v2.png": {
+    "bytes": 1213283,
+    "sha256": "7d425a4f1ce428e0ab010767d8a1e07368ec86d2cb31dfb83afd843faaec0024"
+  },
+  "games/mymyth/assets/art/hydra-walk-04-v2.png": {
+    "bytes": 1432982,
+    "sha256": "87c9ede8a9061c73d9977231f316b4e781b95704841ee6ec67e31b1c2de45b9a"
+  },
+  "games/mymyth/assets/art/hydra.png": {
+    "bytes": 377949,
+    "sha256": "c7ec38cf5546aad49b225bf5ec18219d4bca69f9982cb408277a1a1f16087a8b"
+  },
+  "games/mymyth/assets/art/items/grove-roots.png": {
+    "bytes": 797056,
+    "sha256": "f4552c64140c246e8e25f58ada8e26131009ad0569e88851ce3ca02fb6a90482"
+  },
+  "games/mymyth/assets/art/items/honey-ring.png": {
+    "bytes": 692696,
+    "sha256": "2dd9020bd23bc83308d66ee7f3cc07c67ad0daf117bdf2c38f6ea0eade87e093"
+  },
+  "games/mymyth/assets/art/items/kelp-bundle.png": {
+    "bytes": 586217,
+    "sha256": "9b8773693282502a7454957c13ca4217dd122df54517a98904be7570aafcf673"
+  },
+  "games/mymyth/assets/art/items/lotus-cup.png": {
+    "bytes": 670331,
+    "sha256": "7f47809b3b80035628995850758668f1b2c4327a5a4a1d336abbce51d5d731f5"
+  },
+  "games/mymyth/assets/art/items/olympian-relic.png": {
+    "bytes": 683981,
+    "sha256": "9514d9f15f1bd599da42d6bd60c754c2ac3df72f9410b1c6309455256f038c61"
+  },
+  "games/mymyth/assets/art/items/rice-dumpling.png": {
+    "bytes": 535381,
+    "sha256": "5e5864e2974bd526d886916a6202cdd4dc137758346ee34f190f75ad3bd23706"
+  },
+  "games/mymyth/assets/art/items/ritual-fruit.png": {
+    "bytes": 570078,
+    "sha256": "882fae77af1bdfab6abf1a957ef0246f22affa1ca8e639427cbd0f24bbef98af"
+  },
+  "games/mymyth/assets/art/items/sacred-relic-eg.png": {
+    "bytes": 937518,
+    "sha256": "89174d4c38f8e66722f20c916f8912abbb938087f2e363c06206796c6e7d78d5"
+  },
+  "games/mymyth/assets/art/items/silver-fish.png": {
+    "bytes": 967079,
+    "sha256": "5c8a71eece5c39083116b3ffbef597a9ca7737789c1b31db3b30771ee46eb302"
+  },
+  "games/mymyth/assets/art/items/spirit-charm.png": {
+    "bytes": 425312,
+    "sha256": "9dcd0f577d6f3d3afdf153625357c083e36abf7b2965f092f6bb63b8d93f71d1"
+  },
+  "games/mymyth/assets/art/items/temple-jerky.png": {
+    "bytes": 510444,
+    "sha256": "040a2ada861c9d92ba2eb1659ffd3c2f2b24cb6f4df05c475517c05917ea7120"
+  },
+  "games/mymyth/assets/art/items/wild-kebab.png": {
+    "bytes": 552139,
+    "sha256": "7f5495f3ceae8e1b936e23c8dbf01ab21f2b82c477061db2aceef3ee704cc713"
+  },
+  "games/mymyth/assets/art/kemala.png": {
+    "bytes": 1891666,
+    "sha256": "b2b53629d36fc3dd259a54436d723c3015bb6487b00860e3fab0ffacf902d76f"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-attack-v3.png": {
+    "bytes": 970490,
+    "sha256": "a772bfa2df1b7aef8f31dfd5b9df228a2b7c716866ae61c4a55c4cc986c0792e"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-defeat-v3.png": {
+    "bytes": 757960,
+    "sha256": "89caa59295427ffc948364ca4e011f9101bde5da4a524b06f2d881d0854235e6"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-eat-v3.png": {
+    "bytes": 1061113,
+    "sha256": "fa9fce22d6795d4701edb41d1c60d7b4d276fc0af2f3fab616283ba24496d507"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-hit-v3.png": {
+    "bytes": 886896,
+    "sha256": "5be556e8fdf596825ff6dd0d89d683e2fb6b7841fd72e39527e14d0ada756dc2"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-idle-angry-v3.png": {
+    "bytes": 1019419,
+    "sha256": "ac8fb102fad068c2f431cf5f0566232010b741641d309433f43df7d1e5f89004"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-idle-battle-v3.png": {
+    "bytes": 977582,
+    "sha256": "7890a65aaa1f53ede85f6d604724e3809e123d5ac5b96e0ba7f595459601d9ae"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-idle-happy-v3.png": {
+    "bytes": 994515,
+    "sha256": "8180ac300424384969585e1804fe63865c88f1ed802c73618a74775e0e827e26"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-idle-sad-v3.png": {
+    "bytes": 806448,
+    "sha256": "0cd2e7904c04a048753266ad15bb76765dbec7525492a5e04dad2067ca6ca501"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-idle-v2.png": {
+    "bytes": 1392504,
+    "sha256": "aed835a83c9eefb839fa5a0f85a8b15d03d87e986d0e9cc7b18b487febb29a3a"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-idle-v3.png": {
+    "bytes": 813660,
+    "sha256": "5483a684382a880549eae06a4db3dba14cc41cada39924208110d85c12ed8b5a"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-sleep-v3.png": {
+    "bytes": 908740,
+    "sha256": "e77656b3c47852bbaedad5e5ee792084a80b0984027889294c23393e61709e5d"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-special-windup-v3.png": {
+    "bytes": 991161,
+    "sha256": "7b402dfef645921e0109c3c9dfdb572daa54a57824994ad36b4eb6ec13fd0acc"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-walk-01-v2.png": {
+    "bytes": 1318097,
+    "sha256": "a9a3c4a2cea0cea7016381745cea2e28f4e831ee020e695531437cf8784b1e8d"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-walk-01-v3.png": {
+    "bytes": 1023213,
+    "sha256": "3d089030f068cbe797fc67464eed2682363abd99eb7342200b556c8788970a22"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-walk-02-v3.png": {
+    "bytes": 943207,
+    "sha256": "9cced4809f0eef5a11bb89d086493f46d2ebddf07e22b0d68d0cd982988d4df1"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-walk-03-v3.png": {
+    "bytes": 904103,
+    "sha256": "0850a637a7b77eb9ae7fd44531619c7ad3e05dc36bbb05db3ec1c03cea0d4c99"
+  },
+  "games/mymyth/assets/art/kitsune-3tails-walk-04-v3.png": {
+    "bytes": 835989,
+    "sha256": "f68f7a6c54296ceb9d8bc64952392fede75e2d46115323e8e49c0722f8b9262f"
+  },
+  "games/mymyth/assets/art/kitsune-3tails.png": {
+    "bytes": 1840598,
+    "sha256": "3f93e7f4783c8f6f39eac11eb163a1988ba4ebe9903ef8c5f11429e1dfd213a6"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-attack-v7.png": {
+    "bytes": 1084716,
+    "sha256": "e4bccf6756ab16942b9520719b928a50648740cfd2476388c276a25a9b2cf182"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-defeat-v7.png": {
+    "bytes": 804431,
+    "sha256": "7e926a86d8d3b4422d76ec98867705d4ca89e2924abc1cdbbd67b2d4de795c49"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-eat-v7.png": {
+    "bytes": 1126249,
+    "sha256": "e7be3b4c98229cc71750f1f2104703eeb139a3b9b4eacfa85aada551dab9b046"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-hit-v7.png": {
+    "bytes": 1011810,
+    "sha256": "14ff7576c28ee8de6ddaad33aba79808f76a33f130f73ad2d4f38f394bf114c5"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-idle-angry-v7.png": {
+    "bytes": 1090788,
+    "sha256": "961a600b1b1da4e4f90f6ab8886d42ba376736efb537531322c76017f4f57bca"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-idle-battle-v7.png": {
+    "bytes": 1050961,
+    "sha256": "4e31cd61c332421aed50ff4ba8fec22f229dd2c38ae2dab942cff28f7c086693"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-idle-happy-v7.png": {
+    "bytes": 1037455,
+    "sha256": "3309a3f5cacc73f152c141a097da418c6a743fa3443b095cd9abc4acbe356b3d"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-idle-sad-v7.png": {
+    "bytes": 825965,
+    "sha256": "066ff7bcbc8b62f64d3cdd0956d0f01f891cc2e13109b32033f00655a122f956"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-idle-v3.png": {
+    "bytes": 1202034,
+    "sha256": "5b2a4049fdd8005580aba0220bd66c70bb6fc3cf8198edd2255ab435dafbeac3"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-idle-v4.png": {
+    "bytes": 843066,
+    "sha256": "c4cbe0b398f3c5f6c8edb6ae674938e8f08f74962da3e60065e3c41fbdacc504"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-idle-v5.png": {
+    "bytes": 904664,
+    "sha256": "23349246a4bb5d0c847669830205773d138d5086e29e93cc644ca5e61f25cd87"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-idle-v6.png": {
+    "bytes": 895558,
+    "sha256": "3407afad81e74c9b1102b17822af7edd5125011a1bcb1aff3b556330197b7a8b"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-idle-v7.png": {
+    "bytes": 1022274,
+    "sha256": "8dc1bfdd504f88a91ffa746708e25f40b5a495a4aeb8b661844c27d51383f74a"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-sleep-v7.png": {
+    "bytes": 1086830,
+    "sha256": "357d1cd0fbb6dffa58d3f9ce89912ae3ae48c1f6ca5b8ba8282530b52f31df24"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-special-windup-v7.png": {
+    "bytes": 1054480,
+    "sha256": "c9072733956d166242a53921f8c0b5c07c8cedf93c14ae77c3a06f5d299dece9"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-walk-01-v7.png": {
+    "bytes": 1067687,
+    "sha256": "6a9c4dfe3b3d2b8683656f31ae9dd84e1e191a65fa78bb37cbd704e128c284ac"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-walk-02-v7.png": {
+    "bytes": 1049137,
+    "sha256": "1737f72e244ecfb4a1e1143af75eefba65502dbb7f28c3a523a44cbcc095d028"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-walk-03-v7.png": {
+    "bytes": 1074318,
+    "sha256": "d3c326c0fab9f0d0db67d8dfead597f07e963d4beeb54f10438fc541b7113f8d"
+  },
+  "games/mymyth/assets/art/kitsune-5tails-walk-04-v7.png": {
+    "bytes": 980090,
+    "sha256": "2c65356f5df3dd49cb6add4229b20f23854242750a48d589b69a09f1b279d2e6"
+  },
+  "games/mymyth/assets/art/kitsune-5tails.png": {
+    "bytes": 1907288,
+    "sha256": "9e0eb80b31efca1590c01b8147cad8902caaa513518072fa92c347bd0e5e24f9"
+  },
+  "games/mymyth/assets/art/kitsune-9tails.png": {
+    "bytes": 311029,
+    "sha256": "f0b758afcf86c230b67e0dad17c462c0a5e74e6535ba24b13ee2fd9812117167"
+  },
+  "games/mymyth/assets/art/lair-action-icons.png": {
+    "bytes": 1701338,
+    "sha256": "5aeabd3fc856f86fc92e51d66051b3a62de35c8f4565dd85a46c29254e804eb9"
+  },
+  "games/mymyth/assets/art/lair-background.png": {
+    "bytes": 2741070,
+    "sha256": "e308a668ee7fbc7c470d40103df7888ae0673e4d414c8e55c85b6349244fd55a"
+  },
+  "games/mymyth/assets/art/lair-forest-bg.png": {
+    "bytes": 2741070,
+    "sha256": "e308a668ee7fbc7c470d40103df7888ae0673e4d414c8e55c85b6349244fd55a"
+  },
+  "games/mymyth/assets/art/lair-nusantara-bg.png": {
+    "bytes": 2145251,
+    "sha256": "b68db54f6191d7ff88fae64cb5c287420cabdb4767e77c28f78c785d3d631c6a"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-attack-v2.png": {
+    "bytes": 1427978,
+    "sha256": "b44022cb0dd6eb387ee0b747ba3421452d722346d0792509b21181f8dc9e1e8a"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-defeat-v2.png": {
+    "bytes": 1035268,
+    "sha256": "eb6980edeff11f1e8847150c67dc2d8f43a71581cf94e25aaf638de1381825d6"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-eat-v2.png": {
+    "bytes": 1397227,
+    "sha256": "b6b88c15a4d22061b024cf1e75b11377c064f2776f6ce93631801b0a20919ec4"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-hit-v2.png": {
+    "bytes": 1351775,
+    "sha256": "f77760d35f84a7f7d220fc61cfe75c82c92180ff8dd3977e8e9bd8c2b2ef7613"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-idle-angry-v2.png": {
+    "bytes": 1355507,
+    "sha256": "529882770780cb7a9860400c5d726a50ff55ad9dbbcacfa67a77753817548906"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-idle-battle-v2.png": {
+    "bytes": 1367940,
+    "sha256": "bc42336be24e3de103192761f1cd1996614d538ff25aa8526139787b5503ac55"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-idle-happy-v2.png": {
+    "bytes": 1409906,
+    "sha256": "756983fa6bf7dc74e9cc4aba07c0b9cef50ba0eb8893e166278d13a6f14dedfc"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-idle-sad-v2.png": {
+    "bytes": 1289578,
+    "sha256": "0a7a23c6c81c5ffc580b00234a22169382d3ef37123505fa0910bb00b69faf1f"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-idle-v2.png": {
+    "bytes": 1351775,
+    "sha256": "f77760d35f84a7f7d220fc61cfe75c82c92180ff8dd3977e8e9bd8c2b2ef7613"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-sleep-v2.png": {
+    "bytes": 1351775,
+    "sha256": "f77760d35f84a7f7d220fc61cfe75c82c92180ff8dd3977e8e9bd8c2b2ef7613"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-special-windup-v2.png": {
+    "bytes": 1436302,
+    "sha256": "bc3ef1489d4e2382c73feab19fca15def7d255977e524704666f0e961ed5c687"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-walk-01-v2.png": {
+    "bytes": 1352772,
+    "sha256": "5654a3108df6057f74a480caa7b1b2774ffbf64ddd2072e4f9cb242efdac787b"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-walk-02-v2.png": {
+    "bytes": 1333565,
+    "sha256": "64c1cee449ee6963ab4018400d78f93c434fe4004c662394c4d2a677f5ca8613"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-walk-03-v2.png": {
+    "bytes": 1382186,
+    "sha256": "2fd5e76c5a7229dbe0af5bd18362f8789b6b49ea07ccbc062c1fac13b108798e"
+  },
+  "games/mymyth/assets/art/lernaean-hydra-walk-04-v2.png": {
+    "bytes": 1315464,
+    "sha256": "4f072dbd2af42958fa80b7f8be6e159b04c63efbe8296d9fdeb4d30286562630"
+  },
+  "games/mymyth/assets/art/lore-menu-icons.png": {
+    "bytes": 2007458,
+    "sha256": "d7191dbbd063fa31923032265c4ab735dc0b95a6cc1d08aa0af634614e6dfd7a"
+  },
+  "games/mymyth/assets/art/mystic-serpent-angry.png": {
+    "bytes": 286373,
+    "sha256": "ed374450ddc0a50b3e694cfcd71c66d3396b1e1ad26b539d0aee432d4ecd6cf7"
+  },
+  "games/mymyth/assets/art/mystic-serpent-attack-v2.png": {
+    "bytes": 1083569,
+    "sha256": "05c025caaa15e2fcdbc79b30a0483f41c2b057d0f1adc7056fcc385528c0ab60"
+  },
+  "games/mymyth/assets/art/mystic-serpent-attack.png": {
+    "bytes": 295292,
+    "sha256": "388af68c2c4857e4a6a7fac757b5b203062b66eb1e085c146fb230c52ae77a38"
+  },
+  "games/mymyth/assets/art/mystic-serpent-defeat-v2.png": {
+    "bytes": 848954,
+    "sha256": "0f28571823c31f041d3374d87993942ddd19bddfd3919cd1c9e32da675745b52"
+  },
+  "games/mymyth/assets/art/mystic-serpent-defeat.png": {
+    "bytes": 265781,
+    "sha256": "c97feaf75cc9cbd3e99efc68f51078048cfb9cd6ca754d708d099429215256b9"
+  },
+  "games/mymyth/assets/art/mystic-serpent-eat-v2.png": {
+    "bytes": 1179097,
+    "sha256": "96192996d5187dcee3fc5c8c05e28f9ea6f9e531ced85dfba1d6d1aaff91b571"
+  },
+  "games/mymyth/assets/art/mystic-serpent-eat.png": {
+    "bytes": 247107,
+    "sha256": "131c38e9508986175705b4b3a911a3bde0a8c72819740d090212d2384fbd6218"
+  },
+  "games/mymyth/assets/art/mystic-serpent-happy.png": {
+    "bytes": 292828,
+    "sha256": "95581cf9131bf4d5711493f7e26ac8cadc29619b30b7000fdd0a44b97726dfcf"
+  },
+  "games/mymyth/assets/art/mystic-serpent-hit-v2.png": {
+    "bytes": 1026421,
+    "sha256": "e131e1c265edb7a24c06dfa7a105e2c8fc451adaa0773851aafd0fed3f026dc6"
+  },
+  "games/mymyth/assets/art/mystic-serpent-hit.png": {
+    "bytes": 319907,
+    "sha256": "92487ac286034ef4c4f30794eeeb0bc50ab955641b37c82e7c9b03b361dc07e1"
+  },
+  "games/mymyth/assets/art/mystic-serpent-idle-angry-v2.png": {
+    "bytes": 1174378,
+    "sha256": "39390d65a3db03de9d8f136c4bab3b718e2aa364e80026741ee2beadbaef6e48"
+  },
+  "games/mymyth/assets/art/mystic-serpent-idle-battle-v2.png": {
+    "bytes": 1097274,
+    "sha256": "67693187bb8f489282609b081df68b6eb150789a643b1df4c32938111c039090"
+  },
+  "games/mymyth/assets/art/mystic-serpent-idle-battle.png": {
+    "bytes": 286373,
+    "sha256": "ed374450ddc0a50b3e694cfcd71c66d3396b1e1ad26b539d0aee432d4ecd6cf7"
+  },
+  "games/mymyth/assets/art/mystic-serpent-idle-happy-v2.png": {
+    "bytes": 1040370,
+    "sha256": "d366889435380e5472f2a482f0202e6bd39c12a7f0305d4624a864b97d4e8e09"
+  },
+  "games/mymyth/assets/art/mystic-serpent-idle-sad-v2.png": {
+    "bytes": 1025247,
+    "sha256": "b282c8bd360f2d55ec1202a25d8942f183bdf03857bc5aa978c8eabf3a66cd1d"
+  },
+  "games/mymyth/assets/art/mystic-serpent-idle-v2.png": {
+    "bytes": 929312,
+    "sha256": "47081dcc46c24c9a39996b329ab268f9aa08b09860be53a09004e8999031b9e6"
+  },
+  "games/mymyth/assets/art/mystic-serpent-idle.png": {
+    "bytes": 297505,
+    "sha256": "a8f61402a2ce56d9beb943368f2e4acae346354ba20013742067b244fc1699b3"
+  },
+  "games/mymyth/assets/art/mystic-serpent-sad.png": {
+    "bytes": 293731,
+    "sha256": "d529f10e33e44f5a167461b13841b4c2d48a8e3703a7722341c8091ec8954da4"
+  },
+  "games/mymyth/assets/art/mystic-serpent-sleep-v2.png": {
+    "bytes": 1009568,
+    "sha256": "72c2ca7d73cb3e6fa366ca70dd06b6520a25fd82f27f3b64a6fc5431a10e8b46"
+  },
+  "games/mymyth/assets/art/mystic-serpent-sleep.png": {
+    "bytes": 181581,
+    "sha256": "b1eb77467bc9942a56262a42609e7156dc7837662cbb03d7eacec62210b2fc67"
+  },
+  "games/mymyth/assets/art/mystic-serpent-special-windup-v2.png": {
+    "bytes": 1078657,
+    "sha256": "10390da84d1cae5569a14dc449033414afe096d81f431f68c1be24a6491614ea"
+  },
+  "games/mymyth/assets/art/mystic-serpent-special-windup.png": {
+    "bytes": 363134,
+    "sha256": "f5eaa7309fbb08cfb3955437f78fdab73250ee52e353fc22ffd65ad908687d99"
+  },
+  "games/mymyth/assets/art/mystic-serpent-walk-01-v2.png": {
+    "bytes": 895952,
+    "sha256": "a36f9e09b5fa3350468662f07f34e50c2e80bd86141385a80ec9edbba543f034"
+  },
+  "games/mymyth/assets/art/mystic-serpent-walk-01.png": {
+    "bytes": 312152,
+    "sha256": "9e232e02a2dd62f8f5b93dabdca1bac0f1df446df930f14b8a7ef033f5ed13fe"
+  },
+  "games/mymyth/assets/art/mystic-serpent-walk-02-v2.png": {
+    "bytes": 901373,
+    "sha256": "aefe987ccebc97bc2ac4485ad9ee53d66589525af5acc55ee91fbb5a37b3a317"
+  },
+  "games/mymyth/assets/art/mystic-serpent-walk-02.png": {
+    "bytes": 311818,
+    "sha256": "7d2e45e4d075185eb1a7396b31f0aa2ae91d008eb96481740dae11cb6036a716"
+  },
+  "games/mymyth/assets/art/mystic-serpent-walk-03-v2.png": {
+    "bytes": 723628,
+    "sha256": "59588707efb7c08d49805de904509afa6aa75e8a213464b0035039fbf5575113"
+  },
+  "games/mymyth/assets/art/mystic-serpent-walk-03.png": {
+    "bytes": 297505,
+    "sha256": "e395953a755dba26e8aae38e004dec682af6c54b0fccf3135bf84eb3b0a06e12"
+  },
+  "games/mymyth/assets/art/mystic-serpent-walk-04-v2.png": {
+    "bytes": 902485,
+    "sha256": "ede79ac9aa4641324c463d841b858282310cc5fc94e4aff784db2b9df77381bc"
+  },
+  "games/mymyth/assets/art/mystic-serpent.png": {
+    "bytes": 407767,
+    "sha256": "ab769e9010c3feea99556dc56a6136684931a09d81120570dfee0ea332a6dc93"
+  },
+  "games/mymyth/assets/art/mythala_city.png": {
+    "bytes": 3589551,
+    "sha256": "766eabbadbbd0d7afb0675a27d492ec037505caa518dc242e61b8a55c7e8441b"
+  },
+  "games/mymyth/assets/art/mythic-guardian-attack.png": {
+    "bytes": 260317,
+    "sha256": "947ad5bd80c969d829f0e2181368cb168d830dccea97182952836962acfb2a52"
+  },
+  "games/mymyth/assets/art/mythic-guardian-hit.png": {
+    "bytes": 260609,
+    "sha256": "36b966be2871d6ce6d6650ed8d4b6a3cc23e208d1f6df51a35353adca742533b"
+  },
+  "games/mymyth/assets/art/mythic-guardian-idle.png": {
+    "bytes": 229962,
+    "sha256": "2f893f84bed57e7520d9767bc3632e7059ab9da390103a395214b2774636a150"
+  },
+  "games/mymyth/assets/art/mythic-guardian-sleep.png": {
+    "bytes": 220340,
+    "sha256": "6f224aa0cb8718aac3e505b17d8744a34a94fc8eb9325fd4ddd358b65f012967"
+  },
+  "games/mymyth/assets/art/mythic-guardian-walk.png": {
+    "bytes": 240550,
+    "sha256": "0856abb3f61507581449aa39d59d589bb33cfd25b95d44cb88919d2511e26abb"
+  },
+  "games/mymyth/assets/art/mythic-warden-attack-v2.png": {
+    "bytes": 1035930,
+    "sha256": "a04ac946a2eccb2163acbbf63c0c9306916ef5635d1deb8f9106dfdc8a4653d0"
+  },
+  "games/mymyth/assets/art/mythic-warden-attack.png": {
+    "bytes": 260317,
+    "sha256": "947ad5bd80c969d829f0e2181368cb168d830dccea97182952836962acfb2a52"
+  },
+  "games/mymyth/assets/art/mythic-warden-hit-v2.png": {
+    "bytes": 934512,
+    "sha256": "338091b6fd2d737b2ce5ed47623c8a215a23773e8be16790896f79b71d49b497"
+  },
+  "games/mymyth/assets/art/mythic-warden-hit.png": {
+    "bytes": 260609,
+    "sha256": "36b966be2871d6ce6d6650ed8d4b6a3cc23e208d1f6df51a35353adca742533b"
+  },
+  "games/mymyth/assets/art/mythic-warden-idle-angry-v2.png": {
+    "bytes": 1180974,
+    "sha256": "96351720a215b6e8e42deaef404f8b73e10c9d975c2bd7cec45f3e56a1bb8c3e"
+  },
+  "games/mymyth/assets/art/mythic-warden-idle-happy-v2.png": {
+    "bytes": 1120499,
+    "sha256": "efbbf976518dd49788335d1ca7691b1a539488f5235c1d19e5ad25b05107d870"
+  },
+  "games/mymyth/assets/art/mythic-warden-idle-sad-v2.png": {
+    "bytes": 909285,
+    "sha256": "519540b00c2b3eeedfa3069977da3bbe778f7ebdf5ebe502a92704e9656a0c3a"
+  },
+  "games/mymyth/assets/art/mythic-warden-idle-v2.png": {
+    "bytes": 993667,
+    "sha256": "a66772674b65c3b7a7274d86c7cc9f60f52de79bd097239d21b48a57aed1b3e3"
+  },
+  "games/mymyth/assets/art/mythic-warden-idle.png": {
+    "bytes": 229962,
+    "sha256": "2f893f84bed57e7520d9767bc3632e7059ab9da390103a395214b2774636a150"
+  },
+  "games/mymyth/assets/art/mythic-warden-sleep-v2.png": {
+    "bytes": 773642,
+    "sha256": "5379bf35d4daa94665260baa87625202fd9268bd9e2b0e33a43f04478f12f6a4"
+  },
+  "games/mymyth/assets/art/mythic-warden-sleep.png": {
+    "bytes": 220340,
+    "sha256": "6f224aa0cb8718aac3e505b17d8744a34a94fc8eb9325fd4ddd358b65f012967"
+  },
+  "games/mymyth/assets/art/mythic-warden-walk-01-v2.png": {
+    "bytes": 1004651,
+    "sha256": "0ae794d0f4b77c14c5cd6ac5953ea6bd3e747f91bdc3cfa1f48c14a85070712c"
+  },
+  "games/mymyth/assets/art/mythic-warden-walk-02-v2.png": {
+    "bytes": 974229,
+    "sha256": "500811d6fb5bb58abbb7f091e6c1747b3b424793867ba83776176b6bbd92405b"
+  },
+  "games/mymyth/assets/art/mythic-warden-walk-03-v2.png": {
+    "bytes": 1018714,
+    "sha256": "0ff04f484841c47bea28bc5781bf5b3759367f64a177d135b5b36c5515a4fa1d"
+  },
+  "games/mymyth/assets/art/mythic-warden-walk-04-v2.png": {
+    "bytes": 970113,
+    "sha256": "f5b5e1f96d5e9499530b59960260a01d81936c0224065111c940a46eccf88119"
+  },
+  "games/mymyth/assets/art/mythic-warden-walk-v2.png": {
+    "bytes": 971080,
+    "sha256": "be32a40a71493115577ef958fc361f94df2263443e658c3f69ce731b49522373"
+  },
+  "games/mymyth/assets/art/mythic-warden-walk.png": {
+    "bytes": 240550,
+    "sha256": "0856abb3f61507581449aa39d59d589bb33cfd25b95d44cb88919d2511e26abb"
+  },
+  "games/mymyth/assets/art/naga-grow-attack.png": {
+    "bytes": 249497,
+    "sha256": "fa540f8c1fc65cea5cee025e4697a6a17ceea485fe904b2c013984d53c0850db"
+  },
+  "games/mymyth/assets/art/naga-grow-hit.png": {
+    "bytes": 252117,
+    "sha256": "2c9585033d796bb42a1d71d9244c5c5fbe5beafd9dc975a730f9626871277bd7"
+  },
+  "games/mymyth/assets/art/naga-grow-sleep.png": {
+    "bytes": 290029,
+    "sha256": "3cd765a0933806343c92fa14b1bff9b88fed5298733b8f83d8b82de448566a03"
+  },
+  "games/mymyth/assets/art/naga-grow-walk.png": {
+    "bytes": 233970,
+    "sha256": "24a8d02be38d4743701249615ffd24ea47fd64d6e64035490222206fb06afc55"
+  },
+  "games/mymyth/assets/art/naga-hatch-attack.png": {
+    "bytes": 161864,
+    "sha256": "7626f283896f4c199d0779c8e44fe8b99f70ab2a7e6c5a56067199eabae22715"
+  },
+  "games/mymyth/assets/art/naga-hatch-charge.png": {
+    "bytes": 167564,
+    "sha256": "772df56e68c310542d5fc363a984f1026e2e92649391617974b481a8148659d5"
+  },
+  "games/mymyth/assets/art/naga-hatch-eat.png": {
+    "bytes": 152893,
+    "sha256": "5eb87fc5eac5396e3b30ce5d156297c69bc5e390894765f027126d8ea53eae19"
+  },
+  "games/mymyth/assets/art/naga-hatch-hit.png": {
+    "bytes": 157898,
+    "sha256": "9a97309b5986f2422528d859ef470a851476ae800b249b9b8e3b614a07bba5e5"
+  },
+  "games/mymyth/assets/art/naga-hatch-idle-angry.png": {
+    "bytes": 133357,
+    "sha256": "3a144db53e4748038f40b0b5b25d1614d19c426cc810c8115a25994b9fd55e3b"
+  },
+  "games/mymyth/assets/art/naga-hatch-idle-battle.png": {
+    "bytes": 133357,
+    "sha256": "3a144db53e4748038f40b0b5b25d1614d19c426cc810c8115a25994b9fd55e3b"
+  },
+  "games/mymyth/assets/art/naga-hatch-idle-defeat.png": {
+    "bytes": 155805,
+    "sha256": "f0267e230be6df8ee7f91e9e86fb911e0f2c99ef0566f8936e15cbe08b622d38"
+  },
+  "games/mymyth/assets/art/naga-hatch-idle-happy.png": {
+    "bytes": 132169,
+    "sha256": "598a3363b12b1b0a690f20c35cb6f17918c654c6cb6c22d3906d26c352b2d11c"
+  },
+  "games/mymyth/assets/art/naga-hatch-idle-sad.png": {
+    "bytes": 142284,
+    "sha256": "af7a688a1a43ec6373d181917c4255220038e2ce22140eb9c52b68e5b6f24225"
+  },
+  "games/mymyth/assets/art/naga-hatch-idle.png": {
+    "bytes": 135812,
+    "sha256": "8e14fd2bf67bc5a35c304e433400bde518c384547af63022f34e9736aa396352"
+  },
+  "games/mymyth/assets/art/naga-hatch-sad.png": {
+    "bytes": 142284,
+    "sha256": "af7a688a1a43ec6373d181917c4255220038e2ce22140eb9c52b68e5b6f24225"
+  },
+  "games/mymyth/assets/art/naga-hatch-sleep.png": {
+    "bytes": 141957,
+    "sha256": "137336369115d37e1170108dc48123a634fc2764c119a7875f638d9ba66858eb"
+  },
+  "games/mymyth/assets/art/naga-hatch-special-windup.png": {
+    "bytes": 167558,
+    "sha256": "637bfc98b1de6f81ab77dee71cdcece7c67456179d1790ea22546e8848e8be57"
+  },
+  "games/mymyth/assets/art/naga-hatch-walk-01.png": {
+    "bytes": 136463,
+    "sha256": "23c05f271b73422eac9554796f20f6301776d5ce3e264aa7cdfc328c367ba60a"
+  },
+  "games/mymyth/assets/art/naga-hatch-walk-02.png": {
+    "bytes": 160907,
+    "sha256": "64287bc50d570a162f3631a443c2ba2cc52a833247778cb7896c274f43bdce25"
+  },
+  "games/mymyth/assets/art/naga-hatch-walk-03.png": {
+    "bytes": 133987,
+    "sha256": "675fb2ca4deb7dade25cca204fb9c46379c9aed1d3fb00ac957c019870560164"
+  },
+  "games/mymyth/assets/art/naga-hatch-walk-04.png": {
+    "bytes": 160907,
+    "sha256": "64287bc50d570a162f3631a443c2ba2cc52a833247778cb7896c274f43bdce25"
+  },
+  "games/mymyth/assets/art/naga-hatch-walk.png": {
+    "bytes": 211882,
+    "sha256": "bd6dbd34b5c66e7e3bf019ab494fe0cef45e6c2c8537c007a654ca98e8e8454a"
+  },
+  "games/mymyth/assets/art/naga-hatchling.png": {
+    "bytes": 1675624,
+    "sha256": "24a6de51f57d9d3abcb94acc78f6eb73fc946b65b0264edfe020fe5e49423da4"
+  },
+  "games/mymyth/assets/art/orochi-fragment-attack-v2.png": {
+    "bytes": 1593428,
+    "sha256": "891a3ffff966de837961ba275f03840f2e0681b979a62a919792badb7bddc3ca"
+  },
+  "games/mymyth/assets/art/orochi-fragment-defeat-v2.png": {
+    "bytes": 1400065,
+    "sha256": "9e2c09e2f06b43ed54811123669286bf8560fa6c82a734d0c893d04ca782b81b"
+  },
+  "games/mymyth/assets/art/orochi-fragment-eat-v2.png": {
+    "bytes": 1489973,
+    "sha256": "2e6c38ac733ebad48b30a7b569dd57e2157c664b4a47e60bcae2f4f2b3de7587"
+  },
+  "games/mymyth/assets/art/orochi-fragment-hit-v2.png": {
+    "bytes": 1470650,
+    "sha256": "8ce890bc6e54514c8dbb835df95216b0094ad66873d20a047ad00a341980cf42"
+  },
+  "games/mymyth/assets/art/orochi-fragment-idle-angry-v2.png": {
+    "bytes": 1448788,
+    "sha256": "9ebd89ce28ada58f10eee98b5f4454716b1d4694f77051efc1b7a5a98a91fc65"
+  },
+  "games/mymyth/assets/art/orochi-fragment-idle-battle-v2.png": {
+    "bytes": 1450579,
+    "sha256": "97bf90836b4210761869f5483f894672daf4a079c6a0824cc2c01b915adb13b8"
+  },
+  "games/mymyth/assets/art/orochi-fragment-idle-happy-v2.png": {
+    "bytes": 1534428,
+    "sha256": "76e415046f3d687275c7bb2dc17ded4566c25c3352cd069bb6cafc0f56a9b0ae"
+  },
+  "games/mymyth/assets/art/orochi-fragment-idle-sad-v2.png": {
+    "bytes": 1443938,
+    "sha256": "c70e458591ba917119dadf19849a8fd4c9f8a4f3d1106d05574e8f57ac7bf027"
+  },
+  "games/mymyth/assets/art/orochi-fragment-idle-v2.png": {
+    "bytes": 1419229,
+    "sha256": "1b09c05da6e32c64fa8c2b89009fb04e792134059c6f4e9f6910c1b258c12a04"
+  },
+  "games/mymyth/assets/art/orochi-fragment-sleep-v2.png": {
+    "bytes": 1422181,
+    "sha256": "a13977f26d2ad662b9d422e57009394da0ff944a97dfc9eb721b3900af34f4f5"
+  },
+  "games/mymyth/assets/art/orochi-fragment-special-windup-v2.png": {
+    "bytes": 1747593,
+    "sha256": "dd1aa8bb429d342f927896d82958006eecee452d1aa8930ef3a786ffa8884789"
+  },
+  "games/mymyth/assets/art/orochi-fragment-walk-01-v2.png": {
+    "bytes": 1483122,
+    "sha256": "0aea5849e4465bd63e35b285477ae12c7e38e319652f3575b748ea0ba656fd1e"
+  },
+  "games/mymyth/assets/art/orochi-fragment-walk-02-v2.png": {
+    "bytes": 1521402,
+    "sha256": "2f995b1ae79b01afc57c915feb8a46f207b296b27535fd1b061c409666282b3f"
+  },
+  "games/mymyth/assets/art/orochi-fragment-walk-03-v2.png": {
+    "bytes": 1435569,
+    "sha256": "3af7655e5023a9f78e2877a25302433c587776211bbce2b7aecccfd0b1bb175f"
+  },
+  "games/mymyth/assets/art/orochi-fragment-walk-04-v2.png": {
+    "bytes": 1451438,
+    "sha256": "c337d8695abc5ef77de8e7a81dd4f7cacc7e855264af6881083e9865332ae889"
+  },
+  "games/mymyth/assets/art/orochi-fragment.png": {
+    "bytes": 388483,
+    "sha256": "7a9cf64215dd3cd5c07a0ff3fc23f96cea7e53502ab19598d1ddeed0338a61a2"
+  },
+  "games/mymyth/assets/art/phoenix-idle.png": {
+    "bytes": 329149,
+    "sha256": "46a2620fbf4dd93794f703d89c5f6068f6cee6e5ab4321f9386dcfa4fa248be2"
+  },
+  "games/mymyth/assets/art/phoenix.png": {
+    "bytes": 327615,
+    "sha256": "0ce72d76804ce008085b2826377656679199ec608190dc89861aa0c090f06e01"
+  },
+  "games/mymyth/assets/art/relic-offering-icon.png": {
+    "bytes": 908736,
+    "sha256": "5e01b0344104c9dcafee89fde8751a1c38e9554701879775f373f09705d90ba5"
+  },
+  "games/mymyth/assets/art/royal-naga.png": {
+    "bytes": 424626,
+    "sha256": "7185bff55aba7427608e5e44b825dd0e2e80984336dd8b23701f3d9f59d93498"
+  },
+  "games/mymyth/assets/art/spirit-berry-bush-empty.png": {
+    "bytes": 1712849,
+    "sha256": "a6b71004341cea18aaedc14f80d1843b3c0b2ce3294f744d2ec4b63625e532b3"
+  },
+  "games/mymyth/assets/art/spirit-berry-bush-ripe.png": {
+    "bytes": 1769935,
+    "sha256": "13314594fd79c751a077ec9342499d5d1b89e4b343994d1a51f9594112ae0304"
+  },
+  "games/mymyth/assets/art/spirit-berry.png": {
+    "bytes": 178450,
+    "sha256": "81dac6e6596300d29f196a97b1fc1729d3d999ba9939747dd4601452ad39efcc"
+  },
+  "games/mymyth/assets/art/spirit-hound-attack.png": {
+    "bytes": 133865,
+    "sha256": "838f5375a3c980bc685ac84ebe7de4b797b9abfc1f372b39504c4b7008c9f1af"
+  },
+  "games/mymyth/assets/art/spirit-hound-charge.png": {
+    "bytes": 121360,
+    "sha256": "8a51c49ab669f2fa9570fdd5705e46a52c9322d5a027ecd6773512661f44d8d7"
+  },
+  "games/mymyth/assets/art/spirit-hound-eat.png": {
+    "bytes": 116653,
+    "sha256": "d44ae6e53da29c2ca5d506c3b348b4f2fd2616f0c57a9dd7737fe5506ecf9708"
+  },
+  "games/mymyth/assets/art/spirit-hound-hit.png": {
+    "bytes": 144106,
+    "sha256": "283508f6e6f377d815f6bbf777d17995fef0fb9b5d653a2829de9b85bde13397"
+  },
+  "games/mymyth/assets/art/spirit-hound-idle-angry.png": {
+    "bytes": 147256,
+    "sha256": "396e8fd1c78d1335f72033b52f829b90a7b29d432cb27debad938a935c516085"
+  },
+  "games/mymyth/assets/art/spirit-hound-idle-battle.png": {
+    "bytes": 146654,
+    "sha256": "634adeea177102d1fc9fe7946430230461b5c88e89ac0aad3fef47ece0e38911"
+  },
+  "games/mymyth/assets/art/spirit-hound-idle-defeat.png": {
+    "bytes": 149883,
+    "sha256": "6424902f697bb353289c3f1eff600bf4f07ec09926c04f3d1da88428fe791bdf"
+  },
+  "games/mymyth/assets/art/spirit-hound-idle-happy.png": {
+    "bytes": 140353,
+    "sha256": "4044a59d95839cf43fa292c4388ae77b4139fd09a2c894d398e410f948a8dbb9"
+  },
+  "games/mymyth/assets/art/spirit-hound-idle-sad.png": {
+    "bytes": 137612,
+    "sha256": "cd9e3ac52623106d0dcec1c4b2168d443aacb0aa500d7be0803c962cad1317e4"
+  },
+  "games/mymyth/assets/art/spirit-hound-idle.png": {
+    "bytes": 144023,
+    "sha256": "a1f76dd74b1689ca96f72a91b2fe75223fa4769c241e194ccf759a185f26e242"
+  },
+  "games/mymyth/assets/art/spirit-hound-sleep.png": {
+    "bytes": 94462,
+    "sha256": "ebfa03072f7a04f7bae8b142efd098477c4b86fdaa6ad8f4be4a1cd879990c15"
+  },
+  "games/mymyth/assets/art/spirit-hound-special-windup.png": {
+    "bytes": 125248,
+    "sha256": "857b845bc75bff707ba98b542328bf8f47f39f258066bff0911c6301bb4a1092"
+  },
+  "games/mymyth/assets/art/spirit-hound-walk-01.png": {
+    "bytes": 141977,
+    "sha256": "e43ea7c5cdeb6d4e68730adb754aaee8bbf64806bd44bd5c23a69f5e8fa89870"
+  },
+  "games/mymyth/assets/art/spirit-hound-walk-02.png": {
+    "bytes": 144023,
+    "sha256": "973eec56e790dc94aec76ea1bac3e20a4b813d3276d45669788d4fd5b720c5d9"
+  },
+  "games/mymyth/assets/art/spirit-hound-walk-03.png": {
+    "bytes": 145369,
+    "sha256": "feeb0d0c7bec2a3812f34fc2775eb132e21309344fad8f1e6e3a6b1ccc9c1595"
+  },
+  "games/mymyth/assets/art/spirit-hound-walk-04.png": {
+    "bytes": 144023,
+    "sha256": "6355b479ca8c9e006ce8ad28f705a04604c1d953c31f93de980581549adab5b2"
+  },
+  "games/mymyth/assets/art/spirit-hound-walk.png": {
+    "bytes": 153250,
+    "sha256": "78e393e0cfbc851e122d40094d445012e8a7b5befe0fda504206c8905c4c2a5a"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-angry.png": {
+    "bytes": 286373,
+    "sha256": "ed374450ddc0a50b3e694cfcd71c66d3396b1e1ad26b539d0aee432d4ecd6cf7"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-attack.png": {
+    "bytes": 295292,
+    "sha256": "388af68c2c4857e4a6a7fac757b5b203062b66eb1e085c146fb230c52ae77a38"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-defeat.png": {
+    "bytes": 265781,
+    "sha256": "c97feaf75cc9cbd3e99efc68f51078048cfb9cd6ca754d708d099429215256b9"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-eat.png": {
+    "bytes": 247107,
+    "sha256": "131c38e9508986175705b4b3a911a3bde0a8c72819740d090212d2384fbd6218"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-happy.png": {
+    "bytes": 292828,
+    "sha256": "95581cf9131bf4d5711493f7e26ac8cadc29619b30b7000fdd0a44b97726dfcf"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-hit.png": {
+    "bytes": 319907,
+    "sha256": "92487ac286034ef4c4f30794eeeb0bc50ab955641b37c82e7c9b03b361dc07e1"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-idle-battle.png": {
+    "bytes": 286373,
+    "sha256": "ed374450ddc0a50b3e694cfcd71c66d3396b1e1ad26b539d0aee432d4ecd6cf7"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-idle.png": {
+    "bytes": 297505,
+    "sha256": "a8f61402a2ce56d9beb943368f2e4acae346354ba20013742067b244fc1699b3"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-sad.png": {
+    "bytes": 293731,
+    "sha256": "d529f10e33e44f5a167461b13841b4c2d48a8e3703a7722341c8091ec8954da4"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-sleep.png": {
+    "bytes": 181581,
+    "sha256": "b1eb77467bc9942a56262a42609e7156dc7837662cbb03d7eacec62210b2fc67"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-special-windup.png": {
+    "bytes": 363134,
+    "sha256": "f5eaa7309fbb08cfb3955437f78fdab73250ee52e353fc22ffd65ad908687d99"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-walk-01.png": {
+    "bytes": 312152,
+    "sha256": "9e232e02a2dd62f8f5b93dabdca1bac0f1df446df930f14b8a7ef033f5ed13fe"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-walk-02.png": {
+    "bytes": 311818,
+    "sha256": "7d2e45e4d075185eb1a7396b31f0aa2ae91d008eb96481740dae11cb6036a716"
+  },
+  "games/mymyth/assets/art/Tier_03_Mystic-Serpent/mystic-serpent-walk-03.png": {
+    "bytes": 297505,
+    "sha256": "e395953a755dba26e8aae38e004dec682af6c54b0fccf3135bf84eb3b0a06e12"
+  },
+  "games/mymyth/assets/art/topbar-friends-icon.png": {
+    "bytes": 1038461,
+    "sha256": "8a3ab4deadf496d44299ac9c2e263f5b4550e59af560ecb5c35a23b5320ece55"
+  },
+  "games/mymyth/assets/art/topbar-pitis-icon.png": {
+    "bytes": 916344,
+    "sha256": "dc6c52a5c26dfd7f2439bed9a311f367496fa1e70e9296cfd91d322a8b835524"
+  },
+  "games/mymyth/assets/art/topbar-profile-icon.png": {
+    "bytes": 1282060,
+    "sha256": "eb05521ec407ea0a16fd226d5c41b27a71b665dc6d32b32e096b2f3eecc2aa18"
+  },
+  "games/mymyth/assets/art/topbar-settings-icon.png": {
+    "bytes": 910822,
+    "sha256": "106fa88c1ca855ebf9b272311ba68b90bac8df25adcd0b21509718f8c68fd339"
+  },
+  "games/mymyth/assets/art/topbar-ui-icons.png": {
+    "bytes": 1316239,
+    "sha256": "31eb9699b84cafc8915a022b672f14d75a75924dcb18b5c8bcac249784ec3355"
+  },
+  "games/mymyth/assets/art/topbar-wisdom-icon.png": {
+    "bytes": 662802,
+    "sha256": "1a39f0eecc7612c98eaf74be8168fd54ef765c40edc6727dfd6b0b3c7f2924f4"
+  },
+  "games/mymyth/assets/art/town-adventure-icon.png": {
+    "bytes": 1669075,
+    "sha256": "ea198db426e32f5eb051a40d66626d88738918429f25509650b8cc64571a0826"
+  },
+  "games/mymyth/assets/art/town-guild-icon.png": {
+    "bytes": 1465651,
+    "sha256": "1143e0cf1fea44ed830f4203db0f338272c1a86b3ecf509d937135b0ec1b0793"
+  },
+  "games/mymyth/assets/art/town-lair-icon.png": {
+    "bytes": 1587238,
+    "sha256": "e25618f18ed1aa35d5065a0a53ca7b191f93202c21db345395da00b7c1133a83"
+  },
+  "games/mymyth/assets/art/town-lore-icon.png": {
+    "bytes": 1764299,
+    "sha256": "52ac2679fd8b7647d392df582f6198431192a55496f22ebde7ec1772ac6d9aeb"
+  },
+  "games/mymyth/assets/art/town-market-icon.png": {
+    "bytes": 1339015,
+    "sha256": "560c7797cb61bb58aaab13b6d7613ca9a1b714582d77e02647ae9dd6f8dff82a"
+  },
+  "games/mymyth/assets/art/town-nusantara-map-v2.png": {
+    "bytes": 3471595,
+    "sha256": "8e2af6e7b1f2d0ce27bf5d75104e3e5a30ca7b4ac59c3db262526a40341098df"
+  },
+  "games/mymyth/assets/art/town-stadium-icon.png": {
+    "bytes": 1515037,
+    "sha256": "40491f3206d7a6af7274a969f3233d49fa2e27588f26240289a7e11018fc2651"
+  },
+  "games/mymyth/assets/art/yamata-no-orochi.png": {
+    "bytes": 426158,
+    "sha256": "4e0268f50b1600cb0f50334598d26f1d52f19ce9433c91841d0eefed94d9b57c"
+  },
+  "games/mymyth/assets/SFX/01_BGM/bgm_city_map.mp3": {
+    "bytes": 9761320,
+    "sha256": "0f3597adbb7e9ccd18d156e2501fff693a4f26a53a1b3be073781e897ff6e83d"
+  },
+  "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_angry.m4a": {
+    "bytes": 20714,
+    "sha256": "aa8fced506717a8630e87d53b6bb39b18214a459979a399da4bdcb9b9733e50f"
+  },
+  "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_curious.m4a": {
+    "bytes": 32005,
+    "sha256": "9368d0a53fcda25a7afc308178bd52f6fb4479281f23dcb271de9eb72a96113b"
+  },
+  "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_happy.m4a": {
+    "bytes": 20525,
+    "sha256": "0f9d1b5f9de23d2f7504d86d1ccbbb0509672ea01855b357b151f603bd6bdeb6"
+  },
+  "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_refuse_food.m4a": {
+    "bytes": 21160,
+    "sha256": "dcff650aa163ef3bf60b801ff90167589a625dc4690b6d86e828a6c2973a5cda"
+  },
+  "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_sad.m4a": {
+    "bytes": 65780,
+    "sha256": "fdea235f0337465c585af8fc67d3e1f96fa7ff74bf617bdd6478abb5f510a85e"
+  },
+  "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_tired_refuse.m4a": {
+    "bytes": 32887,
+    "sha256": "8de13ffd821dbd967590c06fef542633ee45693740240ce8e34e0c932f07990e"
+  },
+  "games/mymyth/assets/SFX/02_SFX_myth_mood_reaction_M4A/sfx_myth_tired.m4a": {
+    "bytes": 65425,
+    "sha256": "95c158f263aa59a2aba52464998c021e9102af15ea1f413e68947edd6e79f485"
+  },
+  "games/mymyth/assets/SFX/03_SFX_eating_feeding_M4A/sfx_myth_eat_berry.m4a": {
+    "bytes": 19608,
+    "sha256": "6817342cb023a042d461585c099db941b017ca04551ae0c7f41b65cbd3de2021"
+  },
+  "games/mymyth/assets/SFX/03_SFX_eating_feeding_M4A/sfx_myth_eat_favorite.m4a": {
+    "bytes": 20389,
+    "sha256": "7f919d16674e788c801274ee2b58e466550d0254e82256525937ad47b11ce1ac"
+  },
+  "games/mymyth/assets/SFX/03_SFX_eating_feeding_M4A/sfx_myth_eat_hate.m4a": {
+    "bytes": 21171,
+    "sha256": "6629f2a5e4d70afc71fad17a558431de9e86c8f488827dc4ba238c6ac3130e88"
+  },
+  "games/mymyth/assets/SFX/03_SFX_eating_feeding_M4A/sfx_myth_eat_mediocre.m4a": {
+    "bytes": 21188,
+    "sha256": "213be370a94c38c109a3bcc20f5e3192c93ee4c34cde6adabf942dadafd28e48"
+  },
+  "games/mymyth/assets/SFX/04_SFX_ball_play_M4A/sfx_ball_bounce.m4a": {
+    "bytes": 31325,
+    "sha256": "b460a513967d5fe329330bc3cbffd57bc3d45a89bba5afc2db39856c3e84e82c"
+  },
+  "games/mymyth/assets/SFX/04_SFX_ball_play_M4A/sfx_ball_kick.m4a": {
+    "bytes": 19967,
+    "sha256": "087f1a1881acb0fe7d7b78b96f2c89b1c2290c2173791ed9a2fa9dd37a38d09f"
+  },
+  "games/mymyth/assets/SFX/05_SFX_lair_care_interaction_M4A/sfx_demand_call.m4a": {
+    "bytes": 16051,
+    "sha256": "1880c6806f68e2d071093262d6623ecc3297d09ef543b22c68aa1324a2169ff3"
+  },
+  "games/mymyth/assets/SFX/05_SFX_lair_care_interaction_M4A/sfx_lair_drop_falling.m4a": {
+    "bytes": 20063,
+    "sha256": "a419e24534b769da9eb97d2cfbabecc0c20a80fb7c05ef17af85e1537ee9b034"
+  },
+  "games/mymyth/assets/SFX/05_SFX_lair_care_interaction_M4A/sfx_lair_drop_thud.m4a": {
+    "bytes": 19675,
+    "sha256": "0b6d71bdbce10f5c643b80a8e2e4d1054f260af025e21064dad3f08bf422d45d"
+  },
+  "games/mymyth/assets/SFX/05_SFX_lair_care_interaction_M4A/sfx_pet_click.m4a": {
+    "bytes": 25909,
+    "sha256": "32245506504d688dfc9167605064166db83851c34cafa7185b7c2a74c84bd45a"
+  },
+  "games/mymyth/assets/SFX/06_SFX_battle_general_M4A/sfx_battle_evade.m4a": {
+    "bytes": 32061,
+    "sha256": "d9730626b6fd59ebff236e8586d501c6ecd80f199106752d0d7426c20bf82d68"
+  },
+  "games/mymyth/assets/SFX/06_SFX_battle_general_M4A/sfx_battle_hit.m4a": {
+    "bytes": 33056,
+    "sha256": "3327b98b138241f47bc4eac59a90ccc2751d6fee4ce0d103603c0c2015f26774"
+  },
+  "games/mymyth/assets/SFX/06_SFX_battle_general_M4A/sfx_battle_loot_chime.m4a": {
+    "bytes": 157964,
+    "sha256": "359f4673bdd3bc432a7232759da76dd21889b5cf8182b607b010f73884ffde28"
+  },
+  "games/mymyth/assets/SFX/06_SFX_battle_general_M4A/sfx_battle_loss.m4a": {
+    "bytes": 159980,
+    "sha256": "a29a60662024854908c627cc28c672173887b1b3648db52d5a86b2ebd73629f6"
+  },
+  "games/mymyth/assets/SFX/06_SFX_battle_general_M4A/sfx_battle_win.m4a": {
+    "bytes": 95917,
+    "sha256": "a2c13a5da1f0b546fa88da0661cc0bcbdb1bf849cdd747f90966c47044177480"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_achievement_unlock.m4a": {
+    "bytes": 41025,
+    "sha256": "2872cf61713eca42e2fa10e6533e1e05ac8477e46c37f998441d6e2e06b59c83"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_bond_level_up.m4a": {
+    "bytes": 63793,
+    "sha256": "c06643b6a7ba27dba76a91d03ad48032832119a2b9746a774192ca2f08842eab"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_challenge_received.m4a": {
+    "bytes": 34548,
+    "sha256": "49beb56b61085f10c66c77ac76d29815ca538d4e38e96533271352b1c7e171f9"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_daily_quest_complete.m4a": {
+    "bytes": 64070,
+    "sha256": "890471a597b148c93019b2102e9cbc44670ff2bb164d3e532d1a545fc877e8f9"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_district_unlock.m4a": {
+    "bytes": 33406,
+    "sha256": "3577506ef833fd831e94c6aac31bf2577cdcce09973137a663f68718356f9682"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_egg_hatch_reveal.m4a": {
+    "bytes": 63739,
+    "sha256": "860ef009dfe0972f8b91095ad16ec270c7eda2100f24bdae74075e439d61c3bb"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_journey_milestone.m4a": {
+    "bytes": 32155,
+    "sha256": "b0e994ac3fc6cc1b1f2855a06161d7b63c9d149522281106ae87605a1f79866e"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_level_up.m4a": {
+    "bytes": 63658,
+    "sha256": "e4dd3da2b25593d4c62b294865bdd24a39b55dae2cd6eb0aa93e8bce41f06c42"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_npc_dialogue_start.m4a": {
+    "bytes": 32120,
+    "sha256": "d973f85f896e9e0d5c71fd9032c2cb47fad1d83ae95af3cb315b192fbe9ce554"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_shop_coin_collect.m4a": {
+    "bytes": 31778,
+    "sha256": "3842cb40424d11b4d9c5d4f2e0b39e3befb48675b65e5c703707703904acbf69"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_shop_purchase.m4a": {
+    "bytes": 32743,
+    "sha256": "02a78456043539d82d4064988fe2c5f42ca1a422190bb5eabb930dc1741bfa89"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_stat_boost.m4a": {
+    "bytes": 31992,
+    "sha256": "e6368bf54cecf71199ac2d1767a0a1d5c2132fc45b526a8f44af53afa2f65609"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_tournament_bracket_reveal.m4a": {
+    "bytes": 62540,
+    "sha256": "80e02b70ef9e6d53134939e244bc992203cf09e6e001d4604ac40989c275a813"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_tournament_round_start.m4a": {
+    "bytes": 32485,
+    "sha256": "1a645f11515e615b17bfa63a874cb231575e023eb95abf785dae2bb7b4cfac5b"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_ui_back.m4a": {
+    "bytes": 15136,
+    "sha256": "8c82cf9a072092177d106836a7116f16b3ab1b854948d29e878bab9fcea8e2da"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_ui_confirm.m4a": {
+    "bytes": 31391,
+    "sha256": "d853d9ce6d0af591b11a6fabde6a242155877d5b2e5e74700c2bd8cffa564768"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_ui_notification_ping.m4a": {
+    "bytes": 31617,
+    "sha256": "07b33735c8b37145b7c9c0d7cfc91f1a5718c97356c946f460790552fad9bf2b"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_ui_tab_switch.m4a": {
+    "bytes": 32934,
+    "sha256": "60015b90aefa9614cd6e2a99fb6dbaa4fd46c0d5e9d1c7aec9f50e68e4a83121"
+  },
+  "games/mymyth/assets/SFX/07_SFX_missing_M4A/sfx_ui_tap.m4a": {
+    "bytes": 31573,
+    "sha256": "8f5d917ab511e374248e445ac2d36c5f6324c092cc42a91a317deea997a0497f"
+  },
+  "games/mymyth/data/creature/creatures.json": {
+    "bytes": 29470,
+    "sha256": "b27c2f6982cebdd0cef838bfdad0c580e0b60cb99bcf9d85c3ba0e0321d75ac5"
+  },
+  "games/mymyth/data/creature/pet-art.json": {
+    "bytes": 22490,
+    "sha256": "0ed4daa29dd22b0dbf852f9c24b1aec772c612fd1489ba73907f56f0e5b7e2ae"
+  },
+  "games/mymyth/data/game-bundle.js": {
+    "bytes": 77006,
+    "sha256": "573190cad8383eec742ef2eb08ec826c53193989b597d894d4506a367f78f6e8"
+  },
+  "games/mymyth/data/player/game.json": {
+    "bytes": 5415,
+    "sha256": "3fec0911c622d5751d24af839c9f079de241450e0e3cccc735beeab7509bfc20"
+  },
+  "games/mymyth/index.html": {
+    "bytes": 1017191,
+    "sha256": "9b10a6ba9f27c4c9f62abb98d26ae03b49df6dddc45ec3434d71e01139669f07"
+  },
+  "games/mymyth/js/achievements.js": {
+    "bytes": 25729,
+    "sha256": "445fb070e02ef3c23895ee2ca0d1f24b0088266ca001550195000478dae5d2c5"
+  },
+  "games/mymyth/js/audio.js": {
+    "bytes": 40599,
+    "sha256": "8d1db3a4f507bdf25bf15319f8c6654b0728bd55737869901004628878a185d2"
+  },
+  "games/mymyth/js/auth.js": {
+    "bytes": 8714,
+    "sha256": "271353c96b7fb0ddacf05b817d3c8d631db1835767a13fc76ded7d9a5bc585ba"
+  },
+  "games/mymyth/js/auto-care.js": {
+    "bytes": 3523,
+    "sha256": "565d410fd5ed2bd2212b4ce5573aa8970476257d5c37a1ab84e70ff91dd50906"
+  },
+  "games/mymyth/js/care.js": {
+    "bytes": 92467,
+    "sha256": "885840aa241fde6e77e52b84919d6a7087e3f7cd97d8d8ef6e8bed3f6bea6166"
+  },
+  "games/mymyth/js/cloud-save.js": {
+    "bytes": 1782,
+    "sha256": "809c366f4ecb138c601a7f3f2c7a30aaab382daffacfe55621ddb160a211a31a"
+  },
+  "games/mymyth/js/combat.js": {
+    "bytes": 159320,
+    "sha256": "29e0b49569fca372b6a972dc975998a54fef7ee103f53675ffdfac18c3552227"
+  },
+  "games/mymyth/js/dailies.js": {
+    "bytes": 5953,
+    "sha256": "fa015ac3b83009e808073a072d84f63b1c1450b0170d703554312bddd4887144"
+  },
+  "games/mymyth/js/data.js": {
+    "bytes": 16661,
+    "sha256": "614074675419baaabf5a3aa786927cd9e8c552f719dba617ffe732642e396480"
+  },
+  "games/mymyth/js/elo.js": {
+    "bytes": 2588,
+    "sha256": "3df9a802e5813b26078af9981afb7b7dca8a01d14661d352166c753f59cc472e"
+  },
+  "games/mymyth/js/evolution.js": {
+    "bytes": 45779,
+    "sha256": "a84693256256d0db10b36278b4bd2c995d8682010b88aed80302a0700d176cc6"
+  },
+  "games/mymyth/js/firebase-config.js": {
+    "bytes": 1743,
+    "sha256": "02c3740bdcebbf0e6b5ef0a27044e238c7a1a6be3e1f585a25ade5d14ff2accb"
+  },
+  "games/mymyth/js/friends.js": {
+    "bytes": 5300,
+    "sha256": "e58d58160b1d92d45da5513c2d09b6c48671b4fbe8909dc13d5a2fab82e6252d"
+  },
+  "games/mymyth/js/lair-events.js": {
+    "bytes": 4253,
+    "sha256": "91623d6e7a228a3b255d2ec14e865d378457b15fa89543fc70793711e173eed2"
+  },
+  "games/mymyth/js/leaderboard.js": {
+    "bytes": 4481,
+    "sha256": "20f2a4292e2dbc3203f26f7c793d872ec50f36fa2d7d773cc7a03de62efd0aac"
+  },
+  "games/mymyth/js/legacy-timeline.js": {
+    "bytes": 3189,
+    "sha256": "aaf2b370d07efbf2c40fe085b0c37e17e260dce155c452a2e11389db660c0162"
+  },
+  "games/mymyth/js/main.js": {
+    "bytes": 55786,
+    "sha256": "6c692d8f6bac8ea40e7ac7b932c9901eec85181d81d02f0d30601a4d40d52a2e"
+  },
+  "games/mymyth/js/myth-interaction.js": {
+    "bytes": 12445,
+    "sha256": "c9b6544696936eb7d1a854615aee4532d426245c3c57c94b82aaf3786743b7ac"
+  },
+  "games/mymyth/js/online-ui.js": {
+    "bytes": 51124,
+    "sha256": "fbbcf243df9f28d2d40e2415bbe9d1d169693016e1d53a8a6ddf3728132b7488"
+  },
+  "games/mymyth/js/player-profile.js": {
+    "bytes": 12767,
+    "sha256": "778e0a0bcdcc61f1da780a35f54ae49bb14c694f09412e4cac7679abf2e37125"
+  },
+  "games/mymyth/js/presence.js": {
+    "bytes": 1475,
+    "sha256": "1c786298a647ff67cf7fa980ccfb7d56598e048be58fc9a5c3d4443232d5dd81"
+  },
+  "games/mymyth/js/pvp.js": {
+    "bytes": 11198,
+    "sha256": "1bf654c0a4a8aedb8673005894e8aeb695e4057f3501d68cad4c5d7a92cf9cdd"
+  },
+  "games/mymyth/js/state.js": {
+    "bytes": 13216,
+    "sha256": "00cb159a10f8c11a57cfeae5b9986ca40a1cb2a2d312454c5e173fe5b42b969a"
+  },
+  "games/mymyth/js/ui.js": {
+    "bytes": 38671,
+    "sha256": "0e900d2db3a0e37773b6dd92e174e28c06cff8acf902d7ae6cd2fa046d6eccb6"
+  },
+  "games/plotbound/assets/bean-sprout-M2eb6Dy8.png": {
+    "bytes": 266722,
+    "sha256": "a7056e5c23f625237cbb73e0e68a77c54e538b411fc15c34661bfcaf010f6a2b"
+  },
+  "games/plotbound/assets/bulk-order-Cvv1Gy4l.png": {
+    "bytes": 462393,
+    "sha256": "45beed97301c656251ec4b30ec42eb8fc61690b8d224cdd793040ab2c9446d64"
+  },
+  "games/plotbound/assets/compost-heap-BwrYNwRK.png": {
+    "bytes": 417316,
+    "sha256": "528204926e7e8ec57ccc8d8f2c75a20959001456c6c99e643cffdb5fbf7f8b13"
+  },
+  "games/plotbound/assets/curators-pick-DiyAj58K.png": {
+    "bytes": 276553,
+    "sha256": "66bcd345cf6bc113271125b414d4fe8578bb167b6b703d5757c023478c06cafa"
+  },
+  "games/plotbound/assets/drip-line-9U-kDpbQ.png": {
+    "bytes": 320012,
+    "sha256": "5c623f1c6edf61e41ca3f5c377787fa7b9296e9fa24c2d003a889a9f2aa027e6"
+  },
+  "games/plotbound/assets/eggplant-Cqe-cekE.png": {
+    "bytes": 307586,
+    "sha256": "88aac5e2f881946d61d97b5310d72fb37899299cea52f75fa1efe619ea744eb2"
+  },
+  "games/plotbound/assets/fertilizer-bag-gy3ZoYeP.png": {
+    "bytes": 437818,
+    "sha256": "388a798c36b2645392547451ee62476fe564d86fa07e804a2af4b0feff06336e"
+  },
+  "games/plotbound/assets/fire-pepper-CpjODRsS.png": {
+    "bytes": 316519,
+    "sha256": "df08d8c4e96caf274eab115698ed0216f42cf966b56e01d87fdf9d982773b004"
+  },
+  "games/plotbound/assets/frost-grape-DUCkQ-7P.png": {
+    "bytes": 337300,
+    "sha256": "dbedc79db91057703026bd497199fc8a0f9ef152ce1005d5ea690421afbbcfcf"
+  },
+  "games/plotbound/assets/garden-fork-DLvYU8Ox.png": {
+    "bytes": 203241,
+    "sha256": "1e17690eb4a9ce9a4a6ddd67c05a37f6f2b2593fbc78c1f666f8a43240a5e7aa"
+  },
+  "games/plotbound/assets/golden-corn-CNrK4CIN.png": {
+    "bytes": 324267,
+    "sha256": "3ac6551a65dc5930a657524b8df95c43cb3fd3ef92f145d083d4fd070ac9a757"
+  },
+  "games/plotbound/assets/golden-trowel-BPdDVJTL.png": {
+    "bytes": 271542,
+    "sha256": "16129ecbd2d962e41bcbfad11fd34d5563f42ea9c72565a974868143ee73e48f"
+  },
+  "games/plotbound/assets/growth-potion-DwHewPzU.png": {
+    "bytes": 278964,
+    "sha256": "642ecf8687a807a1d4870eb4e3319a92b975cc92bd6ff601a17aa58cde79586f"
+  },
+  "games/plotbound/assets/harvest-basket-C0QcpEM8.png": {
+    "bytes": 475277,
+    "sha256": "2b4fed0bea608b03773a35d1dcbe8634b277f23d7a64433d2b3afa88da44b542"
+  },
+  "games/plotbound/assets/harvest-oracle-0oWXEdiQ.png": {
+    "bytes": 375787,
+    "sha256": "53349cb15a3178406244cb40483bde98cc27176ecacb4c032390ea9f0eace778"
+  },
+  "games/plotbound/assets/honey-melon-B4z25g1V.png": {
+    "bytes": 374028,
+    "sha256": "e0c4de9e1d7792d9e0258b66a6aee7fc38ba44278bb394eb55c79af7ffde6b31"
+  },
+  "games/plotbound/assets/humble-carrot-TyEq9svA.png": {
+    "bytes": 310904,
+    "sha256": "3470452de7fe1c61467e743c846316b92d6f645b2c09fb7838a3d8c5c9879b76"
+  },
+  "games/plotbound/assets/index-B6Dr_Irg.js": {
+    "bytes": 1028663,
+    "sha256": "d42e7dc990049865222e2b9e7fc0983d8d55e15ad9b806f6a0335f9316d1a0f8"
+  },
+  "games/plotbound/assets/index-DHsP_VC0.css": {
+    "bytes": 51513,
+    "sha256": "c35a185b7c1694bd21563259496ec4e927d48cf919f97ec52485bc0dcdbd88d0"
+  },
+  "games/plotbound/assets/jumbo-pumpkin-DR7g7cQH.png": {
+    "bytes": 396502,
+    "sha256": "1c859a37eb9c224475f123233e0c39731042d7dc20ee16c33796603aeb3b6341"
+  },
+  "games/plotbound/assets/lettuce-leaf-DgNL6_zX.png": {
+    "bytes": 445502,
+    "sha256": "afbb00193a905e86459daee10906fbbc898ae8c05a9b4272b80281d935b7a81f"
+  },
+  "games/plotbound/assets/market-bell-Cn8K0eP_.png": {
+    "bytes": 264966,
+    "sha256": "3bf823764dd10a82848515b0e818ba2b7e23ce7ff51c947280f67005651aadb4"
+  },
+  "games/plotbound/assets/market-research-fak_q_Td.png": {
+    "bytes": 263533,
+    "sha256": "d35622df6a0e6031b14e0f69ff49f55ff619b4e54284fd85622cd7923d11a5d8"
+  },
+  "games/plotbound/assets/mystic-mushroom-CHjf15jh.png": {
+    "bytes": 324133,
+    "sha256": "f606c37e1b1d4b5a10e30c8962ea9e431efd3669ebc72a9e6a24bdb23e4300ef"
+  },
+  "games/plotbound/assets/pea-pod-CML2xMrT.png": {
+    "bytes": 291239,
+    "sha256": "3c2fbc260096c9015bfff00509bf5cbe970996061d8144e29cf90ed2d1f85d97"
+  },
+  "games/plotbound/assets/phoenix-pepper-BlG7zVyV.png": {
+    "bytes": 320107,
+    "sha256": "8cc1b7a9d07f6f811f4a95de126e4269d5a70db3995b7ef4f8076e0423bf0635"
+  },
+  "games/plotbound/assets/quick-draw-DiBPN6Ow.png": {
+    "bytes": 291246,
+    "sha256": "a04788f71e46dcbc214077210fa2d6dce15df36a0ad292a2cc1d7098929df3cb"
+  },
+  "games/plotbound/assets/radish-pop-Dl8TIkBT.png": {
+    "bytes": 340277,
+    "sha256": "ba6022f3257fe8f9b1956911757320c6f4a7cafac3bec29d085c40a882500995"
+  },
+  "games/plotbound/assets/rainbow-sprinkler-dD5fm1WL.png": {
+    "bytes": 283190,
+    "sha256": "51cfd20a95d321acce56ca36a05d4509c8117649124bf6c3673b25b1f81be4b9"
+  },
+  "games/plotbound/assets/recycle-xXieJvXh.png": {
+    "bytes": 334857,
+    "sha256": "9d50c9a9a42c1e94308c709f2045e5fdb468629e48a62ec706499387d83d7f9b"
+  },
+  "games/plotbound/assets/royal-cabbage-CE1pd0H5.png": {
+    "bytes": 343131,
+    "sha256": "3cdc8c41cb3b7576c895995276a2e59fc13d4451e3771e6c500aba89c6012f42"
+  },
+  "games/plotbound/assets/scarecrow-Cx9O9I9g.png": {
+    "bytes": 299374,
+    "sha256": "d0033c346d44f15fcea0e1f34dd8e9232ccc02b0bc6be471eb5a058ecf834185"
+  },
+  "games/plotbound/assets/scout-8rzptuXJ.png": {
+    "bytes": 392827,
+    "sha256": "fca6be952d75dd64322a58a3d98193eff516230060168cce43603399fc26512d"
+  },
+  "games/plotbound/assets/season-compass-BUnkWrqg.png": {
+    "bytes": 353398,
+    "sha256": "7228815b6bccf47e9dfb471146f5655fd57ea01b0b738f7941d1f0c3befec12b"
+  },
+  "games/plotbound/assets/seed-exchange-Cmm8r9HX.png": {
+    "bytes": 403859,
+    "sha256": "cac4ee8e85799daf7b35d4284e17367abdbcd771ac4c7ba159d1fa27892123f8"
+  },
+  "games/plotbound/assets/seed-vault-CmFGUHXZ.png": {
+    "bytes": 338114,
+    "sha256": "d97ffe9b37f6b4afa5d91499c222062de886de61ae0a47d1e2baf2578121f8c5"
+  },
+  "games/plotbound/assets/silver-hoe-Cv_ApovJ.png": {
+    "bytes": 201294,
+    "sha256": "78192678e0417159e951d9aa663be26981564491abf6423a30757fadcdea4742"
+  },
+  "games/plotbound/assets/starberry-Dy_M0xmV.png": {
+    "bytes": 375887,
+    "sha256": "e960b691f583b48afac179431f0b6056dce3dc21a4b9281a6a5a9498d1b97d6c"
+  },
+  "games/plotbound/assets/sunburst-tomato-gp7CkHEA.png": {
+    "bytes": 357289,
+    "sha256": "3703bc01d1bbaa242f93ecc398297faa6615fbd6787afa89a90c20a1a9bb9d4a"
+  },
+  "games/plotbound/assets/swap-seeds-BVZRRIaJ.png": {
+    "bytes": 363401,
+    "sha256": "68ac5719a3d2b991b52504e3d6a76f3efa5a1a51a7dbf6a2929203ab85b9c56b"
+  },
+  "games/plotbound/assets/tactical-dig-C3arV_sE.png": {
+    "bytes": 387204,
+    "sha256": "ab389a37f464e811a6a74dbf6df98bf8fce0d44b53062ce4be89f50424d414dc"
+  },
+  "games/plotbound/assets/titan-sunflower-C5mp0AWn.png": {
+    "bytes": 388673,
+    "sha256": "a67eb7ad015e5acd6ae8b99d8e1b3747b22b9c0902db788befba8ed609573fe0"
+  },
+  "games/plotbound/assets/watering-can-CdaLOuKr.png": {
+    "bytes": 257097,
+    "sha256": "24187b6d997329d76b6067681e1c8cc3658737d60fa80b6db3636b228b0253f5"
+  },
+  "games/plotbound/assets/wheat-stalk-BQ2BJSbP.png": {
+    "bytes": 336893,
+    "sha256": "3610bf983507bcb5733d9ea087ff62da295667560a11a40ea3bc472168e207ea"
+  },
+  "games/plotbound/assets/wheelbarrow-Bu1J4EiC.png": {
+    "bytes": 425582,
+    "sha256": "893265d70f0a1b8a3507675a80469ecd61adaf71816d180c72d72308614cee36"
+  },
+  "games/plotbound/index.html": {
+    "bytes": 966,
+    "sha256": "8cd113a7380067134e3aa643302a6b14f17a717501edc26b262bd432fc47f941"
+  },
+  "games/sigilbound/assets/abyss-caller-c-djSsKg.webp": {
+    "bytes": 190096,
+    "sha256": "8c7d169c4475f62521f27676fc19c4b712f9d79ff3ba2989ddca711a29e7746f"
+  },
+  "games/sigilbound/assets/adrenaline-B0Qx4VwW.webp": {
+    "bytes": 60152,
+    "sha256": "4ffad56ec970975faef41ab941aa380b3795aa450f16e8c0b935deff341d9a88"
+  },
+  "games/sigilbound/assets/aegis_of_last_king-DHF2JCOZ.webp": {
+    "bytes": 205798,
+    "sha256": "b855196e907d58c22abb5ff65ccbe836d82218db176a42d90fe7c3561f864da9"
+  },
+  "games/sigilbound/assets/aegis-J0BpunMu.webp": {
+    "bytes": 143566,
+    "sha256": "6b6a30e79d53f01bdccdb5067bd2feb824f9c5e56124f532fd627d3ce500dd83"
+  },
+  "games/sigilbound/assets/amulet_of_sigilbound-CX1OzyKa.webp": {
+    "bytes": 175858,
+    "sha256": "e886593755ee47ea9759bd72e814d11e4aa9a42181ff0679e20439074c67c70c"
+  },
+  "games/sigilbound/assets/angelic-blade-CHcRsxJ8.webp": {
+    "bytes": 178042,
+    "sha256": "fbf36eb980751ab61b74f7538bb490d47b1006a3e256075574cce6d32f23eab8"
+  },
+  "games/sigilbound/assets/ashen-demon-CjTL4Ypa.webp": {
+    "bytes": 145516,
+    "sha256": "7ec80bf6e34079d16ab51385a7acb50891ff8eabe48167f9072dc776c661aa62"
+  },
+  "games/sigilbound/assets/ashen-warlock-CWimxu27.webp": {
+    "bytes": 131082,
+    "sha256": "ae0bea8238b07d4e9f45bf0db23338dde6c63a37761f04bc0fb4fe8e3bf44419"
+  },
+  "games/sigilbound/assets/astral-convergence-CIuhourb.webp": {
+    "bytes": 167676,
+    "sha256": "8c3ae38b636488e07a34b4895e231cd7c9e0b3f21ff6ce28eedb5c64d6da735c"
+  },
+  "games/sigilbound/assets/astral-pact-fCvDZHAU.webp": {
+    "bytes": 202696,
+    "sha256": "d1bacde7e57d9bd4ff0fa44d49d2296e74b36d83604eef2af846e510524bad18"
+  },
+  "games/sigilbound/assets/ball-lightning-Bl_aZnTS.webp": {
+    "bytes": 182956,
+    "sha256": "8c97d4065782dba7fcccb00c9ef6bc87e3ac17a1f75c99273cf0f1e2d7972afc"
+  },
+  "games/sigilbound/assets/bandage-lvDsR8ld.webp": {
+    "bytes": 46130,
+    "sha256": "910e74fbe40c12723d192de18fee2acd1aaca7c35a1c2114add948a2454d78aa"
+  },
+  "games/sigilbound/assets/banish-BTNji_7t.webp": {
+    "bytes": 80236,
+    "sha256": "ca55f30578788847197d7815d9dc4a0adbf48ff09832c286b2b8f1d048c660f1"
+  },
+  "games/sigilbound/assets/banshee-m755g19b.webp": {
+    "bytes": 121930,
+    "sha256": "a22209dae58cbd89850d2fdb02b2df6938d1a28744d87e9a640afab7f7ba853c"
+  },
+  "games/sigilbound/assets/battlecry-BKKW7kpC.webp": {
+    "bytes": 83010,
+    "sha256": "3c91c875c816d527d2916d7e6311ecb1251e34e60023f3b90103de1113318d88"
+  },
+  "games/sigilbound/assets/bigger-hand-DXBrziyb.webp": {
+    "bytes": 154724,
+    "sha256": "8ab5036ac3c483e26049e5f3f26d304f1cad5af1dd0459df4b786c707485d9ce"
+  },
+  "games/sigilbound/assets/blade-dance-D6OlZGym.webp": {
+    "bytes": 70988,
+    "sha256": "01d764031d5cbdfa562fa9f390dd984d7f36b38dcebc120dc336482aaa6861a3"
+  },
+  "games/sigilbound/assets/blizzard-CkCIQtQ1.webp": {
+    "bytes": 78124,
+    "sha256": "cda95ca345e36ececfbd438c51715635cf8ab1b95792b0973efe015bd1f510ca"
+  },
+  "games/sigilbound/assets/block-B3SNJ9LN.webp": {
+    "bytes": 74552,
+    "sha256": "90f3ae29008b2f7a5ec26fab69c53dd58f4c0e3661147d8112ca55dc9376e529"
+  },
+  "games/sigilbound/assets/bone-knight-1_w9-RHB.webp": {
+    "bytes": 68080,
+    "sha256": "574754a7e6e611a7c3cc79e5fdf0ee715b25e2664b8a58e7932cee30a9e7635a"
+  },
+  "games/sigilbound/assets/brace-nlPNL5EP.webp": {
+    "bytes": 134838,
+    "sha256": "253f3ead7a0bd13426fda88126d30ebadd17bb6cfa455b5dc7b874ce983903f1"
+  },
+  "games/sigilbound/assets/buckler-Ddexvou1.webp": {
+    "bytes": 119668,
+    "sha256": "6e9db0d44d660099926f341c95c3f61e6e4cb81797b9930b36bc91f2051251d4"
+  },
+  "games/sigilbound/assets/bulwark_aegis--3HZTOUo.webp": {
+    "bytes": 180394,
+    "sha256": "4facde42313cf6aefa169a2576aa6d159496472d497bac0c39a2e61fbfe78598"
+  },
+  "games/sigilbound/assets/calculated-risk-CLUxtoEY.webp": {
+    "bytes": 76724,
+    "sha256": "d2a917e65958663774ef477dbaef81ccf15dae215118b5c266c4a6df8c64a1d1"
+  },
+  "games/sigilbound/assets/chain-lightning-Zm4saiSS.webp": {
+    "bytes": 87210,
+    "sha256": "764905cbafe411dd07f4c67b95b899aeb08b0263c50431f8a5eafb703e7449e0"
+  },
+  "games/sigilbound/assets/chainmail-BWb68vWr.webp": {
+    "bytes": 177902,
+    "sha256": "985e55ca9fa11c608420db2353f0356262ab8413ebad93af7acac9b60fd3e4a7"
+  },
+  "games/sigilbound/assets/cinder-imp-yUWzr0z-.webp": {
+    "bytes": 137966,
+    "sha256": "be5a754c7bd284160ef93eadb79e63ce263bbcff9b755650017ea03f1c0204d1"
+  },
+  "games/sigilbound/assets/cleave-DT11fd6g.webp": {
+    "bytes": 56656,
+    "sha256": "bc87d637f216ddea67b92bec071d86fedb91c78e3d978c6b451ef5b88a38f573"
+  },
+  "games/sigilbound/assets/cold-snap-BVrbptDl.webp": {
+    "bytes": 76572,
+    "sha256": "72aa19cfa31ad355c0fdc2fbd4d78ae63de2afa16f56718176db3a26c4c9b49e"
+  },
+  "games/sigilbound/assets/combo-cascade-DfflKWJG.webp": {
+    "bytes": 181540,
+    "sha256": "52ce0bc3731438b7e1c26db3922ebac66e77ba0daed087c6436bb6ffb477fe89"
+  },
+  "games/sigilbound/assets/conflagration-nmIz6TML.webp": {
+    "bytes": 120668,
+    "sha256": "630f9a10864a6d62bd414c5496f142a93ab315d0ea5926f6eba30c7db4a4375e"
+  },
+  "games/sigilbound/assets/consecrate-BJG8eq_6.webp": {
+    "bytes": 124174,
+    "sha256": "42f8a10950c57393376ffbc468a686d81614256bbf475694df9fca5e59da2e00"
+  },
+  "games/sigilbound/assets/copper_band-BwXoEwrQ.webp": {
+    "bytes": 104516,
+    "sha256": "b2b229d5a8e3dad3df7deb28b1b94a940bd98286b9dec7974ec530d8c65b6399"
+  },
+  "games/sigilbound/assets/crown_of_sigilbound-Dhbbbeks.webp": {
+    "bytes": 188420,
+    "sha256": "05c18af07dbf1b3d2e871559d24637e0960b59996b87d42cd980c452ff5f4ad6"
+  },
+  "games/sigilbound/assets/crypt-wraith-D5KgLRee.webp": {
+    "bytes": 103364,
+    "sha256": "956e67560a0580803a3ce74c3dd457b6742db111e5f6c2ffa4f68934eacea1ae"
+  },
+  "games/sigilbound/assets/curse-of-agony-C8uMwKk9.webp": {
+    "bytes": 81884,
+    "sha256": "4f11f1028ecbe44be63d5ff84edcbc1e211859d45a5ee5cb54531b3cf00b9b51"
+  },
+  "games/sigilbound/assets/damage-mirror-UJNr39iA.webp": {
+    "bytes": 57182,
+    "sha256": "cdc863507ab482e586a54ee3b0502378f1a3dae89e20d800a9b2907b72e244bb"
+  },
+  "games/sigilbound/assets/divine-judgement-CAqL5wOf.webp": {
+    "bytes": 122790,
+    "sha256": "19caea94aa908dc9723de948d006e9863f7ebd694bc8ea94c95f270f4b1d83be"
+  },
+  "games/sigilbound/assets/divine-thunder-AZ6XGiRT.webp": {
+    "bytes": 205836,
+    "sha256": "993e359796ca9ac4972da025730a65b775ecc29c93f6beab8aaf33c7d2eeb46c"
+  },
+  "games/sigilbound/assets/dragonfang_sabre-Df3m39O3.webp": {
+    "bytes": 175286,
+    "sha256": "bb774c47cb67aaa4a0fcbae1bc5e246612b3cf5f919e50384db77e566fcfe5f3"
+  },
+  "games/sigilbound/assets/drakehide_plate-AQW5XGxW.webp": {
+    "bytes": 146474,
+    "sha256": "d1a6fa201603e074c9cc911fa57ad70deae0600001e93eb31c9891e25f44eb89"
+  },
+  "games/sigilbound/assets/ember_brand-SDdROZIL.webp": {
+    "bytes": 121188,
+    "sha256": "d9be2a34df162fe899f80edd20db4fd465dacca0205da2408c16b4f994e7f30c"
+  },
+  "games/sigilbound/assets/ember-dash-DHxYS6IN.webp": {
+    "bytes": 70572,
+    "sha256": "0b905d5f229abc39043f5ed894ca964b2c27ed33e6d4a2048c1ae666353f509f"
+  },
+  "games/sigilbound/assets/ember-witch-N8srMJsD.webp": {
+    "bytes": 110300,
+    "sha256": "cf495fa395486936d2de560fef766129c2bcd53e040c4053bae8d07d12c8c5ff"
+  },
+  "games/sigilbound/assets/entangle-BJsJU6ar.webp": {
+    "bytes": 96370,
+    "sha256": "489124256302a6b73af1e49755ae83a9b7b84d346fca2f7563b81e4a62d8d21c"
+  },
+  "games/sigilbound/assets/eternal-flame-CiyjtTZp.webp": {
+    "bytes": 181222,
+    "sha256": "14e1055448f7cd23d3c7df534cab290c094bfe3b8a66eba9c49871e809cb1589"
+  },
+  "games/sigilbound/assets/execute-BLpKQ1Nh.webp": {
+    "bytes": 78774,
+    "sha256": "da7474adacfb8de23d71ae8bbe8161a41a6de16ff41110dc132fac7d212c6abe"
+  },
+  "games/sigilbound/assets/extra-sigil-B7SAYZdi.webp": {
+    "bytes": 144842,
+    "sha256": "a0630efa62b508bbbe3d2122a6564512e017dca8a107b678900e4b0b1519a388"
+  },
+  "games/sigilbound/assets/firebolt-VKw3Y5qT.webp": {
+    "bytes": 88140,
+    "sha256": "3f78a70709065ee73effa0df8d22b4e909f0be94d8ca9b7a1164e4b79f9fc1b7"
+  },
+  "games/sigilbound/assets/flame-lance-_-DUXLLH.webp": {
+    "bytes": 85340,
+    "sha256": "df3187ceb823dc8041bcd9b5c2c8250aafe5dd716f556aeb82eb84ff6b336cab"
+  },
+  "games/sigilbound/assets/foresight-CZvoETHM.webp": {
+    "bytes": 146310,
+    "sha256": "ca9d1817f4c2ec3c05ab3a6c2ba1a45e240268f22113123b9f9ee2b7b5e33a26"
+  },
+  "games/sigilbound/assets/forest_troll-D4YEYAfa.webp": {
+    "bytes": 136688,
+    "sha256": "4df924acfde4768d809e5d7fba3a2a1944f09e4b8e922fdff391b456243e15b9"
+  },
+  "games/sigilbound/assets/forest_wolf-DMpmMeAe.webp": {
+    "bytes": 74116,
+    "sha256": "4063306374bc06fd71cea23d3ccf3c1f69022abd9eeb267311275ccbe3183b19"
+  },
+  "games/sigilbound/assets/forge-warden-DPn3P4_X.webp": {
+    "bytes": 124488,
+    "sha256": "c928c5d3e806660a1165df41da4dad33d48169aece98d31f308e2db5600d7dca"
+  },
+  "games/sigilbound/assets/frost_visor-9VgPg3O0.webp": {
+    "bytes": 176100,
+    "sha256": "739e10d7dd278b2196bd1154c469d33cf2a49bce344c142bc9ddd2ef3bae0693"
+  },
+  "games/sigilbound/assets/frost_warding_orb-krluJJld.webp": {
+    "bytes": 192128,
+    "sha256": "943adb0b02155cf26016980ca1f41680ad1ef4897aaeca0a0ee7eff89a7adc50"
+  },
+  "games/sigilbound/assets/frost-giant-YvOnadD6.webp": {
+    "bytes": 146658,
+    "sha256": "d952116fa74792441d5bac1f1376a09befb5dfe7d69eb0a123daae088ea83514"
+  },
+  "games/sigilbound/assets/frost-huntress-BE3GYoKF.webp": {
+    "bytes": 117422,
+    "sha256": "055e84f960c675f5e5547cec8c9222f07c83ab2534dc98ebacdec4dabc29488a"
+  },
+  "games/sigilbound/assets/frost-shard-BoHMsks_.webp": {
+    "bytes": 57032,
+    "sha256": "267aac24089aaa0a3481517635064c25e6399287c9933f4cc8456be7a5258090"
+  },
+  "games/sigilbound/assets/frost-wisp-Bm1ctjkh.webp": {
+    "bytes": 97054,
+    "sha256": "3678ec7a7cbaba95ac3553901ecd073b05c92c28756d1d62af42445b73ade901"
+  },
+  "games/sigilbound/assets/frostbrand-DNZim1ja.webp": {
+    "bytes": 176018,
+    "sha256": "b752e420246dab8dfeffc156471cc4953bbadffe499387be485911d70d841251"
+  },
+  "games/sigilbound/assets/frostpeak-yeti-DziGp2bC.webp": {
+    "bytes": 110464,
+    "sha256": "16e46c626a909b33d3b74e42823afd5a700b2e1096c506463a907ac2b0ce5328"
+  },
+  "games/sigilbound/assets/frozen-spike-B0it9YG3.webp": {
+    "bytes": 73350,
+    "sha256": "72e5cfecd70256209ddc1abdfccd4709b8c391b545f5e6938964f746f1892873"
+  },
+  "games/sigilbound/assets/glacial-wall-akke1wD6.webp": {
+    "bytes": 73452,
+    "sha256": "9ecb82497d5d3654a3f22d6ad1f8542186f09c4e6acd0da5774bd905c6604eeb"
+  },
+  "games/sigilbound/assets/glacier_band-uYelCmhP.webp": {
+    "bytes": 207344,
+    "sha256": "89afc3c4ed2f68f3d24675e52c033de16d808d3d648670b98a43e92587abda56"
+  },
+  "games/sigilbound/assets/glacier_plate-g0jVAQ13.webp": {
+    "bytes": 236660,
+    "sha256": "ed1838ab6acbba2ebaac85878b4e9aad445695dd45ef451597b7c7e31cc75557"
+  },
+  "games/sigilbound/assets/glacier-shaman-D7xsKhj9.webp": {
+    "bytes": 148396,
+    "sha256": "c54d15e1b2c1b0197a09b03f9a66972baab6480127eac8a855d6d9e1f28e2860"
+  },
+  "games/sigilbound/assets/goblin_slasher-C8kS1_Hd.webp": {
+    "bytes": 116992,
+    "sha256": "d448fdbf3e5f066a405723e9f15ab40aa22abdd3964c82b92f6c9c74835ace2e"
+  },
+  "games/sigilbound/assets/heal-potion-StCSOKJV.webp": {
+    "bytes": 52912,
+    "sha256": "8fd504faec1c525a063b32cf9b8f6c536680ca25f0d5045bb68edd91769e41b7"
+  },
+  "games/sigilbound/assets/heart_of_sigilkeeper-ClxdNpni.webp": {
+    "bytes": 202020,
+    "sha256": "9a17d2816bf15dc0b8b647aebc45a4857845e80ec283c9b4319ef4d53861c0f9"
+  },
+  "games/sigilbound/assets/heavy-swing-iEjocjYW.webp": {
+    "bytes": 147380,
+    "sha256": "39904416cde30035c56723b2c5a87b8abba8b9b54ea89fec9208be2d98016c0a"
+  },
+  "games/sigilbound/assets/hexblade-fO48ImrM.webp": {
+    "bytes": 135890,
+    "sha256": "189f70ece854dffca8e8f5ae2b1af090a89741f1efeb77ec980d292b83920942"
+  },
+  "games/sigilbound/assets/highwayman-DSjcxjq3.webp": {
+    "bytes": 108788,
+    "sha256": "56ac494c5ae13c9613fb42ec23cb86d5268381ab0474e3bb9592dab6b283f239"
+  },
+  "games/sigilbound/assets/holy-smite-BreWur5d.webp": {
+    "bytes": 124134,
+    "sha256": "bba863ce63afdc9b811f86982563a75f4a6bab2cf407d8f179c53288f24a9418"
+  },
+  "games/sigilbound/assets/horned_circlet-CgZWVy5V.webp": {
+    "bytes": 161582,
+    "sha256": "dab3e31c681423e590c30ca39b94664f67b4205f74110a6bffb81366a459f3cb"
+  },
+  "games/sigilbound/assets/hunter_band-B5k-zFmN.webp": {
+    "bytes": 128310,
+    "sha256": "05572739f8d28030a5a285647db3ef27d8b6bbcc8ca7ed51e04f4aa5346df223"
+  },
+  "games/sigilbound/assets/hunter_pendant-RvUNBdwh.webp": {
+    "bytes": 141296,
+    "sha256": "d184005d9d106aaf0e7d034886ddb89e4b59ad0d346a68470ba1e31ae9172722"
+  },
+  "games/sigilbound/assets/ice-age-CIkDjfR5.webp": {
+    "bytes": 231760,
+    "sha256": "9a0b6b5b0d9bf8656fefd06d5b055ba6f60d43e9a0f165495cf63d2d929bcb56"
+  },
+  "games/sigilbound/assets/ice-drake-BbbKxQny.webp": {
+    "bytes": 104742,
+    "sha256": "68d4da72cd5a282f3d2b4fb3d5a539e4b4bad74cca7d714d775986bedccb73a6"
+  },
+  "games/sigilbound/assets/ice-spear-fHFBfkcH.webp": {
+    "bytes": 81478,
+    "sha256": "d51c6ec65e8841181c50243bc23a155cd77f0146e3d5f2dee71e907c780a55da"
+  },
+  "games/sigilbound/assets/ifrit-CCT8ed3k.webp": {
+    "bytes": 135338,
+    "sha256": "15d7204009de461380e4cb9d3f8f189a9e85c87c3926c945a37d6c9a610b6486"
+  },
+  "games/sigilbound/assets/index-CdDtU2ho.js": {
+    "bytes": 3009893,
+    "sha256": "bca12df8ce1bdaa449fdc2a26ac29812520215bbc4125756d619e6974cfa9ad6"
+  },
+  "games/sigilbound/assets/index-o60FZ3vd.css": {
+    "bytes": 67807,
+    "sha256": "10ddb77bcc2cabfab87f3f5aa44ec65aa060e4d4404c8b818724fd51aada98a5"
+  },
+  "games/sigilbound/assets/inferno-Cd-F8tHj.webp": {
+    "bytes": 92960,
+    "sha256": "fea7371ea9189ca7d8bf35b06a79617a41cb86d1a1b7ba6b0367f9abfee14b8f"
+  },
+  "games/sigilbound/assets/inspire-CZ76bvzt.webp": {
+    "bytes": 73548,
+    "sha256": "76a3e576ae93e7f52110245e1ba86f7cc786c743ae1c3ca85a4d6bd956afefe1"
+  },
+  "games/sigilbound/assets/iron_helm-CEMehx5Q.webp": {
+    "bytes": 140098,
+    "sha256": "c03c3ac973b8c801132ccd3beac99131c1dd7e0d9ebc1a1e57d5af458535b792"
+  },
+  "games/sigilbound/assets/iron_shortsword-CxlL9PL8.webp": {
+    "bytes": 99584,
+    "sha256": "48a2df67d06c3e2198ac0c281f16ecc87beefec88cda1ede1594e69e5c1cec49"
+  },
+  "games/sigilbound/assets/iron-discipline-DFxsbYM0.webp": {
+    "bytes": 159654,
+    "sha256": "f5c6f6f87cb7c979081f8100871ec02541345d079115c642c3bdd4e84ae52fec"
+  },
+  "games/sigilbound/assets/iron-wall-DT1mDlaZ.webp": {
+    "bytes": 160050,
+    "sha256": "3f2409aae8950ad4d351c0e7c1717edd90b2bb1a360478e464dc5a2fb1ec90bf"
+  },
+  "games/sigilbound/assets/juggernaut-DKRjvym9.webp": {
+    "bytes": 134168,
+    "sha256": "3e93cda44bfb71a5091928acce80673d935530f3c8ccc69becfa1b21d132b482"
+  },
+  "games/sigilbound/assets/juggernaut-strike-EaplxfJz.webp": {
+    "bytes": 109882,
+    "sha256": "f8aa6764701be3eed7f15096850d6c0e1b8f5ef9b0b8490df69e1ed190ebe421"
+  },
+  "games/sigilbound/assets/lava-elemental-CKxeeD9f.webp": {
+    "bytes": 184304,
+    "sha256": "0bd793b8f1f3dcdfb47063d3ed81d6f59cf885afff364bdc3d5ccc98cd14bd2c"
+  },
+  "games/sigilbound/assets/leather_cap-CvN2BoQS.webp": {
+    "bytes": 110426,
+    "sha256": "c8eee0cf7915169a17dcd076dd4a2f8f43405596f0ef647ecad2f0ef5e957228"
+  },
+  "games/sigilbound/assets/leather_cord-DHGICE9e.webp": {
+    "bytes": 122562,
+    "sha256": "8d19813972ab4ba512bb44dc6d61a65abf244220b47bb3bb9c60e0ac9732781a"
+  },
+  "games/sigilbound/assets/lich-B-zhd3vs.webp": {
+    "bytes": 114626,
+    "sha256": "bd7a8931104c758b087c4429dece65ae6cf173e1fdb36bc5810a81d97a20e6e9"
+  },
+  "games/sigilbound/assets/lucky-streak-DdlNcB86.webp": {
+    "bytes": 167258,
+    "sha256": "bce56640669fa403304b0e15c493a0cc0f60bf963656a4e489b3cc6529846b4b"
+  },
+  "games/sigilbound/assets/magma-queen-ShhL8615.webp": {
+    "bytes": 127804,
+    "sha256": "fc4e798ee7ec83b11b02bd07e3fa4cd0ea6a898b030a42f7b484ae4cd8c24133"
+  },
+  "games/sigilbound/assets/magma-salamander-C9lNWRRZ.webp": {
+    "bytes": 144792,
+    "sha256": "a8a6e3b83d510fd7a6946d87ba056fcbba593c62d067ac67b65025995f1fccbe"
+  },
+  "games/sigilbound/assets/magma-surge-lxIV6bM0.webp": {
+    "bytes": 194972,
+    "sha256": "da66f27309973160890cab63811ef2fc57d3b0229e7dfee16bc481c23d942f82"
+  },
+  "games/sigilbound/assets/mana-tap-DGw2xBm_.webp": {
+    "bytes": 41104,
+    "sha256": "f6f521bfd65984a5ff0b226169741a29326d2218f6e135d4b18abd53b5389cfd"
+  },
+  "games/sigilbound/assets/mass-heal-WjErteD0.webp": {
+    "bytes": 194316,
+    "sha256": "3d699650c295f293189871ec26a3a583081919719d1d7a130256965df17375f9"
+  },
+  "games/sigilbound/assets/melt-armor-dTibg1Ec.webp": {
+    "bytes": 194220,
+    "sha256": "13cd020c528d9c85c118926bd6961b0e22e4100384010b80c5a01acd52930614"
+  },
+  "games/sigilbound/assets/mischief_sprite-CB-0D2n9.webp": {
+    "bytes": 116288,
+    "sha256": "ee1d4cb57aadba8aceff6162b488c0599ef93124d956775e037a44cddfd4902d"
+  },
+  "games/sigilbound/assets/mortal-wound-DnIIhmMb.webp": {
+    "bytes": 62346,
+    "sha256": "3eb64f40b79f1f283cc356e2b355b0ecf6f1789fbe43663f5b2fd8829137febb"
+  },
+  "games/sigilbound/assets/natures-wrath-BC4LnDiU.webp": {
+    "bytes": 89962,
+    "sha256": "d6dbe423b7f3ad0dcba1e4ad9420c7b06476f64fbdd7f10f779bf97453bf17df"
+  },
+  "games/sigilbound/assets/necrotic-wave--lTV8IWL.webp": {
+    "bytes": 209966,
+    "sha256": "b13d916961cf53cbef130137983f38eaa2e57e1e74521a919b156bd4e4d05e4d"
+  },
+  "games/sigilbound/assets/onslaught-amplifier-B4zBJ6W4.webp": {
+    "bytes": 144954,
+    "sha256": "e061aa6731066c7c50299cca8aba70e02e42fd004bd073839777590bdd39b865"
+  },
+  "games/sigilbound/assets/overgrowth-B4e1j-kh.webp": {
+    "bytes": 106598,
+    "sha256": "a503460356df6d52b995110e0b3d380e645d96102af02a1a43c05fd9428972c3"
+  },
+  "games/sigilbound/assets/padded_jerkin-CkTBd1tY.webp": {
+    "bytes": 115648,
+    "sha256": "014b6470a77496dc33e6e376edfbecc3ccdf598d9af506ab33bcbe15b009d4bf"
+  },
+  "games/sigilbound/assets/permafrost-DixkqG4n.webp": {
+    "bytes": 251546,
+    "sha256": "eb6a79b6608e4e385f89bb00edaefacdeea9cd7c0b4d864305aaf11da2ebf0fd"
+  },
+  "games/sigilbound/assets/phoenix_crown-vdFDBKPC.webp": {
+    "bytes": 184710,
+    "sha256": "88d7e9b44ab24f5c2805da8a4ced29bba285c99cc88d674ea877eab069bfd07a"
+  },
+  "games/sigilbound/assets/phoenix_greatsword-DixRbo-U.webp": {
+    "bytes": 182500,
+    "sha256": "80a44d188cb64bf8c31afb07d114a0703f927367eaf6041bfa30463f09c8f818"
+  },
+  "games/sigilbound/assets/phoenix_locket-2bv_9Z8t.webp": {
+    "bytes": 184092,
+    "sha256": "5a8a57f3b6a0dbb616e086d3097fa7c896af399fda9ca51934e5e8ff051d657d"
+  },
+  "games/sigilbound/assets/phoenix_signet-C-_KAl-T.webp": {
+    "bytes": 169454,
+    "sha256": "c828b49efa86314b484be9e4352242fb018fa584e48e6493c584c40c487d481b"
+  },
+  "games/sigilbound/assets/phoenix-blast-FaixYgwk.webp": {
+    "bytes": 154364,
+    "sha256": "d23512b7615dfbc1c08fde38abf3b34140f0042d21e8eb17e25710c41d3a0b88"
+  },
+  "games/sigilbound/assets/plague-strike-DmNV442k.webp": {
+    "bytes": 153108,
+    "sha256": "0bfa5077ecdb29cb67490ac23e77071a31f9a395ea587470491cddf0206fcdfa"
+  },
+  "games/sigilbound/assets/plate_of_eternal_vigil-C1sEgHio.webp": {
+    "bytes": 193942,
+    "sha256": "5cb07eaab455678d6783b9e9582047103585ee2345a4fc46b54f17b167f2e5b2"
+  },
+  "games/sigilbound/assets/poison-dart-D8ys2aMg.webp": {
+    "bytes": 125352,
+    "sha256": "1c89b82e29b5e1b70186733dac054d3498fd5696ce994260ff6cdfef8d3097e4"
+  },
+  "games/sigilbound/assets/pyre-specialist-DoHx3Nte.webp": {
+    "bytes": 96490,
+    "sha256": "ac1e94a289765a8f719b37005b4d0ec8b355c15579cf5309698922f682827141"
+  },
+  "games/sigilbound/assets/quick-draw-CzHeNfYk.webp": {
+    "bytes": 148324,
+    "sha256": "777a2077510c832e14b71eb364fe3f710a3fdd94fb5d588f087be0cb57179218"
+  },
+  "games/sigilbound/assets/quick-reflexes-DwZANeey.webp": {
+    "bytes": 194016,
+    "sha256": "feff1058ba0e31a7b683c03e317a58fb9bf0fdf371a226ec7b16c9818ea5fc41"
+  },
+  "games/sigilbound/assets/quick-study-CaJVU-Ar.webp": {
+    "bytes": 55592,
+    "sha256": "22469146b96d4ef4d7851897d448281253aa25c6c4a83f7ba830d90122634a32"
+  },
+  "games/sigilbound/assets/radiant-slash-Bs4RtRl5.webp": {
+    "bytes": 70386,
+    "sha256": "28e437545f6fc9ff86f2d7b1a1f5b3a9764de876a1ed60d9618794afa7d07f63"
+  },
+  "games/sigilbound/assets/reaper-Dzsr3Gpp.webp": {
+    "bytes": 98700,
+    "sha256": "a0adef7edaf72af9ff33452b7382922cdcb2189c15883e6b4c828632605eb39e"
+  },
+  "games/sigilbound/assets/reckless-assault-CEiAWbLu.webp": {
+    "bytes": 77190,
+    "sha256": "188a068b3f45e9f726013ac8f3400957d9cd5a0154e96f83c28f819c7682b88c"
+  },
+  "games/sigilbound/assets/reinforce-DuA30hkl.webp": {
+    "bytes": 120950,
+    "sha256": "b300b003322f93f4a021ffb555047b9f763d7a1d6f0a67f9946e88d7a8b290c1"
+  },
+  "games/sigilbound/assets/revenant-DwpTwthw.webp": {
+    "bytes": 70060,
+    "sha256": "a53d1be1349a19c96c9473ef9aafc6478b64fd9d8b9a4bb52085595435848a41"
+  },
+  "games/sigilbound/assets/rusted_axe-C1XegP_P.webp": {
+    "bytes": 123730,
+    "sha256": "4f3919a8abcdedc3e74bd19c56cb33b94a50d996ff7a5366166b7cab3577132e"
+  },
+  "games/sigilbound/assets/sacred-inferno-B0Zz29gb.webp": {
+    "bytes": 120070,
+    "sha256": "c020c956c29efe2b8ba8650f39889f153e35a74f028161b1002f3b341ca6062b"
+  },
+  "games/sigilbound/assets/scale_mail-DFq9oa-x.webp": {
+    "bytes": 143956,
+    "sha256": "139fd03f113c19d5a511865d953f1c763137901cb17b7b2fed70c122587db887"
+  },
+  "games/sigilbound/assets/second-wind-CFHhyhfR.webp": {
+    "bytes": 97104,
+    "sha256": "b3100495df160d31e0050209be7001020aa02f1f96a26b603b82e79699fcdb44"
+  },
+  "games/sigilbound/assets/shadow-bolt-B7BSzx_x.webp": {
+    "bytes": 63098,
+    "sha256": "a40a9accec60443ddb3b1f4f560596545231952ff22c93406713f5a145be858f"
+  },
+  "games/sigilbound/assets/shadow-swarm-DoRKKJ-H.webp": {
+    "bytes": 83344,
+    "sha256": "92440aab529e27fa6dc95da45a3bffc01256aefc077bbee54d4bc3de223198f7"
+  },
+  "games/sigilbound/assets/shatter-D2JkgXPy.webp": {
+    "bytes": 272114,
+    "sha256": "52d9ade806f2102e83d94ec20678547fc8a8a26aa4665ac1db12c025bf1a2aa0"
+  },
+  "games/sigilbound/assets/shield-bash-CWDxwrtm.webp": {
+    "bytes": 82866,
+    "sha256": "308fb2661eb14514651dfae897c05d5b6918dc14bea4af8afaecb8044dfd671e"
+  },
+  "games/sigilbound/assets/sigil_warden_helm-HdHXOG-T.webp": {
+    "bytes": 161784,
+    "sha256": "fbb8b7357cdd0302d90e674b0c9f8d6ba2bbff16ad4bd9b935b932b45c4b0f1d"
+  },
+  "games/sigilbound/assets/sigil-refresh-DrQgRB3_.webp": {
+    "bytes": 160442,
+    "sha256": "2d193a43ab30626544be3d7567a7f83da90daf8c7019d744218169c299d0421c"
+  },
+  "games/sigilbound/assets/sigilbound-master-BShKu6pg.webp": {
+    "bytes": 206160,
+    "sha256": "80fa490b993f58d03bd8476b11c570c63a9da53c9c4d5faa3d9881a6804a3761"
+  },
+  "games/sigilbound/assets/sigilbreaker-CPT_RmlE.webp": {
+    "bytes": 222322,
+    "sha256": "b48f70616dcd835f28c9400451da39e85d8a10c8242bea6421e446947565d885"
+  },
+  "games/sigilbound/assets/silver_loop-aowgwFk1.webp": {
+    "bytes": 86920,
+    "sha256": "04c38c9e0659686d67f4cbab3fc4e6bf891ee1b7795daf1d86d1422fceee0c9a"
+  },
+  "games/sigilbound/assets/skeleton_warrior-CJjW59yn.webp": {
+    "bytes": 64264,
+    "sha256": "8c97181d2a1a83383501da15b51c4c9892382a7c900c0d5d54d1d50fb1e6b2b7"
+  },
+  "games/sigilbound/assets/skybreaker_maul-Dndo4Zos.webp": {
+    "bytes": 187060,
+    "sha256": "388fa15f04c1aa76b71b1d41d60add1a1dff67f985105ae75c92d2dd61991a5d"
+  },
+  "games/sigilbound/assets/slash-CkJNVSRC.webp": {
+    "bytes": 49286,
+    "sha256": "730cc62724a0f5707958fe4c1a4a6d495b506e2c5cd8f320de53d9ead3c1924b"
+  },
+  "games/sigilbound/assets/sleep-spores-CaZ0EkzZ.webp": {
+    "bytes": 145594,
+    "sha256": "9d6625d59216dc5129bfbebb19b571f5ee476e1d55d71e09e27fa3482f6033b2"
+  },
+  "games/sigilbound/assets/smoke-screen-B5FqGsc9.webp": {
+    "bytes": 114600,
+    "sha256": "c70c42c0b959aaf2774837aa3d83ecff3b9c7c2e26f522cbfc6da5301bbb37c3"
+  },
+  "games/sigilbound/assets/snow-warden-CeTY-b4W.webp": {
+    "bytes": 147916,
+    "sha256": "be2cc7b2232dbb37ab84f28433f3574c56be2737934958819d5a544891df3cff"
+  },
+  "games/sigilbound/assets/solar-flare-Dih3vDGC.webp": {
+    "bytes": 98692,
+    "sha256": "2c3d4873c39f983651bd3e46bab6aeeae64b62e347de40fe83461debd38fac00"
+  },
+  "games/sigilbound/assets/soul-drain-Cd7xs-9K.webp": {
+    "bytes": 55700,
+    "sha256": "0a69c21a807690286e6f77d1031c23a6442d345a813530e75d38091cc6b38eb5"
+  },
+  "games/sigilbound/assets/soulbinder-DfuILRU-.webp": {
+    "bytes": 73538,
+    "sha256": "bf3e10d3ceab09444f0c249abc944a059d050f2180afee51db2f1709ce7d3b63"
+  },
+  "games/sigilbound/assets/soulburn-DzVc5U4M.webp": {
+    "bytes": 56028,
+    "sha256": "001a85960a9bb36852eb29884709e411378d175b3ffb7018fae028802d698293"
+  },
+  "games/sigilbound/assets/spacious-mind-DgYM-Unh.webp": {
+    "bytes": 158166,
+    "sha256": "5b78a74f29eba178a086c5390afa82ae79ec742c439792971d26b1852c8c6c27"
+  },
+  "games/sigilbound/assets/spark-DODPompQ.webp": {
+    "bytes": 68582,
+    "sha256": "d4f6bb0d9b25fbbee02fe76128660cb99e7610527c5f9953cae520f4bf08189c"
+  },
+  "games/sigilbound/assets/spellforge_grimoire-DdtSk4Ki.webp": {
+    "bytes": 216842,
+    "sha256": "7fd367e82da25a0d9b2756c8a2239bf2cae9a02aee60f92c871b3efb8f51d155"
+  },
+  "games/sigilbound/assets/spore-cloud-A1p6LW2_.webp": {
+    "bytes": 113912,
+    "sha256": "66c89117f5a0d6b3c3f457d53f0e91ff1690d159817f7042ff6be27087db21e3"
+  },
+  "games/sigilbound/assets/static-charge-C1-35qyY.webp": {
+    "bytes": 127440,
+    "sha256": "2f41e6aefb4fc3b8eb40908b926a0d2888f20082e93117303ab87bd54e32b6dd"
+  },
+  "games/sigilbound/assets/steel_longsword-BnOU3BRF.webp": {
+    "bytes": 116632,
+    "sha256": "15cdddc89b439e1f635fbdc4f7211e027716067a66f8b72e33a37cdef573ddb6"
+  },
+  "games/sigilbound/assets/steel-specialist-DQwrv-_H.webp": {
+    "bytes": 143084,
+    "sha256": "239200f0cffcc9c2971f2400ac63be3a962b02ade287a4f95fde50f4408bd33f"
+  },
+  "games/sigilbound/assets/strategist_coif-BXJJjqX5.webp": {
+    "bytes": 134570,
+    "sha256": "1bee75bac413a193f78ab1fa7c2ed50525aa0b204b566809cac7778cf2b4d389"
+  },
+  "games/sigilbound/assets/strike-CZSnIT46.webp": {
+    "bytes": 81652,
+    "sha256": "b4392fe500a8a77052ce3b9a61c0d8695e63ca13d6d81f650ea02d90e463f053"
+  },
+  "games/sigilbound/assets/swift-recovery-mYs7DeZY.webp": {
+    "bytes": 132536,
+    "sha256": "33e52d59746a5bdc85bbb4401606e320eafc132212631ca50d3e3935fe01be39"
+  },
+  "games/sigilbound/assets/tactic-master-BjiIR9bq.webp": {
+    "bytes": 141836,
+    "sha256": "c8ebfd4d27c581fe1ebbfd7f93d0510491a903d2c3a542f30f88ac205d38a36f"
+  },
+  "games/sigilbound/assets/tactical-prep-C3KjaejC.webp": {
+    "bytes": 64428,
+    "sha256": "ef49d1d6f9d366a26c27b9e9fd38895726a93063a05af4d9f3604154103bdbb6"
+  },
+  "games/sigilbound/assets/tactician-s-mark-WWVPVjj-.webp": {
+    "bytes": 54362,
+    "sha256": "b4b0c058c76d77b83c5a4dfdeb95c453234642e6955866564fab7df11acf85bc"
+  },
+  "games/sigilbound/assets/the_antlered_king-QSOloiA2.webp": {
+    "bytes": 137806,
+    "sha256": "4e2b8f4a549f85d43883cab44a854d1928e79e2cf4eb46023f4240abb5de044a"
+  },
+  "games/sigilbound/assets/the-bone-tyrant-Cl1PzC5r.webp": {
+    "bytes": 146762,
+    "sha256": "4198368ad3110038128d5f997658e29d341adf75de49cc7a598a5fdfd452055c"
+  },
+  "games/sigilbound/assets/the-sigilbreaker-BN60jM7J.webp": {
+    "bytes": 100870,
+    "sha256": "d8a921c0bda90a54737ad8a297359e195950e0d8ad1fe7ac2dbd1a2fbf9b0590"
+  },
+  "games/sigilbound/assets/thorn-dryad-Bfd67aak.webp": {
+    "bytes": 90384,
+    "sha256": "d109da179f1643107691e5e023e08f642d906d459213ae944148251e9f1ba4b7"
+  },
+  "games/sigilbound/assets/thorn-whip-C5lVd5-c.webp": {
+    "bytes": 106912,
+    "sha256": "6702a8d07cdcff53090bc1c6e965ca7f987337fcf6c54ab8f93e6ff303a74ef1"
+  },
+  "games/sigilbound/assets/thunderclap-DgNTOuo6.webp": {
+    "bytes": 192902,
+    "sha256": "71c4fbca0ae5b2e89af817fad99a30e181fe85b26b9e7e7f25fd26957ba457b3"
+  },
+  "games/sigilbound/assets/thunderstorm-DwS4kUuu.webp": {
+    "bytes": 62394,
+    "sha256": "183cb431d5aaec6b1d0a9cc809ea5bfbad1d3f35b0cba24742aa20928a0e2513"
+  },
+  "games/sigilbound/assets/time-warp-BMkgcvFZ.webp": {
+    "bytes": 194206,
+    "sha256": "81bef1f855dd36f6fc25248a1afe5dd23a47ad8bc43a1935d6d8cb36ec4ace9b"
+  },
+  "games/sigilbound/assets/titans-wrath-BQ5PeZwQ.webp": {
+    "bytes": 215894,
+    "sha256": "90a071fb1eb7ce03cd1d884933d431dfd65065af21d120863036caec4503404e"
+  },
+  "games/sigilbound/assets/tomb-ghoul-DceMkZmD.webp": {
+    "bytes": 126358,
+    "sha256": "a59ce4ac7b9fe8ecbe05cb09f29817f3e5afd5f023f1dc2a968ccebe3e2785d7"
+  },
+  "games/sigilbound/assets/tome_of_wards-BO9GodSG.webp": {
+    "bytes": 127568,
+    "sha256": "ee319c3072ef7eab33def5abc7cf401f3871009be447cae62939af8662b9e294"
+  },
+  "games/sigilbound/assets/tower_shield-DE2EWjyY.webp": {
+    "bytes": 177938,
+    "sha256": "e6f055b00f0992ff7ea6f27dceec3bbd7c182f73d07622775ae4fa97d014be8e"
+  },
+  "games/sigilbound/assets/triple-threat-O-gbmFzG.webp": {
+    "bytes": 190494,
+    "sha256": "77c7f141441bbb131f7a253e7fbf2d02cd40de96260bc41a845280d1bf5ad70e"
+  },
+  "games/sigilbound/assets/venom-strike-Q5fFi7qx.webp": {
+    "bytes": 68944,
+    "sha256": "281779e7126c37cd10eb1049af106104055111383e91b9418d567d94225f05bd"
+  },
+  "games/sigilbound/assets/vigorous-c-NUcqe9.webp": {
+    "bytes": 99298,
+    "sha256": "ab5b75e89631473ca9aed02d862f0441e35c99cb1830f9cf1d7495b72aaaed00"
+  },
+  "games/sigilbound/assets/void-knight-5nPdFah-.webp": {
+    "bytes": 135370,
+    "sha256": "6a321f5811b7565ab2d37b3be7e9f8213df968795fc8ac71e4f3c9bbd351c814"
+  },
+  "games/sigilbound/assets/void-rupture-BYNBsZ29.webp": {
+    "bytes": 96406,
+    "sha256": "bb1cbdd504d0524c7fde8e3ae71294cfefc3b693dbbf5f46067df7c73ebd3bcf"
+  },
+  "games/sigilbound/assets/voidspawn-EYZrQ0Kk.webp": {
+    "bytes": 105316,
+    "sha256": "2a0344db18c9cbde34dc081f682919569b1c81899273bdfa937bd2d9286c5d58"
+  },
+  "games/sigilbound/assets/voltaic-strike-UOP0-T22.webp": {
+    "bytes": 84812,
+    "sha256": "4fc75580e01bb5f947608d9244cb894930bfa210720fa731f613c398c35e793c"
+  },
+  "games/sigilbound/assets/vorpal_edge-C3Zyjtj1.webp": {
+    "bytes": 157388,
+    "sha256": "b70f966f11194fcfd921c1a420d4407e93eaa8339c031b98c76b9fcb2fd6b60d"
+  },
+  "games/sigilbound/assets/vulkar-the-eternal-flame-B8ewc8PI.webp": {
+    "bytes": 126720,
+    "sha256": "20b74fefd33b44072ff831159960167ce65a18bfee0840ebcc0970005dc1887b"
+  },
+  "games/sigilbound/assets/war-cry-Bk8DoBE_.webp": {
+    "bytes": 85576,
+    "sha256": "fa5fbc1fa148c98229f28c9d940cd71be94d96148447437e9e4093f383f6a5f1"
+  },
+  "games/sigilbound/assets/warden_plate-B9UbZwNT.webp": {
+    "bytes": 155778,
+    "sha256": "b630ea05c91b667234af63687e02f3ec1e492200a8a88aaa012444ceb4a58d37"
+  },
+  "games/sigilbound/assets/warden_seal-DhT_5CkS.webp": {
+    "bytes": 184282,
+    "sha256": "3e9c862f143a06f94daad0904efd77742e6d06ce8e7cb284c2159e2e8dcbff6c"
+  },
+  "games/sigilbound/assets/warrior-s-fortune-D1FqiAge.webp": {
+    "bytes": 153252,
+    "sha256": "e8f939c62e1bd82da81d26c85d34e61eb3443119ce43ff80620304ebd6567c04"
+  },
+  "games/sigilbound/assets/whirlwind-Rc1ZrNtb.webp": {
+    "bytes": 69620,
+    "sha256": "7be404122f86b19d3c3b236cb81a07593cde53b79c57ceb2cbc388cd71834192"
+  },
+  "games/sigilbound/assets/wooden_charm-Dy2_sFba.webp": {
+    "bytes": 114566,
+    "sha256": "30bc9aab53c0747ce712ef6b130adbf4e5be800012f46a0246242f92c5bb584b"
+  },
+  "games/sigilbound/assets/wooden_shield-l-tdm9RH.webp": {
+    "bytes": 149768,
+    "sha256": "4a7a0c2cdb9a60bbb90c87552aa65969fa30297fd6108fa8eac118fe92abad63"
+  },
+  "games/sigilbound/assets/wraith_finger-CZvPvknt.webp": {
+    "bytes": 145940,
+    "sha256": "fa992a28827080e32388ccf98cfcfc80d5b0aef3493589ba6f5bb382b5ca6d33"
+  },
+  "games/sigilbound/assets/wraith_pendant--UCm8lgC.webp": {
+    "bytes": 138916,
+    "sha256": "0f7136941ea585aa1edcf296852e2c94db4d9c2f0a5f18de607b1402a3f7b3cb"
+  },
+  "games/sigilbound/assets/wraith_robes-C08ilGzu.webp": {
+    "bytes": 146758,
+    "sha256": "e01dd3132b8b718611cbf6d80a9c83a53a653b56e0df5077269be8bda91c810a"
+  },
+  "games/sigilbound/assets/wrath-of-the-heavens-TU2BUTuc.webp": {
+    "bytes": 191980,
+    "sha256": "7480e30a86b84fbf87f01ac437f715a8132d63bda7b2f69f82e480b99ab66b93"
+  },
+  "games/sigilbound/assets/ymir-the-glacier-born-p1oZOVV5.webp": {
+    "bytes": 130922,
+    "sha256": "251dbebf0865076154af842e065343436373f6a5c250978d64283b87c976344b"
+  },
+  "games/sigilbound/index.html": {
+    "bytes": 1285,
+    "sha256": "3dea41f73beba70ca272863d7788b9e6dd938eb52aeadb86471b2607b6dc0ad0"
+  },
+  "games/type-zomba/app.js": {
+    "bytes": 31198,
+    "sha256": "aeadd0581173acf8454e234b04e574d3bf056e35bf281614f994a0612bfcdd9a"
+  },
+  "games/type-zomba/arcade-bright.css": {
+    "bytes": 168,
+    "sha256": "746f5a26695bb40992e90e9632ebb2d36b3deaae4dd59f7a74f42a7fba717c16"
+  },
+  "games/type-zomba/arcade-city.css": {
+    "bytes": 2004,
+    "sha256": "7f028266609e389c9d052c6d2a3982d84ed33d097a29d733cd612462a1271128"
+  },
+  "games/type-zomba/assets/arcade-aisle.png": {
+    "bytes": 2981040,
+    "sha256": "96e62317d7b5abca584c1a745c9dc70f1a2d4508b6f3366048c9e59ec08a1503"
+  },
+  "games/type-zomba/assets/sfx/frenzy.wav": {
+    "bytes": 213596,
+    "sha256": "92246f5b76e42b62a1b2b4e4cffc77260842515c6829379c0dcc4d558696f6ad"
+  },
+  "games/type-zomba/assets/sfx/impact.wav": {
+    "bytes": 57388,
+    "sha256": "b2a0c484d3bdf4c893a2956db7f14a8959350c49a67cc3136fccbdd2de851a7c"
+  },
+  "games/type-zomba/assets/sfx/lose.wav": {
+    "bytes": 543132,
+    "sha256": "0f3551198b6038fc1ee1694e2ce27d2fb3f3bf5c957e91e26bec723be1627507"
+  },
+  "games/type-zomba/assets/sfx/miss.wav": {
+    "bytes": 66684,
+    "sha256": "c51a16804f661fa08fb3424132c4b220257e9c7f10ff8a06d0760f7d769d7753"
+  },
+  "games/type-zomba/assets/sfx/shot.wav": {
+    "bytes": 98860,
+    "sha256": "3fdf89b7e99c91ce8a4c5ab72889f5d07a94fd7bd34de35118e059a63ac148c3"
+  },
+  "games/type-zomba/assets/sfx/start.wav": {
+    "bytes": 367524,
+    "sha256": "ea72d6d64a41e7fed9ee3675bf256e511365edf0d5539adecbf4c4a1142596e9"
+  },
+  "games/type-zomba/assets/sfx/type.wav": {
+    "bytes": 66604,
+    "sha256": "b9d189c4ddd0ef5daa4e8ce3c4bf18215c184b41867ce212765506dfada0f5b2"
+  },
+  "games/type-zomba/assets/sfx/win.wav": {
+    "bytes": 545024,
+    "sha256": "4888a41a651b205820414eb59b0e2137a751ac9879403148306ee620e36c3cad"
+  },
+  "games/type-zomba/gameplay.css": {
+    "bytes": 1102,
+    "sha256": "0fdb9c72bfd330a2b46c6c2fa9a1db982d9c6592a00df47f249da76589fbfeed"
+  },
+  "games/type-zomba/index.html": {
+    "bytes": 4529,
+    "sha256": "04b8ac1e713a4088a414dc06bf16437c94125f1a45707925107fcc6cf4a30043"
+  },
+  "games/type-zomba/menu.css": {
+    "bytes": 334,
+    "sha256": "1eb1e0a78d1b95ad6c43f458f40d14b2456d776552e77792d85ac01b890b6cf5"
+  },
+  "games/type-zomba/portrait.css": {
+    "bytes": 487,
+    "sha256": "6fd3311164a0245fdf961f9c048121138635ed77b68d4e479dc1697e47b616e0"
+  },
+  "games/type-zomba/styles.css": {
+    "bytes": 6560,
+    "sha256": "e232fd0199033d4d034c1ecfd3ed225fff412e1c63046d7ddb839a3019fb83dd"
+  },
+  "games/ketum-farmer/index.html": {
+    "bytes": 4345245,
+    "sha256": "0c47198c2c2f74a919d5c3e02da167486a15234aca048d97f4da349b8f6c2b2f"
+  },
+  "pc-releases/333-HD27-Windows.zip": {
+    "bytes": 769691229,
+    "sha256": "835710ed5c76a77500b834bce0e5407c9f852db3c5f98bac79006dfcd6699987"
+  },
+  "pc-releases/Hyperbloomers-v0.2-Windows.zip": {
+    "bytes": 495797550,
+    "sha256": "5e4ae0f1169550c5f6c57b600bc49288f0da1f79b5cfe410ab1806771e5bea29"
+  },
+  "pc-releases/TGC-42-Windows.zip": {
+    "bytes": 298923124,
+    "sha256": "04ddb6d6ba5f8f14f575fc72310e21d23e48fa8bf9d79aaefaacd7c7aa7c8f6a"
+  }
+}

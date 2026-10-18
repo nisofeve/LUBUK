@@ -1,0 +1,146 @@
+{
+  "regions": ["greek", "japan", "sea", "egypt"],
+  "regionLabel": {
+    "greek": "Greek",
+    "japan": "Japanese",
+    "sea": "Southeast Asia",
+    "egypt": "Egyptian"
+  },
+  "regionMythLine": {
+    "greek": "avian",
+    "japan": "trickster",
+    "sea": "serpent",
+    "egypt": "guardian"
+  },
+  "regionColor": {
+    "greek": "#6eb5ff",
+    "japan": "#ff7eb3",
+    "sea": "#5ce0b8",
+    "egypt": "#d4a84b"
+  },
+  "foods": [
+    { "id": "wild_kebab", "name": "Wildlands kebab", "type": "meat", "icon": "🍢", "asset": "assets/art/items/wild-kebab.png" },
+    { "id": "temple_jerky", "name": "Temple-smoked jerky", "type": "meat", "icon": "🥓", "asset": "assets/art/items/temple-jerky.png" },
+    { "id": "grove_roots", "name": "Grove root medley", "type": "veggies", "icon": "🥗", "asset": "assets/art/items/grove-roots.png" },
+    { "id": "lotus_cup", "name": "Lotus cup salad", "type": "veggies", "icon": "🪷", "asset": "assets/art/items/lotus-cup.png" },
+    { "id": "honey_ring", "name": "Honey ring cake", "type": "pastries", "icon": "🍩", "asset": "assets/art/items/honey-ring.png" },
+    { "id": "rice_dumpling", "name": "Rice spirit dumpling", "type": "pastries", "icon": "🍡", "asset": "assets/art/items/rice-dumpling.png" },
+    { "id": "silver_fish", "name": "Silver river fish", "type": "fish", "icon": "🐟", "asset": "assets/art/items/silver-fish.png" },
+    { "id": "kelp_bundle", "name": "Salt kelp bundle", "type": "fish", "icon": "🌿", "asset": "assets/art/items/kelp-bundle.png" }
+  ],
+  "relicItems": [
+    {
+      "id": "olympian_relic",
+      "name": "Olympian relic",
+      "icon": "🏛️",
+      "asset": "assets/art/items/olympian-relic.png",
+      "description": "A shard of offering smoke from the high shrines. Consume to channel Greek regional influence (+6) into your myth. Costs focus and a little hunger.",
+      "region": "greek",
+      "influence": 6
+    },
+    {
+      "id": "spirit_charm",
+      "name": "Spirit charm",
+      "icon": "⛩️",
+      "asset": "assets/art/items/spirit-charm.png",
+      "description": "A paper ward kissed by forest kami. Consume for Japanese regional influence (+6).",
+      "region": "japan",
+      "influence": 6
+    },
+    {
+      "id": "ritual_fruit",
+      "name": "Ritual fruit",
+      "icon": "🥭",
+      "asset": "assets/art/items/ritual-fruit.png",
+      "description": "Blessed fruit from island rites. Consume for Southeast Asian regional influence (+6).",
+      "region": "sea",
+      "influence": 6
+    },
+    {
+      "id": "sacred_relic_eg",
+      "name": "Sacred relic",
+      "icon": "📿",
+      "asset": "assets/art/items/sacred-relic-eg.png",
+      "description": "A funerary token humming with judgment and sand. Consume for Egyptian regional influence (+6).",
+      "region": "egypt",
+      "influence": 6
+    }
+  ],
+  "permitItems": [
+    {
+      "id": "travel_permit",
+      "name": "Travel Permit",
+      "icon": "🗺️",
+      "description": "An official passage seal from the Keepers' Council. Present at the Adventure Gate to choose your destination region. Consumed on use."
+    }
+  ],
+  "lineFoodPrefs": {
+    "avian": { "favorite": "fish", "mediocre": "meat", "hate": "pastries" },
+    "serpent": { "favorite": "meat", "mediocre": "fish", "hate": "pastries" },
+    "trickster": { "favorite": "pastries", "mediocre": "veggies", "hate": "meat" },
+    "guardian": { "favorite": "meat", "mediocre": "veggies", "hate": "fish" }
+  },
+  "evolveRules": [
+    { "fromStage": 0, "battles": 5, "happiness": 11, "minCombatBp": 26, "minDiscipline": 0 },
+    { "fromStage": 1, "battles": 18, "happiness": 52, "minCombatBp": 62, "minDiscipline": 9 },
+    { "fromStage": 2, "battles": 38, "happiness": 68, "minCombatBp": 82, "minDiscipline": 20 },
+    { "fromStage": 3, "battles": 58, "happiness": 82, "minCombatBp": 95, "minDiscipline": 32 }
+  ],
+  "defaultState": {
+    "lineId": null,
+    "nodeKey": "base",
+    "battles": 0,
+    "happiness": 50,
+    "hunger": 70,
+    "energy": 80,
+    "lifespan": 100,
+    "discipline": 20,
+    "demand": null,
+    "influence": { "greek": 0, "japan": 0, "sea": 0, "egypt": 0 },
+    "statBonus": { "hp": 0, "atk": 0, "spd": 0 },
+    "reincarnationBonus": { "hp": 0, "atk": 0, "spd": 0 },
+    "weakerEnemyPityTier": 0,
+    "consecutiveLosses": 0,
+    "guaranteedWeakerNextBattle": false,
+    "foodInventory": {
+      "silver_fish": 1,
+      "honey_ring": 1
+    },
+    "relicInventory": {
+      "olympian_relic": 0,
+      "spirit_charm": 0,
+      "ritual_fruit": 0,
+      "sacred_relic_eg": 0
+    },
+    "permitInventory": {
+      "travel_permit": 0
+    },
+    "playerStamina": 100,
+    "tamerUpgrades": {
+      "staminaMax": 0,
+      "staminaRegen": 0
+    },
+    "spiritBerryRipeAt": null,
+    "crossLineageId": null,
+    "log": [],
+    "tamerName": "",
+    "tamerAvatar": "bugis",
+    "tamerTitle": "Apprentice",
+    "pitis": 0,
+    "silverTickets": 0,
+    "ledger": [],
+    "guildRank": "Recruit",
+    "guildMissions": { "daily": [], "weekly": [], "bounties": [] },
+    "marketStock": {},
+    "cosmeticsOwned": [],
+    "bestiary": {},
+    "tournaments": { "wins": 0, "tokens": 0, "history": [] },
+    "introDone": false,
+    "homeSeen": false
+  },
+  "crossLineageCost": {
+    "foodCount": 3,
+    "relicCount": 1,
+    "influenceMultiplier": 1.5
+  }
+}
