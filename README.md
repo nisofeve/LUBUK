@@ -6,7 +6,7 @@ Live URLs: [game archive](https://nisofeve.github.io/LUBUK/) and [update report]
 
 ## Current collection
 
-Browser: ComFront, Compy, MyMyth (`Mymyth_v2`), Plotbound, Sigilbound, Type Zomba, Ketum Farmer. PC: Hyperbloomers v0.2, 333 HD 27, TGC 42.
+HTML5: ComFront, Compy, MyMyth (`Mymyth_v2`), Plotbound, Sigilbound, Type Zomba, and [Skeet Shooting on itch.io](https://rafiktodak.itch.io/skeet-shooting). PC web game: Ketum Farmer. Windows builds: Hyperbloomers v0.2, 333 HD 27, TGC 42.
 
 ## Update workflow
 

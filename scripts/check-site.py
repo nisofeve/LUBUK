@@ -43,8 +43,12 @@ for slug in GAMES:
     References(index.parent).feed(index.read_text(encoding="utf-8"))
 
 report = json.loads((SITE / "report.json").read_text(encoding="utf-8"))
-if len(report["inventory"]) != 10:
-    errors.append("Report inventory should list seven web games and three PC builds")
+if len(report["inventory"]) != 11:
+    errors.append("Report inventory should list seven HTML5 games, one PC web game, and three PC builds")
+if not any(item["name"] == "Skeet Shooting" and item.get("hosting") == "itch.io" for item in report["inventory"]):
+    errors.append("Skeet Shooting missing from report")
+if not any(item["name"] == "Ketum Farmer" and item["kind"] == "Web game for PC" for item in report["inventory"]):
+    errors.append("Ketum Farmer not classified as web game for PC")
 for filename, exe in PACKAGES.items():
     target = ROOT / "pc-releases" / filename
     if not target.is_file():
@@ -60,4 +64,4 @@ for filename, exe in PACKAGES.items():
 if errors:
     print("\n".join(errors))
     raise SystemExit(1)
-print("Checked seven HTML5 entries, report inventory, and three PC packages.")
+print("Checked seven hosted entries, report inventory, and three PC packages.")
