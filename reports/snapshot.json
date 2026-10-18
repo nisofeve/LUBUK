@@ -3651,6 +3651,130 @@
     "bytes": 4345245,
     "sha256": "0c47198c2c2f74a919d5c3e02da167486a15234aca048d97f4da349b8f6c2b2f"
   },
+  "screenshots/333/1.png": {
+    "bytes": 24270,
+    "sha256": "76e567f95661f2ce83eb190c76134819b6d429ad1384a410048020c04acb3b90"
+  },
+  "screenshots/333/2.png": {
+    "bytes": 21612,
+    "sha256": "277da171f910a56e0a42cd1a82fd8b99985bfaa3d3eef0af02a688e074c867dd"
+  },
+  "screenshots/comfront/1.png": {
+    "bytes": 232549,
+    "sha256": "4f4cfc5e35c89ccd6ed03883cf4d548c81befbd89807a2cef3b7ea4a6eeafa7e"
+  },
+  "screenshots/comfront/2.png": {
+    "bytes": 230106,
+    "sha256": "281ca49eae93e1717af8e9cff79f34f60d1e93c9eb1d880db3aedae55d6cc6f4"
+  },
+  "screenshots/compy/1.png": {
+    "bytes": 362893,
+    "sha256": "3962391d854e959d1474c770cc60ac1a7f2a8a2ea08c2388244f3ee373d40f85"
+  },
+  "screenshots/compy/2.png": {
+    "bytes": 390682,
+    "sha256": "e6cf133f4336fe04a7556db424fc348a7558846df3e4b5277c80b1eb3d729716"
+  },
+  "screenshots/hyperbloomers/1.png": {
+    "bytes": 2657391,
+    "sha256": "c6aaf3499c3f7da99b90cbdee569bc0c198f9ea2af65848ef6960d893c8a29a6"
+  },
+  "screenshots/hyperbloomers/2.png": {
+    "bytes": 2780163,
+    "sha256": "59cf93f76678c02d64cf26f773df133133aa6ea7ac33f5683ebd7a87c65a793a"
+  },
+  "screenshots/hyperbloomers/3.png": {
+    "bytes": 1042714,
+    "sha256": "3a533f7c190fc6a6beacb8261aaa843c855285e76f44217f960326272362114e"
+  },
+  "screenshots/ketum-farmer/1.png": {
+    "bytes": 669988,
+    "sha256": "7e87ed1929f81d7a64ba33476a21037ff67567f968680bae7358985e58ae635d"
+  },
+  "screenshots/ketum-farmer/2.png": {
+    "bytes": 311820,
+    "sha256": "45a295c6eb3df0a56986251726156500ce7e39c500c194c03c55669289880512"
+  },
+  "screenshots/mymyth/1.png": {
+    "bytes": 174145,
+    "sha256": "fdd4419479de58489758f36e111132c165db140207cec7daad4f27120e7a1f6b"
+  },
+  "screenshots/mymyth/2.png": {
+    "bytes": 163411,
+    "sha256": "93973b2219260fd94e908f98113e6f4fb2530d4754da8d814cdfdc9ca0b462fa"
+  },
+  "screenshots/plotbound/1.png": {
+    "bytes": 209740,
+    "sha256": "0ecab389c94e6f5ee8907cdbe2a6aa2d5991eb89ac9759a5c7b28434924bfcff"
+  },
+  "screenshots/plotbound/2.png": {
+    "bytes": 356904,
+    "sha256": "28d979725fe6d52a816f012809e0d715452958e1aee217f4fd5b21cf1a9dd3d1"
+  },
+  "screenshots/plotbound/3.png": {
+    "bytes": 247104,
+    "sha256": "bcf829fb976d8429b575b0116ea0d8b858e8e2bcf46e8c9ebe195d9968e85815"
+  },
+  "screenshots/sigilbound/1.png": {
+    "bytes": 1494117,
+    "sha256": "9cbb0073045a49bbd9fad5a06954e4d6e49043429a6dcf873b7e418d719c25b3"
+  },
+  "screenshots/sigilbound/2.png": {
+    "bytes": 1568835,
+    "sha256": "914b5f93c0c05236464de65f5595c1746780318119a5c74d94863e67090e5ff2"
+  },
+  "screenshots/sigilbound/3.png": {
+    "bytes": 1787455,
+    "sha256": "403c0843bbb8e3c2b29a71ed505041f85fb9cb7da2025855f23bef92628927ab"
+  },
+  "screenshots/skeet-shooting/1.png": {
+    "bytes": 183733,
+    "sha256": "23f072e069c6940417377b1a2d2d9b5d5fcc60be1ed6158941d5c593aeabab52"
+  },
+  "screenshots/skeet-shooting/2.png": {
+    "bytes": 199322,
+    "sha256": "f2acfcc74a92da7505b216db3bb38112beb4d49981bf26a6318fd05a170db216"
+  },
+  "screenshots/tgc/1.png": {
+    "bytes": 3829545,
+    "sha256": "e6527a78a1e053877af3c467b1a77d0ef5999c2a7cf2d16ae7ae8618e2eeb799"
+  },
+  "screenshots/tgc/2.png": {
+    "bytes": 3214472,
+    "sha256": "5bb5124a48a2b90ad0271a13dbff6cc2eba2e72586841ccde53dd814563f6ccf"
+  },
+  "screenshots/tgc/3.png": {
+    "bytes": 2352531,
+    "sha256": "16108bd0c45b4e23e9fa9352b19f69ba895624a85ce11cd724b740d727695f1f"
+  },
+  "screenshots/type-zomba/1.png": {
+    "bytes": 230801,
+    "sha256": "b91d98f9c7926d204fe707f5e8268ef47f668b7d5486fb965116fecd59613beb"
+  },
+  "screenshots/type-zomba/2.png": {
+    "bytes": 150189,
+    "sha256": "79d53b9eb32e89d4da570fb1fd0a233b4e58aa9299285c43246c0e226cd79df7"
+  },
+  "index.html": {
+    "bytes": 5020,
+    "sha256": "f1d6461773b8a7db4a6841804a9e3b420d12b6025c1d711ba6c5c49846d24e62"
+  },
+  "report.html": {
+    "bytes": 1977,
+    "sha256": "934b7756656117bb42639f0b2dd1d0c735e3e078d4c83111f8072a0efc545f82"
+  },
+  "app.js": {
+    "bytes": 8307,
+    "sha256": "21a3b0df0a054a74c7f2c53585661e6b110687a8ee9d50f4acbd3487767311d3"
+  },
+  "report.js": {
+    "bytes": 3167,
+    "sha256": "42de022df18adeeaba16cc9a1d6c29c201bfae6589440e06e1eb88ad7f0c6b4f"
+  },
+  "styles.css": {
+    "bytes": 11725,
+    "sha256": "5ee55274b39b81d3a17fd278593746b0f21cbb0622835bd017a991da515a557c"
+  },
   "pc-releases/333-HD27-Windows.zip": {
     "bytes": 769691229,
     "sha256": "835710ed5c76a77500b834bce0e5407c9f852db3c5f98bac79006dfcd6699987"

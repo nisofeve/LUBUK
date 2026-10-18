@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-18T08:55:14.295Z",
+  "generatedAt": "2026-10-18T09:13:45.089Z",
   "releaseLabel": "October 2026 collection",
-  "webBytes": 486806643,
+  "webBytes": 511723331,
   "inventory": [
     {
       "name": "ComFront",
@@ -85,18 +85,163 @@
       "url": "https://github.com/nisofeve/LUBUK/releases/download/tgc-42/TGC-42-Windows.zip"
     }
   ],
-  "collectionChanges": [
+  "collectionChanges": [],
+  "changes": [
     {
       "status": "Added",
-      "name": "Skeet Shooting",
-      "detail": "HTML5"
+      "path": "app.js",
+      "bytes": 8307
     },
     {
-      "status": "Moved",
-      "name": "Ketum Farmer",
-      "detail": "HTML5 → Web game for PC"
+      "status": "Added",
+      "path": "index.html",
+      "bytes": 5020
+    },
+    {
+      "status": "Added",
+      "path": "report.html",
+      "bytes": 1977
+    },
+    {
+      "status": "Added",
+      "path": "report.js",
+      "bytes": 3167
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/333/1.png",
+      "bytes": 24270
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/333/2.png",
+      "bytes": 21612
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/comfront/1.png",
+      "bytes": 232549
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/comfront/2.png",
+      "bytes": 230106
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/compy/1.png",
+      "bytes": 362893
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/compy/2.png",
+      "bytes": 390682
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/hyperbloomers/1.png",
+      "bytes": 2657391
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/hyperbloomers/2.png",
+      "bytes": 2780163
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/hyperbloomers/3.png",
+      "bytes": 1042714
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/ketum-farmer/1.png",
+      "bytes": 669988
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/ketum-farmer/2.png",
+      "bytes": 311820
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/mymyth/1.png",
+      "bytes": 174145
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/mymyth/2.png",
+      "bytes": 163411
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/plotbound/1.png",
+      "bytes": 209740
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/plotbound/2.png",
+      "bytes": 356904
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/plotbound/3.png",
+      "bytes": 247104
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/sigilbound/1.png",
+      "bytes": 1494117
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/sigilbound/2.png",
+      "bytes": 1568835
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/sigilbound/3.png",
+      "bytes": 1787455
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/skeet-shooting/1.png",
+      "bytes": 183733
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/skeet-shooting/2.png",
+      "bytes": 199322
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/tgc/1.png",
+      "bytes": 3829545
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/tgc/2.png",
+      "bytes": 3214472
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/tgc/3.png",
+      "bytes": 2352531
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/type-zomba/1.png",
+      "bytes": 230801
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/type-zomba/2.png",
+      "bytes": 150189
+    },
+    {
+      "status": "Added",
+      "path": "styles.css",
+      "bytes": 11725
     }
   ],
-  "changes": [],
   "notes": []
 }

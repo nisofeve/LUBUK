@@ -27,6 +27,11 @@ for(const [name,slug] of games){const result=walk(path.join(site,'games',slug),`
 inventory.push({name:'Skeet Shooting',kind:'HTML5',hosting:'itch.io',fileCount:0,bytes:0,url:'https://rafiktodak.itch.io/skeet-shooting'});
 const ketum=walk(path.join(site,'games','ketum-farmer'),'games/ketum-farmer');webBytes+=ketum.bytes;
 inventory.push({name:'Ketum Farmer',kind:'Web game for PC',fileCount:ketum.count,bytes:ketum.bytes,url:'./games/ketum-farmer/'});
+const screenshots=walk(path.join(site,'screenshots'),'screenshots');webBytes+=screenshots.bytes;
+for(const name of ['index.html','report.html','app.js','report.js','styles.css']){
+  const file=path.join(site,name);if(!fs.existsSync(file))continue;
+  const bytes=fs.readFileSync(file);files[name]={bytes:bytes.length,sha256:crypto.createHash('sha256').update(bytes).digest('hex')};webBytes+=bytes.length;
+}
 walk(path.join(root,'pc-releases'), 'pc-releases');
 for(const [name,file,tag] of pc){const item=files[`pc-releases/${file}`];inventory.push({name,kind:'PC',fileCount:item?1:0,bytes:item?.bytes||0,file,url:`https://github.com/nisofeve/LUBUK/releases/download/${tag}/${file}`});}
 const previous=fs.existsSync(snapshotPath)?JSON.parse(fs.readFileSync(snapshotPath,'utf8')):{};
