@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1120">
+  <meta name="description" content="LUBUK game build inventory, file changes, and gameplay notes.">
+  <title>Update Report | LUBUK</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./report.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="LUBUK Game Archive home"><span class="brand-mark">L<span>.</span></span><span>LUBUK <small>GAME ARCHIVE</small></span></a>
+    <nav aria-label="Main navigation"><a href="./#play">Play online</a><a href="./#downloads">PC downloads</a><a href="./report.html" aria-current="page">Report</a></nav>
+  </header>
+  <main>
+    <section class="section report-section" id="report" aria-labelledby="report-title">
+      <p class="eyebrow">LUBUK / DEVELOPMENT LOG</p>
+      <div class="section-heading"><div><h1 id="report-title">Update report</h1></div><button class="button secondary refresh-button" id="update-report" type="button">↻ &nbsp; Update report</button></div>
+      <p class="report-explainer">Build inventory, file changes, and written gameplay notes for LUBUK. Button checks latest published report. New local changes appear after compile and GitHub Pages publish.</p>
+      <div class="report-status" id="report-status" role="status" aria-live="polite">Loading report…</div>
+      <div class="stats" id="report-stats"></div>
+      <div class="report-columns"><div class="report-panel"><h2>Build inventory</h2><div id="report-inventory"></div></div><div class="report-panel"><h2>Latest changes</h2><div id="report-changes"></div></div></div>
+      <div class="report-panel notes-panel"><h2>Gameplay notes</h2><div id="report-notes"></div></div>
+    </section>
+  </main>
+  <footer><span>LUBUK · GAME ARCHIVE</span><a href="./">Back to games ↗</a></footer>
+</body>
+</html>

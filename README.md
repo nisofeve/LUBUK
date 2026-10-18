@@ -2,6 +2,8 @@
 
 `site/` is GitHub Pages content. `pc-releases/` contains local Windows ZIPs for GitHub Releases and is excluded from Git commits.
 
+Live URLs: [game archive](https://nisofeve.github.io/LUBUK/) and [update report](https://nisofeve.github.io/LUBUK/report.html).
+
 ## Current collection
 
 Browser: ComFront, Compy, MyMyth (`Mymyth_v2`), Plotbound, Sigilbound, Type Zomba, Ketum Farmer. PC: Hyperbloomers v0.2, 333 HD 27, TGC 42.

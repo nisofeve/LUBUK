@@ -34,6 +34,7 @@ class References(HTMLParser):
                 errors.append(f"Missing reference: {self.base} -> {value}")
 
 References(SITE).feed((SITE / "index.html").read_text(encoding="utf-8"))
+References(SITE).feed((SITE / "report.html").read_text(encoding="utf-8"))
 for slug in GAMES:
     index = SITE / "games" / slug / "index.html"
     if not index.is_file():
