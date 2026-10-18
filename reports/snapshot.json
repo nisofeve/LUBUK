@@ -3796,24 +3796,24 @@
     "sha256": "0ffae574fc2eb55fe607ac94403a69184b6651586705c0b733b3a5252b6502e2"
   },
   "index.html": {
-    "bytes": 5012,
-    "sha256": "78d36e795516cd93b600c9eed31b5a5d8a1fa810cb5d9c0a0a17e439b51dd1c6"
+    "bytes": 5526,
+    "sha256": "e3329eb3553d22b0cc3da3db207a815fc72e001ca83a0a8f9d02b2119c215800"
   },
   "report.html": {
     "bytes": 1977,
     "sha256": "934b7756656117bb42639f0b2dd1d0c735e3e078d4c83111f8072a0efc545f82"
   },
   "app.js": {
-    "bytes": 9098,
-    "sha256": "2b656e3c264ae554e0036d23468390977cca500bbdd4587a690a98b522347d34"
+    "bytes": 9878,
+    "sha256": "47c30611cf22dc11369b3791445bdee3785155f04ad6586ab7ee7fbfd44a2c1b"
   },
   "report.js": {
     "bytes": 3167,
     "sha256": "42de022df18adeeaba16cc9a1d6c29c201bfae6589440e06e1eb88ad7f0c6b4f"
   },
   "styles.css": {
-    "bytes": 11725,
-    "sha256": "5ee55274b39b81d3a17fd278593746b0f21cbb0622835bd017a991da515a557c"
+    "bytes": 14036,
+    "sha256": "5bd1c5d1d45314395b7676f632d2ec61ecb923516f5350f8fbe8fd65f6dd3762"
   },
   "pc-releases/333-HD27-Windows.zip": {
     "bytes": 769691229,

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-18T12:37:28.684Z",
+  "generatedAt": "2026-10-18T12:49:34.637Z",
   "releaseLabel": "October 2026 collection",
-  "webBytes": 524835169,
+  "webBytes": 524838774,
   "inventory": [
     {
       "name": "ComFront",
@@ -98,37 +98,17 @@
     {
       "status": "Updated",
       "path": "app.js",
-      "bytes": 9098
+      "bytes": 9878
     },
     {
       "status": "Updated",
-      "path": "screenshots/333/1.png",
-      "bytes": 1316647
+      "path": "index.html",
+      "bytes": 5526
     },
     {
       "status": "Updated",
-      "path": "screenshots/333/2.png",
-      "bytes": 4662942
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/333/3.png",
-      "bytes": 2177941
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/tgc/1.png",
-      "bytes": 2443509
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/tgc/2.png",
-      "bytes": 2505810
-    },
-    {
-      "status": "Updated",
-      "path": "screenshots/tgc/3.png",
-      "bytes": 982468
+      "path": "styles.css",
+      "bytes": 14036
     }
   ],
   "notes": []

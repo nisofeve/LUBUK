@@ -18,3 +18,22 @@
 .dialog-layout{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(245px,.85fr);gap:24px}.dialog-gallery{min-width:0}.screenshot-frame{background:#070e1a;border:1px solid #354860;aspect-ratio:16/9;display:grid;place-items:center;overflow:hidden}.screenshot-frame img{width:100%;height:100%;object-fit:contain}.screenshot-controls{display:flex;justify-content:center;align-items:center;gap:18px;margin:10px 0;color:#99adc7;font-size:12px}.screenshot-controls button{border:1px solid #40536e;background:#1a2940;color:#ecf5ff;border-radius:4px;width:33px;height:30px;cursor:pointer}.screenshot-thumbs{display:flex;gap:9px;overflow-x:auto;padding:4px 2px 8px}.screenshot-thumbs button{width:108px;height:62px;flex:none;border:2px solid #394b63;padding:0;background:#070e1a;cursor:pointer}.screenshot-thumbs button[aria-current=true]{border-color:#d8ff72}.screenshot-thumbs img{width:100%;height:100%;object-fit:cover}
 .dialog-side{display:flex;flex-direction:column;gap:12px}.dialog-panel{background:#17243a;border:1px solid #31435c;padding:17px 19px}.dialog-panel h3{font:700 16px 'Space Grotesk',sans-serif;margin:0 0 9px}.dialog-panel p{font-size:12px;line-height:1.65;color:#b8c9dd;margin:0 0 5px}.dialog-panel p:last-child{margin-bottom:0}.dialog-panel strong{color:#e7f3ff}.dialog-panel .access-note{color:#d8ff72;font-size:14px;font-weight:700;margin-top:13px}.dialog-panel .access-note[hidden]{display:none}.dialog-action{width:100%;margin-top:auto;text-align:center}.dialog-report-link{font-size:12px;color:#bde875;text-align:center;padding:4px}.dialog-report-link:hover{text-decoration:underline}
 @media(max-width:720px){.dialog-layout{grid-template-columns:1fr}.dialog-content{max-height:92vh}.game-dialog{max-height:92vh}.dialog-side{gap:10px}.dialog-head{margin-bottom:16px}.screenshot-thumbs button{width:90px;height:52px}}
+
+.game-card,.download-card{position:relative;overflow:hidden;min-height:270px;padding:24px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(135deg,var(--card-a,#243951),var(--card-b,#101c31))}
+.game-card::before,.download-card::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#06101ed9 0%,#06101e38 38%,#06101ea8 68%,#06101ef2 100%);z-index:1;pointer-events:none}
+.game-card::after{content:none}
+.card-hero{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .3s ease}
+.game-card:hover .card-hero,.download-card:hover .card-hero{transform:scale(1.045)}
+.game-card .card-top,.game-card .card-bottom,.download-card .card-top,.download-card .card-bottom{position:relative;z-index:2}
+.game-card .card-kicker,.download-card .card-kicker{color:#f4f8ff;text-shadow:0 1px 8px #000}
+.game-card h3,.download-card h3{font:700 30px/1.1 'Space Grotesk',sans-serif;letter-spacing:-.05em;margin:0 0 8px;text-shadow:0 2px 12px #000}
+.game-card p,.download-card p{color:#e7edf8;font-size:12px;line-height:1.5;margin:0;max-width:280px;text-shadow:0 1px 8px #000}
+.dialog-game-nav{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;margin:0 0 24px}
+.dialog-game-nav button{min-width:0;min-height:58px;display:flex;align-items:center;gap:12px;border:1px solid #40536e;border-radius:6px;background:#18283e;color:#e8edf8;padding:9px 14px;cursor:pointer;text-align:left}
+.dialog-game-nav button:hover{border-color:#d8ff72;background:#223550}
+.dialog-game-nav button:last-child{justify-content:flex-end;text-align:right}
+.dialog-game-nav small{display:block;color:#9fb1ca;font-size:11px;line-height:1.4}
+.dialog-game-nav strong{display:block;font:700 14px/1.2 'Space Grotesk',sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px}
+.game-nav-arrow{color:#d8ff72;font-size:22px;line-height:1}
+.game-position{color:#a8bbd3;font-size:12px;white-space:nowrap}
+@media(max-width:600px){.game-card,.download-card{min-height:235px}.dialog-game-nav{gap:7px;margin-bottom:16px}.dialog-game-nav button{padding:8px;gap:6px;min-height:55px}.dialog-game-nav strong{font-size:12px;max-width:105px}.dialog-game-nav small{font-size:10px}.game-position{font-size:10px}}
