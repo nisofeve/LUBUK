@@ -7,13 +7,14 @@
   <meta name="description" content="Play selected HTML5 games and explore PC builds and development reports at LUBUK.">
   <title>LUBUK | Game Archive</title>
   <link rel="stylesheet" href="./styles.css">
+  <script src="./games-data.js" defer></script>
   <script src="./app.js" defer></script>
   <script src="./report.js" defer></script>
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="LUBUK Game Archive home"><span class="brand-mark">L<span>.</span></span><span>LUBUK <small>GAME ARCHIVE</small></span></a>
-    <nav aria-label="Main navigation"><a href="#play">Play online</a><a href="#downloads">PC games</a><a href="./report.html">Report</a></nav>
+    <nav aria-label="Main navigation"><a href="#play">Play online</a><a href="#downloads">PC games</a><a href="./summary.html">Game table</a><a href="./report.html">Report</a></nav>
   </header>
   <main id="top">
     <section class="hero" aria-labelledby="hero-title">
@@ -31,7 +32,7 @@
       <div class="dialog-game-nav" role="group" aria-label="Browse games"><button id="game-prev" type="button"><span class="game-nav-arrow" aria-hidden="true">←</span><span><small>Previous game</small><strong id="game-prev-name"></strong></span></button><span class="game-position" id="game-position" aria-live="polite"></span><button id="game-next" type="button"><span><small>Next game</small><strong id="game-next-name"></strong></span><span class="game-nav-arrow" aria-hidden="true">→</span></button></div>
       <div class="dialog-layout">
         <section class="dialog-gallery" aria-label="Game screenshots"><div class="screenshot-frame"><img id="dialog-image" alt=""></div><div class="screenshot-controls"><button id="screenshot-prev" type="button" aria-label="Previous screenshot">←</button><span id="screenshot-count"></span><button id="screenshot-next" type="button" aria-label="Next screenshot">→</button></div><div class="screenshot-thumbs" id="screenshot-thumbs"></div></section>
-        <div class="dialog-side"><section class="dialog-panel"><h3>Game info</h3><p id="dialog-info"></p><p id="dialog-access" class="access-note"></p></section><section class="dialog-panel"><h3>Build report</h3><div id="dialog-report" role="status">Loading latest report…</div></section><a class="button primary dialog-action" id="dialog-action" target="_blank" rel="noopener"></a><a class="dialog-report-link" href="./report.html">View full update report ↗</a></div>
+        <div class="dialog-side"><section class="dialog-panel"><h3>Game info</h3><p id="dialog-stage" class="dialog-stage"></p><p id="dialog-info"></p><p id="dialog-access" class="access-note"></p></section><section class="dialog-panel"><h3>Build report</h3><div id="dialog-report" role="status">Loading latest report…</div></section><a class="button primary dialog-action" id="dialog-action" target="_blank" rel="noopener"></a><a class="dialog-report-link" href="./report.html">View full update report ↗</a></div>
       </div>
     </div>
   </dialog>

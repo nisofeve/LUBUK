@@ -1,17 +1,3 @@
-const games = [
-  {name:'ComFront',slug:'comfront',kind:'HTML5',tag:'ACTION / SURVIVAL',desc:'Compliance Frontier',info:'Top-down survival action with solo and online multiplayer options. First launch includes character setup and orientation training.',glyph:'C',colors:['#153e57','#102136'],shots:3},
-  {name:'Compy',slug:'compy',kind:'HTML5',tag:'COMPANION',desc:'Companion & Me',info:'A companion adventure with story choices, crafting, tasks, and a character you can care for.',glyph:'&',colors:['#654265','#2b294e'],shots:3},
-  {name:'MyMyth',slug:'mymyth',kind:'HTML5',tag:'FANTASY',desc:'Creatures, care, and adventure',info:'Explore a fantasy world, meet and care for Myths, and take on battles. Guest play is available; an account can save online progress.',glyph:'M',colors:['#6a452b','#32213c'],shots:3},
-  {name:'Plotbound',slug:'plotbound',kind:'HTML5',tag:'DECK BUILDING',desc:'Farming roguelike',info:'A farming game with cards, stages, quests, and a growing farmstead.',glyph:'P',colors:['#466536','#1b3b33'],shots:3},
-  {name:'Sigilbound',slug:'sigilbound',kind:'HTML5',tag:'CARD COMBAT',desc:'Roguelike card battles',info:'Build a deck and fight through turn-based roguelike encounters.',glyph:'S',colors:['#6b3039','#2a1d38'],shots:3},
-  {name:'Type Zomba',slug:'type-zomba',kind:'HTML5',tag:'ARCADE',desc:'Type to survive',info:'Fast arcade survival: type words to stop approaching zombies and build your score.',glyph:'Z',colors:['#385478','#202840'],shots:3},
-  {name:'Skeet Shooting',slug:'skeet-shooting',kind:'HTML5',tag:'ARCADE / ITCH.IO',desc:'Skeet shooter · play on itch.io',info:'Fast-paced skeet shooting, optimized for mobile. Tap to aim and shoot; on PC, use left and right arrow keys.',url:'https://rafiktodak.itch.io/skeet-shooting',access:'itch.io password: 123todak',glyph:'S',colors:['#496b84','#1c3c59'],shots:3},
-  {name:'Ketum Farmer',slug:'ketum-farmer',kind:'Web game for PC',tag:'WEB GAME FOR PC',desc:'Desktop browser game',info:'A farming and operations game for desktop browsers. Plant and harvest crops, manage workers, and research upgrades. This is a publisher preview build.',glyph:'K',colors:['#527632','#243a24'],shots:3},
-  {name:'Hyperbloomers',slug:'hyperbloomers',kind:'PC',tag:'WINDOWS · v0.2',desc:'473 MB ZIP package',info:'Play as Sun and Cloud in a cooperative farming adventure. Work together to grow crops and explore.',release:'hyperbloomers-v0.2',file:'Hyperbloomers-v0.2-Windows.zip',shots:3},
-  {name:"Don't Forget to Pee",slug:'333',kind:'PC',tag:'WINDOWS · HD 27',desc:'734 MB ZIP package',info:'First-person horror exploration with relic collecting. Gallery shows supplied title art, gameplay, and a character scene; Windows HD 27 build may differ.',release:'333-hd27',file:'333-HD27-Windows.zip',shots:3},
-  {name:'ToGather:Crops',slug:'tgc',kind:'PC',tag:'WINDOWS · Build 42',desc:'285 MB ZIP package',info:'A 3D farm adventure: explore, solve puzzles, collect resources, and care for animals. Gallery shows supplied title art, gameplay, and the main menu; Windows Build 42 may differ.',release:'tgc-42',file:'TGC-42-Windows.zip',shots:3},
-  {name:'Police N Thief',slug:'police-n-thief',kind:'PC',tag:'WINDOWS · v1.10',desc:'482 MB ZIP package',info:'Asymmetric four-player chase game: one police officer pursues three thieves through short matches. Gallery shows title, gameplay, and costumes. Matches require four players.',release:'police-n-thief-v1.10',file:'Police-N-Thief-v1.10-Windows.zip',shots:3},
-];
 const config={owner:'nisofeve',repo:'LUBUK'};
 function destination(game){return game.url || (game.kind==='PC'?`https://github.com/${config.owner}/${config.repo}/releases/download/${game.release}/${game.file}`:`./games/${game.slug}/`)}
 const gameGrid=document.querySelector('#game-grid');
@@ -54,7 +40,7 @@ async function loadGameReport(game){
   }catch(error){if(activeGame===game)box.textContent='Report unavailable. See full update report for details.'}
 }
 function openGame(game){
-  activeGame=game;document.querySelector('#dialog-kind').textContent=game.tag;document.querySelector('#dialog-title').textContent=game.name;document.querySelector('#dialog-description').textContent=game.desc;document.querySelector('#dialog-info').textContent=game.info;
+  activeGame=game;document.querySelector('#dialog-kind').textContent=game.tag;document.querySelector('#dialog-title').textContent=game.name;document.querySelector('#dialog-description').textContent=game.desc;document.querySelector('#dialog-stage').textContent=`Production stage: ${game.stage||'Not specified'}`;document.querySelector('#dialog-info').textContent=game.info;
   const index=games.indexOf(game),previous=games[(index-1+games.length)%games.length],next=games[(index+1)%games.length];
   document.querySelector('#game-prev').setAttribute('aria-label',`Previous game: ${previous.name}`);document.querySelector('#game-prev-name').textContent=previous.name;
   document.querySelector('#game-next').setAttribute('aria-label',`Next game: ${next.name}`);document.querySelector('#game-next-name').textContent=next.name;
@@ -72,3 +58,5 @@ document.querySelector('#screenshot-prev').addEventListener('click',()=>showShot
 document.querySelector('#screenshot-next').addEventListener('click',()=>showShot(activeShot+1));
 dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close()});
 dialog.addEventListener('close',()=>{activeGame=null;mainImage.removeAttribute('src')});
+const requestedGame=new URLSearchParams(location.search).get('game');
+if(requestedGame){const game=games.find(item=>item.slug===requestedGame);if(game)openGame(game)}

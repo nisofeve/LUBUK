@@ -3796,24 +3796,36 @@
     "sha256": "0ffae574fc2eb55fe607ac94403a69184b6651586705c0b733b3a5252b6502e2"
   },
   "index.html": {
-    "bytes": 5526,
-    "sha256": "e3329eb3553d22b0cc3da3db207a815fc72e001ca83a0a8f9d02b2119c215800"
+    "bytes": 5659,
+    "sha256": "2e6a99019ed4ff452dbdb70ff0bd5ca3dbb7732349e304996cf32abe5d89b612"
+  },
+  "summary.html": {
+    "bytes": 1920,
+    "sha256": "71ce772d18434a02ed7718d8e03ad0c6fcb44bed17c85024cfe3642464a6b6c7"
   },
   "report.html": {
-    "bytes": 1977,
-    "sha256": "934b7756656117bb42639f0b2dd1d0c735e3e078d4c83111f8072a0efc545f82"
+    "bytes": 2016,
+    "sha256": "5904f91507c51ff2dd68ad65ec96a96d6dde1548534203c19df1cb18d3b5807a"
+  },
+  "games-data.js": {
+    "bytes": 3683,
+    "sha256": "52e41caea6072a3eb9c38e6be4521a3dff28f97f6d3b1a48e3ad630c9e972194"
   },
   "app.js": {
-    "bytes": 9878,
-    "sha256": "47c30611cf22dc11369b3791445bdee3785155f04ad6586ab7ee7fbfd44a2c1b"
+    "bytes": 6660,
+    "sha256": "61745eb28896cb148e6ec359a19dbffd6d5002149fbebbfafec7aba30a6ce441"
+  },
+  "summary.js": {
+    "bytes": 1981,
+    "sha256": "f05b6a54240aeab43db262cc007207b3b3779b740b8b05c519f85e8a7dcaad1a"
   },
   "report.js": {
     "bytes": 3167,
     "sha256": "42de022df18adeeaba16cc9a1d6c29c201bfae6589440e06e1eb88ad7f0c6b4f"
   },
   "styles.css": {
-    "bytes": 14036,
-    "sha256": "5bd1c5d1d45314395b7676f632d2ec61ecb923516f5350f8fbe8fd65f6dd3762"
+    "bytes": 17653,
+    "sha256": "061a3bdf30a02b937cf8cf2d5e518d075abdfbac40796e889a7152d9f67966cb"
   },
   "pc-releases/333-HD27-Windows.zip": {
     "bytes": 769691229,

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-18T12:49:34.637Z",
+  "generatedAt": "2026-10-18T13:17:23.647Z",
   "releaseLabel": "October 2026 collection",
-  "webBytes": 524838774,
+  "webBytes": 524846929,
   "inventory": [
     {
       "name": "ComFront",
@@ -98,17 +98,37 @@
     {
       "status": "Updated",
       "path": "app.js",
-      "bytes": 9878
+      "bytes": 6660
+    },
+    {
+      "status": "Added",
+      "path": "games-data.js",
+      "bytes": 3683
     },
     {
       "status": "Updated",
       "path": "index.html",
-      "bytes": 5526
+      "bytes": 5659
+    },
+    {
+      "status": "Updated",
+      "path": "report.html",
+      "bytes": 2016
     },
     {
       "status": "Updated",
       "path": "styles.css",
-      "bytes": 14036
+      "bytes": 17653
+    },
+    {
+      "status": "Added",
+      "path": "summary.html",
+      "bytes": 1920
+    },
+    {
+      "status": "Added",
+      "path": "summary.js",
+      "bytes": 1981
     }
   ],
   "notes": []
