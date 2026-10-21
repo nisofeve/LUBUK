@@ -3771,6 +3771,18 @@
     "bytes": 518388,
     "sha256": "736af1bc4d66d0e6c4c914d973d4418d90efe5f9c424d5c628d160225956bf7d"
   },
+  "screenshots/police-sentri-rush/1.png": {
+    "bytes": 1115890,
+    "sha256": "821d6490035b0a851dfecc7af7c3175cbe59b728195636ee6ef26c3f5ab9f148"
+  },
+  "screenshots/police-sentri-rush/2.png": {
+    "bytes": 1369874,
+    "sha256": "bc5683de1c0ad25992e1042315cff32c711b84df284e4a86ed20cec95f58ad81"
+  },
+  "screenshots/police-sentri-rush/3.png": {
+    "bytes": 1250018,
+    "sha256": "a5fb4103d42ae6798ee51859cce96f87bd489132b207bd59904c2c231f9861ff"
+  },
   "screenshots/potionpendium/1.png": {
     "bytes": 492896,
     "sha256": "d252f017785d031418f3edf30abda50f17358839fd306486d1d12997dd76d201"
@@ -3868,28 +3880,28 @@
     "sha256": "0ffae574fc2eb55fe607ac94403a69184b6651586705c0b733b3a5252b6502e2"
   },
   "index.html": {
-    "bytes": 5669,
-    "sha256": "84a96241370b77e46c1fc331387eb2f1fe47a1ac4e87f656ead570691fb937c9"
+    "bytes": 6031,
+    "sha256": "25d468e52bcbbd1af9e5655ddb8fd96ab1caa8723e3718a90e53a00664e477db"
   },
   "summary.html": {
-    "bytes": 1920,
-    "sha256": "71ce772d18434a02ed7718d8e03ad0c6fcb44bed17c85024cfe3642464a6b6c7"
+    "bytes": 1950,
+    "sha256": "3691a1e8678c50a9463715d68eae40a1b9195f8efa8d5990225f825217d66c4d"
   },
   "report.html": {
-    "bytes": 2016,
-    "sha256": "5904f91507c51ff2dd68ad65ec96a96d6dde1548534203c19df1cb18d3b5807a"
+    "bytes": 2046,
+    "sha256": "0f2c988a6fe358c671fd95f9cfae5e7f10a831782b3f28ffc3c58beca0d4dcdf"
   },
   "games-data.js": {
-    "bytes": 5618,
-    "sha256": "09e7f13908355253b09299140f2e89b92f2ed8807f605c35952b30023bc5982b"
+    "bytes": 6115,
+    "sha256": "91e72c59fbf5765452f984228211a283c82574f776cba107637d12e93dd11fd4"
   },
   "app.js": {
-    "bytes": 6704,
-    "sha256": "6f169057cff02f4fdaacb5224da54389e0163d9c395f906c33291711cf61837f"
+    "bytes": 6841,
+    "sha256": "f3e79a7a68c7820ccc6ec3cfdadc83d58d3c57903a2fe841ac76348557b60572"
   },
   "summary.js": {
-    "bytes": 1981,
-    "sha256": "f05b6a54240aeab43db262cc007207b3b3779b740b8b05c519f85e8a7dcaad1a"
+    "bytes": 2089,
+    "sha256": "9c6b9624d1abb309c18855906e014a78c18487c110ac1445cbe5c4bfbe7cac4e"
   },
   "report.js": {
     "bytes": 3167,
@@ -3897,7 +3909,7 @@
   },
   "styles.css": {
     "bytes": 17653,
-    "sha256": "061a3bdf30a02b937cf8cf2d5e518d075abdfbac40796e889a7152d9f67966cb"
+    "sha256": "082866b573b0dedd3a49f8794a4b31dfa1e9cbdc58080a5cf8f7bd289d0fe0f5"
   },
   "pc-releases/333-HD27-Windows.zip": {
     "bytes": 769691229,

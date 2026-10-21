@@ -45,8 +45,8 @@ for slug in GAMES:
     References(index.parent).feed(index.read_text(encoding="utf-8"))
 
 report = json.loads((SITE / "report.json").read_text(encoding="utf-8"))
-if len(report["inventory"]) != 18:
-    errors.append("Report inventory should list eleven HTML5 games, three PC web games, and four PC builds")
+if len(report["inventory"]) != 19:
+    errors.append("Report inventory should list eleven HTML5 games, three PC web games, four PC builds, and one Android game")
 for name in ("Don't Forget to Pee", "ToGather:Crops", "Police N Thief"):
     if not any(item["name"] == name and item["kind"] == "PC" for item in report["inventory"]):
         errors.append(f"{name} missing from PC inventory")
@@ -59,12 +59,15 @@ for name, kind in [("i-Li Liquid State", "HTML5"), ("Don't Touch The Same", "HTM
                    ("Tower Rush", "Web game for PC"), ("Purritory", "Web game for PC")]:
     if not any(item["name"] == name and item["kind"] == kind for item in report["inventory"]):
         errors.append(f"{name} missing from report inventory")
+if not any(item["name"] == "Police Sentri Rush" and item["kind"] == "Android" and item.get("hosting") == "Google Play" for item in report["inventory"]):
+    errors.append("Police Sentri Rush missing from Android inventory")
 for slug, count in {"comfront": 3, "compy": 3, "mymyth": 3, "plotbound": 3,
                     "sigilbound": 3, "type-zomba": 3, "skeet-shooting": 3,
                     "ketum-farmer": 3, "hyperbloomers": 3, "333": 3, "tgc": 3,
                     "police-n-thief": 3, "i-li-liquid-state": 3,
                     "dont-touch-the-same": 3, "potionpendium": 3,
-                    "quantumloom": 3, "tower-rush": 3, "purritory": 3}.items():
+                    "quantumloom": 3, "tower-rush": 3, "purritory": 3,
+                    "police-sentri-rush": 3}.items():
     for number in range(1, count + 1):
         if not (SITE / "screenshots" / slug / f"{number}.png").is_file():
             errors.append(f"Missing screenshot: {slug}/{number}.png")
@@ -83,4 +86,4 @@ for filename, exe in PACKAGES.items():
 if errors:
     print("\n".join(errors))
     raise SystemExit(1)
-print("Checked seven hosted entries, eighteen inventory items, screenshots, and four PC packages.")
+print("Checked seven hosted entries, nineteen inventory items, screenshots, and four PC packages.")

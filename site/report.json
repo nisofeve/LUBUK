@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-21T08:25:35.462Z",
+  "generatedAt": "2026-10-21T08:56:39.563Z",
   "releaseLabel": "October 2026 collection",
-  "webBytes": 534314450,
+  "webBytes": 538051396,
   "inventory": [
     {
       "name": "ComFront",
@@ -109,6 +109,14 @@
       "url": "https://purri-tory.vercel.app/"
     },
     {
+      "name": "Police Sentri Rush",
+      "kind": "Android",
+      "hosting": "Google Play",
+      "fileCount": 0,
+      "bytes": 0,
+      "url": "https://play.google.com/store/apps/details?id=com.todakstudios.policesentrirush"
+    },
+    {
       "name": "Hyperbloomers",
       "kind": "PC",
       "fileCount": 1,
@@ -144,140 +152,60 @@
   "collectionChanges": [
     {
       "status": "Added",
-      "name": "i-Li Liquid State",
-      "detail": "HTML5"
-    },
-    {
-      "status": "Added",
-      "name": "Don't Touch The Same",
-      "detail": "HTML5"
-    },
-    {
-      "status": "Added",
-      "name": "Potionpendium",
-      "detail": "HTML5"
-    },
-    {
-      "status": "Added",
-      "name": "QuantumLoom",
-      "detail": "HTML5"
-    },
-    {
-      "status": "Added",
-      "name": "Tower Rush",
-      "detail": "Web game for PC"
-    },
-    {
-      "status": "Added",
-      "name": "Purritory",
-      "detail": "Web game for PC"
+      "name": "Police Sentri Rush",
+      "detail": "Android"
     }
   ],
   "changes": [
     {
       "status": "Updated",
       "path": "app.js",
-      "bytes": 6704
+      "bytes": 6841
     },
     {
       "status": "Updated",
       "path": "games-data.js",
-      "bytes": 5618
+      "bytes": 6115
     },
     {
       "status": "Updated",
       "path": "index.html",
-      "bytes": 5669
+      "bytes": 6031
+    },
+    {
+      "status": "Updated",
+      "path": "report.html",
+      "bytes": 2046
     },
     {
       "status": "Added",
-      "path": "screenshots/dont-touch-the-same/1.png",
-      "bytes": 107453
+      "path": "screenshots/police-sentri-rush/1.png",
+      "bytes": 1115890
     },
     {
       "status": "Added",
-      "path": "screenshots/dont-touch-the-same/2.png",
-      "bytes": 76785
+      "path": "screenshots/police-sentri-rush/2.png",
+      "bytes": 1369874
     },
     {
       "status": "Added",
-      "path": "screenshots/dont-touch-the-same/3.png",
-      "bytes": 82604
+      "path": "screenshots/police-sentri-rush/3.png",
+      "bytes": 1250018
     },
     {
-      "status": "Added",
-      "path": "screenshots/i-li-liquid-state/1.png",
-      "bytes": 847472
+      "status": "Updated",
+      "path": "styles.css",
+      "bytes": 17653
     },
     {
-      "status": "Added",
-      "path": "screenshots/i-li-liquid-state/2.png",
-      "bytes": 657412
+      "status": "Updated",
+      "path": "summary.html",
+      "bytes": 1950
     },
     {
-      "status": "Added",
-      "path": "screenshots/i-li-liquid-state/3.png",
-      "bytes": 580376
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/potionpendium/1.png",
-      "bytes": 492896
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/potionpendium/2.png",
-      "bytes": 415912
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/potionpendium/3.png",
-      "bytes": 444268
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/purritory/1.png",
-      "bytes": 1417100
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/purritory/2.png",
-      "bytes": 1472037
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/purritory/3.png",
-      "bytes": 1473254
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/quantumloom/1.png",
-      "bytes": 325235
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/quantumloom/2.png",
-      "bytes": 285338
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/quantumloom/3.png",
-      "bytes": 286230
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/tower-rush/1.png",
-      "bytes": 180488
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/tower-rush/2.png",
-      "bytes": 168791
-    },
-    {
-      "status": "Added",
-      "path": "screenshots/tower-rush/3.png",
-      "bytes": 151881
+      "status": "Updated",
+      "path": "summary.js",
+      "bytes": 2089
     }
   ],
   "notes": []

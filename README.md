@@ -6,7 +6,7 @@ Live URLs: [game archive](https://nisofeve.github.io/LUBUK/), [game summary](htt
 
 ## Current collection
 
-HTML5: ComFront, Compy, MyMyth (`Mymyth_v2`), Plotbound, Sigilbound, Type Zomba, [Skeet Shooting](https://rafiktodak.itch.io/skeet-shooting), [i-Li Liquid State](https://zoolism.itch.io/i-li-liquid-state), [Don't Touch The Same](https://mudzakkir90.itch.io/dont-touch-the-same), [Potionpendium](https://potionpendium.vercel.app/), and [QuantumLoom](https://quantum-loom.vercel.app/). Desktop browser games: Ketum Farmer, [Tower Rush](https://mudzakkir90.itch.io/tower-rush), and [Purritory](https://purri-tory.vercel.app/). Windows builds: Hyperbloomers v0.2, Don't Forget to Pee HD 27 (project 333), ToGather:Crops Build 42 (project TGC), and Police N Thief v1.10.
+HTML5: ComFront, Compy, MyMyth (`Mymyth_v2`), Plotbound, Sigilbound, Type Zomba, [Skeet Shooting](https://rafiktodak.itch.io/skeet-shooting), [i-Li Liquid State](https://zoolism.itch.io/i-li-liquid-state), [Don't Touch The Same](https://mudzakkir90.itch.io/dont-touch-the-same), [Potionpendium](https://potionpendium.vercel.app/), and [QuantumLoom](https://quantum-loom.vercel.app/). Desktop browser games: Ketum Farmer, [Tower Rush](https://mudzakkir90.itch.io/tower-rush), and [Purritory](https://purri-tory.vercel.app/). Windows builds: Hyperbloomers v0.2, Don't Forget to Pee HD 27 (project 333), ToGather:Crops Build 42 (project TGC), and Police N Thief v1.10. Android: [Police Sentri Rush](https://play.google.com/store/apps/details?id=com.todakstudios.policesentrirush).
 
 ## Update workflow
 

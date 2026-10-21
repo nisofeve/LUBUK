@@ -2,13 +2,14 @@ const config={owner:'nisofeve',repo:'LUBUK'};
 function destination(game){return game.url || (game.kind==='PC'?`https://github.com/${config.owner}/${config.repo}/releases/download/${game.release}/${game.file}`:`./games/${game.slug}/`)}
 const gameGrid=document.querySelector('#game-grid');
 const downloadGrid=document.querySelector('#download-grid');
+const mobileGrid=document.querySelector('#mobile-grid');
 function makeCard(game,index){
   const button=document.createElement('button');button.type='button';button.className=game.kind==='HTML5'?'game-card':'download-card';button.setAttribute('aria-label',`View ${game.name} game information`);button.addEventListener('click',()=>openGame(game));
   if(game.colors){button.style.setProperty('--card-a',game.colors[0]);button.style.setProperty('--card-b',game.colors[1])}
   button.innerHTML=`<img class="card-hero" src="./screenshots/${game.slug}/1.png" alt="" loading="lazy" decoding="async"><div class="card-top"><span class="card-kicker">${String(index+1).padStart(2,'0')} / ${game.tag}</span><span class="card-arrow" aria-hidden="true">↗</span></div><div class="card-bottom"><h3>${game.name}</h3><p>${game.desc}</p></div>`;
   return button;
 }
-games.forEach((game,index)=>(game.kind==='HTML5'?gameGrid:downloadGrid).append(makeCard(game,index)));
+games.forEach((game,index)=>(game.kind==='HTML5'?gameGrid:game.kind==='Android'?mobileGrid:downloadGrid).append(makeCard(game,index)));
 document.querySelector('#release-note').textContent='Windows ZIPs are hosted in GitHub Releases. Desktop web games open in a browser.';
 const dialog=document.querySelector('#game-dialog');
 const mainImage=document.querySelector('#dialog-image');
@@ -46,7 +47,7 @@ function openGame(game){
   document.querySelector('#game-next').setAttribute('aria-label',`Next game: ${next.name}`);document.querySelector('#game-next-name').textContent=next.name;
   document.querySelector('#game-position').textContent=`${index+1} / ${games.length}`;
   const access=document.querySelector('#dialog-access');access.textContent=game.access||'';access.hidden=!game.access;
-  const action=document.querySelector('#dialog-action');action.href=destination(game);action.textContent=game.kind==='PC'?'Download Windows game ↗':game.url?.includes('itch.io')?'Play on itch.io ↗':game.url?'Play online ↗':'Play game ↗';
+  const action=document.querySelector('#dialog-action');action.href=destination(game);action.textContent=game.kind==='PC'?'Download Windows game ↗':game.kind==='Android'?'Get on Google Play ↗':game.url?.includes('itch.io')?'Play on itch.io ↗':game.url?'Play online ↗':'Play game ↗';
   thumbs.replaceChildren();for(let i=0;i<game.shots;i++){const button=document.createElement('button');button.type='button';button.setAttribute('aria-label',`Show screenshot ${i+1}`);const img=document.createElement('img');img.src=`./screenshots/${game.slug}/${i+1}.png`;img.alt='';img.loading='lazy';button.append(img);button.addEventListener('click',()=>showShot(i));thumbs.append(button)}
   showShot(0);loadGameReport(game);if(!dialog.open)dialog.showModal();dialog.querySelector('.dialog-content').scrollTop=0;
 }

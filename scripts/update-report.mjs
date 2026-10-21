@@ -35,6 +35,7 @@ const ketum=walk(path.join(site,'games','ketum-farmer'),'games/ketum-farmer');we
 inventory.push({name:'Ketum Farmer',kind:'Web game for PC',fileCount:ketum.count,bytes:ketum.bytes,url:'./games/ketum-farmer/'});
 inventory.push({name:'Tower Rush',kind:'Web game for PC',hosting:'itch.io',fileCount:0,bytes:0,url:'https://mudzakkir90.itch.io/tower-rush'});
 inventory.push({name:'Purritory',kind:'Web game for PC',hosting:'Vercel',fileCount:0,bytes:0,url:'https://purri-tory.vercel.app/'});
+inventory.push({name:'Police Sentri Rush',kind:'Android',hosting:'Google Play',fileCount:0,bytes:0,url:'https://play.google.com/store/apps/details?id=com.todakstudios.policesentrirush'});
 const screenshots=walk(path.join(site,'screenshots'),'screenshots');webBytes+=screenshots.bytes;
 for(const name of ['index.html','summary.html','report.html','games-data.js','app.js','summary.js','report.js','styles.css']){
   const file=path.join(site,name);if(!fs.existsSync(file))continue;
