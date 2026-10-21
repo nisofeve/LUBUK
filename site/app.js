@@ -9,7 +9,7 @@ function makeCard(game,index){
   return button;
 }
 games.forEach((game,index)=>(game.kind==='HTML5'?gameGrid:downloadGrid).append(makeCard(game,index)));
-document.querySelector('#release-note').textContent='Windows ZIPs are hosted in GitHub Releases. Ketum Farmer opens in a desktop browser.';
+document.querySelector('#release-note').textContent='Windows ZIPs are hosted in GitHub Releases. Desktop web games open in a browser.';
 const dialog=document.querySelector('#game-dialog');
 const mainImage=document.querySelector('#dialog-image');
 const thumbs=document.querySelector('#screenshot-thumbs');
@@ -46,7 +46,7 @@ function openGame(game){
   document.querySelector('#game-next').setAttribute('aria-label',`Next game: ${next.name}`);document.querySelector('#game-next-name').textContent=next.name;
   document.querySelector('#game-position').textContent=`${index+1} / ${games.length}`;
   const access=document.querySelector('#dialog-access');access.textContent=game.access||'';access.hidden=!game.access;
-  const action=document.querySelector('#dialog-action');action.href=destination(game);action.textContent=game.kind==='PC'?'Download Windows game ↗':game.url?'Play on itch.io ↗':'Play game ↗';
+  const action=document.querySelector('#dialog-action');action.href=destination(game);action.textContent=game.kind==='PC'?'Download Windows game ↗':game.url?.includes('itch.io')?'Play on itch.io ↗':game.url?'Play online ↗':'Play game ↗';
   thumbs.replaceChildren();for(let i=0;i<game.shots;i++){const button=document.createElement('button');button.type='button';button.setAttribute('aria-label',`Show screenshot ${i+1}`);const img=document.createElement('img');img.src=`./screenshots/${game.slug}/${i+1}.png`;img.alt='';img.loading='lazy';button.append(img);button.addEventListener('click',()=>showShot(i));thumbs.append(button)}
   showShot(0);loadGameReport(game);if(!dialog.open)dialog.showModal();dialog.querySelector('.dialog-content').scrollTop=0;
 }

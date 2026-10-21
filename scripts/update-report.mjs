@@ -25,8 +25,16 @@ function walk(dir,prefix){
 let webBytes=0;
 for(const [name,slug] of games){const result=walk(path.join(site,'games',slug),`games/${slug}`);webBytes+=result.bytes;inventory.push({name,kind:'HTML5',fileCount:result.count,bytes:result.bytes,url:`./games/${slug}/`});}
 inventory.push({name:'Skeet Shooting',kind:'HTML5',hosting:'itch.io',fileCount:0,bytes:0,url:'https://rafiktodak.itch.io/skeet-shooting'});
+for(const [name,url,hosting] of [
+  ['i-Li Liquid State','https://zoolism.itch.io/i-li-liquid-state','itch.io'],
+  ["Don't Touch The Same",'https://mudzakkir90.itch.io/dont-touch-the-same','itch.io'],
+  ['Potionpendium','https://potionpendium.vercel.app/','Vercel'],
+  ['QuantumLoom','https://quantum-loom.vercel.app/','Vercel'],
+])inventory.push({name,kind:'HTML5',hosting,fileCount:0,bytes:0,url});
 const ketum=walk(path.join(site,'games','ketum-farmer'),'games/ketum-farmer');webBytes+=ketum.bytes;
 inventory.push({name:'Ketum Farmer',kind:'Web game for PC',fileCount:ketum.count,bytes:ketum.bytes,url:'./games/ketum-farmer/'});
+inventory.push({name:'Tower Rush',kind:'Web game for PC',hosting:'itch.io',fileCount:0,bytes:0,url:'https://mudzakkir90.itch.io/tower-rush'});
+inventory.push({name:'Purritory',kind:'Web game for PC',hosting:'Vercel',fileCount:0,bytes:0,url:'https://purri-tory.vercel.app/'});
 const screenshots=walk(path.join(site,'screenshots'),'screenshots');webBytes+=screenshots.bytes;
 for(const name of ['index.html','summary.html','report.html','games-data.js','app.js','summary.js','report.js','styles.css']){
   const file=path.join(site,name);if(!fs.existsSync(file))continue;

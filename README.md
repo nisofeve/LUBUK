@@ -2,11 +2,11 @@
 
 `site/` is GitHub Pages content. `pc-releases/` contains local Windows ZIPs for GitHub Releases and is excluded from Git commits.
 
-Live URLs: [game archive](https://nisofeve.github.io/LUBUK/) and [update report](https://nisofeve.github.io/LUBUK/report.html).
+Live URLs: [game archive](https://nisofeve.github.io/LUBUK/), [game summary](https://nisofeve.github.io/LUBUK/summary.html), and [update report](https://nisofeve.github.io/LUBUK/report.html).
 
 ## Current collection
 
-HTML5: ComFront, Compy, MyMyth (`Mymyth_v2`), Plotbound, Sigilbound, Type Zomba, and [Skeet Shooting on itch.io](https://rafiktodak.itch.io/skeet-shooting). PC web game: Ketum Farmer. Windows builds: Hyperbloomers v0.2, Don't Forget to Pee HD 27 (project 333), ToGather:Crops Build 42 (project TGC), and Police N Thief v1.10.
+HTML5: ComFront, Compy, MyMyth (`Mymyth_v2`), Plotbound, Sigilbound, Type Zomba, [Skeet Shooting](https://rafiktodak.itch.io/skeet-shooting), [i-Li Liquid State](https://zoolism.itch.io/i-li-liquid-state), [Don't Touch The Same](https://mudzakkir90.itch.io/dont-touch-the-same), [Potionpendium](https://potionpendium.vercel.app/), and [QuantumLoom](https://quantum-loom.vercel.app/). Desktop browser games: Ketum Farmer, [Tower Rush](https://mudzakkir90.itch.io/tower-rush), and [Purritory](https://purri-tory.vercel.app/). Windows builds: Hyperbloomers v0.2, Don't Forget to Pee HD 27 (project 333), ToGather:Crops Build 42 (project TGC), and Police N Thief v1.10.
 
 ## Update workflow
 

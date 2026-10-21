@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-18T13:17:23.647Z",
+  "generatedAt": "2026-10-21T08:25:35.462Z",
   "releaseLabel": "October 2026 collection",
-  "webBytes": 524846929,
+  "webBytes": 534314450,
   "inventory": [
     {
       "name": "ComFront",
@@ -54,11 +54,59 @@
       "url": "https://rafiktodak.itch.io/skeet-shooting"
     },
     {
+      "name": "i-Li Liquid State",
+      "kind": "HTML5",
+      "hosting": "itch.io",
+      "fileCount": 0,
+      "bytes": 0,
+      "url": "https://zoolism.itch.io/i-li-liquid-state"
+    },
+    {
+      "name": "Don't Touch The Same",
+      "kind": "HTML5",
+      "hosting": "itch.io",
+      "fileCount": 0,
+      "bytes": 0,
+      "url": "https://mudzakkir90.itch.io/dont-touch-the-same"
+    },
+    {
+      "name": "Potionpendium",
+      "kind": "HTML5",
+      "hosting": "Vercel",
+      "fileCount": 0,
+      "bytes": 0,
+      "url": "https://potionpendium.vercel.app/"
+    },
+    {
+      "name": "QuantumLoom",
+      "kind": "HTML5",
+      "hosting": "Vercel",
+      "fileCount": 0,
+      "bytes": 0,
+      "url": "https://quantum-loom.vercel.app/"
+    },
+    {
       "name": "Ketum Farmer",
       "kind": "Web game for PC",
       "fileCount": 1,
       "bytes": 4345245,
       "url": "./games/ketum-farmer/"
+    },
+    {
+      "name": "Tower Rush",
+      "kind": "Web game for PC",
+      "hosting": "itch.io",
+      "fileCount": 0,
+      "bytes": 0,
+      "url": "https://mudzakkir90.itch.io/tower-rush"
+    },
+    {
+      "name": "Purritory",
+      "kind": "Web game for PC",
+      "hosting": "Vercel",
+      "fileCount": 0,
+      "bytes": 0,
+      "url": "https://purri-tory.vercel.app/"
     },
     {
       "name": "Hyperbloomers",
@@ -93,42 +141,143 @@
       "url": "https://github.com/nisofeve/LUBUK/releases/download/police-n-thief-v1.10/Police-N-Thief-v1.10-Windows.zip"
     }
   ],
-  "collectionChanges": [],
+  "collectionChanges": [
+    {
+      "status": "Added",
+      "name": "i-Li Liquid State",
+      "detail": "HTML5"
+    },
+    {
+      "status": "Added",
+      "name": "Don't Touch The Same",
+      "detail": "HTML5"
+    },
+    {
+      "status": "Added",
+      "name": "Potionpendium",
+      "detail": "HTML5"
+    },
+    {
+      "status": "Added",
+      "name": "QuantumLoom",
+      "detail": "HTML5"
+    },
+    {
+      "status": "Added",
+      "name": "Tower Rush",
+      "detail": "Web game for PC"
+    },
+    {
+      "status": "Added",
+      "name": "Purritory",
+      "detail": "Web game for PC"
+    }
+  ],
   "changes": [
     {
       "status": "Updated",
       "path": "app.js",
-      "bytes": 6660
+      "bytes": 6704
     },
     {
-      "status": "Added",
+      "status": "Updated",
       "path": "games-data.js",
-      "bytes": 3683
+      "bytes": 5618
     },
     {
       "status": "Updated",
       "path": "index.html",
-      "bytes": 5659
-    },
-    {
-      "status": "Updated",
-      "path": "report.html",
-      "bytes": 2016
-    },
-    {
-      "status": "Updated",
-      "path": "styles.css",
-      "bytes": 17653
+      "bytes": 5669
     },
     {
       "status": "Added",
-      "path": "summary.html",
-      "bytes": 1920
+      "path": "screenshots/dont-touch-the-same/1.png",
+      "bytes": 107453
     },
     {
       "status": "Added",
-      "path": "summary.js",
-      "bytes": 1981
+      "path": "screenshots/dont-touch-the-same/2.png",
+      "bytes": 76785
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/dont-touch-the-same/3.png",
+      "bytes": 82604
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/i-li-liquid-state/1.png",
+      "bytes": 847472
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/i-li-liquid-state/2.png",
+      "bytes": 657412
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/i-li-liquid-state/3.png",
+      "bytes": 580376
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/potionpendium/1.png",
+      "bytes": 492896
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/potionpendium/2.png",
+      "bytes": 415912
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/potionpendium/3.png",
+      "bytes": 444268
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/purritory/1.png",
+      "bytes": 1417100
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/purritory/2.png",
+      "bytes": 1472037
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/purritory/3.png",
+      "bytes": 1473254
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/quantumloom/1.png",
+      "bytes": 325235
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/quantumloom/2.png",
+      "bytes": 285338
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/quantumloom/3.png",
+      "bytes": 286230
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/tower-rush/1.png",
+      "bytes": 180488
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/tower-rush/2.png",
+      "bytes": 168791
+    },
+    {
+      "status": "Added",
+      "path": "screenshots/tower-rush/3.png",
+      "bytes": 151881
     }
   ],
   "notes": []
